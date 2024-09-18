@@ -1,0 +1,99 @@
+Crud:
+  detail:
+    {
+      "pageCode": "2023060819591966723041",
+      "recordId": "11651379",
+      "type": "detail"
+    }
+
+  submit:
+    {
+      "pageCode": "2023060819591966707121",
+      "pushOrigin": 1,
+      "fieldData": {
+        "wenben__c": "增加"
+      }
+    }
+  delete:
+    {
+      "recordIds": [
+        1607717
+      ]
+    }
+CalendarPromptLightAPI:
+  list:
+    {
+      "formCode": "yxpm__CustomObject0148__c",
+      "viewCode": "2023060819591966214452",
+      "pageCode": "2024011809413782107952",
+      "queryCriteria": {
+        "riqi1__c": [
+          "2023-08-01",
+          "2023-08-31"
+        ]
+      },
+      "currentPos": null,
+      "calendarField": "riqi1__c",
+      "filterCriteria": [
+      [
+      {
+        "objectType": "form",
+        "objectId": "164341",
+        "fieldKey": "wenben__c",
+        "fieldName": "文本",
+        "fieldType": "text",
+        "subFieldKey": null,
+        "subFieldType": null,
+        "subFieldName": null,
+        "conditionType": "equal",
+        "refValues": [
+        {
+          "objectType": "form",
+          "objectId": null,
+          "fieldKey": null,
+          "fieldName": null,
+          "fieldType": null,
+          "fieldTypeLabel": null,
+          "subFieldKey": null,
+          "subFieldType": null,
+          "subFieldName": null,
+          "subFieldTypeLabel": null,
+          "constant": true,
+          "constantValue": "1",
+          "function": null,
+          "path": null,
+          "lastFieldType": null,
+          "lastFieldName": null,
+          "lastFieldTypeLabel": null
+        }
+        ],
+        "useFormId": null,
+        "path": null,
+        "lastFieldType": null,
+        "lastFieldName": null,
+        "lastFieldTypeLabel": null
+      }
+      ]
+      ]
+    }
+RecordList:
+  list:
+    {
+      "viewCode": "wenbenfeikong",
+      "pageCode": "2023060819591966712110",
+      "page": 1,
+      "num": 10,
+      "filter": []
+    }
+BusinessRule:
+  list:
+    {
+      "isEnable": 1
+    }
+Formula:
+  data:
+    {
+      "expressions": {"dangqianyonghusuozaizuzhi__c": " ##CURRENTORG## ()"},
+      "preData": [{"dangqianyonghusuozaizuzhi__c": []}]
+    }
+

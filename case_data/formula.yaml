@@ -1,0 +1,91 @@
+formula:
+  - expressions: {'dangqianyonghusuozaizuzhi__c':'##CURRENTORG## ()'}
+    expression_name: '当前组织'
+    expected: {'dangqianyonghusuozaizuzhi__c':{"result": [
+      {
+        "formCode": "Organization__s",
+        "recordId": 30046911,
+        "rowData": {
+          "Abbreviation": "",
+          "Status": {
+            "name": "启用",
+            "value": "1"
+          },
+          "Address": "",
+          "CreateTime": "2022-09-06 14:20:31",
+          "Code": "",
+          "Name": "广州有信科技有限公司",
+          "Logo": "",
+          "recordId": 30046911,
+          "OrgId": 0,
+          "UpdateTime": "2023-08-21 18:11:52",
+          "app_id": 0
+        }
+      }
+      ]
+    }}
+  - expressions: {'dangqianzuzhiyonghu__c':'##CURRENTORGUSER## ()'}
+    expression_name: '当前成员'
+    expected: {'dangqianzuzhiyonghu__c':{"result": [{
+                                                      "formCode": "Member__s",
+                                                      "recordId": 2027,
+                                                      "rowData": {
+                                                        "recordId": 2027,
+                                                        "OrgId": 30046911,
+                                                        "AvatarUrl": [
+                                                        {
+                                                          "url": "https://static.youxin.cloud/oryx/tmp/20230705/16885486800949308.png"
+                                                        }
+                                                        ],
+                                                        "Post": "ZXP",
+                                                        "State": {
+                                                          "name": "已启用",
+                                                          "value": "1"
+                                                        },
+                                                        "CreateTime": "2023-11-16 22:42:18",
+                                                        "UpdateTime": "2024-03-07 11:01:06",
+                                                        "app_id": 51496,
+                                                        "Name": "ZXP(别动)"
+                                                      }
+                                                    }]}}
+  - expressions: {'dangqianyonghuming__c':'##CURRENTUSERNAME## ()'}
+    expression_name: '当前用户名'
+    expected: {'dangqianyonghuming__c': {"result":'ZXP(别动)'}}
+  - expressions: {'dangqianyonghuid__c':'##CURRENTUSERID## ()'}
+    expression_name: '当前用户id'
+    expected: {'dangqianyonghuid__c':{
+      "result": 24111137
+    }}
+  - expressions: {'dangqianyonghu__c':'##CURRENTUSER## ()'}
+    expression_name: '当前用户'
+    expected: {'dangqianyonghu__c':{"result": [
+    {
+      "formCode": "User__s",
+      "recordId": 24111137,
+      "rowData": {
+        "recordId": 24111137,
+        "OrgId": 30046911,
+        "Phone": "14912345678",
+        "CreateTime": "2023-11-16 22:42:18",
+        "UpdateTime": "2023-11-16 22:42:18",
+        "RealName": "ZXP(别动)",
+        "Gender": {
+          "name": "男",
+          "value": "1"
+        },
+        "app_id": 51496
+      }
+    }
+    ]
+    }}
+  - expressions: {'quanbuduixaingziduan__c':'$$TK95MYDXAK$$'}
+    expression_name: '全部对象字段'
+    expected: {'quanbuduixaingziduan__c':{
+      "result": "你好"
+    }}
+
+
+
+
+
+

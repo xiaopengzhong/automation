@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.ui_tests.web",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login[14912345678-Aa123456-小明测试应用]",
+          "uid" : "9e5a2dceb0c0c1a0",
+          "parentUid" : "6d53e110fdba1afa557a5af732d5085b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1726133449240,
+            "stop" : 1726133459263,
+            "duration" : 10023
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'小明测试应用'", "'Aa123456'", "'14912345678'" ]
+        }, {
+          "name" : "test_login[14912345678-123456-帐号或密码错误，请重新输入]",
+          "uid" : "a768ee4575ad0cc6",
+          "parentUid" : "6d53e110fdba1afa557a5af732d5085b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1726133459269,
+            "stop" : 1726133467516,
+            "duration" : 8247
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'帐号或密码错误，请重新输入'", "'123456'", "'14912345678'" ]
+        }, {
+          "name" : "test_phone_login[14912345678-Aa123456-ZXP(别动)]",
+          "uid" : "66bf1d65d7288b7d",
+          "parentUid" : "6d53e110fdba1afa557a5af732d5085b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1726133467522,
+            "stop" : 1726133475159,
+            "duration" : 7637
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'ZXP(别动)'", "'Aa123456'", "'14912345678'" ]
+        }, {
+          "name" : "test_phone_login[14912345678-123456-帐号或密码错误，请重新输入]",
+          "uid" : "4b2ed1fcb5938128",
+          "parentUid" : "6d53e110fdba1afa557a5af732d5085b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1726133475165,
+            "stop" : 1726133481171,
+            "duration" : 6006
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'帐号或密码错误，请重新输入'", "'123456'", "'14912345678'" ]
+        } ],
+        "uid" : "6d53e110fdba1afa557a5af732d5085b"
+      } ],
+      "uid" : "a55a31c96cf9a0193d02d6a6c6376a99"
+    } ],
+    "uid" : "bb0941007f2335d8f1094f3ce206098d"
+  } ]
+}

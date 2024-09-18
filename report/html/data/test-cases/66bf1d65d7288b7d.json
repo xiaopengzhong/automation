@@ -1,0 +1,68 @@
+{
+  "uid" : "66bf1d65d7288b7d",
+  "name" : "test_phone_login[14912345678-Aa123456-ZXP(别动)]",
+  "fullName" : "test_case.ui_tests.web.test_login.TestLogin#test_phone_login",
+  "historyId" : "007e25cd692791eb7a09749ada1797e4",
+  "time" : {
+    "start" : 1726133467522,
+    "stop" : 1726133475159,
+    "duration" : 7637
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui_tests.web"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "25544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui_tests.web.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_text",
+    "value" : "'ZXP(别动)'"
+  }, {
+    "name" : "password",
+    "value" : "'Aa123456'"
+  }, {
+    "name" : "username",
+    "value" : "'14912345678'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ui" ]
+  },
+  "source" : "66bf1d65d7288b7d.json",
+  "parameterValues" : [ "'ZXP(别动)'", "'Aa123456'", "'14912345678'" ]
+}

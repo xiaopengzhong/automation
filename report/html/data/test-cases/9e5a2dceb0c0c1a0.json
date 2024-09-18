@@ -1,0 +1,68 @@
+{
+  "uid" : "9e5a2dceb0c0c1a0",
+  "name" : "test_login[14912345678-Aa123456-小明测试应用]",
+  "fullName" : "test_case.ui_tests.web.test_login.TestLogin#test_login",
+  "historyId" : "713ef652ed8ba3278e358a17fe2ba1a8",
+  "time" : {
+    "start" : 1726133449240,
+    "stop" : 1726133459263,
+    "duration" : 10023
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui_tests.web"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "25544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui_tests.web.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_text",
+    "value" : "'小明测试应用'"
+  }, {
+    "name" : "password",
+    "value" : "'Aa123456'"
+  }, {
+    "name" : "username",
+    "value" : "'14912345678'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ui" ]
+  },
+  "source" : "9e5a2dceb0c0c1a0.json",
+  "parameterValues" : [ "'小明测试应用'", "'Aa123456'", "'14912345678'" ]
+}

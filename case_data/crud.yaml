@@ -1,0 +1,14 @@
+submit:
+  - fieldData: {'wenben__c':'增加'}
+    fieldName: 'wenben__c'
+    expected: '增加'
+  - fieldData: {'shuzhi__c':1.1}
+    fieldName: 'shuzhi__c'
+    expected: 1.1
+  - fieldData: {'danxuan__c':{"name": "选项1","value": "选项1"}}
+    fieldName: 'danxuan__c'
+    expected: {"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}}
+  - fieldData: {'duoxuan__c':[{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]}
+    fieldName: 'duoxuan__c'
+    expected: [{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]
+
