@@ -1,0 +1,228 @@
+{
+  "uid" : "7d0ee164df945aae",
+  "name" : "更新 shuzhi__c 字段",
+  "fullName" : "test_case.api_tests.test_crud.TestCrud#test_edit",
+  "historyId" : "3d57dd0d76a199e419bd2d6411bd84c6",
+  "time" : {
+    "start" : 1726842482527,
+    "stop" : 1726842482983,
+    "duration" : 456
+  },
+  "description" : "编辑接口测试用例",
+  "descriptionHtml" : "<p>编辑接口测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_cleanup_data",
+    "time" : {
+      "start" : 1726842480226,
+      "stop" : 1726842482526,
+      "duration" : 2300
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init_admin",
+    "time" : {
+      "start" : 1726842464733,
+      "stop" : 1726842466131,
+      "duration" : 1398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b367e22188753695",
+      "name" : "86c35031-c8ee-49e1-998e-4457e68b79f2-attachment.attach",
+      "source" : "b367e22188753695.attach",
+      "type" : "text/plain",
+      "size" : 56
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "get_crud",
+    "time" : {
+      "start" : 1726842480214,
+      "stop" : 1726842480225,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2ef9e757db9196ff",
+      "name" : "初始化Crud对象",
+      "source" : "2ef9e757db9196ff.json",
+      "type" : "application/json",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "编辑接口测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "更新 shuzhi__c 字段的值",
+      "time" : {
+        "start" : 1726842482528,
+        "stop" : 1726842482713,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "959345493b607113",
+        "name" : "更新结果",
+        "source" : "959345493b607113.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "获取记录的详情数据里的 shuzhi__c 字段的信息",
+      "time" : {
+        "start" : 1726842482713,
+        "stop" : 1726842482982,
+        "duration" : 269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b66ae956f559e15",
+        "name" : "shuzhi__c字段的信息",
+        "source" : "3b66ae956f559e15.json",
+        "type" : "application/json",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "对比实际结果与预期结果是否一致",
+      "time" : {
+        "start" : 1726842482982,
+        "stop" : 1726842482983,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "aed932a6cef8eb19",
+      "name" : "新增结果的记录ID",
+      "source" : "aed932a6cef8eb19.json",
+      "type" : "application/json",
+      "size" : 8
+    }, {
+      "uid" : "7b4427269fa5d9be",
+      "name" : "log",
+      "source" : "7b4427269fa5d9be.txt",
+      "type" : "text/plain",
+      "size" : 4676
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "create_and_cleanup_data::0",
+    "time" : {
+      "start" : 1726842482984,
+      "stop" : 1726842483160,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b10d7f1557029e",
+      "name" : "清理操作",
+      "source" : "1b10d7f1557029e.json",
+      "type" : "application/json",
+      "size" : 24
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "基础增删改查接口用例"
+  }, {
+    "name" : "story",
+    "value" : "编辑接口测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_crud"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCrud"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "27904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.api_tests.test_crud"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "api" ]
+  },
+  "source" : "7d0ee164df945aae.json",
+  "parameterValues" : [ "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
+}

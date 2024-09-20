@@ -1,0 +1,36 @@
+INFO     root:test_crud.py:22 初始化 Crud 对象
+INFO     root:test_crud.py:39 fixture前置动作，开始新增数据
+INFO     Crud:baseAPI.py:73 接口 /api-engine-mid/v1/form/yxpm__CustomObject0148__c/2024083017002443504002/record/submit 执行时间: 0.27 秒
+INFO     Crud:baseAPI.py:40 Request: POST https://apps.youxin.cloud/api-engine-mid/v1/form/yxpm__CustomObject0148__c/2024083017002443504002/record/submit
+INFO     Crud:baseAPI.py:41 Request headers: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'X-User-Token': 'f8bd41790848b3c9bb1642dcfbc83b8c', 'Content-Length': '99'}
+INFO     Crud:baseAPI.py:43 Request body: b'{"pageCode": "2024083017002443504002", "pushOrigin": 1, "fieldData": {"wenben__c": "\\u589e\\u52a0"}}'
+INFO     Crud:baseAPI.py:44 Response status code: 200
+INFO     Crud:baseAPI.py:46 Response body: {"code":0,"msg":"ok","data":15544259}
+INFO     root:test_crud.py:48 新增数据成功，记录ID: 15544259
+INFO     root:test_crud.py:120 获取到新增的记录ID: 15544259
+INFO     root:test_crud.py:126 开始执行编辑接口测试用例，编辑的记录ID: 15544259，编辑的字段: duoxuan__c
+INFO     Crud:baseAPI.py:73 接口 /api-engine-mid/v1/form/yxpm__CustomObject0148__c/2024083017002443504002/record/15544259/update 执行时间: 0.18 秒
+INFO     Crud:baseAPI.py:40 Request: POST https://apps.youxin.cloud/api-engine-mid/v1/form/yxpm__CustomObject0148__c/2024083017002443504002/record/15544259/update
+INFO     Crud:baseAPI.py:41 Request headers: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'X-User-Token': 'f8bd41790848b3c9bb1642dcfbc83b8c', 'Content-Length': '304'}
+INFO     Crud:baseAPI.py:43 Request body: b'{"pageCode": "2024083017002443504002", "pushOrigin": 1, "fieldData": {"duoxuan__c": [{"name": "\\u9009\\u98791", "value": "\\u9009\\u98791", "style": {"color": "#66CC00", "background": "#F0FAE5"}}, {"name": "\\u9009\\u98792", "value": "\\u9009\\u98792", "style": {"color": "#007EFF", "background": "#E5F2FF"}}]}}'
+INFO     Crud:baseAPI.py:44 Response status code: 200
+INFO     Crud:baseAPI.py:46 Response body: {"code":0,"msg":"ok","data":15544259}
+INFO     root:test_crud.py:128 更新数据成功
+INFO     root:test_crud.py:64 开始获取记录ID为 15544259 的 duoxuan__c 字段的信息
+INFO     Crud:baseAPI.py:73 接口 /api-engine-mid/v2/page/record/detail 执行时间: 0.23 秒
+INFO     Crud:baseAPI.py:40 Request: POST https://apps.youxin.cloud/api-engine-mid/v2/page/record/detail
+INFO     Crud:baseAPI.py:41 Request headers: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'X-User-Token': 'f8bd41790848b3c9bb1642dcfbc83b8c', 'Content-Length': '78'}
+INFO     Crud:baseAPI.py:43 Request body: b'{"pageCode": "2023060819591966723041", "recordId": 15544259, "type": "detail"}'
+INFO     Crud:baseAPI.py:44 Response status code: 200
+INFO     Crud:baseAPI.py:46 Response body: {"code":0,"msg":"ok","data":{"record":{"id":15544259,"rowData":{"gongshiwenben123__c":"增加","count__c":0.0,"recordId":15544259,"OwnerId":[{"recordId":24111137,"formCode":"User__s","rowData":{"recordId":24111137,"OrgId":30046911,"Phone":"14912345678","RealName":"ZXP(别动)","Gender":{"name":"男","value":"1"},"app_id":51496}}],"sumxiangguan__c":0.0,"gongshiwenben__c":"增加","app_id":51496,"sumzibiao__c":0.0,"wenben__c":"增加","zidongbianhao__c":"1320","duoxuan__c":[{"name":"选项1","value":"选项1","style":{"color":"#66CC00","background":"#F0FAE5"}},{"name":"选项2","value":"选项2","style":{"color":"#007EFF","background":"#E5F2FF"}}],"OrgId":30046911,"Field0001__c":"123456"}},"btns":[]}}
+INFO     root:test_crud.py:72 duoxuan__c 字段的值为：[{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]
+INFO     root:test_crud.py:77 开始对比 duoxuan__c 字段的实际结果与预期结果，预期值：[{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]，实际值：[{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]
+INFO     root:test_crud.py:137 编辑接口测试用例执行成功
+INFO     root:test_crud.py:57 fixture后置动作，开始清理数据，删除记录ID: 15544259
+INFO     Crud:baseAPI.py:73 接口 /api-engine-mid/v1/form/yxpm__CustomObject0148__c/record/delete 执行时间: 3.18 秒
+WARNING  root:baseAPI.py:75 警告: 接口 /api-engine-mid/v1/form/yxpm__CustomObject0148__c/record/delete 响应时间超出阈值: 3.18 秒
+INFO     Crud:baseAPI.py:40 Request: POST https://apps.youxin.cloud/api-engine-mid/v1/form/yxpm__CustomObject0148__c/record/delete
+INFO     Crud:baseAPI.py:41 Request headers: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'X-User-Token': 'f8bd41790848b3c9bb1642dcfbc83b8c', 'Content-Length': '25'}
+INFO     Crud:baseAPI.py:43 Request body: b'{"recordIds": [15544259]}'
+INFO     Crud:baseAPI.py:44 Response status code: 200
+INFO     Crud:baseAPI.py:46 Response body: {"code":0,"msg":"ok","data":1}

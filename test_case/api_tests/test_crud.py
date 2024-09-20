@@ -3,81 +3,135 @@
 #@Author : 
 #@Software: PyCharm
 import json
-import time
-from functools import wraps
+import logging
 import allure
 import pytest
-
 from lib.apilib.crud import Crud
-from lib.util.utlity import read_data
+from lib.util.utlity import read_data, rate_limit, record_execution_time
 
-# 自定义装饰器，用于控制接口调用频率
-def rate_limit(wait_time=2):  # 外层函数，接收一个参数 wait_time，用于指定等待时间（默认为2秒）
-    def decorator(func):  # 内层函数，接收一个函数作为参数，这个函数就是要被装饰的目标函数
-        @wraps(func)  # 使用 functools.wraps 保持原函数的元数据，例如函数名和文档字符串
-        def wrapper(*args, **kwargs):  # 包装函数，用于包裹目标函数
-            result = func(*args, **kwargs)  # 执行目标函数，并获取其返回值
-            time.sleep(wait_time)  # 在目标函数执行后等待指定的时间（wait_time 秒）
-            return result  # 返回目标函数的执行结果
-        return wrapper  # 返回包装后的函数
-    return decorator  # 返回装饰器
+logger = logging.getLogger()
+
 
 @pytest.mark.api
-@allure.feature("新增接口用例")
+@allure.feature("基础增删改查接口用例")
 class TestCrud:
-    @pytest.fixture(scope='function')
-    def crud(self, init_admin, request):
+    @pytest.fixture()
+    def get_crud(self, init_admin):
+        """返回Crud对象"""
         crud = Crud(init_admin)
+        logger.info("初始化 Crud 对象")
         allure.attach(json.dumps({"crud": str(crud)}, indent=4), name="初始化Crud对象",
                       attachment_type=allure.attachment_type.JSON)
-        try:
-            yield crud
-        finally:
-            # 通过 request 对象获取 recordid
-            recordid = getattr(request.session, 'recordid', None)
-            if recordid:
-                crud.delete(recordIds=[recordid])
-                allure.attach(f"清理记录ID:{recordid}", name="清理操作", attachment_type=allure.attachment_type.JSON)
+        return crud
 
+    @pytest.fixture(scope='function')
+    def cleanup_data(self, get_crud, request):
+        """后置删除数据"""
+        yield get_crud
+        recordid = getattr(request.node, 'recordid', None)
+        if recordid:
+            logger.info(f"fixture后置动作，开始清理数据，删除记录ID: {recordid}")
+            get_crud.delete(recordIds=[recordid])
+            allure.attach(f"清理记录ID: {recordid}", name="清理操作", attachment_type=allure.attachment_type.JSON)
+
+    @pytest.fixture(scope='function')
+    def create_and_cleanup_data(self, get_crud, request):
+        logger.info("fixture前置动作，开始新增数据")
+
+        @rate_limit(wait_time=2)
+        def submit_data():
+            return get_crud.submit()
+
+        try:
+            response = submit_data()
+            recordid = response['data']
+            logger.info(f"新增数据成功，记录ID: {recordid}")
+            request.node.recordid = recordid  # 保存到 request.node
+            yield recordid, get_crud
+        except Exception as e:
+            logger.error(f"新增数据失败: {str(e)}")
+            allure.attach(str(e), "新增数据失败", allure.attachment_type.TEXT)
+            pytest.skip(f"新增数据失败，跳过编辑接口测试: {str(e)}")
+        finally:
+            if recordid:
+                logger.info(f"fixture后置动作，开始清理数据，删除记录ID: {recordid}")
+                get_crud.delete(recordIds=[recordid])
+                allure.attach(f"清理记录ID: {recordid}", name="清理操作", attachment_type=allure.attachment_type.JSON)
+
+    def assert_field(self, get_crud, recordid, fieldName, expected):
+        """封装的公共断言方法，用于对比实际结果与预期结果"""
+        with allure.step(f"获取记录的详情数据里的 {fieldName} 字段的信息"):
+            logger.info(f"开始获取记录ID为 {recordid} 的 {fieldName} 字段的信息")
+            query_response = (
+                get_crud.detail(recordId=recordid)
+                    .get('data', {})
+                    .get('record', {})
+                    .get('rowData', {})
+                    .get(fieldName, None)
+            )
+            logger.info(f"{fieldName} 字段的值为：{query_response}")
+            allure.attach(json.dumps(query_response, indent=4, ensure_ascii=False), f"{fieldName}字段的信息",
+                          allure.attachment_type.JSON)
+
+        with allure.step("对比实际结果与预期结果是否一致"):
+            logger.info(f"开始对比 {fieldName} 字段的实际结果与预期结果，预期值：{expected}，实际值：{query_response}")
+            assert query_response == expected, f"预期值：{expected}，实际值：{query_response}"
+
+    @allure.story("新增接口测试用例")
     @pytest.mark.parametrize('params', read_data(file_path='case_data/crud.yaml')['submit'])
-    def test_submit(self, crud, params, request):
+    def test_submit(self, params, cleanup_data, request):
+        """新增接口测试用例"""
         fieldData = params['fieldData']
         fieldName = params['fieldName']
         expected = params['expected']
-        # 动态设置用例标题
         allure.dynamic.title(f"提交数据并验证提交结果：字段 {fieldName}")
-        with allure.step("获取新增的响应数据"):
+        get_crud = cleanup_data
+        logger.info(f"开始执行新增接口测试用例，测试新增字段: {fieldName}")
+        with allure.step("提交数据"):
             try:
-                # 使用rate_limit装饰器来控制接口调用频率
                 @rate_limit(wait_time=2)
                 def submit_data():
-                    return crud.submit(fieldData=fieldData)
+                    return get_crud.submit(fieldData=fieldData)
                 result = submit_data()
-                allure.attach(json.dumps(result, indent=4, ensure_ascii=False), "新增结果", allure.attachment_type.JSON)
-
                 recordid = result['data']
-                request.session.recordid = recordid  # 设置 session 级的 recordid
-                #time.sleep(2)
+                request.node.recordid = recordid  # 保存 recordid
+                logger.info(f"数据提交成功，记录ID: {recordid}")
+                allure.attach(json.dumps(result, indent=4, ensure_ascii=False), "新增结果", allure.attachment_type.JSON)
             except Exception as e:
-                allure.attach(str(e), "新增异常", allure.attachment_type.TEXT)
-                pytest.fail(f"提交失败:{str(e)}")
+                logger.error(f"提交失败: {str(e)}")
+                allure.attach(str(e), "提交失败", allure.attachment_type.TEXT)
+                pytest.fail(f"提交失败: {str(e)}")
 
-        with allure.step("获取记录的详情数据里的{fieldName}字段的信息"):
+        # 使用公共的断言方法
+        self.assert_field(get_crud, recordid, fieldName, expected)
+        logger.info(f"新增接口测试用例执行成功，字段: {fieldName}")
+
+
+    @allure.story("编辑接口测试用例")
+    @pytest.mark.parametrize('params', read_data(file_path='case_data/crud.yaml')['submit'])
+    def test_edit(self, create_and_cleanup_data, params):
+        """编辑接口测试用例"""
+        fieldData = params['fieldData']
+        fieldName = params['fieldName']
+        expected = params['expected']
+        allure.dynamic.title(f"更新 {fieldName} 字段")
+        # 获取新增的记录ID
+        recordid, get_crud = create_and_cleanup_data
+        logger.info(f"获取到新增的记录ID: {recordid}")
+        allure.attach(str(recordid), "新增结果的记录ID", allure.attachment_type.JSON)
+
+        # 更新字段
+        with allure.step(f"更新 {fieldName} 字段的值"):
             try:
-                query_reponse = crud.detail(recordId=recordid)['data']['record']['rowData'][fieldName]
-                allure.attach(json.dumps(query_reponse, indent=4, ensure_ascii=False), "记录详情里的{fieldName}字段的信息", allure.attachment_type.JSON)
-            except KeyError as e:
-                allure.attach(str(e),"查询详情异常", allure.attachment_type.TEXT)
-                pytest.fail(f"查询详情失败：{str(e)}")
-        with allure.step("对比实际结果与预期结果是否一致"):
-            allure.attach(json.dumps({"expectrd": expected, "actual":query_reponse}, indent=4), "验证结果", allure.attachment_type.JSON)
-            try:
+                logger.info(f"开始执行编辑接口测试用例，编辑的记录ID: {recordid}，编辑的字段: {fieldName}")
+                update_result = get_crud.edit(recordid, fieldData=fieldData)
+                logger.info(f"更新数据成功")
+                allure.attach(json.dumps(update_result, indent=4), "更新结果", allure.attachment_type.JSON)
+            except Exception as e:
+                logger.error(f"编辑失败: {str(e)}")
+                allure.attach(str(e), "编辑失败", allure.attachment_type.TEXT)
+                pytest.fail(f"编辑失败: {str(e)}")
 
-                assert query_reponse == expected, f"预期值：{expected}，实际值：{query_reponse}"
-            except AssertionError as e:
-                allure.attach(json.dumps(query_reponse, indent=4, ensure_ascii=False), "实际结果（断言失败）", allure.attachment_type.JSON)
-                allure.attach(str(expected), "预期的结果", allure.attachment_type.JSON)
-                allure.attach(str(query_reponse), "实际的查询结果", allure.attachment_type.JSON)
-                raise
-
-
+        # 使用公共的断言方法
+        self.assert_field(get_crud, recordid, fieldName, expected)
+        logger.info(f"编辑接口测试用例执行成功")

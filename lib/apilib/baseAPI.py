@@ -3,6 +3,8 @@
 #@Author : 
 #@Software: PyCharm
 import logging
+import time
+
 import requests
 from requests.adapters import HTTPAdapter
 from requests.exceptions import HTTPError, Timeout, RequestException
@@ -62,10 +64,15 @@ class BaseAPI:
         # read_data 函数的实现应当能正确加载对应的 payload
         return read_data().get(current_name, {})
 
-    def request(self, method, endpoint, **kwargs):
+    def request(self, method, endpoint, threshold=1, **kwargs):
         url = f"{self.base_url}{endpoint}"
         try:
+            start_time = time.time()
             response = self.session.request(method, url, timeout=10, **kwargs)
+            execution_time = time.time() - start_time
+            self.logger.info(f"接口 {endpoint} 执行时间: {execution_time:.2f} 秒")
+            if threshold and execution_time > threshold:
+                logging.warning(f"警告: 接口 {endpoint} 响应时间超出阈值: {execution_time:.2f} 秒")
             self._log_request_response(response)
             return self._handle_exceptions(response)
         except Exception as e:

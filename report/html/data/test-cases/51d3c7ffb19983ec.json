@@ -1,0 +1,228 @@
+{
+  "uid" : "51d3c7ffb19983ec",
+  "name" : "更新 danxuan__c 字段",
+  "fullName" : "test_case.api_tests.test_crud.TestCrud#test_edit",
+  "historyId" : "f8d007287c2f5d982886381bf307e37d",
+  "time" : {
+    "start" : 1726842485475,
+    "stop" : 1726842485897,
+    "duration" : 422
+  },
+  "description" : "编辑接口测试用例",
+  "descriptionHtml" : "<p>编辑接口测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_cleanup_data",
+    "time" : {
+      "start" : 1726842483185,
+      "stop" : 1726842485474,
+      "duration" : 2289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_crud",
+    "time" : {
+      "start" : 1726842483169,
+      "stop" : 1726842483185,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d20d629dbab1c46d",
+      "name" : "初始化Crud对象",
+      "source" : "d20d629dbab1c46d.json",
+      "type" : "application/json",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "init_admin",
+    "time" : {
+      "start" : 1726842464733,
+      "stop" : 1726842466131,
+      "duration" : 1398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b367e22188753695",
+      "name" : "86c35031-c8ee-49e1-998e-4457e68b79f2-attachment.attach",
+      "source" : "b367e22188753695.attach",
+      "type" : "text/plain",
+      "size" : 56
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "编辑接口测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "更新 danxuan__c 字段的值",
+      "time" : {
+        "start" : 1726842485476,
+        "stop" : 1726842485665,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c472fc9933a52b7",
+        "name" : "更新结果",
+        "source" : "2c472fc9933a52b7.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "获取记录的详情数据里的 danxuan__c 字段的信息",
+      "time" : {
+        "start" : 1726842485665,
+        "stop" : 1726842485897,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f477f5f3bb455cf8",
+        "name" : "danxuan__c字段的信息",
+        "source" : "f477f5f3bb455cf8.json",
+        "type" : "application/json",
+        "size" : 131
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "对比实际结果与预期结果是否一致",
+      "time" : {
+        "start" : 1726842485897,
+        "stop" : 1726842485897,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "c552d88745de10d4",
+      "name" : "新增结果的记录ID",
+      "source" : "c552d88745de10d4.json",
+      "type" : "application/json",
+      "size" : 8
+    }, {
+      "uid" : "15a09456a4d69f80",
+      "name" : "log",
+      "source" : "15a09456a4d69f80.txt",
+      "type" : "text/plain",
+      "size" : 5050
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "create_and_cleanup_data::0",
+    "time" : {
+      "start" : 1726842485899,
+      "stop" : 1726842486086,
+      "duration" : 187
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "edfeda42642bc62c",
+      "name" : "清理操作",
+      "source" : "edfeda42642bc62c.json",
+      "type" : "application/json",
+      "size" : 24
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "基础增删改查接口用例"
+  }, {
+    "name" : "story",
+    "value" : "编辑接口测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_crud"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCrud"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "27904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.api_tests.test_crud"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "api" ]
+  },
+  "source" : "51d3c7ffb19983ec.json",
+  "parameterValues" : [ "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
+}

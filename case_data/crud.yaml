@@ -1,7 +1,7 @@
 submit:
-  - fieldData: {'wenben__c':'增加'}
+  - fieldData: {'wenben__c':'增加2'}
     fieldName: 'wenben__c'
-    expected: '增加'
+    expected: '增加2'
   - fieldData: {'shuzhi__c':1.1}
     fieldName: 'shuzhi__c'
     expected: 1.1

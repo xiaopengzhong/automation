@@ -1,4 +1,15 @@
 {
-  "total" : 4,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "92b6ccce0c3e0b1daed2587255d7a2fe",
+    "name" : "基础增删改查接口用例",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
 }

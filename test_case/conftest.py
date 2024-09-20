@@ -4,7 +4,6 @@
 #@Software: PyCharm
 from lib.util.utlity import setup_logging, send_msg
 
-import pytest
 import time
 
 # 初始化计数器
@@ -12,14 +11,35 @@ ui_passed = 0
 ui_failed = 0
 ui_skipped = 0
 ui_duration = 0.0
+ui_total = 0  # UI 总用例数
 
 api_passed = 0
 api_failed = 0
 api_skipped = 0
 api_duration = 0.0
+api_total = 0  # API 总用例数
 
 # 用于存储每个测试用例的开始时间
 test_start_times = {}
+
+def pytest_collection_modifyitems(items):
+    """调整 API 和 UI 测试用例的执行顺序"""
+    ui_tests = []
+    api_tests = []
+
+    for item in items:
+        if "ui" in item.keywords:
+            ui_tests.append(item)
+        elif "api" in item.keywords:
+            api_tests.append(item)
+
+    # 更新总用例数
+    global ui_total, api_total
+    ui_total = len(ui_tests)
+    api_total = len(api_tests)
+
+    # 先执行 API 测试，再执行 UI 测试
+    items[:] = api_tests + ui_tests
 
 def pytest_runtest_setup(item):
     """在测试用例执行前记录开始时间"""
@@ -54,43 +74,49 @@ def pytest_runtest_makereport(item, call):
             elif "api" in item.keywords:
                 api_skipped += 1
 
-def pytest_terminal_summary(terminalreporter, exitstatus, config):
-    global ui_passed, ui_failed, ui_skipped, ui_duration
-    global api_passed, api_failed, api_skipped, api_duration
+def send_report(test_type, passed, failed, skipped, total, duration, report_url):
+    """发送报告"""
+    if total == 0:
+        return  # 如果用例总数为 0，则不发送报告
 
-    # 格式化时长
-    ui_duration_str = time.strftime("%H:%M:%S", time.gmtime(ui_duration))
-    api_duration_str = time.strftime("%H:%M:%S", time.gmtime(api_duration))
-    # 生成API测试结果描述字符串
-    api_desc = f"""
-        API 测试用例本次执行情况如下：
-        通过用例数：{api_passed}
-        失败用例数：{api_failed}
-        跳过用例数：{api_skipped}
-        执行时长：{api_duration_str}
-        测试报告地址：[http://192.168.220.1:60000/api_report.html](http://192.168.220.1:60000/api_report.html)
-        """
-    send_msg(api_desc)
-
-    # 生成UI测试结果描述字符串
-    ui_desc = f"""
-    UI 测试用例本次执行情况如下：
-    通过用例数：{ui_passed}
-    失败用例数：{ui_failed}
-    跳过用例数：{ui_skipped}
-    执行时长：{ui_duration_str}
-    测试报告地址：[http://192.168.220.1:60000/ui_report.html](http://192.168.220.1:60000/ui_report.html)
+    duration_str = time.strftime("%H:%M:%S", time.gmtime(duration))
+    desc = f"""
+        {test_type} 测试用例本次执行情况如下：
+        总用例数：{total}
+        通过用例数：{passed}
+        失败用例数：{failed}
+        跳过用例数：{skipped}
+        执行时长：{duration_str}
+        测试报告地址：[{report_url}]({report_url})
     """
+    send_msg(desc)
 
+def pytest_terminal_summary(terminalreporter, exitstatus, config):
+    global ui_passed, ui_failed, ui_skipped, ui_duration, ui_total
+    global api_passed, api_failed, api_skipped, api_duration, api_total
 
+    # 发送API测试报告
+    send_report(
+        test_type="API",
+        total=api_total,
+        passed=api_passed,
+        failed=api_failed,
+        skipped=api_skipped,
+        duration=api_duration,
+        report_url="http://192.168.220.1:60000/api_report.html"
+    )
 
-    # 分别打印UI和API测试统计结果
-    terminalreporter.write("\n" + ui_desc, purple=True)
-    terminalreporter.write("\n" + api_desc, purple=True)
+    # 发送UI测试报告
+    send_report(
+        test_type="UI",
+        total=ui_total,
+        passed=ui_passed,
+        failed=ui_failed,
+        skipped=ui_skipped,
+        duration=ui_duration,
+        report_url="http://192.168.220.1:60000/ui_report.html"
+    )
 
-
-    # 分别发送UI和API测试结果
-    send_msg(ui_desc)
 
 
 

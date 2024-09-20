@@ -4,14 +4,14 @@
 # @Software: PyCharm
 import logging
 import os
+import time
 
 import allure
 import pytest
 
 from lib.apilib.formula import Formula
 from lib.apilib.login import get_auth_tokens, paas_get_auth_tokens
-from lib.util.utlity import send_msg
-
+from functools import wraps
 
 # 获取app登录接口的user_token
 @pytest.fixture(scope='session')
@@ -33,7 +33,8 @@ def before_formula(init_admin):
     formula = Formula(user_token)
     return formula
 
-import time
+
+
 from colorama import Fore, Style, init
 from _pytest.terminal import TerminalReporter
 

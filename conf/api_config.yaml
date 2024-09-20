@@ -8,7 +8,7 @@ Crud:
 
   submit:
     {
-      "pageCode": "2023060819591966707121",
+      "pageCode": "2024083017002443504002",
       "pushOrigin": 1,
       "fieldData": {
         "wenben__c": "增加"
@@ -19,6 +19,14 @@ Crud:
       "recordIds": [
         1607717
       ]
+    }
+  edit:
+    {
+      "pageCode": "2024083017002443504002",
+      "pushOrigin": 1,
+      "fieldData": {
+        "wenben__c": "增加"
+      }
     }
 CalendarPromptLightAPI:
   list:

@@ -4,61 +4,113 @@
   "children" : [ {
     "name" : "DESKTOP-D12DO4L",
     "children" : [ {
-      "name" : "25544-MainThread",
+      "name" : "27904-MainThread",
       "children" : [ {
-        "name" : "test_phone_login[14912345678-123456-帐号或密码错误，请重新输入]",
-        "uid" : "4b2ed1fcb5938128",
-        "parentUid" : "5c15a53c64d512ed36ef4e31bc97cf95",
+        "name" : "更新 shuzhi__c 字段",
+        "uid" : "7d0ee164df945aae",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
         "status" : "passed",
         "time" : {
-          "start" : 1726133475165,
-          "stop" : 1726133481171,
-          "duration" : 6006
+          "start" : 1726842482527,
+          "stop" : 1726842482983,
+          "duration" : 456
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'帐号或密码错误，请重新输入'", "'123456'", "'14912345678'" ]
+        "parameters" : [ "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
       }, {
-        "name" : "test_login[14912345678-123456-帐号或密码错误，请重新输入]",
-        "uid" : "a768ee4575ad0cc6",
-        "parentUid" : "5c15a53c64d512ed36ef4e31bc97cf95",
+        "name" : "提交数据并验证提交结果：字段 wenben__c",
+        "uid" : "b7b919201f77f3ae",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
         "status" : "passed",
         "time" : {
-          "start" : 1726133459269,
-          "stop" : 1726133467516,
-          "duration" : 8247
+          "start" : 1726842466151,
+          "stop" : 1726842468756,
+          "duration" : 2605
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'帐号或密码错误，请重新输入'", "'123456'", "'14912345678'" ]
+        "parameters" : [ "{'fieldData': {'wenben__c': '增加2'}, 'fieldName': 'wenben__c', 'expected': '增加2'}" ]
       }, {
-        "name" : "test_phone_login[14912345678-Aa123456-ZXP(别动)]",
-        "uid" : "66bf1d65d7288b7d",
-        "parentUid" : "5c15a53c64d512ed36ef4e31bc97cf95",
+        "name" : "更新 danxuan__c 字段",
+        "uid" : "51d3c7ffb19983ec",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
         "status" : "passed",
         "time" : {
-          "start" : 1726133467522,
-          "stop" : 1726133475159,
-          "duration" : 7637
+          "start" : 1726842485475,
+          "stop" : 1726842485897,
+          "duration" : 422
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'ZXP(别动)'", "'Aa123456'", "'14912345678'" ]
+        "parameters" : [ "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
       }, {
-        "name" : "test_login[14912345678-Aa123456-小明测试应用]",
-        "uid" : "9e5a2dceb0c0c1a0",
-        "parentUid" : "5c15a53c64d512ed36ef4e31bc97cf95",
+        "name" : "提交数据并验证提交结果：字段 shuzhi__c",
+        "uid" : "e73a18df7472e004",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
         "status" : "passed",
         "time" : {
-          "start" : 1726133449240,
-          "stop" : 1726133459263,
-          "duration" : 10023
+          "start" : 1726842469039,
+          "stop" : 1726842471562,
+          "duration" : 2523
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'小明测试应用'", "'Aa123456'", "'14912345678'" ]
+        "parameters" : [ "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
+      }, {
+        "name" : "更新 duoxuan__c 字段",
+        "uid" : "2e5739a995c6d37c",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726842488384,
+          "stop" : 1726842488795,
+          "duration" : 411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}, 'fieldName': 'duoxuan__c', 'expected': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}" ]
+      }, {
+        "name" : "更新 wenben__c 字段",
+        "uid" : "9955b1389eb3bb99",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726842479492,
+          "stop" : 1726842479994,
+          "duration" : 502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'fieldData': {'wenben__c': '增加2'}, 'fieldName': 'wenben__c', 'expected': '增加2'}" ]
+      }, {
+        "name" : "提交数据并验证提交结果：字段 duoxuan__c",
+        "uid" : "dedc1c9e31c8401f",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726842474496,
+          "stop" : 1726842477010,
+          "duration" : 2514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}, 'fieldName': 'duoxuan__c', 'expected': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}" ]
+      }, {
+        "name" : "提交数据并验证提交结果：字段 danxuan__c",
+        "uid" : "7045a16f5bc5f668",
+        "parentUid" : "419299cb4ccb92e92fedc1c4c2c30c91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726842471767,
+          "stop" : 1726842474292,
+          "duration" : 2525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
       } ],
-      "uid" : "5c15a53c64d512ed36ef4e31bc97cf95"
+      "uid" : "419299cb4ccb92e92fedc1c4c2c30c91"
     } ],
     "uid" : "0fdc93fe537fd0674911fea02ba1cae5"
   } ]

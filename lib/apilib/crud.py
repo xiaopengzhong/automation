@@ -11,27 +11,24 @@ class Crud(BaseAPI):
     def submit(self,**kwargs):
         url = '/api-engine-mid/v1/form/yxpm__CustomObject0148__c/2024083017002443504002/record/submit'
         payload = self.payload['submit']
-        self.logger.info(f"更新前的请求参数{payload}")
         payload.update(kwargs)
-
         respose = self.post(endpoint=url, json=payload)
         return respose.json()
     def detail(self,**kwargs):
         url = '/api-engine-mid/v2/page/record/detail'
         payload = self.payload['detail']
-        self.logger.info(f"更新前的请求参数{payload}")
         payload.update(kwargs)
-
         reponse = self.post(endpoint=url, json=payload)
         return reponse.json()
     def delete(self,**kwargs):
         url = '/api-engine-mid/v1/form/yxpm__CustomObject0148__c/record/delete'
         payload = self.payload['delete']
-        self.logger.info(f"更新前的请求参数{payload}")
         payload.update(kwargs)
-
         reponse = self.post(endpoint=url, json=payload)
         return reponse.json()
-
-
-
+    def edit(self, _rid, **kwargs):
+        url = f'/api-engine-mid/v1/form/yxpm__CustomObject0148__c/2024083017002443504002/record/{_rid}/update'
+        payload = self.payload['edit']
+        payload.update(kwargs)
+        response = self.post(endpoint=url, json=payload)
+        return response.json()

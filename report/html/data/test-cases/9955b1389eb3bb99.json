@@ -1,0 +1,228 @@
+{
+  "uid" : "9955b1389eb3bb99",
+  "name" : "更新 wenben__c 字段",
+  "fullName" : "test_case.api_tests.test_crud.TestCrud#test_edit",
+  "historyId" : "3600e9ea031746a930b4adc3a35b5aa2",
+  "time" : {
+    "start" : 1726842479492,
+    "stop" : 1726842479994,
+    "duration" : 502
+  },
+  "description" : "编辑接口测试用例",
+  "descriptionHtml" : "<p>编辑接口测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_crud",
+    "time" : {
+      "start" : 1726842477205,
+      "stop" : 1726842477222,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61977dc279f3866e",
+      "name" : "初始化Crud对象",
+      "source" : "61977dc279f3866e.json",
+      "type" : "application/json",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "init_admin",
+    "time" : {
+      "start" : 1726842464733,
+      "stop" : 1726842466131,
+      "duration" : 1398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b367e22188753695",
+      "name" : "86c35031-c8ee-49e1-998e-4457e68b79f2-attachment.attach",
+      "source" : "b367e22188753695.attach",
+      "type" : "text/plain",
+      "size" : 56
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "create_and_cleanup_data",
+    "time" : {
+      "start" : 1726842477222,
+      "stop" : 1726842479491,
+      "duration" : 2269
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "编辑接口测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "更新 wenben__c 字段的值",
+      "time" : {
+        "start" : 1726842479493,
+        "stop" : 1726842479744,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76c952ee843e2420",
+        "name" : "更新结果",
+        "source" : "76c952ee843e2420.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "获取记录的详情数据里的 wenben__c 字段的信息",
+      "time" : {
+        "start" : 1726842479744,
+        "stop" : 1726842479994,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9996825f1edad07",
+        "name" : "wenben__c字段的信息",
+        "source" : "f9996825f1edad07.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "对比实际结果与预期结果是否一致",
+      "time" : {
+        "start" : 1726842479994,
+        "stop" : 1726842479994,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1577b182b5d529be",
+      "name" : "新增结果的记录ID",
+      "source" : "1577b182b5d529be.json",
+      "type" : "application/json",
+      "size" : 8
+    }, {
+      "uid" : "7869f4b281ee26f7",
+      "name" : "log",
+      "source" : "7869f4b281ee26f7.txt",
+      "type" : "text/plain",
+      "size" : 4645
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "create_and_cleanup_data::0",
+    "time" : {
+      "start" : 1726842479996,
+      "stop" : 1726842480207,
+      "duration" : 211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c66c127d054c59ba",
+      "name" : "清理操作",
+      "source" : "c66c127d054c59ba.json",
+      "type" : "application/json",
+      "size" : 24
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "基础增删改查接口用例"
+  }, {
+    "name" : "story",
+    "value" : "编辑接口测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_crud"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCrud"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "27904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.api_tests.test_crud"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'fieldData': {'wenben__c': '增加2'}, 'fieldName': 'wenben__c', 'expected': '增加2'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "api" ]
+  },
+  "source" : "9955b1389eb3bb99.json",
+  "parameterValues" : [ "{'fieldData': {'wenben__c': '增加2'}, 'fieldName': 'wenben__c', 'expected': '增加2'}" ]
+}
