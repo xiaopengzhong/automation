@@ -112,7 +112,7 @@ def record_execution_time(threshold=PERFORMANCE_THRESHOLD):
         return wrapper
     return decorator
 if __name__ == '__main__':
-    print(read_data(file_path="../../conf/api_config.yaml"))
-    # print(read_data(file_path="../../case_data/crud.yaml"))
+    # print(read_data(file_path="../../conf/api_config.yaml"))
+    print(read_data(file_path="../../case_data/crud.yaml"))
     # print(read_data(file_path="../../case_data/formula.yaml"))
     # send_msg("hello")

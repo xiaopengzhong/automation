@@ -46,6 +46,7 @@ class TestCrud:
             response = submit_data()
             recordid = response['data']
             logger.info(f"新增数据成功，记录ID: {recordid}")
+            allure.attach(f"新增记录ID: {recordid}", name="新增操作", attachment_type=allure.attachment_type.JSON)
             request.node.recordid = recordid  # 保存到 request.node
             yield recordid, get_crud
         except Exception as e:
@@ -105,8 +106,6 @@ class TestCrud:
         # 使用公共的断言方法
         self.assert_field(get_crud, recordid, fieldName, expected)
         logger.info(f"新增接口测试用例执行成功，字段: {fieldName}")
-
-
     @allure.story("编辑接口测试用例")
     @pytest.mark.parametrize('params', read_data(file_path='case_data/crud.yaml')['submit'])
     def test_edit(self, create_and_cleanup_data, params):
@@ -116,10 +115,10 @@ class TestCrud:
         expected = params['expected']
         allure.dynamic.title(f"更新 {fieldName} 字段")
         # 获取新增的记录ID
-        recordid, get_crud = create_and_cleanup_data
-        logger.info(f"获取到新增的记录ID: {recordid}")
-        allure.attach(str(recordid), "新增结果的记录ID", allure.attachment_type.JSON)
-
+        with allure.step("获取到新增的记录ID"):
+            recordid, get_crud = create_and_cleanup_data
+            logger.info(f"获取到新增的记录ID: {recordid}")
+            allure.attach(str(recordid), "新增结果的记录ID", allure.attachment_type.JSON)
         # 更新字段
         with allure.step(f"更新 {fieldName} 字段的值"):
             try:
@@ -131,7 +130,29 @@ class TestCrud:
                 logger.error(f"编辑失败: {str(e)}")
                 allure.attach(str(e), "编辑失败", allure.attachment_type.TEXT)
                 pytest.fail(f"编辑失败: {str(e)}")
-
         # 使用公共的断言方法
         self.assert_field(get_crud, recordid, fieldName, expected)
         logger.info(f"编辑接口测试用例执行成功")
+
+    @allure.story("详情接口测试用例")
+    @pytest.mark.parametrize('params', read_data(file_path='case_data/crud.yaml')['detail'])
+    def test_detail(self, create_and_cleanup_data, params):
+        """详情接口测试用例"""
+        fieldName = params['fieldName']
+        expected = params['expected']
+        titleName = params['titleName']
+        allure.dynamic.title(titleName)
+        with allure.step("获取到新增的记录ID"):
+            # 获取新增的记录ID
+            recordid, get_crud = create_and_cleanup_data
+            logger.info(f"获取到新增的记录ID: {recordid}")
+            allure.attach(str(recordid), "新增结果的记录ID", allure.attachment_type.JSON)
+        if fieldName == '测试不存在的记录':
+            # 使用错误的 recordid 进行查询
+            wrong_recordid = 100
+            query_response = get_crud.detail(recordId=wrong_recordid).get('msg', None)
+            assert query_response == expected, f"预期值：{expected}，实际值：{query_response}"
+        else:
+            # 正常记录的验证
+            self.assert_field(get_crud, recordid, fieldName, expected)
+

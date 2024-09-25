@@ -1,7 +1,7 @@
 submit:
-  - fieldData: {'wenben__c':'增加2'}
+  - fieldData: {'wenben__c':'增加'}
     fieldName: 'wenben__c'
-    expected: '增加2'
+    expected: '增加'
   - fieldData: {'shuzhi__c':1.1}
     fieldName: 'shuzhi__c'
     expected: 1.1
@@ -11,4 +11,21 @@ submit:
   - fieldData: {'duoxuan__c':[{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]}
     fieldName: 'duoxuan__c'
     expected: [{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]
+detail:
+  - titleName: '验证文本字段类型的字段的值'
+    fieldName: 'wenben__c'
+    expected: '增加'
+  - titleName: '验证数值字段类型的字段的值'
+    fieldName: 'shuzhi__c'
+    expected: 1.1
+  - titleName: '验证单选字段类型的字段的值'
+    fieldName: 'danxuan__c'
+    expected: {"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}}
+  - titleName: '验证多选字段类型的字段的值'
+    fieldName: 'duoxuan__c'
+    expected: [{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]
+  - titleName: '验证错误记录id的返回'
+    fieldName: '测试不存在的记录'
+    expected: '不存在id为100的记录'
+
 

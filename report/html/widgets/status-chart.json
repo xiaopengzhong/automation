@@ -1,80 +1,130 @@
 [ {
-  "uid" : "7d0ee164df945aae",
-  "name" : "更新 shuzhi__c 字段",
+  "uid" : "e6787ad5ba4dca3f",
+  "name" : "提交数据并验证提交结果：字段 danxuan__c",
   "time" : {
-    "start" : 1726842482527,
-    "stop" : 1726842482983,
-    "duration" : 456
+    "start" : 1727264312062,
+    "stop" : 1727264314649,
+    "duration" : 2587
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9955b1389eb3bb99",
+  "uid" : "9b3c6aaee5aac6e6",
+  "name" : "更新 duoxuan__c 字段",
+  "time" : {
+    "start" : 1727264329305,
+    "stop" : 1727264330009,
+    "duration" : 704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2feb77f42192fda",
   "name" : "更新 wenben__c 字段",
   "time" : {
-    "start" : 1726842479492,
-    "stop" : 1726842479994,
+    "start" : 1727264320167,
+    "stop" : 1727264320669,
     "duration" : 502
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "51d3c7ffb19983ec",
-  "name" : "更新 danxuan__c 字段",
-  "time" : {
-    "start" : 1726842485475,
-    "stop" : 1726842485897,
-    "duration" : 422
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2e5739a995c6d37c",
-  "name" : "更新 duoxuan__c 字段",
-  "time" : {
-    "start" : 1726842488384,
-    "stop" : 1726842488795,
-    "duration" : 411
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b7b919201f77f3ae",
+  "uid" : "1a1dc657a36eea95",
   "name" : "提交数据并验证提交结果：字段 wenben__c",
   "time" : {
-    "start" : 1726842466151,
-    "stop" : 1726842468756,
-    "duration" : 2605
+    "start" : 1727264306198,
+    "stop" : 1727264308855,
+    "duration" : 2657
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e73a18df7472e004",
+  "uid" : "f9a9f88b3ff1db53",
+  "name" : "获取danxuan__c 字段的值",
+  "time" : {
+    "start" : 1727264340957,
+    "stop" : 1727264341230,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afebe20a7a28e862",
   "name" : "提交数据并验证提交结果：字段 shuzhi__c",
   "time" : {
-    "start" : 1726842469039,
-    "stop" : 1726842471562,
-    "duration" : 2523
+    "start" : 1727264309114,
+    "stop" : 1727264311851,
+    "duration" : 2737
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dedc1c9e31c8401f",
+  "uid" : "6491faa938335e50",
+  "name" : "获取shuzhi__c 字段的值",
+  "time" : {
+    "start" : 1727264335218,
+    "stop" : 1727264338453,
+    "duration" : 3235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22517981f7e75baf",
+  "name" : "获取duoxuan__c 字段的值",
+  "time" : {
+    "start" : 1727264343711,
+    "stop" : 1727264343991,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa8ddf4e05116c28",
+  "name" : "获取wenben__c 字段的值",
+  "time" : {
+    "start" : 1727264332506,
+    "stop" : 1727264332748,
+    "duration" : 242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eac51a86c4b2e3b",
   "name" : "提交数据并验证提交结果：字段 duoxuan__c",
   "time" : {
-    "start" : 1726842474496,
-    "stop" : 1726842477010,
-    "duration" : 2514
+    "start" : 1727264314868,
+    "stop" : 1727264317468,
+    "duration" : 2600
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7045a16f5bc5f668",
-  "name" : "提交数据并验证提交结果：字段 danxuan__c",
+  "uid" : "c27846084cec9559",
+  "name" : "获取测试不存在的记录 字段的值",
   "time" : {
-    "start" : 1726842471767,
-    "stop" : 1726842474292,
-    "duration" : 2525
+    "start" : 1727264346492,
+    "stop" : 1727264346905,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efc6ebe507943b79",
+  "name" : "更新 danxuan__c 字段",
+  "time" : {
+    "start" : 1727264326380,
+    "stop" : 1727264326821,
+    "duration" : 441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1e0aa7642dcbd31",
+  "name" : "更新 shuzhi__c 字段",
+  "time" : {
+    "start" : 1727264323159,
+    "stop" : 1727264323885,
+    "duration" : 726
   },
   "status" : "passed",
   "severity" : "normal"
