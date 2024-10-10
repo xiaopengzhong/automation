@@ -31,6 +31,15 @@ Crud:
         "wenben__c": "增加"
       }
     }
+  list:
+    {
+      "viewCode": "2023060819591966214452",
+      "pageCode": "2023060819591966712110",
+      "page": 1,
+      "filterCriteriaList": [],
+      "num": 20,
+      "filter": []
+    }
 CalendarPromptLightAPI:
   list:
     {

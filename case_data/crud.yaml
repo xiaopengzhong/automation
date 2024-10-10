@@ -27,5 +27,10 @@ detail:
   - titleName: '验证错误记录id的返回'
     fieldName: '测试不存在的记录'
     expected: '不存在id为100的记录'
+list:
+  - titleName:
+    fieldName: 'wenben__c'
+    total:
+
 
 

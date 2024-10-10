@@ -37,7 +37,6 @@ class TestCrud:
     @pytest.fixture(scope='function')
     def create_and_cleanup_data(self, get_crud, request):
         logger.info("fixture前置动作，开始新增数据")
-
         @rate_limit(wait_time=2)
         def submit_data():
             return get_crud.submit()
@@ -156,3 +155,47 @@ class TestCrud:
             # 正常记录的验证
             self.assert_field(get_crud, recordid, fieldName, expected)
 
+    @pytest.fixture(scope='function')
+    def add_data(self, get_crud):
+        """新增多条数据"""
+        created_records = []
+        add_payloads = read_data(file_path='case_data/add_data.yaml')['fieldData']
+        @rate_limit(wait_time=2)
+        def submit_data(payload):
+            response = get_crud.submit(fieldData=payload)
+            return response['data']
+        for payload in add_payloads:
+            record_id = submit_data(payload)
+            created_records.append(record_id)
+            logger.info(f"Created record ID: {record_id}")
+        allure.attach(str(created_records), "新增记录的ID", allure.attachment_type.JSON)
+        yield get_crud, add_payloads
+        # Clean up created data
+        get_crud.delete(recordIds=created_records)
+        allure.attach(str(created_records), "删除的记录ID", allure.attachment_type.JSON)
+        logger.info("Cleanup complete: Records deleted.")
+
+    @allure.story("列表接口测试用例")
+    def test_list(self, add_data):
+        allure.dynamic.title("测试列表里各个字段是否返回正确")
+        with allure.step("调用 fixture 创建数据并返回创建的参数"):
+            get_crud, add_payloads = add_data
+            allure.attach(str(add_payloads), "提交数据的参数", allure.attachment_type.JSON)
+
+        with allure.step("获取列表记录"):
+            response = get_crud.list()
+            row_data = response.get("data", [])
+            logger.info(f"获取的列表记录: {response}")
+            allure.attach(str(response), "获取的列表记录", allure.attachment_type.JSON)
+
+        # Helper function for validating fields
+        def validate_fields(actual, expected):
+            for key, value in expected.items():
+                actual_value = actual.get(key)
+                assert actual_value == value, f"字段 '{key}' 值不正确，期望: {value}，实际: {actual_value}"
+
+        # Step 2: 验证每条记录的字段
+        for idx, expected_record in enumerate(add_payloads):
+            created_record = row_data[-(idx + 1)].get("rowData", {})
+            with allure.step(f"对比第{idx+1}条记录的实际结果与预期结果是否一致"):
+                validate_fields(created_record, expected_record)

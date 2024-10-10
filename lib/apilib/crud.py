@@ -32,3 +32,9 @@ class Crud(BaseAPI):
         payload.update(kwargs)
         response = self.post(endpoint=url, json=payload)
         return response.json()
+    def list(self, **kwargs):
+        url = f'/api-engine-mid/v2/page/record/list'
+        payload = self.payload['list']
+        payload.update(kwargs)
+        response = self.post(endpoint=url, json=payload)
+        return response.json()
