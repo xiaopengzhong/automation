@@ -1,0 +1,18 @@
+[
+    {
+        "name": "选项1",
+        "value": "选项1",
+        "style": {
+            "color": "#66CC00",
+            "background": "#F0FAE5"
+        }
+    },
+    {
+        "name": "选项2",
+        "value": "选项2",
+        "style": {
+            "color": "#007EFF",
+            "background": "#E5F2FF"
+        }
+    }
+]

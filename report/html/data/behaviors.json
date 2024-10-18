@@ -7,52 +7,52 @@
       "name" : "新增接口测试用例",
       "children" : [ {
         "name" : "提交数据并验证提交结果：字段 wenben__c",
-        "uid" : "61c0a73700d5f292",
+        "uid" : "e2bcf22bb84a4437",
         "parentUid" : "c8c93ea2f89577c53834a62081929de0",
         "status" : "passed",
         "time" : {
-          "start" : 1728583234849,
-          "stop" : 1728583237704,
-          "duration" : 2855
+          "start" : 1729185708501,
+          "stop" : 1729185711252,
+          "duration" : 2751
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'fieldData': {'wenben__c': '增加'}, 'fieldName': 'wenben__c', 'expected': '增加'}" ]
       }, {
         "name" : "提交数据并验证提交结果：字段 shuzhi__c",
-        "uid" : "13b373a2e60fb787",
+        "uid" : "97845eca9680be8f",
         "parentUid" : "c8c93ea2f89577c53834a62081929de0",
         "status" : "passed",
         "time" : {
-          "start" : 1728583237953,
-          "stop" : 1728583240448,
-          "duration" : 2495
+          "start" : 1729185711515,
+          "stop" : 1729185714019,
+          "duration" : 2504
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
       }, {
         "name" : "提交数据并验证提交结果：字段 danxuan__c",
-        "uid" : "2c21d4c82ee366ca",
+        "uid" : "31de383aa298cce",
         "parentUid" : "c8c93ea2f89577c53834a62081929de0",
         "status" : "passed",
         "time" : {
-          "start" : 1728583240659,
-          "stop" : 1728583243219,
-          "duration" : 2560
+          "start" : 1729185714226,
+          "stop" : 1729185716737,
+          "duration" : 2511
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
       }, {
         "name" : "提交数据并验证提交结果：字段 duoxuan__c",
-        "uid" : "e7d62d22a46254d3",
+        "uid" : "2c606809b5c8811f",
         "parentUid" : "c8c93ea2f89577c53834a62081929de0",
         "status" : "passed",
         "time" : {
-          "start" : 1728583243424,
-          "stop" : 1728583245946,
-          "duration" : 2522
+          "start" : 1729185716956,
+          "stop" : 1729185719485,
+          "duration" : 2529
         },
         "flaky" : false,
         "newFailed" : false,
@@ -63,51 +63,51 @@
       "name" : "编辑接口测试用例",
       "children" : [ {
         "name" : "更新 wenben__c 字段",
-        "uid" : "6a923aaebe41181",
+        "uid" : "bc6bd895634afe64",
         "parentUid" : "9186a466f88b4622a2e9b15b4ad5401f",
         "status" : "passed",
         "time" : {
-          "start" : 1728583248437,
-          "stop" : 1728583249046,
-          "duration" : 609
+          "start" : 1729185721985,
+          "stop" : 1729185722408,
+          "duration" : 423
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'fieldData': {'wenben__c': '增加'}, 'fieldName': 'wenben__c', 'expected': '增加'}" ]
       }, {
         "name" : "更新 shuzhi__c 字段",
-        "uid" : "e06d671083813816",
+        "uid" : "a94fe70784b439f7",
         "parentUid" : "9186a466f88b4622a2e9b15b4ad5401f",
         "status" : "passed",
         "time" : {
-          "start" : 1728583251564,
-          "stop" : 1728583251979,
-          "duration" : 415
+          "start" : 1729185724986,
+          "stop" : 1729185725404,
+          "duration" : 418
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
       }, {
         "name" : "更新 danxuan__c 字段",
-        "uid" : "3905432f18b8ee62",
+        "uid" : "19b92fd1a42fa19c",
         "parentUid" : "9186a466f88b4622a2e9b15b4ad5401f",
         "status" : "passed",
         "time" : {
-          "start" : 1728583254487,
-          "stop" : 1728583254914,
-          "duration" : 427
+          "start" : 1729185727892,
+          "stop" : 1729185728282,
+          "duration" : 390
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
       }, {
         "name" : "更新 duoxuan__c 字段",
-        "uid" : "561eb0464d7a2e2c",
+        "uid" : "306342490e761251",
         "parentUid" : "9186a466f88b4622a2e9b15b4ad5401f",
         "status" : "passed",
         "time" : {
-          "start" : 1728583257396,
-          "stop" : 1728583257818,
+          "start" : 1729185730766,
+          "stop" : 1729185731188,
           "duration" : 422
         },
         "flaky" : false,
@@ -119,65 +119,65 @@
       "name" : "详情接口测试用例",
       "children" : [ {
         "name" : "验证文本字段类型的字段的值",
-        "uid" : "fbe2306dd792b4e6",
+        "uid" : "9e82e291cc455dc9",
         "parentUid" : "16f94486e7b646fe0c7c8af28997f781",
         "status" : "passed",
         "time" : {
-          "start" : 1728583260298,
-          "stop" : 1728583260715,
-          "duration" : 417
+          "start" : 1729185733690,
+          "stop" : 1729185733914,
+          "duration" : 224
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'titleName': '验证文本字段类型的字段的值', 'fieldName': 'wenben__c', 'expected': '增加'}" ]
       }, {
         "name" : "验证数值字段类型的字段的值",
-        "uid" : "17c7d2840329f1f6",
+        "uid" : "31aae4204446f4b5",
         "parentUid" : "16f94486e7b646fe0c7c8af28997f781",
         "status" : "passed",
         "time" : {
-          "start" : 1728583263208,
-          "stop" : 1728583263442,
-          "duration" : 234
+          "start" : 1729185736412,
+          "stop" : 1729185736654,
+          "duration" : 242
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'titleName': '验证数值字段类型的字段的值', 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
       }, {
         "name" : "验证单选字段类型的字段的值",
-        "uid" : "992007b1b621c0e4",
+        "uid" : "adf9c36268b3fc06",
         "parentUid" : "16f94486e7b646fe0c7c8af28997f781",
         "status" : "passed",
         "time" : {
-          "start" : 1728583265982,
-          "stop" : 1728583266199,
-          "duration" : 217
+          "start" : 1729185739123,
+          "stop" : 1729185739352,
+          "duration" : 229
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'titleName': '验证单选字段类型的字段的值', 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
       }, {
         "name" : "验证多选字段类型的字段的值",
-        "uid" : "f3d585c39ae5a27b",
+        "uid" : "54c8c794084f1d38",
         "parentUid" : "16f94486e7b646fe0c7c8af28997f781",
         "status" : "passed",
         "time" : {
-          "start" : 1728583268696,
-          "stop" : 1728583268934,
-          "duration" : 238
+          "start" : 1729185741843,
+          "stop" : 1729185742074,
+          "duration" : 231
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'titleName': '验证多选字段类型的字段的值', 'fieldName': 'duoxuan__c', 'expected': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}" ]
       }, {
         "name" : "验证错误记录id的返回",
-        "uid" : "13236b9506c47492",
+        "uid" : "53bc15be60c6bf2b",
         "parentUid" : "16f94486e7b646fe0c7c8af28997f781",
         "status" : "passed",
         "time" : {
-          "start" : 1728583271425,
-          "stop" : 1728583271793,
-          "duration" : 368
+          "start" : 1729185744711,
+          "stop" : 1729185744924,
+          "duration" : 213
         },
         "flaky" : false,
         "newFailed" : false,
@@ -188,13 +188,13 @@
       "name" : "列表接口测试用例",
       "children" : [ {
         "name" : "测试列表里各个字段是否返回正确",
-        "uid" : "97a1d2bd959875fe",
+        "uid" : "4dd5aad84171bc11",
         "parentUid" : "f4d53603ac085964b12100b6e23ed243",
         "status" : "passed",
         "time" : {
-          "start" : 1728583278755,
-          "stop" : 1728583279017,
-          "duration" : 262
+          "start" : 1729185794553,
+          "stop" : 1729185795200,
+          "duration" : 647
         },
         "flaky" : false,
         "newFailed" : false,
