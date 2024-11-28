@@ -4,191 +4,217 @@
   "children" : [ {
     "name" : "DESKTOP-D12DO4L",
     "children" : [ {
-      "name" : "18880-MainThread",
+      "name" : "16620-MainThread",
       "children" : [ {
-        "name" : "验证多选字段类型的字段的值",
-        "uid" : "54c8c794084f1d38",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本不包含1错误校验",
+        "uid" : "1753b8ceeb153519",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185741843,
-          "stop" : 1729185742074,
-          "duration" : 231
+          "start" : 1732700355624,
+          "stop" : 1732700362635,
+          "duration" : 7011
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'titleName': '验证多选字段类型的字段的值', 'fieldName': 'duoxuan__c', 'expected': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}" ]
+        "parameters" : [ "{'id': 1768, 'fieldData': {'wenben__c': '2'}, 'expected': '文本不包含1错误校验'}" ]
       }, {
-        "name" : "提交数据并验证提交结果：字段 shuzhi__c",
-        "uid" : "97845eca9680be8f",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本包含1错误校验 (禁用业务规则)",
+        "uid" : "cc90be4459944901",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185711515,
-          "stop" : 1729185714019,
-          "duration" : 2504
+          "start" : 1732700423328,
+          "stop" : 1732700430682,
+          "duration" : 7354
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
+        "parameters" : [ "{'id': 1767, 'fieldData': {'wenben__c': '11'}, 'expected': '文本包含1错误校验'}" ]
       }, {
-        "name" : "验证错误记录id的返回",
-        "uid" : "53bc15be60c6bf2b",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本为空错误校验 (禁用业务规则)",
+        "uid" : "e4dbb297b92bd04b",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185744711,
-          "stop" : 1729185744924,
-          "duration" : 213
+          "start" : 1732700463594,
+          "stop" : 1732700470946,
+          "duration" : 7352
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'titleName': '验证错误记录id的返回', 'fieldName': '测试不存在的记录', 'expected': '不存在id为100的记录'}" ]
+        "parameters" : [ "{'id': 1771, 'fieldData': {'wenben__c': ''}, 'expected': '文本为空错误校验'}" ]
       }, {
-        "name" : "测试列表里各个字段是否返回正确",
-        "uid" : "4dd5aad84171bc11",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本不等于1错误校验 (禁用业务规则)",
+        "uid" : "3f65a71b70dcf0e2",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185794553,
-          "stop" : 1729185795200,
-          "duration" : 647
+          "start" : 1732700413385,
+          "stop" : 1732700420761,
+          "duration" : 7376
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'id': 1766, 'fieldData': {'wenben__c': 'lala'}, 'expected': '文本不等于1错误校验'}" ]
       }, {
-        "name" : "更新 danxuan__c 字段",
-        "uid" : "19b92fd1a42fa19c",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本属于1，2，3错误校验",
+        "uid" : "79ff3e1ad0a4d03c",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185727892,
-          "stop" : 1729185728282,
-          "duration" : 390
+          "start" : 1732700364963,
+          "stop" : 1732700371910,
+          "duration" : 6947
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
+        "parameters" : [ "{'id': 1769, 'fieldData': {'wenben__c': '1'}, 'expected': '文本属于1，2，3错误校验'}" ]
       }, {
-        "name" : "验证数值字段类型的字段的值",
-        "uid" : "31aae4204446f4b5",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本为空错误校验",
+        "uid" : "860f22ac2d6a96",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185736412,
-          "stop" : 1729185736654,
-          "duration" : 242
+          "start" : 1732700383504,
+          "stop" : 1732700390609,
+          "duration" : 7105
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'titleName': '验证数值字段类型的字段的值', 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
+        "parameters" : [ "{'id': 1771, 'fieldData': {'wenben__c': ''}, 'expected': '文本为空错误校验'}" ]
       }, {
-        "name" : "更新 wenben__c 字段",
-        "uid" : "bc6bd895634afe64",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本属于1，2，3错误校验 (禁用业务规则)",
+        "uid" : "bea22b7e09c39bfb",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185721985,
-          "stop" : 1729185722408,
-          "duration" : 423
+          "start" : 1732700443789,
+          "stop" : 1732700451128,
+          "duration" : 7339
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'wenben__c': '增加'}, 'fieldName': 'wenben__c', 'expected': '增加'}" ]
+        "parameters" : [ "{'id': 1769, 'fieldData': {'wenben__c': '1'}, 'expected': '文本属于1，2，3错误校验'}" ]
       }, {
-        "name" : "更新 duoxuan__c 字段",
-        "uid" : "306342490e761251",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本非空错误校验 (禁用业务规则)",
+        "uid" : "815aec97ff7cc7f7",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185730766,
-          "stop" : 1729185731188,
-          "duration" : 422
+          "start" : 1732700473540,
+          "stop" : 1732700480950,
+          "duration" : 7410
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}, 'fieldName': 'duoxuan__c', 'expected': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}" ]
+        "parameters" : [ "{'id': 1772, 'fieldData': {'wenben__c': '5'}, 'expected': '文本非空错误校验'}" ]
       }, {
-        "name" : "验证文本字段类型的字段的值",
-        "uid" : "9e82e291cc455dc9",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本不属于1，2，3错误校验",
+        "uid" : "234e2d3ac8ac30a2",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185733690,
-          "stop" : 1729185733914,
-          "duration" : 224
+          "start" : 1732700374233,
+          "stop" : 1732700381205,
+          "duration" : 6972
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'titleName': '验证文本字段类型的字段的值', 'fieldName': 'wenben__c', 'expected': '增加'}" ]
+        "parameters" : [ "{'id': 1770, 'fieldData': {'wenben__c': '4'}, 'expected': '文本不属于1，2，3错误校验'}" ]
       }, {
-        "name" : "提交数据并验证提交结果：字段 danxuan__c",
-        "uid" : "31de383aa298cce",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本不包含1错误校验 (禁用业务规则)",
+        "uid" : "973bd5553d5a4142",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185714226,
-          "stop" : 1729185716737,
-          "duration" : 2511
+          "start" : 1732700433489,
+          "stop" : 1732700441145,
+          "duration" : 7656
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
+        "parameters" : [ "{'id': 1768, 'fieldData': {'wenben__c': '2'}, 'expected': '文本不包含1错误校验'}" ]
       }, {
-        "name" : "验证单选字段类型的字段的值",
-        "uid" : "adf9c36268b3fc06",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本非空错误校验",
+        "uid" : "b676938e006dd21e",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185739123,
-          "stop" : 1729185739352,
-          "duration" : 229
+          "start" : 1732700392907,
+          "stop" : 1732700399907,
+          "duration" : 7000
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'titleName': '验证单选字段类型的字段的值', 'fieldName': 'danxuan__c', 'expected': {'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}}" ]
+        "parameters" : [ "{'id': 1772, 'fieldData': {'wenben__c': '5'}, 'expected': '文本非空错误校验'}" ]
       }, {
-        "name" : "提交数据并验证提交结果：字段 wenben__c",
-        "uid" : "e2bcf22bb84a4437",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本不等于1错误校验",
+        "uid" : "9bd9fdda8718d342",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185708501,
-          "stop" : 1729185711252,
-          "duration" : 2751
+          "start" : 1732700337052,
+          "stop" : 1732700344070,
+          "duration" : 7018
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'wenben__c': '增加'}, 'fieldName': 'wenben__c', 'expected': '增加'}" ]
+        "parameters" : [ "{'id': 1766, 'fieldData': {'wenben__c': 'lala'}, 'expected': '文本不等于1错误校验'}" ]
       }, {
-        "name" : "提交数据并验证提交结果：字段 duoxuan__c",
-        "uid" : "2c606809b5c8811f",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本等于1错误校验 (禁用业务规则)",
+        "uid" : "97fab53cdeb7496a",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185716956,
-          "stop" : 1729185719485,
-          "duration" : 2529
+          "start" : 1732700402229,
+          "stop" : 1732700409545,
+          "duration" : 7316
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}, 'fieldName': 'duoxuan__c', 'expected': [{'name': '选项1', 'value': '选项1', 'style': {'color': '#66CC00', 'background': '#F0FAE5'}}, {'name': '选项2', 'value': '选项2', 'style': {'color': '#007EFF', 'background': '#E5F2FF'}}]}" ]
+        "parameters" : [ "{'id': 1765, 'fieldData': {'wenben__c': '1'}, 'expected': '文本等于1错误校验'}" ]
       }, {
-        "name" : "更新 shuzhi__c 字段",
-        "uid" : "a94fe70784b439f7",
-        "parentUid" : "7e9508e1346cf9b42b73ecfcb7f11ffd",
+        "name" : "文本等于1错误校验",
+        "uid" : "122ee164ae1f0e98",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
         "status" : "passed",
         "time" : {
-          "start" : 1729185724986,
-          "stop" : 1729185725404,
-          "duration" : 418
+          "start" : 1732700327804,
+          "stop" : 1732700334816,
+          "duration" : 7012
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'fieldData': {'shuzhi__c': 1.1}, 'fieldName': 'shuzhi__c', 'expected': 1.1}" ]
+        "parameters" : [ "{'id': 1765, 'fieldData': {'wenben__c': '1'}, 'expected': '文本等于1错误校验'}" ]
+      }, {
+        "name" : "文本不属于1，2，3错误校验 (禁用业务规则)",
+        "uid" : "5925336c416af7e",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732700453683,
+          "stop" : 1732700460998,
+          "duration" : 7315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 1770, 'fieldData': {'wenben__c': '4'}, 'expected': '文本不属于1，2，3错误校验'}" ]
+      }, {
+        "name" : "文本包含1错误校验",
+        "uid" : "14ab6d214feb1eae",
+        "parentUid" : "38b906b3ac797c1d125419a559a43016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732700346353,
+          "stop" : 1732700353329,
+          "duration" : 6976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 1767, 'fieldData': {'wenben__c': '11'}, 'expected': '文本包含1错误校验'}" ]
       } ],
-      "uid" : "7e9508e1346cf9b42b73ecfcb7f11ffd"
+      "uid" : "38b906b3ac797c1d125419a559a43016"
     } ],
     "uid" : "0fdc93fe537fd0674911fea02ba1cae5"
   } ]

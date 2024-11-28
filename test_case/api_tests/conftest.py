@@ -2,6 +2,7 @@
 # @Time   : 2023/7/23 22:44
 # @Author :
 # @Software: PyCharm
+import json
 import logging
 import os
 import time
@@ -9,9 +10,13 @@ import time
 import allure
 import pytest
 
+from lib.apilib.businessRule import BusinessRule
+from lib.apilib.crud import Crud
 from lib.apilib.formula import Formula
 from lib.apilib.login import get_auth_tokens, paas_get_auth_tokens
 from functools import wraps
+# 获取 logger 实例
+logger = logging.getLogger()
 
 # 获取app登录接口的user_token
 @pytest.fixture(scope='session')
@@ -32,6 +37,21 @@ def before_formula(init_admin):
     user_token = init_admin
     formula = Formula(user_token)
     return formula
+@pytest.fixture()
+def get_crud(init_admin):
+    """Fixture: 初始化并返回 Crud 对象"""
+    crud = Crud(init_admin)
+    logger.info("初始化 Crud 对象")
+    # 使用 allure 附件记录初始化的 Crud 对象
+    allure.attach(json.dumps({"crud": str(crud)}, indent=4), name="初始化Crud对象",
+                  attachment_type=allure.attachment_type.JSON)
+    return crud
+# businessRule
+@pytest.fixture(scope='session')
+def get_businessRule(paas_token):
+    businessRule = BusinessRule(paas_token)
+    return businessRule
+
 
 
 

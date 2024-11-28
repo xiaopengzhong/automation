@@ -1,15 +1,49 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Oct 18 01:22:21 CST 2024","Fri Oct 18 01:22:22 CST 2024","231","test_case.api_tests","test_crud","TestCrud","","","验证多选字段类型的字段的值","测试详情接口的用例"
-"passed","Fri Oct 18 01:22:07 CST 2024","Fri Oct 18 01:22:08 CST 2024","390","test_case.api_tests","test_crud","TestCrud","","","更新 danxuan__c 字段","测试编辑接口的用例"
-"passed","Fri Oct 18 01:21:48 CST 2024","Fri Oct 18 01:21:51 CST 2024","2751","test_case.api_tests","test_crud","TestCrud","","","提交数据并验证提交结果：字段 wenben__c","测试新增接口的用例"
-"passed","Fri Oct 18 01:23:14 CST 2024","Fri Oct 18 01:23:15 CST 2024","647","test_case.api_tests","test_crud","TestCrud","","","测试列表里各个字段是否返回正确","测试列表接口的用例"
-"passed","Fri Oct 18 01:22:24 CST 2024","Fri Oct 18 01:22:24 CST 2024","213","test_case.api_tests","test_crud","TestCrud","","","验证错误记录id的返回","测试详情接口的用例"
-"passed","Fri Oct 18 01:21:56 CST 2024","Fri Oct 18 01:21:59 CST 2024","2529","test_case.api_tests","test_crud","TestCrud","","","提交数据并验证提交结果：字段 duoxuan__c","测试新增接口的用例"
-"passed","Fri Oct 18 01:21:51 CST 2024","Fri Oct 18 01:21:54 CST 2024","2504","test_case.api_tests","test_crud","TestCrud","","","提交数据并验证提交结果：字段 shuzhi__c","测试新增接口的用例"
-"passed","Fri Oct 18 01:22:16 CST 2024","Fri Oct 18 01:22:16 CST 2024","242","test_case.api_tests","test_crud","TestCrud","","","验证数值字段类型的字段的值","测试详情接口的用例"
-"passed","Fri Oct 18 01:22:04 CST 2024","Fri Oct 18 01:22:05 CST 2024","418","test_case.api_tests","test_crud","TestCrud","","","更新 shuzhi__c 字段","测试编辑接口的用例"
-"passed","Fri Oct 18 01:22:13 CST 2024","Fri Oct 18 01:22:13 CST 2024","224","test_case.api_tests","test_crud","TestCrud","","","验证文本字段类型的字段的值","测试详情接口的用例"
-"passed","Fri Oct 18 01:22:19 CST 2024","Fri Oct 18 01:22:19 CST 2024","229","test_case.api_tests","test_crud","TestCrud","","","验证单选字段类型的字段的值","测试详情接口的用例"
-"passed","Fri Oct 18 01:21:54 CST 2024","Fri Oct 18 01:21:56 CST 2024","2511","test_case.api_tests","test_crud","TestCrud","","","提交数据并验证提交结果：字段 danxuan__c","测试新增接口的用例"
-"passed","Fri Oct 18 01:22:01 CST 2024","Fri Oct 18 01:22:02 CST 2024","423","test_case.api_tests","test_crud","TestCrud","","","更新 wenben__c 字段","测试编辑接口的用例"
-"passed","Fri Oct 18 01:22:10 CST 2024","Fri Oct 18 01:22:11 CST 2024","422","test_case.api_tests","test_crud","TestCrud","","","更新 duoxuan__c 字段","测试编辑接口的用例"
+"passed","Wed Nov 27 17:40:43 CST 2024","Wed Nov 27 17:40:51 CST 2024","7339","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本属于1，2，3错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:40:53 CST 2024","Wed Nov 27 17:41:00 CST 2024","7315","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本不属于1，2，3错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:39:52 CST 2024","Wed Nov 27 17:39:59 CST 2024","7000","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本非空错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "
+"passed","Wed Nov 27 17:39:06 CST 2024","Wed Nov 27 17:39:13 CST 2024","6976","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本包含1错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "
+"passed","Wed Nov 27 17:39:43 CST 2024","Wed Nov 27 17:39:50 CST 2024","7105","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本为空错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "
+"passed","Wed Nov 27 17:38:47 CST 2024","Wed Nov 27 17:38:54 CST 2024","7012","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本等于1错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "
+"passed","Wed Nov 27 17:40:02 CST 2024","Wed Nov 27 17:40:09 CST 2024","7316","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本等于1错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:38:57 CST 2024","Wed Nov 27 17:39:04 CST 2024","7018","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本不等于1错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "
+"passed","Wed Nov 27 17:39:24 CST 2024","Wed Nov 27 17:39:31 CST 2024","6947","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本属于1，2，3错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "
+"passed","Wed Nov 27 17:41:13 CST 2024","Wed Nov 27 17:41:20 CST 2024","7410","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本非空错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:39:15 CST 2024","Wed Nov 27 17:39:22 CST 2024","7011","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本不包含1错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "
+"passed","Wed Nov 27 17:40:33 CST 2024","Wed Nov 27 17:40:41 CST 2024","7656","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本不包含1错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:40:13 CST 2024","Wed Nov 27 17:40:20 CST 2024","7376","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本不等于1错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:40:23 CST 2024","Wed Nov 27 17:40:30 CST 2024","7354","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本包含1错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:41:03 CST 2024","Wed Nov 27 17:41:10 CST 2024","7352","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本为空错误校验 (禁用业务规则)","
+        测试文本字段业务规则 - 禁用业务规则时正常新增
+        "
+"passed","Wed Nov 27 17:39:34 CST 2024","Wed Nov 27 17:39:41 CST 2024","6972","test_case.api_tests","test_businessRule","Test_BusinessRule","","","文本不属于1，2，3错误校验","
+        测试文本字段业务规则 - 启用业务规则
+        "

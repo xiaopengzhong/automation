@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "92b6ccce0c3e0b1daed2587255d7a2fe",
-    "name" : "基础增删改查接口用例",
+    "uid" : "6b1931e499df4c1ec61cffdd8c781a97",
+    "name" : "业务规则",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 2
     }
   } ]
 }
