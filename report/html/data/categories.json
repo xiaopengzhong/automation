@@ -1,5 +1,60 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 预期结果: 数值为空错误校验, 实际结果: ok\nassert 'ok' == '数值为空错误校验'\n  - 数值为空错误校验\n  + ok",
+      "children" : [ {
+        "name" : "数值为空错误校验",
+        "uid" : "18baac22b2c87db3",
+        "parentUid" : "4282fd578b33e0896e19a3c8c2bc467a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733233586955,
+          "stop" : 1733233591439,
+          "duration" : 4484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 1858, 'fieldData': {'shuzhi__c': None}, 'expected': '数值为空错误校验'}" ]
+      } ],
+      "uid" : "4282fd578b33e0896e19a3c8c2bc467a"
+    }, {
+      "name" : "AssertionError: 预期结果: 单选为空错误校验, 实际结果: ok\nassert 'ok' == '单选为空错误校验'\n  - 单选为空错误校验\n  + ok",
+      "children" : [ {
+        "name" : "单选为空错误校验",
+        "uid" : "9b7d28c47419014e",
+        "parentUid" : "b75e61758b1764fc3805b76893d5d7a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733233640216,
+          "stop" : 1733233644694,
+          "duration" : 4478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 1864, 'fieldData': {'danxuan__c': None}, 'expected': '单选为空错误校验'}" ]
+      } ],
+      "uid" : "b75e61758b1764fc3805b76893d5d7a1"
+    }, {
+      "name" : "AssertionError: 预期结果: 'ok', 实际结果: 文本唯一\nassert '文本唯一' == 'ok'\n  - ok\n  + 文本唯一",
+      "children" : [ {
+        "name" : "子表非空错误校验 (禁用业务规则)",
+        "uid" : "6aec800bd3cb23a",
+        "parentUid" : "7e98eb426671f54cf40ecc5597d4c9ee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733234342586,
+          "stop" : 1733234347310,
+          "duration" : 4724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 1982, 'fieldData': {'zhuxiang__c_yxpm__CustomObject0147__c': [{'formCode': 'yxpm__CustomObject0147__c', 'rowData': {'wenben__c': '11'}}]}, 'expected': '子表非空错误校验'}" ]
+      } ],
+      "uid" : "7e98eb426671f54cf40ecc5597d4c9ee"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

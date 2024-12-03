@@ -2,11 +2,13 @@
 #@Time   : 2024/9/7 0:17
 #@Author : 
 #@Software: PyCharm
+import json
 import logging
 import os
 import time
 from functools import wraps
 
+import allure
 import requests
 import yaml
 from typing import Optional
@@ -111,6 +113,15 @@ def record_execution_time(threshold=PERFORMANCE_THRESHOLD):
             return response
         return wrapper
     return decorator
+# 全局工具方法
+def attach_log(data, title, attachment_type=allure.attachment_type.JSON):
+    """
+    封装 Allure 的日志附件方法
+    """
+    if isinstance(data, (dict, list)):
+        data = json.dumps(data, indent=4, ensure_ascii=False)
+    allure.attach(data, name=title, attachment_type=attachment_type)
+
 if __name__ == '__main__':
     # print(read_data(file_path="../../conf/api_config.yaml"))
     print(read_data(file_path="../../case_data/businessRule.yaml"))

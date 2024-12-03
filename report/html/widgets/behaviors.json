@@ -4,12 +4,12 @@
     "uid" : "6b1931e499df4c1ec61cffdd8c781a97",
     "name" : "业务规则",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   } ]
 }
