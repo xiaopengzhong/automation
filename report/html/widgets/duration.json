@@ -1,970 +1,540 @@
 [ {
-  "uid" : "22213273664c3942",
-  "name" : "日期大于等于11-27错误校验 (禁用业务规则)",
+  "uid" : "fca619c218f88ad3",
+  "name" : "单选等于 '选项1' 的视图筛选",
   "time" : {
-    "start" : 1733234217631,
-    "stop" : 1733234224640,
-    "duration" : 7009
+    "start" : 1733331932615,
+    "stop" : 1733331932869,
+    "duration" : 254
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8bddcf6bd9b3b4aa",
-  "name" : "日期小于等于11-27错误校验",
+  "uid" : "336891eea509fa41",
+  "name" : "长文本等于 '怎样的雨' 的视图筛选",
   "time" : {
-    "start" : 1733233760875,
-    "stop" : 1733233767730,
-    "duration" : 6855
+    "start" : 1733331928304,
+    "stop" : 1733331928723,
+    "duration" : 419
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6b66aa0877cf2f7d",
-  "name" : "文本包含1错误校验",
+  "uid" : "b14379bf8f16c1c8",
+  "name" : "单选不等于 '选项1' 的视图筛选",
   "time" : {
-    "start" : 1733233451351,
-    "stop" : 1733233458207,
-    "duration" : 6856
+    "start" : 1733331932876,
+    "stop" : 1733331933209,
+    "duration" : 333
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "18baac22b2c87db3",
-  "name" : "数值为空错误校验",
+  "uid" : "678429e779db49c5",
+  "name" : "文本不属于 '1,2,3' 的视图筛选",
   "time" : {
-    "start" : 1733233586955,
-    "stop" : 1733233591439,
-    "duration" : 4484
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e038dfaf72c6cf3",
-  "name" : "多选不包含选项1和选项2错误校验",
-  "time" : {
-    "start" : 1733233684030,
-    "stop" : 1733233690819,
-    "duration" : 6789
+    "start" : 1733331926847,
+    "stop" : 1733331927137,
+    "duration" : 290
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "afb373dabe3846a3",
-  "name" : "数值大于1错误校验 (禁用业务规则)",
+  "uid" : "4976c3cc72ec00d9",
+  "name" : "多选不为空的视图筛选",
   "time" : {
-    "start" : 1733233989586,
-    "stop" : 1733233996574,
-    "duration" : 6988
+    "start" : 1733331936132,
+    "stop" : 1733331936385,
+    "duration" : 253
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9ca58bfe31664146",
-  "name" : "日期为空错误校验 (禁用业务规则)",
+  "uid" : "b9345284cbe6847a",
+  "name" : "多选不包含 '选项1，选项2' 的视图筛选",
   "time" : {
-    "start" : 1733234236551,
-    "stop" : 1733234243601,
-    "duration" : 7050
+    "start" : 1733331935375,
+    "stop" : 1733331935782,
+    "duration" : 407
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "637b1af5b5da7d43",
-  "name" : "日期为空错误校验",
+  "uid" : "73df1e0046e1e149",
+  "name" : "多选包含 '选项1，选项2' 的视图筛选",
   "time" : {
-    "start" : 1733233770118,
-    "stop" : 1733233776978,
-    "duration" : 6860
+    "start" : 1733331935085,
+    "stop" : 1733331935369,
+    "duration" : 284
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "38ebc5a4687eac5e",
-  "name" : "单选不为空错误校验 (禁用业务规则)",
+  "uid" : "357452f28d129eac",
+  "name" : "日期等于 '2023-08-15' 的视图筛选",
   "time" : {
-    "start" : 1733234112663,
-    "stop" : 1733234119714,
-    "duration" : 7051
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6504326b8b7e4f0",
-  "name" : "日期不为空错误校验",
-  "time" : {
-    "start" : 1733233779361,
-    "stop" : 1733233786219,
-    "duration" : 6858
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c5d6b848aeea9d6",
-  "name" : "查找非空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234322882,
-    "stop" : 1733234330399,
-    "duration" : 7517
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "33d4d0f9b15b610e",
-  "name" : "地区为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234274506,
-    "stop" : 1733234282706,
-    "duration" : 8200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c996a0b2234d65b",
-  "name" : "地区不等于北京市-北京市-朝阳区错误校验",
-  "time" : {
-    "start" : 1733233797893,
-    "stop" : 1733233804791,
-    "duration" : 6898
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53c8cbd281108e5f",
-  "name" : "文本不包含1错误校验",
-  "time" : {
-    "start" : 1733233460582,
-    "stop" : 1733233467453,
-    "duration" : 6871
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "424a251cac51618b",
-  "name" : "子表为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234332796,
-    "stop" : 1733234340190,
-    "duration" : 7394
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b722fe295ad7aae2",
-  "name" : "多选为空错误校验",
-  "time" : {
-    "start" : 1733233693192,
-    "stop" : 1733233700018,
-    "duration" : 6826
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d33c3584d5f41c11",
-  "name" : "数值不为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234055807,
-    "stop" : 1733234062853,
-    "duration" : 7046
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b3b10b9184b15cf",
-  "name" : "数值不属于1,2,3错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234036758,
-    "stop" : 1733234043941,
-    "duration" : 7183
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fad7934cddebd244",
-  "name" : "文本包含1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233906062,
-    "stop" : 1733233913118,
-    "duration" : 7056
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da788de86e967b3e",
-  "name" : "文本不等于1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233896687,
-    "stop" : 1733233903667,
-    "duration" : 6980
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90fc897657aa08e1",
-  "name" : "单选等于选项1错误校验",
-  "time" : {
-    "start" : 1733233603183,
-    "stop" : 1733233610071,
-    "duration" : 6888
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "56e57db48125355b",
-  "name" : "多选为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234159886,
-    "stop" : 1733234166929,
-    "duration" : 7043
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3d4a6a8c279b56a8",
-  "name" : "单选不等于选项1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234074791,
-    "stop" : 1733234081948,
-    "duration" : 7157
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b643b68bbbf3c5a",
-  "name" : "文本等于1错误校验",
-  "time" : {
-    "start" : 1733233431501,
-    "stop" : 1733233438447,
-    "duration" : 6946
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "856bf10f9edac0fb",
-  "name" : "日期大于11-27错误校验",
-  "time" : {
-    "start" : 1733233730119,
-    "stop" : 1733233736970,
-    "duration" : 6851
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf0832c13c678b9b",
-  "name" : "单选不为空错误校验",
-  "time" : {
-    "start" : 1733233647111,
-    "stop" : 1733233653955,
-    "duration" : 6844
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4af2ca985acf2ad",
-  "name" : "数值不等于1错误校验",
-  "time" : {
-    "start" : 1733233519189,
-    "stop" : 1733233526045,
-    "duration" : 6856
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "672e74a3de85f5",
-  "name" : "文本非空错误校验",
-  "time" : {
-    "start" : 1733233500730,
-    "stop" : 1733233507559,
-    "duration" : 6829
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "799e84eb3c8c7e99",
-  "name" : "日期不等于11-27错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234188441,
-    "stop" : 1733234196249,
-    "duration" : 7808
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee2a4f84725753f3",
-  "name" : "单选等于选项1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234065268,
-    "stop" : 1733234072378,
-    "duration" : 7110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b72817b312b1cc8d",
-  "name" : "数值属于1，2，3错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234027249,
-    "stop" : 1733234034376,
-    "duration" : 7127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b4e9c3e777ebca96",
-  "name" : "日期小于11-27错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234208219,
-    "stop" : 1733234215250,
-    "duration" : 7031
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d9f7708eee12fb1",
-  "name" : "查找非空错误校验",
-  "time" : {
-    "start" : 1733233856445,
-    "stop" : 1733233863302,
-    "duration" : 6857
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ae4103ece449304",
-  "name" : "文本为空错误校验",
-  "time" : {
-    "start" : 1733233491435,
-    "stop" : 1733233498337,
-    "duration" : 6902
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61a33e4ce1d048a7",
-  "name" : "数值大于1错误校验",
-  "time" : {
-    "start" : 1733233528424,
-    "stop" : 1733233535236,
-    "duration" : 6812
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7393f6e9a63201df",
-  "name" : "多选等于选项1和选项2错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234122094,
-    "stop" : 1733234129130,
-    "duration" : 7036
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "918dab98aed43d6f",
-  "name" : "多选不包含选项1和选项2错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234150451,
-    "stop" : 1733234157505,
-    "duration" : 7054
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3759db618441837",
-  "name" : "数值不属于1,2,3错误校验",
-  "time" : {
-    "start" : 1733233577637,
-    "stop" : 1733233584563,
-    "duration" : 6926
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd2ac33205bda01c",
-  "name" : "查找为空错误校验",
-  "time" : {
-    "start" : 1733233847265,
-    "stop" : 1733233854065,
-    "duration" : 6800
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d7665e5440090489",
-  "name" : "多选不为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234169344,
-    "stop" : 1733234176414,
-    "duration" : 7070
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97ec197b51e03f08",
-  "name" : "地区等于北京市-北京市-朝阳区错误校验",
-  "time" : {
-    "start" : 1733233788621,
-    "stop" : 1733233795506,
-    "duration" : 6885
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d93db80eb9f84b5b",
-  "name" : "查找不等于错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234304013,
-    "stop" : 1733234311038,
-    "duration" : 7025
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8be0f27835665321",
-  "name" : "文本字段值必须唯一",
-  "time" : {
-    "start" : 1733234349710,
-    "stop" : 1733234356412,
-    "duration" : 6702
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "418601f68d87e533",
-  "name" : "多选等于选项1和选项2错误校验",
-  "time" : {
-    "start" : 1733233656339,
-    "stop" : 1733233663179,
-    "duration" : 6840
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2891dc01230a8172",
-  "name" : "文本不属于1，2，3错误校验",
-  "time" : {
-    "start" : 1733233479197,
-    "stop" : 1733233486047,
-    "duration" : 6850
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc7cc7d957c590c9",
-  "name" : "日期小于11-27错误校验",
-  "time" : {
-    "start" : 1733233739420,
-    "stop" : 1733233749277,
-    "duration" : 9857
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0928b86040749cc",
-  "name" : "日期等于11-27错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234178809,
-    "stop" : 1733234185991,
-    "duration" : 7182
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "159372d7fd6ad732",
-  "name" : "文本非空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233957506,
-    "stop" : 1733233965229,
-    "duration" : 7723
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b7d28c47419014e",
-  "name" : "单选为空错误校验",
-  "time" : {
-    "start" : 1733233640216,
-    "stop" : 1733233644694,
-    "duration" : 4478
+    "start" : 1733331936390,
+    "stop" : 1733331936646,
+    "duration" : 256
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "a168398310455a4d",
-  "name" : "数值为空错误校验 (禁用业务规则)",
+  "uid" : "6827636dfe56c898",
+  "name" : "日期小于等于 '2023-08-15' 的视图筛选",
   "time" : {
-    "start" : 1733234046324,
-    "stop" : 1733234053413,
-    "duration" : 7089
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11cd078c43853427",
-  "name" : "地区为空错误校验",
-  "time" : {
-    "start" : 1733233807169,
-    "stop" : 1733233814093,
-    "duration" : 6924
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19d5906054f50dda",
-  "name" : "日期不等于11-27错误校验",
-  "time" : {
-    "start" : 1733233720928,
-    "stop" : 1733233727718,
-    "duration" : 6790
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c03ae767b2f36",
-  "name" : "数值小于等于1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234017831,
-    "stop" : 1733234024846,
-    "duration" : 7015
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d94876396dce4597",
-  "name" : "子表为空错误校验",
-  "time" : {
-    "start" : 1733233865677,
-    "stop" : 1733233872516,
-    "duration" : 6839
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a03807a7ad90158",
-  "name" : "日期小于等于11-27错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234227047,
-    "stop" : 1733234234151,
-    "duration" : 7104
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f127cbfe216bd3b2",
-  "name" : "数值等于1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233970628,
-    "stop" : 1733233977726,
-    "duration" : 7098
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "27a0ea9ab8daeaff",
-  "name" : "单选不属于选项1错误校验",
-  "time" : {
-    "start" : 1733233630951,
-    "stop" : 1733233637827,
-    "duration" : 6876
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3fde00ae8bef2d12",
-  "name" : "数值不等于1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233980144,
-    "stop" : 1733233987196,
-    "duration" : 7052
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2e1fe71d9a9ec879",
-  "name" : "查找为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234313420,
-    "stop" : 1733234320467,
-    "duration" : 7047
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d0b34fa4d49abab",
-  "name" : "文本属于1，2，3错误校验",
-  "time" : {
-    "start" : 1733233469908,
-    "stop" : 1733233476815,
-    "duration" : 6907
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba1c8a075d7369da",
-  "name" : "数值小于等于1错误校验",
-  "time" : {
-    "start" : 1733233559164,
-    "stop" : 1733233566021,
-    "duration" : 6857
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d60fcb5060819c7",
-  "name" : "单选属于选项1错误校验",
-  "time" : {
-    "start" : 1733233621709,
-    "stop" : 1733233628564,
-    "duration" : 6855
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "faa60f1711b392a",
-  "name" : "多选包含选项1和选项2错误校验",
-  "time" : {
-    "start" : 1733233674786,
-    "stop" : 1733233681637,
-    "duration" : 6851
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2879602686d27aa6",
-  "name" : "数值等于1错误校验",
-  "time" : {
-    "start" : 1733233509946,
-    "stop" : 1733233516805,
-    "duration" : 6859
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "65e153d22378a9ae",
-  "name" : "查找不等于错误校验",
-  "time" : {
-    "start" : 1733233838005,
-    "stop" : 1733233844884,
-    "duration" : 6879
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "263a1ebe3e6c0bcf",
-  "name" : "多选包含选项1和选项2错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234140979,
-    "stop" : 1733234148000,
-    "duration" : 7021
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5bc8a0e8cadefc6",
-  "name" : "文本不属于1，2，3错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233934406,
-    "stop" : 1733233941423,
-    "duration" : 7017
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3568551289303bfc",
-  "name" : "子表非空错误校验",
-  "time" : {
-    "start" : 1733233874914,
-    "stop" : 1733233881791,
-    "duration" : 6877
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "551f4e43d4afa7b5",
-  "name" : "地区不等于北京市-北京市-朝阳区错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234265142,
-    "stop" : 1733234272124,
-    "duration" : 6982
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ddb6b945849b470a",
-  "name" : "日期大于等于11-27错误校验",
-  "time" : {
-    "start" : 1733233751652,
-    "stop" : 1733233758480,
-    "duration" : 6828
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d1ad7c4a2ca14bfc",
-  "name" : "地区非空错误校验",
-  "time" : {
-    "start" : 1733233816479,
-    "stop" : 1733233826381,
-    "duration" : 9902
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb42cc598829b79b",
-  "name" : "文本不等于1错误校验",
-  "time" : {
-    "start" : 1733233440832,
-    "stop" : 1733233447718,
-    "duration" : 6886
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b8dadd75ad5d88",
-  "name" : "查找等于错误校验",
-  "time" : {
-    "start" : 1733233828782,
-    "stop" : 1733233835619,
-    "duration" : 6837
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad7d5d8ffeb4f4e7",
-  "name" : "数值小于1错误校验",
-  "time" : {
-    "start" : 1733233537648,
-    "stop" : 1733233544499,
-    "duration" : 6851
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "67907af9265118ab",
-  "name" : "日期不为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234246028,
-    "stop" : 1733234253078,
-    "duration" : 7050
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d9fe2b07bd41e983",
-  "name" : "数值大于等于1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234008391,
-    "stop" : 1733234015452,
-    "duration" : 7061
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2e1745c30c30fe3b",
-  "name" : "日期大于11-27错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234198693,
-    "stop" : 1733234205817,
-    "duration" : 7124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d238ba06824208e7",
-  "name" : "多选不等于选项1和选项2错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234131521,
-    "stop" : 1733234138583,
-    "duration" : 7062
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ffd43589c4e61a5",
-  "name" : "单选为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234103237,
-    "stop" : 1733234110249,
-    "duration" : 7012
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce73c0870d8e4e70",
-  "name" : "文本为空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233943832,
-    "stop" : 1733233953937,
-    "duration" : 10105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2ca41c8bd608fbe",
-  "name" : "多选不等于选项1和选项2错误校验",
-  "time" : {
-    "start" : 1733233665567,
-    "stop" : 1733233672401,
-    "duration" : 6834
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5fdf47a474e5b54",
-  "name" : "查找等于错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234294571,
-    "stop" : 1733234301635,
-    "duration" : 7064
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11bbd5eee3624875",
-  "name" : "日期等于11-27错误校验",
-  "time" : {
-    "start" : 1733233711638,
-    "stop" : 1733233718551,
-    "duration" : 6913
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbcae56e4eb75338",
-  "name" : "文本等于1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233884178,
-    "stop" : 1733233891296,
-    "duration" : 7118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29abfcbe315659f9",
-  "name" : "数值属于1，2，3错误校验",
-  "time" : {
-    "start" : 1733233568414,
-    "stop" : 1733233575246,
-    "duration" : 6832
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d35a37196fb70450",
-  "name" : "文本不包含1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233915520,
-    "stop" : 1733233922528,
-    "duration" : 7008
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fe84e1516320d3a",
-  "name" : "单选属于选项1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234084377,
-    "stop" : 1733234091404,
-    "duration" : 7027
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "684a29df1827c554",
-  "name" : "地区等于北京市-北京市-朝阳区错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234255468,
-    "stop" : 1733234262570,
-    "duration" : 7102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee2add904de959cc",
-  "name" : "文本属于1，2，3错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233924982,
-    "stop" : 1733233931992,
-    "duration" : 7010
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "140178d7f036cd3e",
-  "name" : "地区非空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234285110,
-    "stop" : 1733234292179,
-    "duration" : 7069
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "789e3cf61bb630fc",
-  "name" : "多选不为空错误校验",
-  "time" : {
-    "start" : 1733233702425,
-    "stop" : 1733233709263,
-    "duration" : 6838
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "948773e4fbf90e31",
-  "name" : "数值不为空错误校验",
-  "time" : {
-    "start" : 1733233593961,
-    "stop" : 1733233600800,
-    "duration" : 6839
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6dc5c83c69208dbd",
-  "name" : "单选不等于选项1错误校验",
-  "time" : {
-    "start" : 1733233612452,
-    "stop" : 1733233619332,
-    "duration" : 6880
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0441df1b8f7e7d6",
-  "name" : "数值小于1错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733233998955,
-    "stop" : 1733234005993,
-    "duration" : 7038
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6aec800bd3cb23a",
-  "name" : "子表非空错误校验 (禁用业务规则)",
-  "time" : {
-    "start" : 1733234342586,
-    "stop" : 1733234347310,
-    "duration" : 4724
+    "start" : 1733331937718,
+    "stop" : 1733331937946,
+    "duration" : 228
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "eb4389dbde656bd5",
-  "name" : "单选不属于选项1错误校验 (禁用业务规则)",
+  "uid" : "3646fbe9da46ea44",
+  "name" : "数值为空 的视图筛选",
   "time" : {
-    "start" : 1733234093836,
-    "stop" : 1733234100829,
-    "duration" : 6993
+    "start" : 1733331932045,
+    "stop" : 1733331932289,
+    "duration" : 244
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "812efe6d3c2ae4b0",
-  "name" : "数值大于等于1错误校验",
+  "uid" : "9e0f3ed8bd487582",
+  "name" : "日期小于 '2023-08-15' 的视图筛选",
   "time" : {
-    "start" : 1733233549922,
-    "stop" : 1733233556791,
-    "duration" : 6869
+    "start" : 1733331937221,
+    "stop" : 1733331937462,
+    "duration" : 241
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "62827eb00a03d272",
+  "name" : "日期为空 的视图筛选",
+  "time" : {
+    "start" : 1733331937956,
+    "stop" : 1733331938261,
+    "duration" : 305
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a02aa176a920588",
+  "name" : "查找记录非空 的视图筛选",
+  "time" : {
+    "start" : 1733331940689,
+    "stop" : 1733331940947,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c866dd91a82c015a",
+  "name" : "长文本为空 的视图筛选",
+  "time" : {
+    "start" : 1733331929057,
+    "stop" : 1733331929360,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "252d3e94d1bc00c",
+  "name" : "单选为空 的视图筛选",
+  "time" : {
+    "start" : 1733331933855,
+    "stop" : 1733331934170,
+    "duration" : 315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b38cfd7f549bf5f",
+  "name" : "文本属于 '1,2,3' 的视图筛选",
+  "time" : {
+    "start" : 1733331926588,
+    "stop" : 1733331926842,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2336f38bdc0d92a3",
+  "name" : "多选等于 '选项1，选项2' 的视图筛选",
+  "time" : {
+    "start" : 1733331934436,
+    "stop" : 1733331934692,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3652a536a49b8e8",
+  "name" : "长文本不等于 '怎样的雨' 的视图筛选",
+  "time" : {
+    "start" : 1733331928728,
+    "stop" : 1733331929051,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ace91eb984c37e4f",
+  "name" : "数值不属于 1,2,3 的视图筛选",
+  "time" : {
+    "start" : 1733331931750,
+    "stop" : 1733331932041,
+    "duration" : 291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "130ddee1617f5471",
+  "name" : "文本为空的视图筛选",
+  "time" : {
+    "start" : 1733331927141,
+    "stop" : 1733331927377,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d444b3c68345568a",
+  "name" : "日期大于等于 '2023-08-15' 的视图筛选",
+  "time" : {
+    "start" : 1733331937472,
+    "stop" : 1733331937708,
+    "duration" : 236
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1a92a62c9b8f93f",
+  "name" : "子表非空 的视图筛选",
+  "time" : {
+    "start" : 1733331940951,
+    "stop" : 1733331941179,
+    "duration" : 228
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "72ecb7e0995554df",
+  "name" : "地区等于 '北京市-北京市-朝阳区' 的视图筛选",
+  "time" : {
+    "start" : 1733331938511,
+    "stop" : 1733331938755,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec4c357637c70994",
+  "name" : "查找记录不等于 '1017720' 的视图筛选",
+  "time" : {
+    "start" : 1733331940072,
+    "stop" : 1733331940378,
+    "duration" : 306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e335d0622e1e512d",
+  "name" : "长文本包含 '怎样的' 的视图筛选",
+  "time" : {
+    "start" : 1733331927714,
+    "stop" : 1733331927973,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c36f5eef9c3ceb5",
+  "name" : "文本不包含 '1' 的视图筛选",
+  "time" : {
+    "start" : 1733331926324,
+    "stop" : 1733331926581,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57f3ca75f84dad1d",
+  "name" : "文本包含 '1' 的视图筛选",
+  "time" : {
+    "start" : 1733331926016,
+    "stop" : 1733331926319,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e071f478e9ded0ae",
+  "name" : "地区不等于 '北京市-北京市-朝阳区' 的视图筛选",
+  "time" : {
+    "start" : 1733331938759,
+    "stop" : 1733331939079,
+    "duration" : 320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a4bccbce6795dac",
+  "name" : "文本不等于 '1' 的视图筛选",
+  "time" : {
+    "start" : 1733331925690,
+    "stop" : 1733331926011,
+    "duration" : 321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "974a50c86199eaee",
+  "name" : "单选不为空 的视图筛选",
+  "time" : {
+    "start" : 1733331934174,
+    "stop" : 1733331934431,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46bdf94871d6990",
+  "name" : "文本等于 '1' 的视图筛选",
+  "time" : {
+    "start" : 1733331925442,
+    "stop" : 1733331925685,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb615e6795e6bdc",
+  "name" : "数值大于 1.1 的视图筛选",
+  "time" : {
+    "start" : 1733331930199,
+    "stop" : 1733331930499,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84690b79a218217c",
+  "name" : "日期不等于 '2023-08-15' 的视图筛选",
+  "time" : {
+    "start" : 1733331936657,
+    "stop" : 1733331936968,
+    "duration" : 311
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "965912c5a1e009e6",
+  "name" : "数值属于 1,2,3 的视图筛选",
+  "time" : {
+    "start" : 1733331931489,
+    "stop" : 1733331931745,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a840b1765edb719",
+  "name" : "多选不等于 '选项1，选项2' 的视图筛选",
+  "time" : {
+    "start" : 1733331934697,
+    "stop" : 1733331935079,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d4f2fdeae7b6b27",
+  "name" : "查找记录为空 的视图筛选",
+  "time" : {
+    "start" : 1733331940383,
+    "stop" : 1733331940684,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d09faa5e0956f9",
+  "name" : "单选不属于 '选项1，选项2' 的视图筛选",
+  "time" : {
+    "start" : 1733331933569,
+    "stop" : 1733331933845,
+    "duration" : 276
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "234d26bd993d186a",
+  "name" : "数值小于等于 1.1 的视图筛选",
+  "time" : {
+    "start" : 1733331931121,
+    "stop" : 1733331931485,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f7ffdca8967c441",
+  "name" : "单选属于 '选项1，选项2' 的视图筛选",
+  "time" : {
+    "start" : 1733331933214,
+    "stop" : 1733331933458,
+    "duration" : 244
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8874414854034047",
+  "name" : "长文本不包含 '怎样的' 的视图筛选",
+  "time" : {
+    "start" : 1733331927978,
+    "stop" : 1733331928298,
+    "duration" : 320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "254c055126a4a788",
+  "name" : "子表为空 的视图筛选",
+  "time" : {
+    "start" : 1733331941188,
+    "stop" : 1733331941503,
+    "duration" : 315
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e68c0a05d6c0598e",
+  "name" : "数值大于等于 1.1 的视图筛选",
+  "time" : {
+    "start" : 1733331930765,
+    "stop" : 1733331931116,
+    "duration" : 351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aafa87204eeb001c",
+  "name" : "地区非空的视图筛选",
+  "time" : {
+    "start" : 1733331939454,
+    "stop" : 1733331939818,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df20f6facaa5aed5",
+  "name" : "数值小于 1.1 的视图筛选",
+  "time" : {
+    "start" : 1733331930504,
+    "stop" : 1733331930760,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db3263b040fa8c5f",
+  "name" : "日期大于 '2023-08-15' 的视图筛选",
+  "time" : {
+    "start" : 1733331936980,
+    "stop" : 1733331937208,
+    "duration" : 228
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "26de584236fc938d",
+  "name" : "地区为空 的视图筛选",
+  "time" : {
+    "start" : 1733331939085,
+    "stop" : 1733331939450,
+    "duration" : 365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f97dcaf02b037d2",
+  "name" : "多选为空的视图筛选",
+  "time" : {
+    "start" : 1733331935787,
+    "stop" : 1733331936127,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ee1e13e78f7a752",
+  "name" : "长文本非空的视图筛选",
+  "time" : {
+    "start" : 1733331929364,
+    "stop" : 1733331929607,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5959e1b443a28c57",
+  "name" : "数值等于 1.1 的视图筛选",
+  "time" : {
+    "start" : 1733331929612,
+    "stop" : 1733331929870,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d858f697fb9ab06e",
+  "name" : "查找记录等于 '1017720' 的视图筛选",
+  "time" : {
+    "start" : 1733331939822,
+    "stop" : 1733331940066,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4c3cfec1f2512e",
+  "name" : "日期非空 的视图筛选",
+  "time" : {
+    "start" : 1733331938271,
+    "stop" : 1733331938500,
+    "duration" : 229
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0299c50aebd5418",
+  "name" : "数值不等于 1 的视图筛选",
+  "time" : {
+    "start" : 1733331929875,
+    "stop" : 1733331930194,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d5e5e02ca368a2c",
+  "name" : "文本非空的视图筛选",
+  "time" : {
+    "start" : 1733331927385,
+    "stop" : 1733331927709,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "304dc6c1a5d8cae1",
+  "name" : "数值不为空 的视图筛选",
+  "time" : {
+    "start" : 1733331932294,
+    "stop" : 1733331932610,
+    "duration" : 316
   },
   "status" : "passed",
   "severity" : "normal"

@@ -172,29 +172,7 @@ class TestCrud:
             # 验证正常记录的详情字段值
             self.assert_field(get_crud, recordid, fieldName, expected)
 
-    @pytest.fixture(scope='function')
-    def add_data(self, get_crud):
-        """Fixture: 新增多条数据，后置操作清理数据"""
-        created_records = []
-        add_payloads = read_data(file_path='case_data/add_data.yaml')['fieldData']
 
-        @rate_limit(wait_time=2)
-        def submit_data(payload):
-            response = get_crud.submit(fieldData=payload)
-            return response['data']
-
-        for payload in add_payloads:
-            record_id = submit_data(payload)
-            created_records.append(record_id)
-            logger.info(f"Created record ID: {record_id}")
-
-        allure.attach(str(created_records), "新增记录的ID", allure.attachment_type.JSON)
-        yield get_crud, add_payloads
-
-        # 清理已创建的记录
-        get_crud.delete(recordIds=created_records)
-        allure.attach(str(created_records), "删除的记录ID", allure.attachment_type.JSON)
-        logger.info("清理完毕，已删除记录")
 
     @allure.story("列表接口测试用例")
     def test_list(self, add_data):

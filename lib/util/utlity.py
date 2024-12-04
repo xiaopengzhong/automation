@@ -124,6 +124,6 @@ def attach_log(data, title, attachment_type=allure.attachment_type.JSON):
 
 if __name__ == '__main__':
     # print(read_data(file_path="../../conf/api_config.yaml"))
-    print(read_data(file_path="../../case_data/businessRule.yaml"))
+    print(read_data(file_path="../../case_data/add_data.yaml"))
     # print(read_data(file_path="../../case_data/formula.yaml"))
     # send_msg("hello")

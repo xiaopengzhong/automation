@@ -1,292 +1,55 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Dec 03 21:56:57 CST 2024","Tue Dec 03 21:57:04 CST 2024","7009","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期大于等于11-27错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:49:20 CST 2024","Tue Dec 03 21:49:27 CST 2024","6855","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期小于等于11-27错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:44:11 CST 2024","Tue Dec 03 21:44:18 CST 2024","6856","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本包含1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"failed","Tue Dec 03 21:46:26 CST 2024","Tue Dec 03 21:46:31 CST 2024","4484","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:48:04 CST 2024","Tue Dec 03 21:48:10 CST 2024","6789","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选不包含选项1和选项2错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:53:09 CST 2024","Tue Dec 03 21:53:16 CST 2024","6988","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值大于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:57:16 CST 2024","Tue Dec 03 21:57:23 CST 2024","7050","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:49:30 CST 2024","Tue Dec 03 21:49:36 CST 2024","6860","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:55:12 CST 2024","Tue Dec 03 21:55:19 CST 2024","7051","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选不为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:49:39 CST 2024","Tue Dec 03 21:49:46 CST 2024","6858","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期不为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:58:42 CST 2024","Tue Dec 03 21:58:50 CST 2024","7517","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找非空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:57:54 CST 2024","Tue Dec 03 21:58:02 CST 2024","8200","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:49:57 CST 2024","Tue Dec 03 21:50:04 CST 2024","6898","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区不等于北京市-北京市-朝阳区错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:44:20 CST 2024","Tue Dec 03 21:44:27 CST 2024","6871","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本不包含1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:58:52 CST 2024","Tue Dec 03 21:59:00 CST 2024","7394","test_case.api_tests","test_businessRule","TestBusinessRule","","","子表为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:48:13 CST 2024","Tue Dec 03 21:48:20 CST 2024","6826","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:54:15 CST 2024","Tue Dec 03 21:54:22 CST 2024","7046","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值不为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:53:56 CST 2024","Tue Dec 03 21:54:03 CST 2024","7183","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值不属于1,2,3错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:51:46 CST 2024","Tue Dec 03 21:51:53 CST 2024","7056","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本包含1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:51:36 CST 2024","Tue Dec 03 21:51:43 CST 2024","6980","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本不等于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:46:43 CST 2024","Tue Dec 03 21:46:50 CST 2024","6888","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选等于选项1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:55:59 CST 2024","Tue Dec 03 21:56:06 CST 2024","7043","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:54:34 CST 2024","Tue Dec 03 21:54:41 CST 2024","7157","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选不等于选项1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:43:51 CST 2024","Tue Dec 03 21:43:58 CST 2024","6946","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本等于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:48:50 CST 2024","Tue Dec 03 21:48:56 CST 2024","6851","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期大于11-27错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:47:27 CST 2024","Tue Dec 03 21:47:33 CST 2024","6844","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选不为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:45:19 CST 2024","Tue Dec 03 21:45:26 CST 2024","6856","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值不等于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:45:00 CST 2024","Tue Dec 03 21:45:07 CST 2024","6829","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本非空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:56:28 CST 2024","Tue Dec 03 21:56:36 CST 2024","7808","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期不等于11-27错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:54:25 CST 2024","Tue Dec 03 21:54:32 CST 2024","7110","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选等于选项1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:53:47 CST 2024","Tue Dec 03 21:53:54 CST 2024","7127","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值属于1，2，3错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:56:48 CST 2024","Tue Dec 03 21:56:55 CST 2024","7031","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期小于11-27错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:50:56 CST 2024","Tue Dec 03 21:51:03 CST 2024","6857","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找非空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:44:51 CST 2024","Tue Dec 03 21:44:58 CST 2024","6902","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:45:28 CST 2024","Tue Dec 03 21:45:35 CST 2024","6812","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值大于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:55:22 CST 2024","Tue Dec 03 21:55:29 CST 2024","7036","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选等于选项1和选项2错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:55:50 CST 2024","Tue Dec 03 21:55:57 CST 2024","7054","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选不包含选项1和选项2错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:46:17 CST 2024","Tue Dec 03 21:46:24 CST 2024","6926","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值不属于1,2,3错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:50:47 CST 2024","Tue Dec 03 21:50:54 CST 2024","6800","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:56:09 CST 2024","Tue Dec 03 21:56:16 CST 2024","7070","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选不为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:49:48 CST 2024","Tue Dec 03 21:49:55 CST 2024","6885","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区等于北京市-北京市-朝阳区错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:58:24 CST 2024","Tue Dec 03 21:58:31 CST 2024","7025","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找不等于错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:59:09 CST 2024","Tue Dec 03 21:59:16 CST 2024","6702","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本字段值必须唯一","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:47:36 CST 2024","Tue Dec 03 21:47:43 CST 2024","6840","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选等于选项1和选项2错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:44:39 CST 2024","Tue Dec 03 21:44:46 CST 2024","6850","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本不属于1，2，3错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:48:59 CST 2024","Tue Dec 03 21:49:09 CST 2024","9857","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期小于11-27错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:56:18 CST 2024","Tue Dec 03 21:56:25 CST 2024","7182","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期等于11-27错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:52:37 CST 2024","Tue Dec 03 21:52:45 CST 2024","7723","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本非空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"failed","Tue Dec 03 21:47:20 CST 2024","Tue Dec 03 21:47:24 CST 2024","4478","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:54:06 CST 2024","Tue Dec 03 21:54:13 CST 2024","7089","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:50:07 CST 2024","Tue Dec 03 21:50:14 CST 2024","6924","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:48:40 CST 2024","Tue Dec 03 21:48:47 CST 2024","6790","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期不等于11-27错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:53:37 CST 2024","Tue Dec 03 21:53:44 CST 2024","7015","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值小于等于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:51:05 CST 2024","Tue Dec 03 21:51:12 CST 2024","6839","test_case.api_tests","test_businessRule","TestBusinessRule","","","子表为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:57:07 CST 2024","Tue Dec 03 21:57:14 CST 2024","7104","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期小于等于11-27错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:52:50 CST 2024","Tue Dec 03 21:52:57 CST 2024","7098","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值等于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:47:10 CST 2024","Tue Dec 03 21:47:17 CST 2024","6876","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选不属于选项1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:53:00 CST 2024","Tue Dec 03 21:53:07 CST 2024","7052","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值不等于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:58:33 CST 2024","Tue Dec 03 21:58:40 CST 2024","7047","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:44:29 CST 2024","Tue Dec 03 21:44:36 CST 2024","6907","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本属于1，2，3错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:45:59 CST 2024","Tue Dec 03 21:46:06 CST 2024","6857","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值小于等于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:47:01 CST 2024","Tue Dec 03 21:47:08 CST 2024","6855","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选属于选项1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:47:54 CST 2024","Tue Dec 03 21:48:01 CST 2024","6851","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选包含选项1和选项2错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:45:09 CST 2024","Tue Dec 03 21:45:16 CST 2024","6859","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值等于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:50:38 CST 2024","Tue Dec 03 21:50:44 CST 2024","6879","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找不等于错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:55:40 CST 2024","Tue Dec 03 21:55:48 CST 2024","7021","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选包含选项1和选项2错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:52:14 CST 2024","Tue Dec 03 21:52:21 CST 2024","7017","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本不属于1，2，3错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:51:14 CST 2024","Tue Dec 03 21:51:21 CST 2024","6877","test_case.api_tests","test_businessRule","TestBusinessRule","","","子表非空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:57:45 CST 2024","Tue Dec 03 21:57:52 CST 2024","6982","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区不等于北京市-北京市-朝阳区错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:49:11 CST 2024","Tue Dec 03 21:49:18 CST 2024","6828","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期大于等于11-27错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:50:16 CST 2024","Tue Dec 03 21:50:26 CST 2024","9902","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区非空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:44:00 CST 2024","Tue Dec 03 21:44:07 CST 2024","6886","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本不等于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:50:28 CST 2024","Tue Dec 03 21:50:35 CST 2024","6837","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找等于错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:45:37 CST 2024","Tue Dec 03 21:45:44 CST 2024","6851","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值小于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:57:26 CST 2024","Tue Dec 03 21:57:33 CST 2024","7050","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期不为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:53:28 CST 2024","Tue Dec 03 21:53:35 CST 2024","7061","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值大于等于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:56:38 CST 2024","Tue Dec 03 21:56:45 CST 2024","7124","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期大于11-27错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:55:31 CST 2024","Tue Dec 03 21:55:38 CST 2024","7062","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选不等于选项1和选项2错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:55:03 CST 2024","Tue Dec 03 21:55:10 CST 2024","7012","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:52:23 CST 2024","Tue Dec 03 21:52:33 CST 2024","10105","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本为空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:47:45 CST 2024","Tue Dec 03 21:47:52 CST 2024","6834","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选不等于选项1和选项2错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:58:14 CST 2024","Tue Dec 03 21:58:21 CST 2024","7064","test_case.api_tests","test_businessRule","TestBusinessRule","","","查找等于错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:48:31 CST 2024","Tue Dec 03 21:48:38 CST 2024","6913","test_case.api_tests","test_businessRule","TestBusinessRule","","","日期等于11-27错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:51:24 CST 2024","Tue Dec 03 21:51:31 CST 2024","7118","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本等于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:46:08 CST 2024","Tue Dec 03 21:46:15 CST 2024","6832","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值属于1，2，3错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:51:55 CST 2024","Tue Dec 03 21:52:02 CST 2024","7008","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本不包含1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:54:44 CST 2024","Tue Dec 03 21:54:51 CST 2024","7027","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选属于选项1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:57:35 CST 2024","Tue Dec 03 21:57:42 CST 2024","7102","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区等于北京市-北京市-朝阳区错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:52:04 CST 2024","Tue Dec 03 21:52:11 CST 2024","7010","test_case.api_tests","test_businessRule","TestBusinessRule","","","文本属于1，2，3错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:58:05 CST 2024","Tue Dec 03 21:58:12 CST 2024","7069","test_case.api_tests","test_businessRule","TestBusinessRule","","","地区非空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:48:22 CST 2024","Tue Dec 03 21:48:29 CST 2024","6838","test_case.api_tests","test_businessRule","TestBusinessRule","","","多选不为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:46:33 CST 2024","Tue Dec 03 21:46:40 CST 2024","6839","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值不为空错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:46:52 CST 2024","Tue Dec 03 21:46:59 CST 2024","6880","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选不等于选项1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
-"passed","Tue Dec 03 21:53:18 CST 2024","Tue Dec 03 21:53:25 CST 2024","7038","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值小于1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"failed","Tue Dec 03 21:59:02 CST 2024","Tue Dec 03 21:59:07 CST 2024","4724","test_case.api_tests","test_businessRule","TestBusinessRule","","","子表非空错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:54:53 CST 2024","Tue Dec 03 21:55:00 CST 2024","6993","test_case.api_tests","test_businessRule","TestBusinessRule","","","单选不属于选项1错误校验 (禁用业务规则)","
-        测试文本字段业务规则 - 禁用业务规则时正常新增
-        "
-"passed","Tue Dec 03 21:45:49 CST 2024","Tue Dec 03 21:45:56 CST 2024","6869","test_case.api_tests","test_businessRule","TestBusinessRule","","","数值大于等于1错误校验","
-        测试文本字段业务规则 - 启用业务规则
-        "
+"passed","Thu Dec 05 01:05:32 CST 2024","Thu Dec 05 01:05:32 CST 2024","254","test_case.api_tests","test_viewcode","Test_ViewCode","","","单选等于 '选项1' 的视图筛选",""
+"passed","Thu Dec 05 01:05:28 CST 2024","Thu Dec 05 01:05:28 CST 2024","419","test_case.api_tests","test_viewcode","Test_ViewCode","","","长文本等于 '怎样的雨' 的视图筛选",""
+"passed","Thu Dec 05 01:05:32 CST 2024","Thu Dec 05 01:05:33 CST 2024","333","test_case.api_tests","test_viewcode","Test_ViewCode","","","单选不等于 '选项1' 的视图筛选",""
+"passed","Thu Dec 05 01:05:26 CST 2024","Thu Dec 05 01:05:27 CST 2024","290","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本不属于 '1,2,3' 的视图筛选",""
+"passed","Thu Dec 05 01:05:36 CST 2024","Thu Dec 05 01:05:36 CST 2024","253","test_case.api_tests","test_viewcode","Test_ViewCode","","","多选不为空的视图筛选",""
+"passed","Thu Dec 05 01:05:35 CST 2024","Thu Dec 05 01:05:35 CST 2024","407","test_case.api_tests","test_viewcode","Test_ViewCode","","","多选不包含 '选项1，选项2' 的视图筛选",""
+"passed","Thu Dec 05 01:05:35 CST 2024","Thu Dec 05 01:05:35 CST 2024","284","test_case.api_tests","test_viewcode","Test_ViewCode","","","多选包含 '选项1，选项2' 的视图筛选",""
+"failed","Thu Dec 05 01:05:36 CST 2024","Thu Dec 05 01:05:36 CST 2024","256","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期等于 '2023-08-15' 的视图筛选",""
+"failed","Thu Dec 05 01:05:37 CST 2024","Thu Dec 05 01:05:37 CST 2024","228","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期小于等于 '2023-08-15' 的视图筛选",""
+"passed","Thu Dec 05 01:05:32 CST 2024","Thu Dec 05 01:05:32 CST 2024","244","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值为空 的视图筛选",""
+"failed","Thu Dec 05 01:05:37 CST 2024","Thu Dec 05 01:05:37 CST 2024","241","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期小于 '2023-08-15' 的视图筛选",""
+"failed","Thu Dec 05 01:05:37 CST 2024","Thu Dec 05 01:05:38 CST 2024","305","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期为空 的视图筛选",""
+"passed","Thu Dec 05 01:05:40 CST 2024","Thu Dec 05 01:05:40 CST 2024","258","test_case.api_tests","test_viewcode","Test_ViewCode","","","查找记录非空 的视图筛选",""
+"passed","Thu Dec 05 01:05:29 CST 2024","Thu Dec 05 01:05:29 CST 2024","303","test_case.api_tests","test_viewcode","Test_ViewCode","","","长文本为空 的视图筛选",""
+"passed","Thu Dec 05 01:05:33 CST 2024","Thu Dec 05 01:05:34 CST 2024","315","test_case.api_tests","test_viewcode","Test_ViewCode","","","单选为空 的视图筛选",""
+"passed","Thu Dec 05 01:05:26 CST 2024","Thu Dec 05 01:05:26 CST 2024","254","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本属于 '1,2,3' 的视图筛选",""
+"passed","Thu Dec 05 01:05:34 CST 2024","Thu Dec 05 01:05:34 CST 2024","256","test_case.api_tests","test_viewcode","Test_ViewCode","","","多选等于 '选项1，选项2' 的视图筛选",""
+"passed","Thu Dec 05 01:05:28 CST 2024","Thu Dec 05 01:05:29 CST 2024","323","test_case.api_tests","test_viewcode","Test_ViewCode","","","长文本不等于 '怎样的雨' 的视图筛选",""
+"passed","Thu Dec 05 01:05:31 CST 2024","Thu Dec 05 01:05:32 CST 2024","291","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值不属于 1,2,3 的视图筛选",""
+"passed","Thu Dec 05 01:05:27 CST 2024","Thu Dec 05 01:05:27 CST 2024","236","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本为空的视图筛选",""
+"failed","Thu Dec 05 01:05:37 CST 2024","Thu Dec 05 01:05:37 CST 2024","236","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期大于等于 '2023-08-15' 的视图筛选",""
+"failed","Thu Dec 05 01:05:40 CST 2024","Thu Dec 05 01:05:41 CST 2024","228","test_case.api_tests","test_viewcode","Test_ViewCode","","","子表非空 的视图筛选",""
+"passed","Thu Dec 05 01:05:38 CST 2024","Thu Dec 05 01:05:38 CST 2024","244","test_case.api_tests","test_viewcode","Test_ViewCode","","","地区等于 '北京市-北京市-朝阳区' 的视图筛选",""
+"passed","Thu Dec 05 01:05:40 CST 2024","Thu Dec 05 01:05:40 CST 2024","306","test_case.api_tests","test_viewcode","Test_ViewCode","","","查找记录不等于 '1017720' 的视图筛选",""
+"passed","Thu Dec 05 01:05:27 CST 2024","Thu Dec 05 01:05:27 CST 2024","259","test_case.api_tests","test_viewcode","Test_ViewCode","","","长文本包含 '怎样的' 的视图筛选",""
+"passed","Thu Dec 05 01:05:26 CST 2024","Thu Dec 05 01:05:26 CST 2024","257","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本不包含 '1' 的视图筛选",""
+"passed","Thu Dec 05 01:05:26 CST 2024","Thu Dec 05 01:05:26 CST 2024","303","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本包含 '1' 的视图筛选",""
+"passed","Thu Dec 05 01:05:38 CST 2024","Thu Dec 05 01:05:39 CST 2024","320","test_case.api_tests","test_viewcode","Test_ViewCode","","","地区不等于 '北京市-北京市-朝阳区' 的视图筛选",""
+"passed","Thu Dec 05 01:05:25 CST 2024","Thu Dec 05 01:05:26 CST 2024","321","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本不等于 '1' 的视图筛选",""
+"passed","Thu Dec 05 01:05:34 CST 2024","Thu Dec 05 01:05:34 CST 2024","257","test_case.api_tests","test_viewcode","Test_ViewCode","","","单选不为空 的视图筛选",""
+"passed","Thu Dec 05 01:05:25 CST 2024","Thu Dec 05 01:05:25 CST 2024","243","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本等于 '1' 的视图筛选",""
+"passed","Thu Dec 05 01:05:30 CST 2024","Thu Dec 05 01:05:30 CST 2024","300","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值大于 1.1 的视图筛选",""
+"failed","Thu Dec 05 01:05:36 CST 2024","Thu Dec 05 01:05:36 CST 2024","311","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期不等于 '2023-08-15' 的视图筛选",""
+"passed","Thu Dec 05 01:05:31 CST 2024","Thu Dec 05 01:05:31 CST 2024","256","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值属于 1,2,3 的视图筛选",""
+"passed","Thu Dec 05 01:05:34 CST 2024","Thu Dec 05 01:05:35 CST 2024","382","test_case.api_tests","test_viewcode","Test_ViewCode","","","多选不等于 '选项1，选项2' 的视图筛选",""
+"passed","Thu Dec 05 01:05:40 CST 2024","Thu Dec 05 01:05:40 CST 2024","301","test_case.api_tests","test_viewcode","Test_ViewCode","","","查找记录为空 的视图筛选",""
+"failed","Thu Dec 05 01:05:33 CST 2024","Thu Dec 05 01:05:33 CST 2024","276","test_case.api_tests","test_viewcode","Test_ViewCode","","","单选不属于 '选项1，选项2' 的视图筛选",""
+"passed","Thu Dec 05 01:05:31 CST 2024","Thu Dec 05 01:05:31 CST 2024","364","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值小于等于 1.1 的视图筛选",""
+"failed","Thu Dec 05 01:05:33 CST 2024","Thu Dec 05 01:05:33 CST 2024","244","test_case.api_tests","test_viewcode","Test_ViewCode","","","单选属于 '选项1，选项2' 的视图筛选",""
+"passed","Thu Dec 05 01:05:27 CST 2024","Thu Dec 05 01:05:28 CST 2024","320","test_case.api_tests","test_viewcode","Test_ViewCode","","","长文本不包含 '怎样的' 的视图筛选",""
+"failed","Thu Dec 05 01:05:41 CST 2024","Thu Dec 05 01:05:41 CST 2024","315","test_case.api_tests","test_viewcode","Test_ViewCode","","","子表为空 的视图筛选",""
+"passed","Thu Dec 05 01:05:30 CST 2024","Thu Dec 05 01:05:31 CST 2024","351","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值大于等于 1.1 的视图筛选",""
+"passed","Thu Dec 05 01:05:39 CST 2024","Thu Dec 05 01:05:39 CST 2024","364","test_case.api_tests","test_viewcode","Test_ViewCode","","","地区非空的视图筛选",""
+"passed","Thu Dec 05 01:05:30 CST 2024","Thu Dec 05 01:05:30 CST 2024","256","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值小于 1.1 的视图筛选",""
+"failed","Thu Dec 05 01:05:36 CST 2024","Thu Dec 05 01:05:37 CST 2024","228","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期大于 '2023-08-15' 的视图筛选",""
+"passed","Thu Dec 05 01:05:39 CST 2024","Thu Dec 05 01:05:39 CST 2024","365","test_case.api_tests","test_viewcode","Test_ViewCode","","","地区为空 的视图筛选",""
+"passed","Thu Dec 05 01:05:35 CST 2024","Thu Dec 05 01:05:36 CST 2024","340","test_case.api_tests","test_viewcode","Test_ViewCode","","","多选为空的视图筛选",""
+"passed","Thu Dec 05 01:05:29 CST 2024","Thu Dec 05 01:05:29 CST 2024","243","test_case.api_tests","test_viewcode","Test_ViewCode","","","长文本非空的视图筛选",""
+"passed","Thu Dec 05 01:05:29 CST 2024","Thu Dec 05 01:05:29 CST 2024","258","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值等于 1.1 的视图筛选",""
+"passed","Thu Dec 05 01:05:39 CST 2024","Thu Dec 05 01:05:40 CST 2024","244","test_case.api_tests","test_viewcode","Test_ViewCode","","","查找记录等于 '1017720' 的视图筛选",""
+"failed","Thu Dec 05 01:05:38 CST 2024","Thu Dec 05 01:05:38 CST 2024","229","test_case.api_tests","test_viewcode","Test_ViewCode","","","日期非空 的视图筛选",""
+"passed","Thu Dec 05 01:05:29 CST 2024","Thu Dec 05 01:05:30 CST 2024","319","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值不等于 1 的视图筛选",""
+"passed","Thu Dec 05 01:05:27 CST 2024","Thu Dec 05 01:05:27 CST 2024","324","test_case.api_tests","test_viewcode","Test_ViewCode","","","文本非空的视图筛选",""
+"passed","Thu Dec 05 01:05:32 CST 2024","Thu Dec 05 01:05:32 CST 2024","316","test_case.api_tests","test_viewcode","Test_ViewCode","","","数值不为空 的视图筛选",""

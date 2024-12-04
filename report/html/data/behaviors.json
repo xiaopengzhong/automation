@@ -2,1281 +2,714 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "业务规则",
+    "name" : "视图筛选器功能",
     "children" : [ {
-      "name" : "启用业务规则-新增时触发业务规则",
+      "name" : "文本字段筛选",
       "children" : [ {
-        "name" : "文本等于1错误校验",
-        "uid" : "7b643b68bbbf3c5a",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本等于 '1' 的视图筛选",
+        "uid" : "46bdf94871d6990",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233431501,
-          "stop" : 1733233438447,
-          "duration" : 6946
+          "start" : 1733331925442,
+          "stop" : 1733331925685,
+          "duration" : 243
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1765, 'fieldData': {'wenben__c': '1'}, 'expected': '文本等于1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"文本等于 '1' 的视图筛选\", 'viewcode': 'dengyu', 'expected': 1}" ]
       }, {
-        "name" : "文本不等于1错误校验",
-        "uid" : "fb42cc598829b79b",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本不等于 '1' 的视图筛选",
+        "uid" : "1a4bccbce6795dac",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233440832,
-          "stop" : 1733233447718,
-          "duration" : 6886
+          "start" : 1733331925690,
+          "stop" : 1733331926011,
+          "duration" : 321
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1766, 'fieldData': {'wenben__c': 'lala'}, 'expected': '文本不等于1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"文本不等于 '1' 的视图筛选\", 'viewcode': 'budengyu', 'expected': 20}" ]
       }, {
-        "name" : "文本包含1错误校验",
-        "uid" : "6b66aa0877cf2f7d",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本包含 '1' 的视图筛选",
+        "uid" : "57f3ca75f84dad1d",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233451351,
-          "stop" : 1733233458207,
-          "duration" : 6856
+          "start" : 1733331926016,
+          "stop" : 1733331926319,
+          "duration" : 303
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1767, 'fieldData': {'wenben__c': '11'}, 'expected': '文本包含1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"文本包含 '1' 的视图筛选\", 'viewcode': 'wenbenbaohan', 'expected': 14}" ]
       }, {
-        "name" : "文本不包含1错误校验",
-        "uid" : "53c8cbd281108e5f",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本不包含 '1' 的视图筛选",
+        "uid" : "c36f5eef9c3ceb5",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233460582,
-          "stop" : 1733233467453,
-          "duration" : 6871
+          "start" : 1733331926324,
+          "stop" : 1733331926581,
+          "duration" : 257
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1768, 'fieldData': {'wenben__c': '2'}, 'expected': '文本不包含1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"文本不包含 '1' 的视图筛选\", 'viewcode': 'wenbenbubaohan', 'expected': 7}" ]
       }, {
-        "name" : "文本属于1，2，3错误校验",
-        "uid" : "8d0b34fa4d49abab",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本属于 '1,2,3' 的视图筛选",
+        "uid" : "2b38cfd7f549bf5f",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233469908,
-          "stop" : 1733233476815,
-          "duration" : 6907
+          "start" : 1733331926588,
+          "stop" : 1733331926842,
+          "duration" : 254
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1769, 'fieldData': {'wenben__c': '1'}, 'expected': '文本属于1，2，3错误校验'}" ]
+        "parameters" : [ "{'use_code': \"文本属于 '1,2,3' 的视图筛选\", 'viewcode': 'quanbu1', 'expected': 2}" ]
       }, {
-        "name" : "文本不属于1，2，3错误校验",
-        "uid" : "2891dc01230a8172",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本不属于 '1,2,3' 的视图筛选",
+        "uid" : "678429e779db49c5",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233479197,
-          "stop" : 1733233486047,
-          "duration" : 6850
+          "start" : 1733331926847,
+          "stop" : 1733331927137,
+          "duration" : 290
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1770, 'fieldData': {'wenben__c': '4'}, 'expected': '文本不属于1，2，3错误校验'}" ]
+        "parameters" : [ "{'use_code': \"文本不属于 '1,2,3' 的视图筛选\", 'viewcode': 'bushuyu', 'expected': 19}" ]
       }, {
-        "name" : "文本为空错误校验",
-        "uid" : "1ae4103ece449304",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本为空的视图筛选",
+        "uid" : "130ddee1617f5471",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233491435,
-          "stop" : 1733233498337,
-          "duration" : 6902
+          "start" : 1733331927141,
+          "stop" : 1733331927377,
+          "duration" : 236
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1771, 'fieldData': {'wenben__c': ''}, 'expected': '文本为空错误校验'}" ]
+        "parameters" : [ "{'use_code': '文本为空的视图筛选', 'viewcode': 'weikong', 'expected': 1}" ]
       }, {
-        "name" : "文本非空错误校验",
-        "uid" : "672e74a3de85f5",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "文本非空的视图筛选",
+        "uid" : "2d5e5e02ca368a2c",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233500730,
-          "stop" : 1733233507559,
-          "duration" : 6829
+          "start" : 1733331927385,
+          "stop" : 1733331927709,
+          "duration" : 324
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1772, 'fieldData': {'wenben__c': '5'}, 'expected': '文本非空错误校验'}" ]
+        "parameters" : [ "{'use_code': '文本非空的视图筛选', 'viewcode': 'wenbenfeikong', 'expected': 20}" ]
       }, {
-        "name" : "数值等于1错误校验",
-        "uid" : "2879602686d27aa6",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "长文本包含 '怎样的' 的视图筛选",
+        "uid" : "e335d0622e1e512d",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233509946,
-          "stop" : 1733233516805,
-          "duration" : 6859
+          "start" : 1733331927714,
+          "stop" : 1733331927973,
+          "duration" : 259
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1850, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值等于1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"长文本包含 '怎样的' 的视图筛选\", 'viewcode': 'o8sdHi74cE', 'expected': 2}" ]
       }, {
-        "name" : "数值不等于1错误校验",
-        "uid" : "f4af2ca985acf2ad",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "长文本不包含 '怎样的' 的视图筛选",
+        "uid" : "8874414854034047",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233519189,
-          "stop" : 1733233526045,
-          "duration" : 6856
+          "start" : 1733331927978,
+          "stop" : 1733331928298,
+          "duration" : 320
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1851, 'fieldData': {'shuzhi__c': 2}, 'expected': '数值不等于1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"长文本不包含 '怎样的' 的视图筛选\", 'viewcode': '6rY7P2VZ5w', 'expected': 19}" ]
       }, {
-        "name" : "数值大于1错误校验",
-        "uid" : "61a33e4ce1d048a7",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "长文本等于 '怎样的雨' 的视图筛选",
+        "uid" : "336891eea509fa41",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233528424,
-          "stop" : 1733233535236,
-          "duration" : 6812
+          "start" : 1733331928304,
+          "stop" : 1733331928723,
+          "duration" : 419
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1852, 'fieldData': {'shuzhi__c': 2}, 'expected': '数值大于1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"长文本等于 '怎样的雨' 的视图筛选\", 'viewcode': 'wNva3vsb7x', 'expected': 1}" ]
       }, {
-        "name" : "数值小于1错误校验",
-        "uid" : "ad7d5d8ffeb4f4e7",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "长文本不等于 '怎样的雨' 的视图筛选",
+        "uid" : "c3652a536a49b8e8",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233537648,
-          "stop" : 1733233544499,
-          "duration" : 6851
+          "start" : 1733331928728,
+          "stop" : 1733331929051,
+          "duration" : 323
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1853, 'fieldData': {'shuzhi__c': 0}, 'expected': '数值小于1错误校验'}" ]
+        "parameters" : [ "{'use_code': \"长文本不等于 '怎样的雨' 的视图筛选\", 'viewcode': '6M363kp3Ew', 'expected': 20}" ]
       }, {
-        "name" : "数值大于等于1错误校验",
-        "uid" : "812efe6d3c2ae4b0",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "长文本为空 的视图筛选",
+        "uid" : "c866dd91a82c015a",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233549922,
-          "stop" : 1733233556791,
-          "duration" : 6869
+          "start" : 1733331929057,
+          "stop" : 1733331929360,
+          "duration" : 303
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1854, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值大于等于1错误校验'}" ]
+        "parameters" : [ "{'use_code': '长文本为空 的视图筛选', 'viewcode': 'QgI41LSw1N', 'expected': 19}" ]
       }, {
-        "name" : "数值小于等于1错误校验",
-        "uid" : "ba1c8a075d7369da",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "长文本非空的视图筛选",
+        "uid" : "7ee1e13e78f7a752",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233559164,
-          "stop" : 1733233566021,
-          "duration" : 6857
+          "start" : 1733331929364,
+          "stop" : 1733331929607,
+          "duration" : 243
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1855, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值小于等于1错误校验'}" ]
+        "parameters" : [ "{'use_code': '长文本非空的视图筛选', 'viewcode': 'Ygr332wBh7', 'expected': 2}" ]
       }, {
-        "name" : "数值属于1，2，3错误校验",
-        "uid" : "29abfcbe315659f9",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "数值等于 1.1 的视图筛选",
+        "uid" : "5959e1b443a28c57",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233568414,
-          "stop" : 1733233575246,
-          "duration" : 6832
+          "start" : 1733331929612,
+          "stop" : 1733331929870,
+          "duration" : 258
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1856, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值属于1，2，3错误校验'}" ]
+        "parameters" : [ "{'use_code': '数值等于 1.1 的视图筛选', 'viewcode': 'shuzhidengyu', 'expected': 1}" ]
       }, {
-        "name" : "数值不属于1,2,3错误校验",
-        "uid" : "f3759db618441837",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "数值不等于 1 的视图筛选",
+        "uid" : "f0299c50aebd5418",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233577637,
-          "stop" : 1733233584563,
-          "duration" : 6926
+          "start" : 1733331929875,
+          "stop" : 1733331930194,
+          "duration" : 319
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1857, 'fieldData': {'shuzhi__c': 4}, 'expected': '数值不属于1,2,3错误校验'}" ]
+        "parameters" : [ "{'use_code': '数值不等于 1 的视图筛选', 'viewcode': 'shuzhibudengyu', 'expected': 20}" ]
       }, {
-        "name" : "数值为空错误校验",
-        "uid" : "18baac22b2c87db3",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "数值大于 1.1 的视图筛选",
+        "uid" : "5eb615e6795e6bdc",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331930199,
+          "stop" : 1733331930499,
+          "duration" : 300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值大于 1.1 的视图筛选', 'viewcode': 'shuzhidayu', 'expected': 16}" ]
+      }, {
+        "name" : "数值小于 1.1 的视图筛选",
+        "uid" : "df20f6facaa5aed5",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331930504,
+          "stop" : 1733331930760,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值小于 1.1 的视图筛选', 'viewcode': 'shuzhixiaoyu', 'expected': 3}" ]
+      }, {
+        "name" : "数值大于等于 1.1 的视图筛选",
+        "uid" : "e68c0a05d6c0598e",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331930765,
+          "stop" : 1733331931116,
+          "duration" : 351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值大于等于 1.1 的视图筛选', 'viewcode': 'shuzhidayudengyu', 'expected': 17}" ]
+      }, {
+        "name" : "数值小于等于 1.1 的视图筛选",
+        "uid" : "234d26bd993d186a",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331931121,
+          "stop" : 1733331931485,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值小于等于 1.1 的视图筛选', 'viewcode': 'shuzhixiaoyudengyu', 'expected': 4}" ]
+      }, {
+        "name" : "数值属于 1,2,3 的视图筛选",
+        "uid" : "965912c5a1e009e6",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331931489,
+          "stop" : 1733331931745,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值属于 1,2,3 的视图筛选', 'viewcode': 'shuzhishuyu', 'expected': 4}" ]
+      }, {
+        "name" : "数值不属于 1,2,3 的视图筛选",
+        "uid" : "ace91eb984c37e4f",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331931750,
+          "stop" : 1733331932041,
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值不属于 1,2,3 的视图筛选', 'viewcode': 'shuzhibushuyu', 'expected': 16}" ]
+      }, {
+        "name" : "数值为空 的视图筛选",
+        "uid" : "3646fbe9da46ea44",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331932045,
+          "stop" : 1733331932289,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值为空 的视图筛选', 'viewcode': 'shuzhiweikong', 'expected': 1}" ]
+      }, {
+        "name" : "数值不为空 的视图筛选",
+        "uid" : "304dc6c1a5d8cae1",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331932294,
+          "stop" : 1733331932610,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '数值不为空 的视图筛选', 'viewcode': 'shuzhibuweikong', 'expected': 20}" ]
+      }, {
+        "name" : "单选等于 '选项1' 的视图筛选",
+        "uid" : "fca619c218f88ad3",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331932615,
+          "stop" : 1733331932869,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"单选等于 '选项1' 的视图筛选\", 'viewcode': 'danxuandengyu', 'expected': 3}" ]
+      }, {
+        "name" : "单选不等于 '选项1' 的视图筛选",
+        "uid" : "b14379bf8f16c1c8",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331932876,
+          "stop" : 1733331933209,
+          "duration" : 333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"单选不等于 '选项1' 的视图筛选\", 'viewcode': 'danxuanbudengyu', 'expected': 18}" ]
+      }, {
+        "name" : "单选属于 '选项1，选项2' 的视图筛选",
+        "uid" : "6f7ffdca8967c441",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "failed",
         "time" : {
-          "start" : 1733233586955,
-          "stop" : 1733233591439,
-          "duration" : 4484
+          "start" : 1733331933214,
+          "stop" : 1733331933458,
+          "duration" : 244
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1858, 'fieldData': {'shuzhi__c': None}, 'expected': '数值为空错误校验'}" ]
+        "parameters" : [ "{'use_code': \"单选属于 '选项1，选项2' 的视图筛选\", 'viewcode': 'danxuanshuyu', 'expected': 4}" ]
       }, {
-        "name" : "数值不为空错误校验",
-        "uid" : "948773e4fbf90e31",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233593961,
-          "stop" : 1733233600800,
-          "duration" : 6839
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1859, 'fieldData': {'shuzhi__c': 87}, 'expected': '数值不为空错误校验'}" ]
-      }, {
-        "name" : "单选等于选项1错误校验",
-        "uid" : "90fc897657aa08e1",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233603183,
-          "stop" : 1733233610071,
-          "duration" : 6888
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1860, 'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'expected': '单选等于选项1错误校验'}" ]
-      }, {
-        "name" : "单选不等于选项1错误校验",
-        "uid" : "6dc5c83c69208dbd",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233612452,
-          "stop" : 1733233619332,
-          "duration" : 6880
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1861, 'fieldData': {'danxuan__c': {'name': '选项2', 'value': '选项2'}}, 'expected': '单选不等于选项1错误校验'}" ]
-      }, {
-        "name" : "单选属于选项1错误校验",
-        "uid" : "6d60fcb5060819c7",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233621709,
-          "stop" : 1733233628564,
-          "duration" : 6855
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1862, 'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'expected': '单选属于选项1错误校验'}" ]
-      }, {
-        "name" : "单选不属于选项1错误校验",
-        "uid" : "27a0ea9ab8daeaff",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233630951,
-          "stop" : 1733233637827,
-          "duration" : 6876
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1863, 'fieldData': {'danxuan__c': {'name': '选项2', 'value': '选项2'}}, 'expected': '单选不属于选项1错误校验'}" ]
-      }, {
-        "name" : "单选为空错误校验",
-        "uid" : "9b7d28c47419014e",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "单选不属于 '选项1，选项2' 的视图筛选",
+        "uid" : "54d09faa5e0956f9",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "failed",
         "time" : {
-          "start" : 1733233640216,
-          "stop" : 1733233644694,
-          "duration" : 4478
+          "start" : 1733331933569,
+          "stop" : 1733331933845,
+          "duration" : 276
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1864, 'fieldData': {'danxuan__c': None}, 'expected': '单选为空错误校验'}" ]
+        "parameters" : [ "{'use_code': \"单选不属于 '选项1，选项2' 的视图筛选\", 'viewcode': 'danxuanbushuyu', 'expected': 17}" ]
       }, {
-        "name" : "单选不为空错误校验",
-        "uid" : "cf0832c13c678b9b",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "单选为空 的视图筛选",
+        "uid" : "252d3e94d1bc00c",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233647111,
-          "stop" : 1733233653955,
-          "duration" : 6844
+          "start" : 1733331933855,
+          "stop" : 1733331934170,
+          "duration" : 315
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1865, 'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'expected': '单选不为空错误校验'}" ]
+        "parameters" : [ "{'use_code': '单选为空 的视图筛选', 'viewcode': 'danxuanweikong', 'expected': 15}" ]
       }, {
-        "name" : "多选等于选项1和选项2错误校验",
-        "uid" : "418601f68d87e533",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "单选不为空 的视图筛选",
+        "uid" : "974a50c86199eaee",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233656339,
-          "stop" : 1733233663179,
-          "duration" : 6840
+          "start" : 1733331934174,
+          "stop" : 1733331934431,
+          "duration" : 257
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1866, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项2', 'value': '选项2'}]}, 'expected': '多选等于选项1和选项2错误校验'}" ]
+        "parameters" : [ "{'use_code': '单选不为空 的视图筛选', 'viewcode': 'danxuanfeikong', 'expected': 6}" ]
       }, {
-        "name" : "多选不等于选项1和选项2错误校验",
-        "uid" : "f2ca41c8bd608fbe",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "多选等于 '选项1，选项2' 的视图筛选",
+        "uid" : "2336f38bdc0d92a3",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233665567,
-          "stop" : 1733233672401,
-          "duration" : 6834
+          "start" : 1733331934436,
+          "stop" : 1733331934692,
+          "duration" : 256
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1867, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项3', 'value': '选项3'}]}, 'expected': '多选不等于选项1和选项2错误校验'}" ]
+        "parameters" : [ "{'use_code': \"多选等于 '选项1，选项2' 的视图筛选\", 'viewcode': 'duoxuandengyu', 'expected': 2}" ]
       }, {
-        "name" : "多选包含选项1和选项2错误校验",
-        "uid" : "faa60f1711b392a",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "多选不等于 '选项1，选项2' 的视图筛选",
+        "uid" : "5a840b1765edb719",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233674786,
-          "stop" : 1733233681637,
-          "duration" : 6851
+          "start" : 1733331934697,
+          "stop" : 1733331935079,
+          "duration" : 382
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1868, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项2', 'value': '选项2'}]}, 'expected': '多选包含选项1和选项2错误校验'}" ]
+        "parameters" : [ "{'use_code': \"多选不等于 '选项1，选项2' 的视图筛选\", 'viewcode': 'duoxuanbudengyu', 'expected': 19}" ]
       }, {
-        "name" : "多选不包含选项1和选项2错误校验",
-        "uid" : "5e038dfaf72c6cf3",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "多选包含 '选项1，选项2' 的视图筛选",
+        "uid" : "73df1e0046e1e149",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233684030,
-          "stop" : 1733233690819,
-          "duration" : 6789
+          "start" : 1733331935085,
+          "stop" : 1733331935369,
+          "duration" : 284
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1869, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项3', 'value': '选项3'}]}, 'expected': '多选不包含选项1和选项2错误校验'}" ]
+        "parameters" : [ "{'use_code': \"多选包含 '选项1，选项2' 的视图筛选\", 'viewcode': 'duoxuanbaohan', 'expected': 4}" ]
       }, {
-        "name" : "多选为空错误校验",
-        "uid" : "b722fe295ad7aae2",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "多选不包含 '选项1，选项2' 的视图筛选",
+        "uid" : "b9345284cbe6847a",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233693192,
-          "stop" : 1733233700018,
-          "duration" : 6826
+          "start" : 1733331935375,
+          "stop" : 1733331935782,
+          "duration" : 407
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1870, 'fieldData': {'duoxuan__c': []}, 'expected': '多选为空错误校验'}" ]
+        "parameters" : [ "{'use_code': \"多选不包含 '选项1，选项2' 的视图筛选\", 'viewcode': 'duoxuanbubaohan', 'expected': 17}" ]
       }, {
-        "name" : "多选不为空错误校验",
-        "uid" : "789e3cf61bb630fc",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "多选为空的视图筛选",
+        "uid" : "8f97dcaf02b037d2",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233702425,
-          "stop" : 1733233709263,
-          "duration" : 6838
+          "start" : 1733331935787,
+          "stop" : 1733331936127,
+          "duration" : 340
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1871, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项2', 'value': '选项2'}]}, 'expected': '多选不为空错误校验'}" ]
+        "parameters" : [ "{'use_code': '多选为空的视图筛选', 'viewcode': 'duoxuanweikong', 'expected': 16}" ]
       }, {
-        "name" : "日期等于11-27错误校验",
-        "uid" : "11bbd5eee3624875",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
+        "name" : "多选不为空的视图筛选",
+        "uid" : "4976c3cc72ec00d9",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733233711638,
-          "stop" : 1733233718551,
-          "duration" : 6913
+          "start" : 1733331936132,
+          "stop" : 1733331936385,
+          "duration" : 253
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1877, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期等于11-27错误校验'}" ]
+        "parameters" : [ "{'use_code': '多选不为空的视图筛选', 'viewcode': 'duoxuanfeikong', 'expected': 5}" ]
       }, {
-        "name" : "日期不等于11-27错误校验",
-        "uid" : "19d5906054f50dda",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233720928,
-          "stop" : 1733233727718,
-          "duration" : 6790
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1878, 'fieldData': {'riqi1__c': '2023-11-26'}, 'expected': '日期不等于11-27错误校验'}" ]
-      }, {
-        "name" : "日期大于11-27错误校验",
-        "uid" : "856bf10f9edac0fb",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233730119,
-          "stop" : 1733233736970,
-          "duration" : 6851
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1879, 'fieldData': {'riqi1__c': '2023-11-28'}, 'expected': '日期大于11-27错误校验'}" ]
-      }, {
-        "name" : "日期小于11-27错误校验",
-        "uid" : "dc7cc7d957c590c9",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233739420,
-          "stop" : 1733233749277,
-          "duration" : 9857
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1880, 'fieldData': {'riqi1__c': '2023-11-26'}, 'expected': '日期小于11-27错误校验'}" ]
-      }, {
-        "name" : "日期大于等于11-27错误校验",
-        "uid" : "ddb6b945849b470a",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233751652,
-          "stop" : 1733233758480,
-          "duration" : 6828
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1881, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期大于等于11-27错误校验'}" ]
-      }, {
-        "name" : "日期小于等于11-27错误校验",
-        "uid" : "8bddcf6bd9b3b4aa",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233760875,
-          "stop" : 1733233767730,
-          "duration" : 6855
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1882, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期小于等于11-27错误校验'}" ]
-      }, {
-        "name" : "日期为空错误校验",
-        "uid" : "637b1af5b5da7d43",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233770118,
-          "stop" : 1733233776978,
-          "duration" : 6860
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1883, 'fieldData': {'riqi1__c': ''}, 'expected': '日期为空错误校验'}" ]
-      }, {
-        "name" : "日期不为空错误校验",
-        "uid" : "c6504326b8b7e4f0",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233779361,
-          "stop" : 1733233786219,
-          "duration" : 6858
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1884, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期不为空错误校验'}" ]
-      }, {
-        "name" : "地区等于北京市-北京市-朝阳区错误校验",
-        "uid" : "97ec197b51e03f08",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233788621,
-          "stop" : 1733233795506,
-          "duration" : 6885
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1885, 'fieldData': {'diqu__c': [{'recordId': 10004}]}, 'expected': '地区等于北京市-北京市-朝阳区错误校验'}" ]
-      }, {
-        "name" : "地区不等于北京市-北京市-朝阳区错误校验",
-        "uid" : "8c996a0b2234d65b",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233797893,
-          "stop" : 1733233804791,
-          "duration" : 6898
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1886, 'fieldData': {'diqu__c': [{'recordId': 10005}]}, 'expected': '地区不等于北京市-北京市-朝阳区错误校验'}" ]
-      }, {
-        "name" : "地区为空错误校验",
-        "uid" : "11cd078c43853427",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233807169,
-          "stop" : 1733233814093,
-          "duration" : 6924
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1887, 'fieldData': {'diqu__c': []}, 'expected': '地区为空错误校验'}" ]
-      }, {
-        "name" : "地区非空错误校验",
-        "uid" : "d1ad7c4a2ca14bfc",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233816479,
-          "stop" : 1733233826381,
-          "duration" : 9902
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1888, 'fieldData': {'diqu__c': [{'recordId': 10004}]}, 'expected': '地区非空错误校验'}" ]
-      }, {
-        "name" : "查找等于错误校验",
-        "uid" : "1b8dadd75ad5d88",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233828782,
-          "stop" : 1733233835619,
-          "duration" : 6837
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1975, 'fieldData': {'guanlian17__c': [{'formCode': 'yxpm__CustomObject0213__c', 'recordId': 1017720}]}, 'expected': '查找等于错误校验'}" ]
-      }, {
-        "name" : "查找不等于错误校验",
-        "uid" : "65e153d22378a9ae",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233838005,
-          "stop" : 1733233844884,
-          "duration" : 6879
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1976, 'fieldData': {'guanlian17__c': [{'formCode': 'yxpm__CustomObject0213__c', 'recordId': 1017719}]}, 'expected': '查找不等于错误校验'}" ]
-      }, {
-        "name" : "查找为空错误校验",
-        "uid" : "bd2ac33205bda01c",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233847265,
-          "stop" : 1733233854065,
-          "duration" : 6800
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1979, 'fieldData': {'guanlian17__c': []}, 'expected': '查找为空错误校验'}" ]
-      }, {
-        "name" : "查找非空错误校验",
-        "uid" : "4d9f7708eee12fb1",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233856445,
-          "stop" : 1733233863302,
-          "duration" : 6857
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1980, 'fieldData': {'guanlian17__c': [{'formCode': 'yxpm__CustomObject0213__c', 'recordId': 1017720}]}, 'expected': '查找非空错误校验'}" ]
-      }, {
-        "name" : "子表为空错误校验",
-        "uid" : "d94876396dce4597",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233865677,
-          "stop" : 1733233872516,
-          "duration" : 6839
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1981, 'fieldData': {'zhuxiang__c_yxpm__CustomObject0147__c': []}, 'expected': '子表为空错误校验'}" ]
-      }, {
-        "name" : "子表非空错误校验",
-        "uid" : "3568551289303bfc",
-        "parentUid" : "f644a5d2b41dc1855f7f61278277afa1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233874914,
-          "stop" : 1733233881791,
-          "duration" : 6877
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1982, 'fieldData': {'zhuxiang__c_yxpm__CustomObject0147__c': [{'formCode': 'yxpm__CustomObject0147__c', 'rowData': {'wenben__c': '11'}}]}, 'expected': '子表非空错误校验'}" ]
-      } ],
-      "uid" : "f644a5d2b41dc1855f7f61278277afa1"
-    }, {
-      "name" : "禁用业务规则 - 新增时不触发业务规则",
-      "children" : [ {
-        "name" : "文本等于1错误校验 (禁用业务规则)",
-        "uid" : "cbcae56e4eb75338",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233884178,
-          "stop" : 1733233891296,
-          "duration" : 7118
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1765, 'fieldData': {'wenben__c': '1'}, 'expected': '文本等于1错误校验'}" ]
-      }, {
-        "name" : "文本不等于1错误校验 (禁用业务规则)",
-        "uid" : "da788de86e967b3e",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233896687,
-          "stop" : 1733233903667,
-          "duration" : 6980
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1766, 'fieldData': {'wenben__c': 'lala'}, 'expected': '文本不等于1错误校验'}" ]
-      }, {
-        "name" : "文本包含1错误校验 (禁用业务规则)",
-        "uid" : "fad7934cddebd244",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233906062,
-          "stop" : 1733233913118,
-          "duration" : 7056
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1767, 'fieldData': {'wenben__c': '11'}, 'expected': '文本包含1错误校验'}" ]
-      }, {
-        "name" : "文本不包含1错误校验 (禁用业务规则)",
-        "uid" : "d35a37196fb70450",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233915520,
-          "stop" : 1733233922528,
-          "duration" : 7008
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1768, 'fieldData': {'wenben__c': '2'}, 'expected': '文本不包含1错误校验'}" ]
-      }, {
-        "name" : "文本属于1，2，3错误校验 (禁用业务规则)",
-        "uid" : "ee2add904de959cc",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233924982,
-          "stop" : 1733233931992,
-          "duration" : 7010
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1769, 'fieldData': {'wenben__c': '1'}, 'expected': '文本属于1，2，3错误校验'}" ]
-      }, {
-        "name" : "文本不属于1，2，3错误校验 (禁用业务规则)",
-        "uid" : "f5bc8a0e8cadefc6",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233934406,
-          "stop" : 1733233941423,
-          "duration" : 7017
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1770, 'fieldData': {'wenben__c': '4'}, 'expected': '文本不属于1，2，3错误校验'}" ]
-      }, {
-        "name" : "文本为空错误校验 (禁用业务规则)",
-        "uid" : "ce73c0870d8e4e70",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233943832,
-          "stop" : 1733233953937,
-          "duration" : 10105
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1771, 'fieldData': {'wenben__c': ''}, 'expected': '文本为空错误校验'}" ]
-      }, {
-        "name" : "文本非空错误校验 (禁用业务规则)",
-        "uid" : "159372d7fd6ad732",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233957506,
-          "stop" : 1733233965229,
-          "duration" : 7723
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1772, 'fieldData': {'wenben__c': '5'}, 'expected': '文本非空错误校验'}" ]
-      }, {
-        "name" : "数值等于1错误校验 (禁用业务规则)",
-        "uid" : "f127cbfe216bd3b2",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233970628,
-          "stop" : 1733233977726,
-          "duration" : 7098
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1850, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值等于1错误校验'}" ]
-      }, {
-        "name" : "数值不等于1错误校验 (禁用业务规则)",
-        "uid" : "3fde00ae8bef2d12",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233980144,
-          "stop" : 1733233987196,
-          "duration" : 7052
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1851, 'fieldData': {'shuzhi__c': 2}, 'expected': '数值不等于1错误校验'}" ]
-      }, {
-        "name" : "数值大于1错误校验 (禁用业务规则)",
-        "uid" : "afb373dabe3846a3",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233989586,
-          "stop" : 1733233996574,
-          "duration" : 6988
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1852, 'fieldData': {'shuzhi__c': 2}, 'expected': '数值大于1错误校验'}" ]
-      }, {
-        "name" : "数值小于1错误校验 (禁用业务规则)",
-        "uid" : "e0441df1b8f7e7d6",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733233998955,
-          "stop" : 1733234005993,
-          "duration" : 7038
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1853, 'fieldData': {'shuzhi__c': 0}, 'expected': '数值小于1错误校验'}" ]
-      }, {
-        "name" : "数值大于等于1错误校验 (禁用业务规则)",
-        "uid" : "d9fe2b07bd41e983",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234008391,
-          "stop" : 1733234015452,
-          "duration" : 7061
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1854, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值大于等于1错误校验'}" ]
-      }, {
-        "name" : "数值小于等于1错误校验 (禁用业务规则)",
-        "uid" : "1c03ae767b2f36",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234017831,
-          "stop" : 1733234024846,
-          "duration" : 7015
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1855, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值小于等于1错误校验'}" ]
-      }, {
-        "name" : "数值属于1，2，3错误校验 (禁用业务规则)",
-        "uid" : "b72817b312b1cc8d",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234027249,
-          "stop" : 1733234034376,
-          "duration" : 7127
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1856, 'fieldData': {'shuzhi__c': 1}, 'expected': '数值属于1，2，3错误校验'}" ]
-      }, {
-        "name" : "数值不属于1,2,3错误校验 (禁用业务规则)",
-        "uid" : "7b3b10b9184b15cf",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234036758,
-          "stop" : 1733234043941,
-          "duration" : 7183
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1857, 'fieldData': {'shuzhi__c': 4}, 'expected': '数值不属于1,2,3错误校验'}" ]
-      }, {
-        "name" : "数值为空错误校验 (禁用业务规则)",
-        "uid" : "a168398310455a4d",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234046324,
-          "stop" : 1733234053413,
-          "duration" : 7089
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1858, 'fieldData': {'shuzhi__c': None}, 'expected': '数值为空错误校验'}" ]
-      }, {
-        "name" : "数值不为空错误校验 (禁用业务规则)",
-        "uid" : "d33c3584d5f41c11",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234055807,
-          "stop" : 1733234062853,
-          "duration" : 7046
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1859, 'fieldData': {'shuzhi__c': 87}, 'expected': '数值不为空错误校验'}" ]
-      }, {
-        "name" : "单选等于选项1错误校验 (禁用业务规则)",
-        "uid" : "ee2a4f84725753f3",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234065268,
-          "stop" : 1733234072378,
-          "duration" : 7110
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1860, 'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'expected': '单选等于选项1错误校验'}" ]
-      }, {
-        "name" : "单选不等于选项1错误校验 (禁用业务规则)",
-        "uid" : "3d4a6a8c279b56a8",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234074791,
-          "stop" : 1733234081948,
-          "duration" : 7157
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1861, 'fieldData': {'danxuan__c': {'name': '选项2', 'value': '选项2'}}, 'expected': '单选不等于选项1错误校验'}" ]
-      }, {
-        "name" : "单选属于选项1错误校验 (禁用业务规则)",
-        "uid" : "1fe84e1516320d3a",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234084377,
-          "stop" : 1733234091404,
-          "duration" : 7027
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1862, 'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'expected': '单选属于选项1错误校验'}" ]
-      }, {
-        "name" : "单选不属于选项1错误校验 (禁用业务规则)",
-        "uid" : "eb4389dbde656bd5",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234093836,
-          "stop" : 1733234100829,
-          "duration" : 6993
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1863, 'fieldData': {'danxuan__c': {'name': '选项2', 'value': '选项2'}}, 'expected': '单选不属于选项1错误校验'}" ]
-      }, {
-        "name" : "单选为空错误校验 (禁用业务规则)",
-        "uid" : "5ffd43589c4e61a5",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234103237,
-          "stop" : 1733234110249,
-          "duration" : 7012
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1864, 'fieldData': {'danxuan__c': None}, 'expected': '单选为空错误校验'}" ]
-      }, {
-        "name" : "单选不为空错误校验 (禁用业务规则)",
-        "uid" : "38ebc5a4687eac5e",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234112663,
-          "stop" : 1733234119714,
-          "duration" : 7051
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1865, 'fieldData': {'danxuan__c': {'name': '选项1', 'value': '选项1'}}, 'expected': '单选不为空错误校验'}" ]
-      }, {
-        "name" : "多选等于选项1和选项2错误校验 (禁用业务规则)",
-        "uid" : "7393f6e9a63201df",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234122094,
-          "stop" : 1733234129130,
-          "duration" : 7036
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1866, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项2', 'value': '选项2'}]}, 'expected': '多选等于选项1和选项2错误校验'}" ]
-      }, {
-        "name" : "多选不等于选项1和选项2错误校验 (禁用业务规则)",
-        "uid" : "d238ba06824208e7",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234131521,
-          "stop" : 1733234138583,
-          "duration" : 7062
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1867, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项3', 'value': '选项3'}]}, 'expected': '多选不等于选项1和选项2错误校验'}" ]
-      }, {
-        "name" : "多选包含选项1和选项2错误校验 (禁用业务规则)",
-        "uid" : "263a1ebe3e6c0bcf",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234140979,
-          "stop" : 1733234148000,
-          "duration" : 7021
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1868, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项2', 'value': '选项2'}]}, 'expected': '多选包含选项1和选项2错误校验'}" ]
-      }, {
-        "name" : "多选不包含选项1和选项2错误校验 (禁用业务规则)",
-        "uid" : "918dab98aed43d6f",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234150451,
-          "stop" : 1733234157505,
-          "duration" : 7054
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1869, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项3', 'value': '选项3'}]}, 'expected': '多选不包含选项1和选项2错误校验'}" ]
-      }, {
-        "name" : "多选为空错误校验 (禁用业务规则)",
-        "uid" : "56e57db48125355b",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234159886,
-          "stop" : 1733234166929,
-          "duration" : 7043
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1870, 'fieldData': {'duoxuan__c': []}, 'expected': '多选为空错误校验'}" ]
-      }, {
-        "name" : "多选不为空错误校验 (禁用业务规则)",
-        "uid" : "d7665e5440090489",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234169344,
-          "stop" : 1733234176414,
-          "duration" : 7070
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1871, 'fieldData': {'duoxuan__c': [{'name': '选项1', 'value': '选项1'}, {'name': '选项2', 'value': '选项2'}]}, 'expected': '多选不为空错误校验'}" ]
-      }, {
-        "name" : "日期等于11-27错误校验 (禁用业务规则)",
-        "uid" : "f0928b86040749cc",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234178809,
-          "stop" : 1733234185991,
-          "duration" : 7182
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1877, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期等于11-27错误校验'}" ]
-      }, {
-        "name" : "日期不等于11-27错误校验 (禁用业务规则)",
-        "uid" : "799e84eb3c8c7e99",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234188441,
-          "stop" : 1733234196249,
-          "duration" : 7808
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1878, 'fieldData': {'riqi1__c': '2023-11-26'}, 'expected': '日期不等于11-27错误校验'}" ]
-      }, {
-        "name" : "日期大于11-27错误校验 (禁用业务规则)",
-        "uid" : "2e1745c30c30fe3b",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234198693,
-          "stop" : 1733234205817,
-          "duration" : 7124
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1879, 'fieldData': {'riqi1__c': '2023-11-28'}, 'expected': '日期大于11-27错误校验'}" ]
-      }, {
-        "name" : "日期小于11-27错误校验 (禁用业务规则)",
-        "uid" : "b4e9c3e777ebca96",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234208219,
-          "stop" : 1733234215250,
-          "duration" : 7031
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1880, 'fieldData': {'riqi1__c': '2023-11-26'}, 'expected': '日期小于11-27错误校验'}" ]
-      }, {
-        "name" : "日期大于等于11-27错误校验 (禁用业务规则)",
-        "uid" : "22213273664c3942",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234217631,
-          "stop" : 1733234224640,
-          "duration" : 7009
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1881, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期大于等于11-27错误校验'}" ]
-      }, {
-        "name" : "日期小于等于11-27错误校验 (禁用业务规则)",
-        "uid" : "9a03807a7ad90158",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234227047,
-          "stop" : 1733234234151,
-          "duration" : 7104
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1882, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期小于等于11-27错误校验'}" ]
-      }, {
-        "name" : "日期为空错误校验 (禁用业务规则)",
-        "uid" : "9ca58bfe31664146",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234236551,
-          "stop" : 1733234243601,
-          "duration" : 7050
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1883, 'fieldData': {'riqi1__c': ''}, 'expected': '日期为空错误校验'}" ]
-      }, {
-        "name" : "日期不为空错误校验 (禁用业务规则)",
-        "uid" : "67907af9265118ab",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234246028,
-          "stop" : 1733234253078,
-          "duration" : 7050
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1884, 'fieldData': {'riqi1__c': '2023-11-27'}, 'expected': '日期不为空错误校验'}" ]
-      }, {
-        "name" : "地区等于北京市-北京市-朝阳区错误校验 (禁用业务规则)",
-        "uid" : "684a29df1827c554",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234255468,
-          "stop" : 1733234262570,
-          "duration" : 7102
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1885, 'fieldData': {'diqu__c': [{'recordId': 10004}]}, 'expected': '地区等于北京市-北京市-朝阳区错误校验'}" ]
-      }, {
-        "name" : "地区不等于北京市-北京市-朝阳区错误校验 (禁用业务规则)",
-        "uid" : "551f4e43d4afa7b5",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234265142,
-          "stop" : 1733234272124,
-          "duration" : 6982
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1886, 'fieldData': {'diqu__c': [{'recordId': 10005}]}, 'expected': '地区不等于北京市-北京市-朝阳区错误校验'}" ]
-      }, {
-        "name" : "地区为空错误校验 (禁用业务规则)",
-        "uid" : "33d4d0f9b15b610e",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234274506,
-          "stop" : 1733234282706,
-          "duration" : 8200
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1887, 'fieldData': {'diqu__c': []}, 'expected': '地区为空错误校验'}" ]
-      }, {
-        "name" : "地区非空错误校验 (禁用业务规则)",
-        "uid" : "140178d7f036cd3e",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234285110,
-          "stop" : 1733234292179,
-          "duration" : 7069
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1888, 'fieldData': {'diqu__c': [{'recordId': 10004}]}, 'expected': '地区非空错误校验'}" ]
-      }, {
-        "name" : "查找等于错误校验 (禁用业务规则)",
-        "uid" : "c5fdf47a474e5b54",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234294571,
-          "stop" : 1733234301635,
-          "duration" : 7064
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1975, 'fieldData': {'guanlian17__c': [{'formCode': 'yxpm__CustomObject0213__c', 'recordId': 1017720}]}, 'expected': '查找等于错误校验'}" ]
-      }, {
-        "name" : "查找不等于错误校验 (禁用业务规则)",
-        "uid" : "d93db80eb9f84b5b",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234304013,
-          "stop" : 1733234311038,
-          "duration" : 7025
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1976, 'fieldData': {'guanlian17__c': [{'formCode': 'yxpm__CustomObject0213__c', 'recordId': 1017719}]}, 'expected': '查找不等于错误校验'}" ]
-      }, {
-        "name" : "查找为空错误校验 (禁用业务规则)",
-        "uid" : "2e1fe71d9a9ec879",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234313420,
-          "stop" : 1733234320467,
-          "duration" : 7047
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1979, 'fieldData': {'guanlian17__c': []}, 'expected': '查找为空错误校验'}" ]
-      }, {
-        "name" : "查找非空错误校验 (禁用业务规则)",
-        "uid" : "3c5d6b848aeea9d6",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234322882,
-          "stop" : 1733234330399,
-          "duration" : 7517
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1980, 'fieldData': {'guanlian17__c': [{'formCode': 'yxpm__CustomObject0213__c', 'recordId': 1017720}]}, 'expected': '查找非空错误校验'}" ]
-      }, {
-        "name" : "子表为空错误校验 (禁用业务规则)",
-        "uid" : "424a251cac51618b",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733234332796,
-          "stop" : 1733234340190,
-          "duration" : 7394
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1981, 'fieldData': {'zhuxiang__c_yxpm__CustomObject0147__c': []}, 'expected': '子表为空错误校验'}" ]
-      }, {
-        "name" : "子表非空错误校验 (禁用业务规则)",
-        "uid" : "6aec800bd3cb23a",
-        "parentUid" : "31a976fd2672c7bbc02bab786f7eb707",
+        "name" : "日期等于 '2023-08-15' 的视图筛选",
+        "uid" : "357452f28d129eac",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "failed",
         "time" : {
-          "start" : 1733234342586,
-          "stop" : 1733234347310,
-          "duration" : 4724
+          "start" : 1733331936390,
+          "stop" : 1733331936646,
+          "duration" : 256
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1982, 'fieldData': {'zhuxiang__c_yxpm__CustomObject0147__c': [{'formCode': 'yxpm__CustomObject0147__c', 'rowData': {'wenben__c': '11'}}]}, 'expected': '子表非空错误校验'}" ]
-      } ],
-      "uid" : "31a976fd2672c7bbc02bab786f7eb707"
-    }, {
-      "name" : "启用唯一校验业务规则-新增时触发业务规则",
-      "children" : [ {
-        "name" : "文本字段值必须唯一",
-        "uid" : "8be0f27835665321",
-        "parentUid" : "273718c374813659f85e9b491f857cb0",
+        "parameters" : [ "{'use_code': \"日期等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqidengyu', 'expected': 2}" ]
+      }, {
+        "name" : "日期不等于 '2023-08-15' 的视图筛选",
+        "uid" : "84690b79a218217c",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331936657,
+          "stop" : 1733331936968,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期不等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqibudengyu', 'expected': 19}" ]
+      }, {
+        "name" : "日期大于 '2023-08-15' 的视图筛选",
+        "uid" : "db3263b040fa8c5f",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331936980,
+          "stop" : 1733331937208,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期大于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqidayu', 'expected': 2}" ]
+      }, {
+        "name" : "日期小于 '2023-08-15' 的视图筛选",
+        "uid" : "9e0f3ed8bd487582",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937221,
+          "stop" : 1733331937462,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期小于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqixiaoyu', 'expected': 1}" ]
+      }, {
+        "name" : "日期大于等于 '2023-08-15' 的视图筛选",
+        "uid" : "d444b3c68345568a",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937472,
+          "stop" : 1733331937708,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期大于等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqidaudengyu', 'expected': 4}" ]
+      }, {
+        "name" : "日期小于等于 '2023-08-15' 的视图筛选",
+        "uid" : "6827636dfe56c898",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937718,
+          "stop" : 1733331937946,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期小于等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqixiaoyudengyu', 'expected': 3}" ]
+      }, {
+        "name" : "日期为空 的视图筛选",
+        "uid" : "62827eb00a03d272",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937956,
+          "stop" : 1733331938261,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '日期为空 的视图筛选', 'viewcode': 'riqiweikong', 'expected': 16}" ]
+      }, {
+        "name" : "日期非空 的视图筛选",
+        "uid" : "9f4c3cfec1f2512e",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331938271,
+          "stop" : 1733331938500,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '日期非空 的视图筛选', 'viewcode': 'riqifeikong', 'expected': 5}" ]
+      }, {
+        "name" : "地区等于 '北京市-北京市-朝阳区' 的视图筛选",
+        "uid" : "72ecb7e0995554df",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
         "status" : "passed",
         "time" : {
-          "start" : 1733234349710,
-          "stop" : 1733234356412,
-          "duration" : 6702
+          "start" : 1733331938511,
+          "stop" : 1733331938755,
+          "duration" : 244
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 5330, 'fieldData': {'wenben__c': 'ceshi唯一'}, 'expected': '文本字段值必须唯一'}" ]
+        "parameters" : [ "{'use_code': \"地区等于 '北京市-北京市-朝阳区' 的视图筛选\", 'viewcode': 'diqudengyu', 'expected': 2}" ]
+      }, {
+        "name" : "地区不等于 '北京市-北京市-朝阳区' 的视图筛选",
+        "uid" : "e071f478e9ded0ae",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331938759,
+          "stop" : 1733331939079,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"地区不等于 '北京市-北京市-朝阳区' 的视图筛选\", 'viewcode': 'diqubudengyu', 'expected': 19}" ]
+      }, {
+        "name" : "地区为空 的视图筛选",
+        "uid" : "26de584236fc938d",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331939085,
+          "stop" : 1733331939450,
+          "duration" : 365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '地区为空 的视图筛选', 'viewcode': 'diquweikong', 'expected': 16}" ]
+      }, {
+        "name" : "地区非空的视图筛选",
+        "uid" : "aafa87204eeb001c",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331939454,
+          "stop" : 1733331939818,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '地区非空的视图筛选', 'viewcode': 'diqufeikong', 'expected': 5}" ]
+      }, {
+        "name" : "查找记录等于 '1017720' 的视图筛选",
+        "uid" : "d858f697fb9ab06e",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331939822,
+          "stop" : 1733331940066,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"查找记录等于 '1017720' 的视图筛选\", 'viewcode': 'chazhaodengyu', 'expected': 2}" ]
+      }, {
+        "name" : "查找记录不等于 '1017720' 的视图筛选",
+        "uid" : "ec4c357637c70994",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331940072,
+          "stop" : 1733331940378,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"查找记录不等于 '1017720' 的视图筛选\", 'viewcode': 'chazhaobudengyu', 'expected': 19}" ]
+      }, {
+        "name" : "查找记录为空 的视图筛选",
+        "uid" : "6d4f2fdeae7b6b27",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331940383,
+          "stop" : 1733331940684,
+          "duration" : 301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '查找记录为空 的视图筛选', 'viewcode': 'chazhaoweikong', 'expected': 17}" ]
+      }, {
+        "name" : "查找记录非空 的视图筛选",
+        "uid" : "5a02aa176a920588",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733331940689,
+          "stop" : 1733331940947,
+          "duration" : 258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '查找记录非空 的视图筛选', 'viewcode': 'chazhaofeikong', 'expected': 4}" ]
+      }, {
+        "name" : "子表非空 的视图筛选",
+        "uid" : "a1a92a62c9b8f93f",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331940951,
+          "stop" : 1733331941179,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '子表非空 的视图筛选', 'viewcode': 'zibiaofeikong', 'expected': 2}" ]
+      }, {
+        "name" : "子表为空 的视图筛选",
+        "uid" : "254c055126a4a788",
+        "parentUid" : "70ff494a1ec8543efb201b1ab2d3449f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331941188,
+          "stop" : 1733331941503,
+          "duration" : 315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '子表为空 的视图筛选', 'viewcode': 'zibiaoweikong', 'expected': 19}" ]
       } ],
-      "uid" : "273718c374813659f85e9b491f857cb0"
+      "uid" : "70ff494a1ec8543efb201b1ab2d3449f"
     } ],
-    "uid" : "6b1931e499df4c1ec61cffdd8c781a97"
+    "uid" : "c0286d358d768513e4c15545ae4dd721"
   } ]
 }

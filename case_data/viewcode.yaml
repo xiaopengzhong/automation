@@ -1,0 +1,179 @@
+filter_view:
+# 文本视图筛选
+  - use_code: "文本等于 '1' 的视图筛选"
+    viewcode: "dengyu"
+    expected: 1
+  - use_code: "文本不等于 '1' 的视图筛选"
+    viewcode: "budengyu"
+    expected: 20
+  - use_code: "文本包含 '1' 的视图筛选"
+    viewcode: "wenbenbaohan"
+    expected: 14
+  - use_code: "文本不包含 '1' 的视图筛选"
+    viewcode: "wenbenbubaohan"
+    expected: 7
+  - use_code: "文本属于 '1,2,3' 的视图筛选"
+    viewcode: "quanbu1"
+    expected: 2
+  - use_code: "文本不属于 '1,2,3' 的视图筛选"
+    viewcode: "bushuyu"
+    expected: 19
+  - use_code: "文本为空的视图筛选"
+    viewcode: "weikong"
+    expected: 1
+  - use_code: "文本非空的视图筛选"
+    viewcode: "wenbenfeikong"
+    expected: 20
+# 长文本的视图筛选
+  - use_code: "长文本包含 '怎样的' 的视图筛选"
+    viewcode: "o8sdHi74cE"
+    expected: 2
+  - use_code: "长文本不包含 '怎样的' 的视图筛选"
+    viewcode: "6rY7P2VZ5w"
+    expected: 19
+  - use_code: "长文本等于 '怎样的雨' 的视图筛选"
+    viewcode: "wNva3vsb7x"
+    expected: 1
+  - use_code: "长文本不等于 '怎样的雨' 的视图筛选"
+    viewcode: "6M363kp3Ew"
+    expected: 20
+  - use_code: "长文本为空 的视图筛选"
+    viewcode: "QgI41LSw1N"
+    expected: 19
+  - use_code: "长文本非空的视图筛选"
+    viewcode: "Ygr332wBh7"
+    expected: 2
+# 数值的数值筛选
+  - use_code: "数值等于 1.1 的视图筛选"
+    viewcode: "shuzhidengyu"
+    expected: 1
+  - use_code: "数值不等于 1 的视图筛选"
+    viewcode: "shuzhibudengyu"
+    expected: 20
+  - use_code: "数值大于 1.1 的视图筛选"
+    viewcode: "shuzhidayu"
+    expected: 16
+  - use_code: "数值小于 1.1 的视图筛选"
+    viewcode: "shuzhixiaoyu"
+    expected: 3
+  - use_code: "数值大于等于 1.1 的视图筛选"
+    viewcode: "shuzhidayudengyu"
+    expected: 17
+  - use_code: "数值小于等于 1.1 的视图筛选"
+    viewcode: "shuzhixiaoyudengyu"
+    expected: 4
+  - use_code: "数值属于 1,2,3 的视图筛选"
+    viewcode: "shuzhishuyu"
+    expected: 4
+  - use_code: "数值不属于 1,2,3 的视图筛选"
+    viewcode: "shuzhibushuyu"
+    expected: 16
+  - use_code: "数值为空 的视图筛选"
+    viewcode: "shuzhiweikong"
+    expected: 1
+  - use_code: "数值不为空 的视图筛选"
+    viewcode: "shuzhibuweikong"
+    expected: 20
+# 单选的视图筛选
+  - use_code: "单选等于 '选项1' 的视图筛选"
+    viewcode: "danxuandengyu"
+    expected: 3
+  - use_code: "单选不等于 '选项1' 的视图筛选"
+    viewcode: "danxuanbudengyu"
+    expected: 18
+  - use_code: "单选属于 '选项1，选项2' 的视图筛选"
+    viewcode: "danxuanshuyu"
+    expected: 4
+  - use_code: "单选不属于 '选项1，选项2' 的视图筛选"
+    viewcode: "danxuanbushuyu"
+    expected: 17
+  - use_code: "单选为空 的视图筛选"
+    viewcode: "danxuanweikong"
+    expected: 15
+  - use_code: "单选不为空 的视图筛选"
+    viewcode: "danxuanfeikong"
+    expected: 6
+#多选的视图筛选
+  - use_code: "多选等于 '选项1，选项2' 的视图筛选"
+    viewcode: "duoxuandengyu"
+    expected: 2
+  - use_code: "多选不等于 '选项1，选项2' 的视图筛选"
+    viewcode: "duoxuanbudengyu"
+    expected: 19
+  - use_code: "多选包含 '选项1，选项2' 的视图筛选"
+    viewcode: "duoxuanbaohan"
+    expected: 4
+  - use_code: "多选不包含 '选项1，选项2' 的视图筛选"
+    viewcode: "duoxuanbubaohan"
+    expected: 17
+  - use_code: "多选为空的视图筛选"
+    viewcode: "duoxuanweikong"
+    expected: 16
+  - use_code: "多选不为空的视图筛选"
+    viewcode: "duoxuanfeikong"
+    expected: 5
+# 日期的视图筛选
+  - use_code: "日期等于 '2023-08-15' 的视图筛选"
+    viewcode: "riqidengyu"
+    expected: 2
+  - use_code: "日期不等于 '2023-08-15' 的视图筛选"
+    viewcode: "riqibudengyu"
+    expected: 19
+  - use_code: "日期大于 '2023-08-15' 的视图筛选"
+    viewcode: "riqidayu"
+    expected: 2
+  - use_code: "日期小于 '2023-08-15' 的视图筛选"
+    viewcode: "riqixiaoyu"
+    expected: 1
+  - use_code: "日期大于等于 '2023-08-15' 的视图筛选"
+    viewcode: "riqidaudengyu"
+    expected: 4
+  - use_code: "日期小于等于 '2023-08-15' 的视图筛选"
+    viewcode: "riqixiaoyudengyu"
+    expected: 3
+  - use_code: "日期为空 的视图筛选"
+    viewcode: "riqiweikong"
+    expected: 16
+  - use_code: "日期非空 的视图筛选"
+    viewcode: "riqifeikong"
+    expected: 5
+#地区的视图筛选
+  - use_code: "地区等于 '北京市-北京市-朝阳区' 的视图筛选"
+    viewcode: "diqudengyu"
+    expected: 2
+  - use_code: "地区不等于 '北京市-北京市-朝阳区' 的视图筛选"
+    viewcode: "diqubudengyu"
+    expected: 19
+  - use_code: "地区为空 的视图筛选"
+    viewcode: "diquweikong"
+    expected: 16
+  - use_code: "地区非空的视图筛选"
+    viewcode: "diqufeikong"
+    expected: 5
+# 查找的视图筛选
+  - use_code: "查找记录等于 '1017720' 的视图筛选"
+    viewcode: "chazhaodengyu"
+    expected: 2
+  - use_code: "查找记录不等于 '1017720' 的视图筛选"
+    viewcode: "chazhaobudengyu"
+    expected: 19
+  - use_code: "查找记录为空 的视图筛选"
+    viewcode: "chazhaoweikong"
+    expected: 17
+  - use_code: "查找记录非空 的视图筛选"
+    viewcode: "chazhaofeikong"
+    expected: 4
+# 子表字段的视图筛选
+  - use_code: "子表非空 的视图筛选"
+    viewcode: "zibiaofeikong"
+    expected: 2
+  - use_code: "子表为空 的视图筛选"
+    viewcode: "zibiaoweikong"
+    expected: 19
+
+
+
+
+
+
+

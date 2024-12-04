@@ -4,56 +4,209 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: 预期结果: 数值为空错误校验, 实际结果: ok\nassert 'ok' == '数值为空错误校验'\n  - 数值为空错误校验\n  + ok",
+      "name" : "AssertionError: Expected 4, but got 0. Query: viewCode=danxuanshuyu\nassert 0 == 4",
       "children" : [ {
-        "name" : "数值为空错误校验",
-        "uid" : "18baac22b2c87db3",
-        "parentUid" : "4282fd578b33e0896e19a3c8c2bc467a",
+        "name" : "单选属于 '选项1，选项2' 的视图筛选",
+        "uid" : "6f7ffdca8967c441",
+        "parentUid" : "40b024598e477da90039c936d16a4279",
         "status" : "failed",
         "time" : {
-          "start" : 1733233586955,
-          "stop" : 1733233591439,
-          "duration" : 4484
+          "start" : 1733331933214,
+          "stop" : 1733331933458,
+          "duration" : 244
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1858, 'fieldData': {'shuzhi__c': None}, 'expected': '数值为空错误校验'}" ]
+        "parameters" : [ "{'use_code': \"单选属于 '选项1，选项2' 的视图筛选\", 'viewcode': 'danxuanshuyu', 'expected': 4}" ]
       } ],
-      "uid" : "4282fd578b33e0896e19a3c8c2bc467a"
+      "uid" : "40b024598e477da90039c936d16a4279"
     }, {
-      "name" : "AssertionError: 预期结果: 单选为空错误校验, 实际结果: ok\nassert 'ok' == '单选为空错误校验'\n  - 单选为空错误校验\n  + ok",
+      "name" : "AssertionError: Expected 17, but got 6. Query: viewCode=danxuanbushuyu\nassert 6 == 17",
       "children" : [ {
-        "name" : "单选为空错误校验",
-        "uid" : "9b7d28c47419014e",
-        "parentUid" : "b75e61758b1764fc3805b76893d5d7a1",
+        "name" : "单选不属于 '选项1，选项2' 的视图筛选",
+        "uid" : "54d09faa5e0956f9",
+        "parentUid" : "5ca6d32e5b64bd58118787b2b02987a7",
         "status" : "failed",
         "time" : {
-          "start" : 1733233640216,
-          "stop" : 1733233644694,
-          "duration" : 4478
+          "start" : 1733331933569,
+          "stop" : 1733331933845,
+          "duration" : 276
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1864, 'fieldData': {'danxuan__c': None}, 'expected': '单选为空错误校验'}" ]
+        "parameters" : [ "{'use_code': \"单选不属于 '选项1，选项2' 的视图筛选\", 'viewcode': 'danxuanbushuyu', 'expected': 17}" ]
       } ],
-      "uid" : "b75e61758b1764fc3805b76893d5d7a1"
+      "uid" : "5ca6d32e5b64bd58118787b2b02987a7"
     }, {
-      "name" : "AssertionError: 预期结果: 'ok', 实际结果: 文本唯一\nassert '文本唯一' == 'ok'\n  - ok\n  + 文本唯一",
+      "name" : "AssertionError: Expected 2, but got 0. Query: viewCode=riqidengyu\nassert 0 == 2",
       "children" : [ {
-        "name" : "子表非空错误校验 (禁用业务规则)",
-        "uid" : "6aec800bd3cb23a",
-        "parentUid" : "7e98eb426671f54cf40ecc5597d4c9ee",
+        "name" : "日期等于 '2023-08-15' 的视图筛选",
+        "uid" : "357452f28d129eac",
+        "parentUid" : "e182cdc4ae27694cbc646ce1c0b9696e",
         "status" : "failed",
         "time" : {
-          "start" : 1733234342586,
-          "stop" : 1733234347310,
-          "duration" : 4724
+          "start" : 1733331936390,
+          "stop" : 1733331936646,
+          "duration" : 256
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1982, 'fieldData': {'zhuxiang__c_yxpm__CustomObject0147__c': [{'formCode': 'yxpm__CustomObject0147__c', 'rowData': {'wenben__c': '11'}}]}, 'expected': '子表非空错误校验'}" ]
+        "parameters" : [ "{'use_code': \"日期等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqidengyu', 'expected': 2}" ]
       } ],
-      "uid" : "7e98eb426671f54cf40ecc5597d4c9ee"
+      "uid" : "e182cdc4ae27694cbc646ce1c0b9696e"
+    }, {
+      "name" : "AssertionError: Expected 19, but got 21. Query: viewCode=riqibudengyu\nassert 21 == 19",
+      "children" : [ {
+        "name" : "日期不等于 '2023-08-15' 的视图筛选",
+        "uid" : "84690b79a218217c",
+        "parentUid" : "dadc5f2987cf1ef2c893b36235765a0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331936657,
+          "stop" : 1733331936968,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期不等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqibudengyu', 'expected': 19}" ]
+      } ],
+      "uid" : "dadc5f2987cf1ef2c893b36235765a0b"
+    }, {
+      "name" : "AssertionError: Expected 2, but got 0. Query: viewCode=riqidayu\nassert 0 == 2",
+      "children" : [ {
+        "name" : "日期大于 '2023-08-15' 的视图筛选",
+        "uid" : "db3263b040fa8c5f",
+        "parentUid" : "23092d013168a5ca7a4e741e1fae8c2d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331936980,
+          "stop" : 1733331937208,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期大于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqidayu', 'expected': 2}" ]
+      } ],
+      "uid" : "23092d013168a5ca7a4e741e1fae8c2d"
+    }, {
+      "name" : "AssertionError: Expected 1, but got 0. Query: viewCode=riqixiaoyu\nassert 0 == 1",
+      "children" : [ {
+        "name" : "日期小于 '2023-08-15' 的视图筛选",
+        "uid" : "9e0f3ed8bd487582",
+        "parentUid" : "270d9301309e066523387afe37de782e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937221,
+          "stop" : 1733331937462,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期小于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqixiaoyu', 'expected': 1}" ]
+      } ],
+      "uid" : "270d9301309e066523387afe37de782e"
+    }, {
+      "name" : "AssertionError: Expected 4, but got 0. Query: viewCode=riqidaudengyu\nassert 0 == 4",
+      "children" : [ {
+        "name" : "日期大于等于 '2023-08-15' 的视图筛选",
+        "uid" : "d444b3c68345568a",
+        "parentUid" : "43117e041765454c4a1daf90178e7084",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937472,
+          "stop" : 1733331937708,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期大于等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqidaudengyu', 'expected': 4}" ]
+      } ],
+      "uid" : "43117e041765454c4a1daf90178e7084"
+    }, {
+      "name" : "AssertionError: Expected 3, but got 0. Query: viewCode=riqixiaoyudengyu\nassert 0 == 3",
+      "children" : [ {
+        "name" : "日期小于等于 '2023-08-15' 的视图筛选",
+        "uid" : "6827636dfe56c898",
+        "parentUid" : "f0463ad13de65b7d09eb1c87149ede8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937718,
+          "stop" : 1733331937946,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': \"日期小于等于 '2023-08-15' 的视图筛选\", 'viewcode': 'riqixiaoyudengyu', 'expected': 3}" ]
+      } ],
+      "uid" : "f0463ad13de65b7d09eb1c87149ede8f"
+    }, {
+      "name" : "AssertionError: Expected 16, but got 21. Query: viewCode=riqiweikong\nassert 21 == 16",
+      "children" : [ {
+        "name" : "日期为空 的视图筛选",
+        "uid" : "62827eb00a03d272",
+        "parentUid" : "9eb93ff9ae12ffbf15bd5cab8dcd74c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331937956,
+          "stop" : 1733331938261,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '日期为空 的视图筛选', 'viewcode': 'riqiweikong', 'expected': 16}" ]
+      } ],
+      "uid" : "9eb93ff9ae12ffbf15bd5cab8dcd74c3"
+    }, {
+      "name" : "AssertionError: Expected 5, but got 0. Query: viewCode=riqifeikong\nassert 0 == 5",
+      "children" : [ {
+        "name" : "日期非空 的视图筛选",
+        "uid" : "9f4c3cfec1f2512e",
+        "parentUid" : "33b62632b7a45f5342730b7b1c9f3475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331938271,
+          "stop" : 1733331938500,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '日期非空 的视图筛选', 'viewcode': 'riqifeikong', 'expected': 5}" ]
+      } ],
+      "uid" : "33b62632b7a45f5342730b7b1c9f3475"
+    }, {
+      "name" : "AssertionError: Expected 2, but got 0. Query: viewCode=zibiaofeikong\nassert 0 == 2",
+      "children" : [ {
+        "name" : "子表非空 的视图筛选",
+        "uid" : "a1a92a62c9b8f93f",
+        "parentUid" : "4b3def509ac6d54e81658d0d476b5bb6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331940951,
+          "stop" : 1733331941179,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '子表非空 的视图筛选', 'viewcode': 'zibiaofeikong', 'expected': 2}" ]
+      } ],
+      "uid" : "4b3def509ac6d54e81658d0d476b5bb6"
+    }, {
+      "name" : "AssertionError: Expected 19, but got 21. Query: viewCode=zibiaoweikong\nassert 21 == 19",
+      "children" : [ {
+        "name" : "子表为空 的视图筛选",
+        "uid" : "254c055126a4a788",
+        "parentUid" : "9edb9966571132767c1b71a5469cb87c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1733331941188,
+          "stop" : 1733331941503,
+          "duration" : 315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'use_code': '子表为空 的视图筛选', 'viewcode': 'zibiaoweikong', 'expected': 19}" ]
+      } ],
+      "uid" : "9edb9966571132767c1b71a5469cb87c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

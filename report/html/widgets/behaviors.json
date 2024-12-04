@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "6b1931e499df4c1ec61cffdd8c781a97",
-    "name" : "业务规则",
+    "uid" : "c0286d358d768513e4c15545ae4dd721",
+    "name" : "视图筛选器功能",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 1
     }
   } ]
 }
