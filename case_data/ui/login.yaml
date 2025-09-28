@@ -1,0 +1,25 @@
+#case_data/ui/login.yaml
+cases:
+  - username: admin
+    password: 123456
+    expect: "仪表盘"
+    expect_type: success
+    title: "正确账号密码 -> 登录成功"
+
+  - username: admin
+    password: wrong
+    expect: "密码不正确"
+    expect_type: error
+    title: "密码错误 -> 登录失败"
+
+  - username: ""
+    password: 123456
+    expect: "请输入正确的用户名"
+    expect_type: empty_username
+    title: "用户名为空 -> 登录失败"
+
+  - username: test
+    password: ""
+    expect: "密码不能小于3位"
+    expect_type: empty_password
+    title: "密码为空 -> 登录失败"

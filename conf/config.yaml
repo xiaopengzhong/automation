@@ -1,0 +1,3 @@
+# 主配置文件
+# 指定当前运行的环境，可选值：dev / test / prod
+env: prod

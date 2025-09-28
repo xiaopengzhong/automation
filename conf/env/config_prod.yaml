@@ -1,0 +1,33 @@
+# 生产环境配置
+api:
+  base_url: "http://apps.youxin.cloud"
+  phone: "14912345678"
+  password: "afdd0b4ad2ec172c586e2150770fbf9e"
+  nvcVal: "%7B%22a%22%3A%22FFFF0N00000000009CE9%22%2C%22c%22%3A%22FFFF0N00000000009CE9%3Anvc_login%3A1700148491684%3A0.058500906810708964%22%2C%22d%22%3A%22nvc_login%22%2C%22j%22%3A%7B%22test%22%3A1%7D%2C%22h%22%3A%7B%22umidToken%22%3A%22G0C63C0598285DC809B8074C5445A568CAB6AF29C21F55B1C48%22%7D%2C%22b%22%3A%22226!QlcKLAuVblM9mhbvmbJoolhz2twZOGpzS3Pj25WCmfP3Jux3VDclcv%2BkSJGZ3E1GKPCFPyWwCiM1SNPHEXT8aHeJIpAmjkh0bO3xdJBZ50y2UpmnsszLIZAdCqfiq98tdNRo85BDdRXx7%2BbPl0HBTGBYeY0QP9LiFrPXaNwcSKkfDsFuluUbs4oKnXMbNE6hj8IxT0ohobkfu0CFqqPH9EPLXE80c9KqyQrLT9z6avkru3SwdBkUsgmKPk3c04kziO6tPKYsXaROebiKMMN4EAebgRBx58%2FAABLQLR5eSXf1Zb7Nb%2FSM%2FxWV9wllRiONT%2FF%2FGV8loybHbwLTzcg0gBPLXMd2yevzE8aVxjP36gjUpNoXT72sHaAKnm0J3Cf4ssHu%2FnhHqp4GtBuWgkcnMrcRDNVrHQihqsJhpkIUfnzRENa74IEITUOEAqJqiSJnB13VDDgIUY1W%2BAWOlSS9NZ8LvdQOhFFiQCoNg4HMH4Khs561ePMtOXUt6SRRe%2BgUB9L1YjYexUW2%2BjLXNAoUXl67baVprQOFBedDh%2BjwRyALwsplauvnvY28VYXLR8yK29u%2BocLDnNsq827Dn56dOJwVVfa3yCGaaH%2Faw2Ca6US9hs5%2BAyGclUxSLblXl9FnNps1ICUoyjfXk%2FAC4pcdrPay0vcYMKPWy061vNfFoaVYEZd389lABV2vGZcI1D%2BO17u0gVL5rh2BTjn4uhC3xuMPelj3D91BsX%2FITNVyFDihNbAeP92eU4OseR00wVxZYzZZNwOM4HtC5VNv3Ai38wM7LaCuII29BGUojP5B8%2BJBUG8hSdpecXbe1CtW51JIdVZk2iT70UnEh%2B6TQt7OVgO9xzNA55zE9eRb90TSbNWpOWDktPVzpSTY%2FzULu%2Bg9%2BWHeNARKXNS5VC%2FH%2F%2BmIT74aCG0Yd5UrG86Oyp8wa2mdLYyUKR%2Bh85c%2FontZnQhaL8Ldy%2FMExAtvHUD5B%2FFMOdfdY73V64h%2FZ0lDzcjN2xNdD5g0A3iFap%2FbO%2FxuI%2FWrR9B8%2FPI7RVUzJ7SwXnj%2FKV%2FPiKVWjEXSUKGjFPdPtew6eccT0j6LHAkG%2FE%2FJRfwiGSN%2Bfwa84UOMRTJcxspKipgeQxD%2FGXwY9kwLTCGgFLesH5rNro%2BCYYi3qcOcZj2P5v3ttjzah5ary2v9fcgFfPcuYG07Z0RZJoeOjYn4%2F2jYB2zkdcUjTi3C14s2Maa6WJdcKSd8okzTFxmRXBTEJyWAtWTNRtQs38WqfYmhzO9W3DaHpXbZg8IMQWrCBZQs38TldUNHfsCLcVw4q503nFNev%2FbSgjWO2zMtqcrMRWGeWAiBvhRuMY0zyUafnyQrUQQLyoh5vZtvotkzsDfJTaYyMDr%2Bu5ONDkDAeyhjnuldK%2FWeqv16niCenbf%2ByOUtArTOsgaqu9XMUSkHXsu4JTt9lD36XooGOaWFscb%2F5ZCpDquT5AuUbGlwMgQXguOihioNgRJ%2F4yPeA4avy5nbEfXZySOf%2BZQpEH7TJV71zJS230opiVnodBM5yvCAEZ4u38uYpwwtzs%2B2FgOzpMv2g89ZNWuYBycRVBT4RYoixOl2zvcMpjbZgB6WyDOa74IW186cc4mtzFGokDNFpSvogeFZhfTakoms3PlHZt7c3OqW3vNhpQUZg4CXyDOfnyTsNPQTy4mqw9eZc4WGq5s6%2BM66ptfCXsTi1riGqvDAuSqvcWfYyOmWvd6veUcBX4uAhdRCyZ7sJ9qM3Y9Wdj425P6ZGw7YnJ7k3PTMqVSV9O6o3gDlbSRusbUMYFjhr97b%2FstpbciWSsB%2FHmFR%2BPwB2KOwwHLTv%2BOuoPJ9e9o%2FEgFzbFyn6OYVfioUtmgAfoh%2F1ph2bYKzd4Z3P1WdAC7iR7Ct%2Bt%2BmoS3ZsAffRyUnP1m8H88WjgiuVxIy9DuHz5seT6Bbrp8XMMTQ36QyYyV9IBQhOdEDcSHov9SP10tRWaTe%2FndlB%2BCRmF06LIffnkGyrm4S7t%2BXYU9L451chvq2x4%2FKzipNXl756h2QFkyqZHntjZn3DR7naUBuXfqzg%2Bnt0phmXmppLmzmiQRevvB3l6PnVs6w2dkH7N7fVDI7t%2FiKtQaGFjVViMY3%2FoRnH9apycOmjtfdC%2Bp5EbIgExuNJgoxC82rlaYU0Qan0W8Y%2BNt%2BnnVTWMEt7OdTCiNym2vmNYwMXcmgsdW0qTzILFiOU7xraPYA1lKSR5w7dnJg0%2FTMo%2FMjc%2BfYgglTvoQYS9Y49S%2F9pchjadsOSR2rd5AgtKsA%22%2C%22e%22%3A%22jTYTr3neEUOZPHtBx0PvoBV7a-NU-0y_iibLNCjFArZ9tuEUdiugeouLEJG0uvIa-9Z-k-lQ6fL3lpbcTxPN4fk9Wu-Q71ExCDYni5eDYwVSG_W5NXXiw0SnMK_GknTTTFhOiVDaaNOdAoCLDoRnw9wte-z8st5vQwMk3OBrg7vKkzv8sF4OTP5EedCw--8znP3KOd3q60OExCclqJu-_A%22%7D"
+  # 开发者
+  timeout: 10
+  headers:
+    Content-Type: "application/json"
+    Authorization: "Bearer prod-token"
+
+ui:
+  browser: "chrome"
+  driver_path: "./drivers/chromedriver"
+  implicit_wait: 5
+  base_url: "http://192.168.220.128:8090"
+  username: "admin"
+  password: "123456"
+h5:
+  browser: "chrome"
+  driver_path: "./drivers/chromedriver"
+  implicit_wait: 5
+  base_url: "http://localhost:8060/#/"
+  username: "admin"
+  password: "123456"
+
+db:
+  host: "prod-db.company.com"
+  port: 3306
+  user: "prod_user"
+  password: "prod_password"
+  database: "prod_db"

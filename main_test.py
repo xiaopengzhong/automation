@@ -7,7 +7,7 @@ import os
 import pytest
 
 if __name__ == '__main__':
-    pytest.main(['test_case/api_tests/test_viewcode.py', '-s', '--alluredir=tmp/report', '--clean-alluredir'])
+    pytest.main(['test_case/ui/H5/test_checkout_flow.py', '-s','--alluredir=tmp/report', '--clean-alluredir'])
     os.system("allure generate ./tmp/report -o ./report/html --clean")
     os.system("allure serve -p 60001 ./tmp/report")
 

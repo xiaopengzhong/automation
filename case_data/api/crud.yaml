@@ -1,0 +1,360 @@
+#case_data/api/crud.yaml
+submit:
+  - fieldData: {'wenben__c':'增加'}
+    fieldName: 'wenben__c'
+    expected: '增加'
+  - fieldData: {'shuzhi__c':1.1}
+    fieldName: 'shuzhi__c'
+    expected: 1.1
+  - fieldData: {'danxuan__c':{"name": "选项1","value": "选项1"}}
+    fieldName: 'danxuan__c'
+    expected: {"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}}
+  - fieldData: {'duoxuan__c':[{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]}
+    fieldName: 'duoxuan__c'
+    expected: [{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]
+  - fieldData: {'riqi1__c':'2024-12-05'}
+    fieldName: 'riqi1__c'
+    expected: '2024-12-05'
+# 详情接口验证各个字段的值
+detail:
+  - titleName: '验证文本字段类型的字段的值'
+    fieldName: 'wenben__c'
+    expected: '增加'
+
+  - titleName: '验证数值字段类型的字段的值'
+    fieldName: 'shuzhi__c'
+    expected: 1.1
+
+  - titleName: '验证单选字段类型的字段的值'
+    fieldName: 'danxuan__c'
+    expected: {"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}}
+
+  - titleName: '验证多选字段类型的字段的值'
+    fieldName: 'duoxuan__c'
+    expected: [{"name": "选项1","value": "选项1","style": {"color": "#66CC00","background": "#F0FAE5"}},{"name": "选项2","value": "选项2","style": {"color": "#007EFF","background": "#E5F2FF"}}]
+
+  - titleName: '验证日期字段类型的字段的值'
+    fieldName: 'riqi1__c'
+    expected: '2024-12-05'
+
+  - titleName: '验证错误记录id的返回'
+    fieldName: '测试不存在的记录'
+    expected: '不存在id为100的记录'
+  # 验证列表接口各个字段的值
+list:
+  - description: "验证第一条数据"
+    data:
+      shuzhi__c: 1.1
+      wenben__c: "1"
+      changwenben__c: "怎样的雨"
+      danxuan__c:
+        name: "选项1"
+        value: "选项1"
+      duoxuan__c:
+        - name: "选项1"
+          value: "选项1"
+        - name: "选项2"
+          value: "选项2"
+      riqi1__c: "2023-08-15"
+      diqu__c:
+        - recordId: 10004
+      guanlian17__c:
+        - formCode: "yxpm__CustomObject0213__c"
+          recordId: 1017720
+      zhuxiang__c_yxpm__CustomObject0147__c:
+        - formCode: "yxpm__CustomObject0147__c"
+          rowData:
+            wenben__c: "数据1"
+
+  - description: "验证第二条数据"
+    data:
+      shuzhi__c: 1
+      wenben__c: "数据1"
+      changwenben__c: "怎样的"
+      danxuan__c:
+        name: "选项1"
+        value: "选项1"
+      duoxuan__c:
+        - name: "选项1"
+          value: "选项1"
+        - name: "选项2"
+          value: "选项2"
+      riqi1__c: "2023-08-15"
+      diqu__c:
+        - recordId: 10004
+      guanlian17__c:
+        - formCode: "yxpm__CustomObject0213__c"
+          recordId: 1017720
+      zhuxiang__c_yxpm__CustomObject0147__c:
+        - formCode: "yxpm__CustomObject0147__c"
+          rowData:
+            wenben__c: "数据2"
+
+  - description: "验证第三条数据"
+    data:
+      shuzhi__c: 3
+      wenben__c: "1数据"
+      changwenben__c: ""
+      danxuan__c:
+        name: "选项1"
+        value: "选项1"
+        style:
+          color: "#66CC00"
+          background: "#F0FAE5"
+      duoxuan__c:
+        - name: "选项1"
+          value: "选项1"
+        - name: "选项3"
+          value: "选项3"
+      riqi1__c: "2023-09-15"
+      diqu__c:
+        - recordId: 10007
+      guanlian17__c:
+        - formCode: "yxpm__CustomObject0213__c"
+          recordId: 1017719
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第4条数据"
+    data:
+      shuzhi__c: 4.1
+      wenben__c: "2"
+      changwenben__c: ""
+      danxuan__c:
+        name: "选项2"
+        value: "选项2"
+      duoxuan__c:
+        - name: "选项1"
+          value: "选项1"
+        - name: "选项2"
+          value: "选项2"
+        - name: "选项4"
+          value: "选项4"
+      riqi1__c: "2024-10-15"
+      diqu__c:
+        - recordId: 10005
+      guanlian17__c:
+        - formCode: "yxpm__CustomObject0213__c"
+          recordId: 1017719
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第5条数据"
+    data:
+      shuzhi__c: 0
+      wenben__c: "数据5"
+      changwenben__c: ""
+      danxuan__c:
+        name: "选项3"
+        value: "选项3"
+      duoxuan__c:
+        - name: "选项1"
+          value: "选项1"
+        - name: "选项2"
+          value: "选项2"
+        - name: "选项3"
+          value: "选项3"
+      riqi1__c: "2023-07-15"
+      diqu__c:
+        - recordId: 10006
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第6条数据"
+    data:
+      shuzhi__c: 0.1
+      wenben__c: "数据6"
+      changwenben__c: ""
+      danxuan__c:
+        name: "选项4"
+        value: "选项4"
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第7条数据"
+    data:
+      shuzhi__c: 2.2
+      wenben__c: "数据7"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第8条数据"
+    data:
+      shuzhi__c: 12
+      wenben__c: "数据8"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第9条数据"
+    data:
+      shuzhi__c: 99
+      wenben__c: "数据9"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第10条数据"
+    data:
+      shuzhi__c: 999
+      wenben__c: "数据10"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第11条数据"
+    data:
+      shuzhi__c: 2
+      wenben__c: "数据11"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第12条数据"
+    data:
+      shuzhi__c: 2
+      wenben__c: "数据12"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第13条数据"
+    data:
+      shuzhi__c: 11
+      wenben__c: "数据13"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第14条数据"
+    data:
+      shuzhi__c: 11
+      wenben__c: "数据14"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第15条数据"
+    data:
+      shuzhi__c: 11
+      wenben__c: "数据15"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第16条数据"
+    data:
+      shuzhi__c: 11
+      wenben__c: "数据16"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第17条数据"
+    data:
+      shuzhi__c: 11
+      wenben__c: "数据17"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第18条数据"
+    data:
+      shuzhi__c: 17
+      wenben__c: "数据18"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第19条数据"
+    data:
+      shuzhi__c: 18
+      wenben__c: "数据19"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第20条数据"
+    data:
+      shuzhi__c: 19
+      wenben__c: ""
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+  - description: "验证第21条数据"
+    data:
+      shuzhi__c: null
+      wenben__c: "数据21"
+      changwenben__c: ""
+      danxuan__c: null
+      duoxuan__c: []
+      riqi1__c: ""
+      diqu__c: []
+      guanlian17__c: []
+      zhuxiang__c_yxpm__CustomObject0147__c: []
+
+
+
+
+
+
+

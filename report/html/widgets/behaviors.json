@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "c0286d358d768513e4c15545ae4dd721",
-    "name" : "视图筛选器功能",
+    "uid" : "dd107f07743364aa96a73ab49a9b040a",
+    "name" : "结算流程",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

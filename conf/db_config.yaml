@@ -1,0 +1,6 @@
+default:
+  host: 192.168.220.128
+  port: 3306
+  user: root
+  password: 123456
+  database: mall
