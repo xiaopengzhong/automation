@@ -1,0 +1,13 @@
+INFO     ui:base_page.py:26 打开URL: http://localhost:8060/#/pages/public/login
+INFO     ui:base_page.py:100 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+INFO     ui:base_page.py:100 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+INFO     ui:base_page.py:84 点击元素: ('xpath', "//uni-button[text()='登录']")
+INFO     ui:base_page.py:26 打开URL: http://localhost:8060/#/
+INFO     ui:base_page.py:84 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+INFO     ui:base_page.py:84 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+INFO     ui:base_page.py:84 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+INFO     ui:base_page.py:84 点击元素: ('xpath', "//uni-button[text()='去结算']")
+INFO     ui:base_page.py:84 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+INFO     ui:base_page.py:84 点击元素: ('xpath', '//uni-app/uni-modal/div[2]/div[3]/div[2]')
+INFO     ui:base_page.py:84 点击元素: ('xpath', '//uni-page-body//uni-view[position()=2]//uni-view[1]')
+INFO     ui:base_page.py:84 点击元素: ('xpath', '//uni-page-body//uni-text')

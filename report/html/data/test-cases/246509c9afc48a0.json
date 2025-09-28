@@ -1,0 +1,111 @@
+{
+  "uid" : "246509c9afc48a0",
+  "name" : "验证用户能成功从商品详情页加购并进入结算页",
+  "fullName" : "test_case.ui.H5.test_checkout_flow.TestCheckoutFlow#test_checkout_success",
+  "historyId" : "bc86a5043c65bc74d0ba70760f885ae1",
+  "time" : {
+    "start" : 1759050263138,
+    "stop" : 1759050270795,
+    "duration" : 7657
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1759050260911,
+      "stop" : 1759050263133,
+      "duration" : 2222
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "249194711941e73c",
+      "name" : "log",
+      "source" : "249194711941e73c.txt",
+      "type" : "text/plain",
+      "size" : 1206
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1759050270796,
+      "stop" : 1759050273421,
+      "duration" : 2625
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加购并去结算"
+  }, {
+    "name" : "feature",
+    "value" : "结算流程"
+  }, {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.H5"
+  }, {
+    "name" : "suite",
+    "value" : "test_checkout_flow"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCheckoutFlow"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "16320-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.H5.test_checkout_flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ui" ]
+  },
+  "source" : "246509c9afc48a0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,3257 @@
+2025-09-06 07:45:50,648 - ui - INFO - 打开URL: http://192.168.220.128:8090
+2025-09-06 07:45:53,400 - ui - INFO - 输入文本到 ('name', 'username'): admin
+2025-09-06 07:45:53,574 - ui - INFO - 输入文本到 ('name', 'password'): 123456
+2025-09-06 07:45:53,825 - ui - INFO - 点击元素: ('css selector', 'button.el-button.el-button--primary')
+2025-09-06 07:45:54,899 - ui - INFO - 退出浏览器
+2025-09-06 07:45:58,701 - ui - INFO - 打开URL: http://192.168.220.128:8090
+2025-09-06 07:46:01,183 - ui - INFO - 输入文本到 ('name', 'username'): admin
+2025-09-06 07:46:01,314 - ui - INFO - 输入文本到 ('name', 'password'): wrong
+2025-09-06 07:46:01,438 - ui - INFO - 点击元素: ('css selector', 'button.el-button.el-button--primary')
+2025-09-06 07:46:01,986 - ui - INFO - 退出浏览器
+2025-09-06 07:46:05,720 - ui - INFO - 打开URL: http://192.168.220.128:8090
+2025-09-06 07:46:08,683 - ui - INFO - 输入文本到 ('name', 'username'): 
+2025-09-06 07:46:08,829 - ui - INFO - 输入文本到 ('name', 'password'): 123456
+2025-09-06 07:46:08,985 - ui - INFO - 点击元素: ('css selector', 'button.el-button.el-button--primary')
+2025-09-06 07:46:09,017 - ui - INFO - 退出浏览器
+2025-09-06 07:46:13,730 - ui - INFO - 打开URL: http://192.168.220.128:8090
+2025-09-06 07:46:16,056 - ui - INFO - 输入文本到 ('name', 'username'): test
+2025-09-06 07:46:16,167 - ui - INFO - 输入文本到 ('name', 'password'): 
+2025-09-06 07:46:16,326 - ui - INFO - 点击元素: ('css selector', 'button.el-button.el-button--primary')
+2025-09-06 07:46:16,870 - ui - INFO - 退出浏览器
+2025-09-15 20:26:29,200 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-15 20:26:41,306 - ui - ERROR - find_element 失败，locator=('css selector', '.uni-swiper-slide img'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a13f78d5+2802741]
+	GetHandleVerifier [0x0x7ff6a115eb70+79568]
+	(No symbol) [0x0x7ff6a0efc0fa]
+	(No symbol) [0x0x7ff6a0f52a96]
+	(No symbol) [0x0x7ff6a0f52d4c]
+	(No symbol) [0x0x7ff6a0fa6017]
+	(No symbol) [0x0x7ff6a0f7accf]
+	(No symbol) [0x0x7ff6a0fa2e24]
+	(No symbol) [0x0x7ff6a0f7aa63]
+	(No symbol) [0x0x7ff6a0f43c91]
+	(No symbol) [0x0x7ff6a0f44a23]
+	GetHandleVerifier [0x0x7ff6a1422ced+2979917]
+	GetHandleVerifier [0x0x7ff6a141d0f3+2956371]
+	GetHandleVerifier [0x0x7ff6a143acbd+3078173]
+	GetHandleVerifier [0x0x7ff6a117836e+184014]
+	GetHandleVerifier [0x0x7ff6a118024f+216495]
+	GetHandleVerifier [0x0x7ff6a11670c4+113700]
+	GetHandleVerifier [0x0x7ff6a1167279+114137]
+	GetHandleVerifier [0x0x7ff6a114df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-15 20:26:41,688 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-15_20-26-41.png
+2025-09-15 21:14:33,676 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-15 21:14:45,581 - ui - ERROR - find_element 失败，locator=('xpath', "//view[contains(., '品牌制造商直供')]"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a13f78d5+2802741]
+	GetHandleVerifier [0x0x7ff6a115eb70+79568]
+	(No symbol) [0x0x7ff6a0efc0fa]
+	(No symbol) [0x0x7ff6a0f52a96]
+	(No symbol) [0x0x7ff6a0f52d4c]
+	(No symbol) [0x0x7ff6a0fa6017]
+	(No symbol) [0x0x7ff6a0f7accf]
+	(No symbol) [0x0x7ff6a0fa2e24]
+	(No symbol) [0x0x7ff6a0f7aa63]
+	(No symbol) [0x0x7ff6a0f43c91]
+	(No symbol) [0x0x7ff6a0f44a23]
+	GetHandleVerifier [0x0x7ff6a1422ced+2979917]
+	GetHandleVerifier [0x0x7ff6a141d0f3+2956371]
+	GetHandleVerifier [0x0x7ff6a143acbd+3078173]
+	GetHandleVerifier [0x0x7ff6a117836e+184014]
+	GetHandleVerifier [0x0x7ff6a118024f+216495]
+	GetHandleVerifier [0x0x7ff6a11670c4+113700]
+	GetHandleVerifier [0x0x7ff6a1167279+114137]
+	GetHandleVerifier [0x0x7ff6a114df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-15 21:14:46,028 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-15_21-14-45.png
+2025-09-15 21:20:13,091 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:20:09,785 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:22:27,176 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:26:35,990 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:26:42,294 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:26:53,668 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 11:26:54,032 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_11-26-53.png
+2025-09-16 11:26:54,370 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 11:26:54,669 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_11-26-54.png
+2025-09-16 11:26:56,621 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:27:07,656 - ui - ERROR - click 失败，locator=('xpath', "//text()[contains(., '分类')]/.."), error=Message: 
+
+2025-09-16 11:27:08,014 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_11-27-07.png
+2025-09-16 11:27:09,684 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:27:12,003 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 11:27:16,402 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 11:27:18,391 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 12:02:09,790 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 12:02:16,321 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 12:02:27,994 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 12:02:28,423 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_12-02-27.png
+2025-09-16 12:02:28,738 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 12:02:29,053 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_12-02-28.png
+2025-09-16 12:02:30,992 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 12:02:42,938 - ui - ERROR - click 失败，locator=('xpath', "//text()[contains(., '分类')]/.."), error=Message: 
+
+2025-09-16 12:02:43,334 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_12-02-42.png
+2025-09-16 12:02:44,924 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 12:02:46,630 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 12:02:50,331 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 12:02:52,027 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 17:03:11,180 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:03:17,409 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:03:29,013 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 17:03:29,374 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-03-29.png
+2025-09-16 17:03:29,699 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 17:03:30,009 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-03-29.png
+2025-09-16 17:03:31,911 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:03:44,183 - ui - ERROR - click 失败，locator=('xpath', "//text()[contains(., '分类')]/.."), error=Message: 
+
+2025-09-16 17:03:44,510 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-03-44.png
+2025-09-16 17:03:48,307 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:03:49,880 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 17:03:53,354 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:03:55,077 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 17:08:37,145 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:08:43,590 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:08:55,205 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 17:08:55,544 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-08-55.png
+2025-09-16 17:08:55,865 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 17:08:56,200 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-08-55.png
+2025-09-16 17:08:58,335 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:09:00,135 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-16 17:09:07,171 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:09:08,724 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 17:09:12,095 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:09:13,627 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 17:24:43,535 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:24:55,800 - ui - ERROR - find_element 失败，locator=('xpath', "//view[contains(., '秒杀专区')]"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 17:24:56,145 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-24-55.png
+2025-09-16 17:24:57,869 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:25:08,728 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 17:25:09,073 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-25-08.png
+2025-09-16 17:25:09,346 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 17:25:09,621 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_17-25-09.png
+2025-09-16 17:25:11,561 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:25:13,248 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-16 17:25:16,946 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:25:18,754 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 17:25:23,486 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 17:25:25,240 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 18:58:57,504 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 18:58:59,107 - ui - ERROR - find_element 失败，locator=('xpath', "//text()[contains(., '新鲜好物')]"), error=Message: invalid selector: The result of the xpath expression "//text()[contains(., '新鲜好物')]" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683323abd]
+	(No symbol) [0x0x7ff683326b1c]
+	(No symbol) [0x0x7ff683326bef]
+	(No symbol) [0x0x7ff683372347]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 18:58:59,485 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_18-58-59.png
+2025-09-16 18:59:03,620 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 18:59:15,314 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 18:59:15,653 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_18-59-15.png
+2025-09-16 18:59:15,919 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 18:59:16,194 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_18-59-15.png
+2025-09-16 18:59:17,941 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 18:59:19,735 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-16 18:59:24,443 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 18:59:26,328 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 18:59:29,877 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 18:59:31,534 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 19:03:26,802 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:03:32,163 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:03:42,722 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 19:03:43,067 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-03-42.png
+2025-09-16 19:03:43,332 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 19:03:43,603 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-03-43.png
+2025-09-16 19:03:45,330 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:03:47,037 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-16 19:03:52,000 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:03:53,894 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 19:03:58,544 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:04:00,436 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 19:49:10,992 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:49:12,550 - ui - INFO - 退出浏览器
+2025-09-16 19:49:16,217 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:49:27,802 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 19:49:28,251 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-49-27.png
+2025-09-16 19:49:28,532 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 19:49:28,857 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-49-28.png
+2025-09-16 19:49:29,422 - ui - INFO - 退出浏览器
+2025-09-16 19:49:33,254 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:49:44,839 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 19:49:45,286 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-49-44.png
+2025-09-16 19:49:45,586 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 19:49:45,868 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-49-45.png
+2025-09-16 19:49:46,175 - ui - INFO - 退出浏览器
+2025-09-16 19:49:50,093 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:49:51,983 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-16 19:49:51,995 - ui - INFO - 退出浏览器
+2025-09-16 19:49:56,017 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:49:57,619 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 19:49:57,644 - ui - INFO - 退出浏览器
+2025-09-16 19:50:01,217 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:50:02,777 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 19:50:02,819 - ui - INFO - 退出浏览器
+2025-09-16 19:50:06,588 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:50:09,096 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[5]/uni-view[1]/uni-text[1]/span'), error=Message: element click intercepted: Element <span>...</span> is not clickable at point (107, 882). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff68337aaa9]
+	(No symbol) [0x0x7ff683378442]
+	(No symbol) [0x0x7ff683375481]
+	(No symbol) [0x0x7ff683374371]
+	(No symbol) [0x0x7ff683365bb8]
+	(No symbol) [0x0x7ff68339ac8a]
+	(No symbol) [0x0x7ff683365466]
+	(No symbol) [0x0x7ff68339aea0]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 19:50:09,426 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-50-09.png
+2025-09-16 19:50:09,869 - ui - INFO - 退出浏览器
+2025-09-16 19:50:13,720 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 19:50:25,324 - ui - ERROR - find_elements 失败，locator=('css selector', '.brand-item'), error=Message: 
+
+2025-09-16 19:50:25,666 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_19-50-25.png
+2025-09-16 19:50:25,973 - ui - INFO - 退出浏览器
+2025-09-16 20:09:01,396 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:09:31,157 - ui - INFO - 退出浏览器
+2025-09-16 20:09:34,853 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:09:46,480 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 20:09:46,921 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_20-09-46.png
+2025-09-16 20:09:47,243 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 20:09:47,590 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_20-09-47.png
+2025-09-16 20:09:48,087 - ui - INFO - 退出浏览器
+2025-09-16 20:09:51,886 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:10:03,536 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 20:10:03,981 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_20-10-03.png
+2025-09-16 20:10:04,274 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6838178d5+2802741]
+	GetHandleVerifier [0x0x7ff68357eb70+79568]
+	(No symbol) [0x0x7ff68331c0fa]
+	(No symbol) [0x0x7ff683372a96]
+	(No symbol) [0x0x7ff683372d4c]
+	(No symbol) [0x0x7ff6833c6017]
+	(No symbol) [0x0x7ff68339accf]
+	(No symbol) [0x0x7ff6833c2e24]
+	(No symbol) [0x0x7ff68339aa63]
+	(No symbol) [0x0x7ff683363c91]
+	(No symbol) [0x0x7ff683364a23]
+	GetHandleVerifier [0x0x7ff683842ced+2979917]
+	GetHandleVerifier [0x0x7ff68383d0f3+2956371]
+	GetHandleVerifier [0x0x7ff68385acbd+3078173]
+	GetHandleVerifier [0x0x7ff68359836e+184014]
+	GetHandleVerifier [0x0x7ff6835a024f+216495]
+	GetHandleVerifier [0x0x7ff6835870c4+113700]
+	GetHandleVerifier [0x0x7ff683587279+114137]
+	GetHandleVerifier [0x0x7ff68356df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-16 20:10:04,568 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-16_20-10-04.png
+2025-09-16 20:10:04,876 - ui - INFO - 退出浏览器
+2025-09-16 20:10:09,074 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:10:10,881 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-16 20:10:10,893 - ui - INFO - 退出浏览器
+2025-09-16 20:10:16,098 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:10:17,804 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-16 20:10:17,829 - ui - INFO - 退出浏览器
+2025-09-16 20:10:21,823 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:10:23,498 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-16 20:10:23,512 - ui - INFO - 退出浏览器
+2025-09-16 20:10:27,307 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:10:28,343 - ui - INFO - 退出浏览器
+2025-09-16 20:10:31,961 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-16 20:10:33,321 - ui - INFO - 退出浏览器
+2025-09-17 11:16:08,267 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:16:10,119 - ui - INFO - 退出浏览器
+2025-09-17 11:16:13,903 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:16:25,673 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b4db78d5+2802741]
+	GetHandleVerifier [0x0x7ff7b4b1eb70+79568]
+	(No symbol) [0x0x7ff7b48bc0fa]
+	(No symbol) [0x0x7ff7b4912a96]
+	(No symbol) [0x0x7ff7b4912d4c]
+	(No symbol) [0x0x7ff7b4966017]
+	(No symbol) [0x0x7ff7b493accf]
+	(No symbol) [0x0x7ff7b4962e24]
+	(No symbol) [0x0x7ff7b493aa63]
+	(No symbol) [0x0x7ff7b4903c91]
+	(No symbol) [0x0x7ff7b4904a23]
+	GetHandleVerifier [0x0x7ff7b4de2ced+2979917]
+	GetHandleVerifier [0x0x7ff7b4ddd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7b4dfacbd+3078173]
+	GetHandleVerifier [0x0x7ff7b4b3836e+184014]
+	GetHandleVerifier [0x0x7ff7b4b4024f+216495]
+	GetHandleVerifier [0x0x7ff7b4b270c4+113700]
+	GetHandleVerifier [0x0x7ff7b4b27279+114137]
+	GetHandleVerifier [0x0x7ff7b4b0df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:16:26,096 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-16-25.png
+2025-09-17 11:16:26,400 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b4db78d5+2802741]
+	GetHandleVerifier [0x0x7ff7b4b1eb70+79568]
+	(No symbol) [0x0x7ff7b48bc0fa]
+	(No symbol) [0x0x7ff7b4912a96]
+	(No symbol) [0x0x7ff7b4912d4c]
+	(No symbol) [0x0x7ff7b4966017]
+	(No symbol) [0x0x7ff7b493accf]
+	(No symbol) [0x0x7ff7b4962e24]
+	(No symbol) [0x0x7ff7b493aa63]
+	(No symbol) [0x0x7ff7b4903c91]
+	(No symbol) [0x0x7ff7b4904a23]
+	GetHandleVerifier [0x0x7ff7b4de2ced+2979917]
+	GetHandleVerifier [0x0x7ff7b4ddd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7b4dfacbd+3078173]
+	GetHandleVerifier [0x0x7ff7b4b3836e+184014]
+	GetHandleVerifier [0x0x7ff7b4b4024f+216495]
+	GetHandleVerifier [0x0x7ff7b4b270c4+113700]
+	GetHandleVerifier [0x0x7ff7b4b27279+114137]
+	GetHandleVerifier [0x0x7ff7b4b0df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:16:26,748 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-16-26.png
+2025-09-17 11:16:27,306 - ui - INFO - 退出浏览器
+2025-09-17 11:16:31,024 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:16:42,897 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b4db78d5+2802741]
+	GetHandleVerifier [0x0x7ff7b4b1eb70+79568]
+	(No symbol) [0x0x7ff7b48bc0fa]
+	(No symbol) [0x0x7ff7b4912a96]
+	(No symbol) [0x0x7ff7b4912d4c]
+	(No symbol) [0x0x7ff7b4966017]
+	(No symbol) [0x0x7ff7b493accf]
+	(No symbol) [0x0x7ff7b4962e24]
+	(No symbol) [0x0x7ff7b493aa63]
+	(No symbol) [0x0x7ff7b4903c91]
+	(No symbol) [0x0x7ff7b4904a23]
+	GetHandleVerifier [0x0x7ff7b4de2ced+2979917]
+	GetHandleVerifier [0x0x7ff7b4ddd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7b4dfacbd+3078173]
+	GetHandleVerifier [0x0x7ff7b4b3836e+184014]
+	GetHandleVerifier [0x0x7ff7b4b4024f+216495]
+	GetHandleVerifier [0x0x7ff7b4b270c4+113700]
+	GetHandleVerifier [0x0x7ff7b4b27279+114137]
+	GetHandleVerifier [0x0x7ff7b4b0df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:16:43,310 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-16-42.png
+2025-09-17 11:16:43,644 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b4db78d5+2802741]
+	GetHandleVerifier [0x0x7ff7b4b1eb70+79568]
+	(No symbol) [0x0x7ff7b48bc0fa]
+	(No symbol) [0x0x7ff7b4912a96]
+	(No symbol) [0x0x7ff7b4912d4c]
+	(No symbol) [0x0x7ff7b4966017]
+	(No symbol) [0x0x7ff7b493accf]
+	(No symbol) [0x0x7ff7b4962e24]
+	(No symbol) [0x0x7ff7b493aa63]
+	(No symbol) [0x0x7ff7b4903c91]
+	(No symbol) [0x0x7ff7b4904a23]
+	GetHandleVerifier [0x0x7ff7b4de2ced+2979917]
+	GetHandleVerifier [0x0x7ff7b4ddd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7b4dfacbd+3078173]
+	GetHandleVerifier [0x0x7ff7b4b3836e+184014]
+	GetHandleVerifier [0x0x7ff7b4b4024f+216495]
+	GetHandleVerifier [0x0x7ff7b4b270c4+113700]
+	GetHandleVerifier [0x0x7ff7b4b27279+114137]
+	GetHandleVerifier [0x0x7ff7b4b0df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:16:43,987 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-16-43.png
+2025-09-17 11:16:44,353 - ui - INFO - 退出浏览器
+2025-09-17 11:16:48,048 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:16:49,657 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-17 11:16:49,684 - ui - INFO - 退出浏览器
+2025-09-17 11:16:53,300 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:16:55,208 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-17 11:16:55,218 - ui - INFO - 退出浏览器
+2025-09-17 11:16:58,876 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:17:00,563 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-17 11:17:00,572 - ui - INFO - 退出浏览器
+2025-09-17 11:17:05,274 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:17:06,321 - ui - INFO - 退出浏览器
+2025-09-17 11:17:09,973 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:17:10,946 - ui - INFO - 退出浏览器
+2025-09-17 11:47:39,830 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:47:41,680 - ui - INFO - 退出浏览器
+2025-09-17 11:47:45,870 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:47:57,022 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d4c378d5+2802741]
+	GetHandleVerifier [0x0x7ff7d499eb70+79568]
+	(No symbol) [0x0x7ff7d473c0fa]
+	(No symbol) [0x0x7ff7d4792a96]
+	(No symbol) [0x0x7ff7d4792d4c]
+	(No symbol) [0x0x7ff7d47e6017]
+	(No symbol) [0x0x7ff7d47baccf]
+	(No symbol) [0x0x7ff7d47e2e24]
+	(No symbol) [0x0x7ff7d47baa63]
+	(No symbol) [0x0x7ff7d4783c91]
+	(No symbol) [0x0x7ff7d4784a23]
+	GetHandleVerifier [0x0x7ff7d4c62ced+2979917]
+	GetHandleVerifier [0x0x7ff7d4c5d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7d4c7acbd+3078173]
+	GetHandleVerifier [0x0x7ff7d49b836e+184014]
+	GetHandleVerifier [0x0x7ff7d49c024f+216495]
+	GetHandleVerifier [0x0x7ff7d49a70c4+113700]
+	GetHandleVerifier [0x0x7ff7d49a7279+114137]
+	GetHandleVerifier [0x0x7ff7d498df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:47:57,406 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-47-57.png
+2025-09-17 11:47:57,678 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d4c378d5+2802741]
+	GetHandleVerifier [0x0x7ff7d499eb70+79568]
+	(No symbol) [0x0x7ff7d473c0fa]
+	(No symbol) [0x0x7ff7d4792a96]
+	(No symbol) [0x0x7ff7d4792d4c]
+	(No symbol) [0x0x7ff7d47e6017]
+	(No symbol) [0x0x7ff7d47baccf]
+	(No symbol) [0x0x7ff7d47e2e24]
+	(No symbol) [0x0x7ff7d47baa63]
+	(No symbol) [0x0x7ff7d4783c91]
+	(No symbol) [0x0x7ff7d4784a23]
+	GetHandleVerifier [0x0x7ff7d4c62ced+2979917]
+	GetHandleVerifier [0x0x7ff7d4c5d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7d4c7acbd+3078173]
+	GetHandleVerifier [0x0x7ff7d49b836e+184014]
+	GetHandleVerifier [0x0x7ff7d49c024f+216495]
+	GetHandleVerifier [0x0x7ff7d49a70c4+113700]
+	GetHandleVerifier [0x0x7ff7d49a7279+114137]
+	GetHandleVerifier [0x0x7ff7d498df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:47:58,047 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-47-57.png
+2025-09-17 11:47:58,531 - ui - INFO - 退出浏览器
+2025-09-17 11:48:02,208 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:13,420 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d4c378d5+2802741]
+	GetHandleVerifier [0x0x7ff7d499eb70+79568]
+	(No symbol) [0x0x7ff7d473c0fa]
+	(No symbol) [0x0x7ff7d4792a96]
+	(No symbol) [0x0x7ff7d4792d4c]
+	(No symbol) [0x0x7ff7d47e6017]
+	(No symbol) [0x0x7ff7d47baccf]
+	(No symbol) [0x0x7ff7d47e2e24]
+	(No symbol) [0x0x7ff7d47baa63]
+	(No symbol) [0x0x7ff7d4783c91]
+	(No symbol) [0x0x7ff7d4784a23]
+	GetHandleVerifier [0x0x7ff7d4c62ced+2979917]
+	GetHandleVerifier [0x0x7ff7d4c5d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7d4c7acbd+3078173]
+	GetHandleVerifier [0x0x7ff7d49b836e+184014]
+	GetHandleVerifier [0x0x7ff7d49c024f+216495]
+	GetHandleVerifier [0x0x7ff7d49a70c4+113700]
+	GetHandleVerifier [0x0x7ff7d49a7279+114137]
+	GetHandleVerifier [0x0x7ff7d498df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:48:13,788 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-48-13.png
+2025-09-17 11:48:14,142 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d4c378d5+2802741]
+	GetHandleVerifier [0x0x7ff7d499eb70+79568]
+	(No symbol) [0x0x7ff7d473c0fa]
+	(No symbol) [0x0x7ff7d4792a96]
+	(No symbol) [0x0x7ff7d4792d4c]
+	(No symbol) [0x0x7ff7d47e6017]
+	(No symbol) [0x0x7ff7d47baccf]
+	(No symbol) [0x0x7ff7d47e2e24]
+	(No symbol) [0x0x7ff7d47baa63]
+	(No symbol) [0x0x7ff7d4783c91]
+	(No symbol) [0x0x7ff7d4784a23]
+	GetHandleVerifier [0x0x7ff7d4c62ced+2979917]
+	GetHandleVerifier [0x0x7ff7d4c5d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7d4c7acbd+3078173]
+	GetHandleVerifier [0x0x7ff7d49b836e+184014]
+	GetHandleVerifier [0x0x7ff7d49c024f+216495]
+	GetHandleVerifier [0x0x7ff7d49a70c4+113700]
+	GetHandleVerifier [0x0x7ff7d49a7279+114137]
+	GetHandleVerifier [0x0x7ff7d498df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 11:48:14,440 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_11-48-14.png
+2025-09-17 11:48:14,755 - ui - INFO - 退出浏览器
+2025-09-17 11:48:18,419 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:20,134 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-17 11:48:20,146 - ui - INFO - 退出浏览器
+2025-09-17 11:48:25,119 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:26,714 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-17 11:48:26,755 - ui - INFO - 退出浏览器
+2025-09-17 11:48:31,747 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:33,592 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-17 11:48:33,613 - ui - INFO - 退出浏览器
+2025-09-17 11:48:37,563 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:39,361 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-17 11:48:39,374 - ui - INFO - 退出浏览器
+2025-09-17 11:48:43,194 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:44,432 - ui - INFO - 退出浏览器
+2025-09-17 11:48:48,149 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:49,366 - ui - INFO - 退出浏览器
+2025-09-17 11:48:53,119 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:54,157 - ui - INFO - 退出浏览器
+2025-09-17 11:48:58,196 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 11:48:59,163 - ui - INFO - 退出浏览器
+2025-09-17 12:31:20,684 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:31:22,467 - ui - INFO - 退出浏览器
+2025-09-17 12:31:27,265 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:31:38,950 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71f5178d5+2802741]
+	GetHandleVerifier [0x0x7ff71f27eb70+79568]
+	(No symbol) [0x0x7ff71f01c0fa]
+	(No symbol) [0x0x7ff71f072a96]
+	(No symbol) [0x0x7ff71f072d4c]
+	(No symbol) [0x0x7ff71f0c6017]
+	(No symbol) [0x0x7ff71f09accf]
+	(No symbol) [0x0x7ff71f0c2e24]
+	(No symbol) [0x0x7ff71f09aa63]
+	(No symbol) [0x0x7ff71f063c91]
+	(No symbol) [0x0x7ff71f064a23]
+	GetHandleVerifier [0x0x7ff71f542ced+2979917]
+	GetHandleVerifier [0x0x7ff71f53d0f3+2956371]
+	GetHandleVerifier [0x0x7ff71f55acbd+3078173]
+	GetHandleVerifier [0x0x7ff71f29836e+184014]
+	GetHandleVerifier [0x0x7ff71f2a024f+216495]
+	GetHandleVerifier [0x0x7ff71f2870c4+113700]
+	GetHandleVerifier [0x0x7ff71f287279+114137]
+	GetHandleVerifier [0x0x7ff71f26df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:31:39,397 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-31-38.png
+2025-09-17 12:31:39,704 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71f5178d5+2802741]
+	GetHandleVerifier [0x0x7ff71f27eb70+79568]
+	(No symbol) [0x0x7ff71f01c0fa]
+	(No symbol) [0x0x7ff71f072a96]
+	(No symbol) [0x0x7ff71f072d4c]
+	(No symbol) [0x0x7ff71f0c6017]
+	(No symbol) [0x0x7ff71f09accf]
+	(No symbol) [0x0x7ff71f0c2e24]
+	(No symbol) [0x0x7ff71f09aa63]
+	(No symbol) [0x0x7ff71f063c91]
+	(No symbol) [0x0x7ff71f064a23]
+	GetHandleVerifier [0x0x7ff71f542ced+2979917]
+	GetHandleVerifier [0x0x7ff71f53d0f3+2956371]
+	GetHandleVerifier [0x0x7ff71f55acbd+3078173]
+	GetHandleVerifier [0x0x7ff71f29836e+184014]
+	GetHandleVerifier [0x0x7ff71f2a024f+216495]
+	GetHandleVerifier [0x0x7ff71f2870c4+113700]
+	GetHandleVerifier [0x0x7ff71f287279+114137]
+	GetHandleVerifier [0x0x7ff71f26df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:31:39,986 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-31-39.png
+2025-09-17 12:31:40,636 - ui - INFO - 退出浏览器
+2025-09-17 12:31:44,376 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:31:56,178 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71f5178d5+2802741]
+	GetHandleVerifier [0x0x7ff71f27eb70+79568]
+	(No symbol) [0x0x7ff71f01c0fa]
+	(No symbol) [0x0x7ff71f072a96]
+	(No symbol) [0x0x7ff71f072d4c]
+	(No symbol) [0x0x7ff71f0c6017]
+	(No symbol) [0x0x7ff71f09accf]
+	(No symbol) [0x0x7ff71f0c2e24]
+	(No symbol) [0x0x7ff71f09aa63]
+	(No symbol) [0x0x7ff71f063c91]
+	(No symbol) [0x0x7ff71f064a23]
+	GetHandleVerifier [0x0x7ff71f542ced+2979917]
+	GetHandleVerifier [0x0x7ff71f53d0f3+2956371]
+	GetHandleVerifier [0x0x7ff71f55acbd+3078173]
+	GetHandleVerifier [0x0x7ff71f29836e+184014]
+	GetHandleVerifier [0x0x7ff71f2a024f+216495]
+	GetHandleVerifier [0x0x7ff71f2870c4+113700]
+	GetHandleVerifier [0x0x7ff71f287279+114137]
+	GetHandleVerifier [0x0x7ff71f26df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:31:56,622 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-31-56.png
+2025-09-17 12:31:56,937 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71f5178d5+2802741]
+	GetHandleVerifier [0x0x7ff71f27eb70+79568]
+	(No symbol) [0x0x7ff71f01c0fa]
+	(No symbol) [0x0x7ff71f072a96]
+	(No symbol) [0x0x7ff71f072d4c]
+	(No symbol) [0x0x7ff71f0c6017]
+	(No symbol) [0x0x7ff71f09accf]
+	(No symbol) [0x0x7ff71f0c2e24]
+	(No symbol) [0x0x7ff71f09aa63]
+	(No symbol) [0x0x7ff71f063c91]
+	(No symbol) [0x0x7ff71f064a23]
+	GetHandleVerifier [0x0x7ff71f542ced+2979917]
+	GetHandleVerifier [0x0x7ff71f53d0f3+2956371]
+	GetHandleVerifier [0x0x7ff71f55acbd+3078173]
+	GetHandleVerifier [0x0x7ff71f29836e+184014]
+	GetHandleVerifier [0x0x7ff71f2a024f+216495]
+	GetHandleVerifier [0x0x7ff71f2870c4+113700]
+	GetHandleVerifier [0x0x7ff71f287279+114137]
+	GetHandleVerifier [0x0x7ff71f26df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:31:57,236 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-31-56.png
+2025-09-17 12:31:57,553 - ui - INFO - 退出浏览器
+2025-09-17 12:32:01,585 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:03,291 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-17 12:32:03,320 - ui - INFO - 退出浏览器
+2025-09-17 12:32:07,243 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:09,213 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-17 12:32:09,222 - ui - INFO - 退出浏览器
+2025-09-17 12:32:13,987 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:16,399 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-17 12:32:16,443 - ui - INFO - 退出浏览器
+2025-09-17 12:32:20,210 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:21,884 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-17 12:32:21,924 - ui - INFO - 退出浏览器
+2025-09-17 12:32:25,551 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:27,145 - ui - INFO - 退出浏览器
+2025-09-17 12:32:32,131 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:34,714 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[7]/uni-view/uni-text[1]'), error=Message: element click intercepted: Element <uni-text data-v-57280228="" class="tit">...</uni-text> is not clickable at point (225, 884). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71f5178d5+2802741]
+	GetHandleVerifier [0x0x7ff71f27eb70+79568]
+	(No symbol) [0x0x7ff71f01c0fa]
+	(No symbol) [0x0x7ff71f07aaa9]
+	(No symbol) [0x0x7ff71f078442]
+	(No symbol) [0x0x7ff71f075481]
+	(No symbol) [0x0x7ff71f074371]
+	(No symbol) [0x0x7ff71f065bb8]
+	(No symbol) [0x0x7ff71f09ac8a]
+	(No symbol) [0x0x7ff71f065466]
+	(No symbol) [0x0x7ff71f09aea0]
+	(No symbol) [0x0x7ff71f0c2e24]
+	(No symbol) [0x0x7ff71f09aa63]
+	(No symbol) [0x0x7ff71f063c91]
+	(No symbol) [0x0x7ff71f064a23]
+	GetHandleVerifier [0x0x7ff71f542ced+2979917]
+	GetHandleVerifier [0x0x7ff71f53d0f3+2956371]
+	GetHandleVerifier [0x0x7ff71f55acbd+3078173]
+	GetHandleVerifier [0x0x7ff71f29836e+184014]
+	GetHandleVerifier [0x0x7ff71f2a024f+216495]
+	GetHandleVerifier [0x0x7ff71f2870c4+113700]
+	GetHandleVerifier [0x0x7ff71f287279+114137]
+	GetHandleVerifier [0x0x7ff71f26df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:32:35,027 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-32-34.png
+2025-09-17 12:32:35,886 - ui - INFO - 退出浏览器
+2025-09-17 12:32:39,563 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:42,606 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[9]/uni-view/uni-text[1]/span'), error=Message: element click intercepted: Element <span>...</span> is not clickable at point (107, 883). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71f5178d5+2802741]
+	GetHandleVerifier [0x0x7ff71f27eb70+79568]
+	(No symbol) [0x0x7ff71f01c0fa]
+	(No symbol) [0x0x7ff71f07aaa9]
+	(No symbol) [0x0x7ff71f078442]
+	(No symbol) [0x0x7ff71f075481]
+	(No symbol) [0x0x7ff71f074371]
+	(No symbol) [0x0x7ff71f065bb8]
+	(No symbol) [0x0x7ff71f09ac8a]
+	(No symbol) [0x0x7ff71f065466]
+	(No symbol) [0x0x7ff71f09aea0]
+	(No symbol) [0x0x7ff71f0c2e24]
+	(No symbol) [0x0x7ff71f09aa63]
+	(No symbol) [0x0x7ff71f063c91]
+	(No symbol) [0x0x7ff71f064a23]
+	GetHandleVerifier [0x0x7ff71f542ced+2979917]
+	GetHandleVerifier [0x0x7ff71f53d0f3+2956371]
+	GetHandleVerifier [0x0x7ff71f55acbd+3078173]
+	GetHandleVerifier [0x0x7ff71f29836e+184014]
+	GetHandleVerifier [0x0x7ff71f2a024f+216495]
+	GetHandleVerifier [0x0x7ff71f2870c4+113700]
+	GetHandleVerifier [0x0x7ff71f287279+114137]
+	GetHandleVerifier [0x0x7ff71f26df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:32:42,882 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-32-42.png
+2025-09-17 12:32:43,168 - ui - INFO - 退出浏览器
+2025-09-17 12:32:46,761 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:32:48,526 - ui - INFO - 退出浏览器
+2025-09-17 12:53:44,800 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:53:46,591 - ui - INFO - 退出浏览器
+2025-09-17 12:53:50,266 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:02,059 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:54:02,438 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-54-02.png
+2025-09-17 12:54:02,722 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:54:03,075 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-54-02.png
+2025-09-17 12:54:03,670 - ui - INFO - 退出浏览器
+2025-09-17 12:54:07,394 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:19,101 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:54:19,538 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-54-19.png
+2025-09-17 12:54:19,826 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:54:20,109 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-54-19.png
+2025-09-17 12:54:20,513 - ui - INFO - 退出浏览器
+2025-09-17 12:54:24,278 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:25,931 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-17 12:54:25,958 - ui - INFO - 退出浏览器
+2025-09-17 12:54:30,748 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:32,434 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-17 12:54:32,454 - ui - INFO - 退出浏览器
+2025-09-17 12:54:36,440 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:38,200 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-17 12:54:38,274 - ui - INFO - 退出浏览器
+2025-09-17 12:54:42,134 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:43,767 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-17 12:54:43,777 - ui - INFO - 退出浏览器
+2025-09-17 12:54:48,576 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:49,997 - ui - INFO - 退出浏览器
+2025-09-17 12:54:54,708 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:54:57,282 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[7]/uni-view/uni-text[1]'), error=Message: element click intercepted: Element <uni-text data-v-57280228="" class="tit">...</uni-text> is not clickable at point (225, 884). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9faaa9]
+	(No symbol) [0x0x7ff7bd9f8442]
+	(No symbol) [0x0x7ff7bd9f5481]
+	(No symbol) [0x0x7ff7bd9f4371]
+	(No symbol) [0x0x7ff7bd9e5bb8]
+	(No symbol) [0x0x7ff7bda1ac8a]
+	(No symbol) [0x0x7ff7bd9e5466]
+	(No symbol) [0x0x7ff7bda1aea0]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:54:57,569 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-54-57.png
+2025-09-17 12:54:57,871 - ui - INFO - 退出浏览器
+2025-09-17 12:55:01,562 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:55:04,381 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[9]/uni-view/uni-text[1]/span'), error=Message: element click intercepted: Element <span>...</span> is not clickable at point (107, 883). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9faaa9]
+	(No symbol) [0x0x7ff7bd9f8442]
+	(No symbol) [0x0x7ff7bd9f5481]
+	(No symbol) [0x0x7ff7bd9f4371]
+	(No symbol) [0x0x7ff7bd9e5bb8]
+	(No symbol) [0x0x7ff7bda1ac8a]
+	(No symbol) [0x0x7ff7bd9e5466]
+	(No symbol) [0x0x7ff7bda1aea0]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:55:04,661 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-55-04.png
+2025-09-17 12:55:04,941 - ui - INFO - 退出浏览器
+2025-09-17 12:55:08,472 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:55:10,137 - ui - INFO - 退出浏览器
+2025-09-17 12:58:03,534 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:58:05,268 - ui - INFO - 退出浏览器
+2025-09-17 12:58:08,828 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:58:20,849 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:58:21,284 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-58-20.png
+2025-09-17 12:58:21,574 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:58:21,851 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-58-21.png
+2025-09-17 12:58:22,330 - ui - INFO - 退出浏览器
+2025-09-17 12:58:26,123 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:58:36,514 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:58:36,856 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-58-36.png
+2025-09-17 12:58:37,155 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9f2a96]
+	(No symbol) [0x0x7ff7bd9f2d4c]
+	(No symbol) [0x0x7ff7bda46017]
+	(No symbol) [0x0x7ff7bda1accf]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:58:37,474 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-58-37.png
+2025-09-17 12:58:37,803 - ui - INFO - 退出浏览器
+2025-09-17 12:58:41,445 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:58:42,901 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-17 12:58:42,911 - ui - INFO - 退出浏览器
+2025-09-17 12:58:46,590 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:58:48,146 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-17 12:58:48,170 - ui - INFO - 退出浏览器
+2025-09-17 12:58:52,803 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:58:54,477 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-17 12:58:54,542 - ui - INFO - 退出浏览器
+2025-09-17 12:58:58,087 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:58:59,836 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-17 12:58:59,875 - ui - INFO - 退出浏览器
+2025-09-17 12:59:03,523 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:59:05,065 - ui - INFO - 退出浏览器
+2025-09-17 12:59:08,767 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:59:11,359 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[7]/uni-view/uni-text[1]'), error=Message: element click intercepted: Element <uni-text data-v-57280228="" class="tit">...</uni-text> is not clickable at point (225, 884). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9faaa9]
+	(No symbol) [0x0x7ff7bd9f8442]
+	(No symbol) [0x0x7ff7bd9f5481]
+	(No symbol) [0x0x7ff7bd9f4371]
+	(No symbol) [0x0x7ff7bd9e5bb8]
+	(No symbol) [0x0x7ff7bda1ac8a]
+	(No symbol) [0x0x7ff7bd9e5466]
+	(No symbol) [0x0x7ff7bda1aea0]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:59:11,672 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-59-11.png
+2025-09-17 12:59:11,963 - ui - INFO - 退出浏览器
+2025-09-17 12:59:15,461 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:59:18,153 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[9]/uni-view/uni-text[1]/span'), error=Message: element click intercepted: Element <span>...</span> is not clickable at point (107, 883). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bde978d5+2802741]
+	GetHandleVerifier [0x0x7ff7bdbfeb70+79568]
+	(No symbol) [0x0x7ff7bd99c0fa]
+	(No symbol) [0x0x7ff7bd9faaa9]
+	(No symbol) [0x0x7ff7bd9f8442]
+	(No symbol) [0x0x7ff7bd9f5481]
+	(No symbol) [0x0x7ff7bd9f4371]
+	(No symbol) [0x0x7ff7bd9e5bb8]
+	(No symbol) [0x0x7ff7bda1ac8a]
+	(No symbol) [0x0x7ff7bd9e5466]
+	(No symbol) [0x0x7ff7bda1aea0]
+	(No symbol) [0x0x7ff7bda42e24]
+	(No symbol) [0x0x7ff7bda1aa63]
+	(No symbol) [0x0x7ff7bd9e3c91]
+	(No symbol) [0x0x7ff7bd9e4a23]
+	GetHandleVerifier [0x0x7ff7bdec2ced+2979917]
+	GetHandleVerifier [0x0x7ff7bdebd0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bdedacbd+3078173]
+	GetHandleVerifier [0x0x7ff7bdc1836e+184014]
+	GetHandleVerifier [0x0x7ff7bdc2024f+216495]
+	GetHandleVerifier [0x0x7ff7bdc070c4+113700]
+	GetHandleVerifier [0x0x7ff7bdc07279+114137]
+	GetHandleVerifier [0x0x7ff7bdbedf78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 12:59:18,444 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_12-59-18.png
+2025-09-17 12:59:18,818 - ui - INFO - 退出浏览器
+2025-09-17 12:59:22,434 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 12:59:23,909 - ui - INFO - 退出浏览器
+2025-09-17 13:06:46,515 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:06:48,006 - ui - INFO - 退出浏览器
+2025-09-17 13:06:51,961 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:03,524 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:07:03,936 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-07-03.png
+2025-09-17 13:07:04,208 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:07:04,490 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-07-04.png
+2025-09-17 13:07:05,104 - ui - INFO - 退出浏览器
+2025-09-17 13:07:08,770 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:19,401 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:07:19,776 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-07-19.png
+2025-09-17 13:07:20,074 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:07:20,350 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-07-20.png
+2025-09-17 13:07:20,665 - ui - INFO - 退出浏览器
+2025-09-17 13:07:24,247 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:25,948 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-17 13:07:25,976 - ui - INFO - 退出浏览器
+2025-09-17 13:07:30,808 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:32,503 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-17 13:07:32,530 - ui - INFO - 退出浏览器
+2025-09-17 13:07:36,203 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:37,866 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-17 13:07:37,923 - ui - INFO - 退出浏览器
+2025-09-17 13:07:41,834 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:43,375 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-17 13:07:43,431 - ui - INFO - 退出浏览器
+2025-09-17 13:07:47,282 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:48,594 - ui - INFO - 退出浏览器
+2025-09-17 13:07:52,235 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:07:56,878 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[7]/uni-view/uni-text[1]'), error=Message: element click intercepted: Element <uni-text data-v-57280228="" class="tit">...</uni-text> is not clickable at point (225, 884). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f3aaa9]
+	(No symbol) [0x0x7ff676f38442]
+	(No symbol) [0x0x7ff676f35481]
+	(No symbol) [0x0x7ff676f34371]
+	(No symbol) [0x0x7ff676f25bb8]
+	(No symbol) [0x0x7ff676f5ac8a]
+	(No symbol) [0x0x7ff676f25466]
+	(No symbol) [0x0x7ff676f5aea0]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:07:57,185 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-07-56.png
+2025-09-17 13:07:57,494 - ui - INFO - 退出浏览器
+2025-09-17 13:08:01,205 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:08:03,660 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[9]/uni-view/uni-text[1]/span'), error=Message: element click intercepted: Element <span>...</span> is not clickable at point (107, 883). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=140.0.7339.82)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f3aaa9]
+	(No symbol) [0x0x7ff676f38442]
+	(No symbol) [0x0x7ff676f35481]
+	(No symbol) [0x0x7ff676f34371]
+	(No symbol) [0x0x7ff676f25bb8]
+	(No symbol) [0x0x7ff676f5ac8a]
+	(No symbol) [0x0x7ff676f25466]
+	(No symbol) [0x0x7ff676f5aea0]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:08:03,934 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-08-03.png
+2025-09-17 13:08:04,213 - ui - INFO - 退出浏览器
+2025-09-17 13:08:08,028 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:08:09,438 - ui - INFO - 退出浏览器
+2025-09-17 13:19:38,314 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:19:39,825 - ui - INFO - 退出浏览器
+2025-09-17 13:19:43,415 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:01,902 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:20:02,332 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-20-01.png
+2025-09-17 13:20:02,607 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:20:02,884 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-20-02.png
+2025-09-17 13:20:03,318 - ui - INFO - 退出浏览器
+2025-09-17 13:20:07,103 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:18,810 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:20:19,156 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-20-18.png
+2025-09-17 13:20:19,438 - ui - ERROR - send_keys 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6773d78d5+2802741]
+	GetHandleVerifier [0x0x7ff67713eb70+79568]
+	(No symbol) [0x0x7ff676edc0fa]
+	(No symbol) [0x0x7ff676f32a96]
+	(No symbol) [0x0x7ff676f32d4c]
+	(No symbol) [0x0x7ff676f86017]
+	(No symbol) [0x0x7ff676f5accf]
+	(No symbol) [0x0x7ff676f82e24]
+	(No symbol) [0x0x7ff676f5aa63]
+	(No symbol) [0x0x7ff676f23c91]
+	(No symbol) [0x0x7ff676f24a23]
+	GetHandleVerifier [0x0x7ff677402ced+2979917]
+	GetHandleVerifier [0x0x7ff6773fd0f3+2956371]
+	GetHandleVerifier [0x0x7ff67741acbd+3078173]
+	GetHandleVerifier [0x0x7ff67715836e+184014]
+	GetHandleVerifier [0x0x7ff67716024f+216495]
+	GetHandleVerifier [0x0x7ff6771470c4+113700]
+	GetHandleVerifier [0x0x7ff677147279+114137]
+	GetHandleVerifier [0x0x7ff67712df78+10968]
+	BaseThreadInitThunk [0x0x7ffe4c917374+20]
+	RtlUserThreadStart [0x0x7ffe4e69cc91+33]
+
+2025-09-17 13:20:19,695 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-17_13-20-19.png
+2025-09-17 13:20:19,989 - ui - INFO - 退出浏览器
+2025-09-17 13:20:23,628 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:25,380 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-17 13:20:25,402 - ui - INFO - 退出浏览器
+2025-09-17 13:20:29,108 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:30,871 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-17 13:20:30,893 - ui - INFO - 退出浏览器
+2025-09-17 13:20:34,404 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:36,198 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-17 13:20:36,258 - ui - INFO - 退出浏览器
+2025-09-17 13:20:39,900 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:41,592 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-17 13:20:41,637 - ui - INFO - 退出浏览器
+2025-09-17 13:20:45,366 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:46,775 - ui - INFO - 退出浏览器
+2025-09-17 13:20:50,586 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:54,301 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-17 13:20:54,343 - ui - INFO - 退出浏览器
+2025-09-17 13:20:58,004 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:20:59,733 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-17 13:20:59,773 - ui - INFO - 退出浏览器
+2025-09-17 13:21:03,522 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-17 13:21:04,925 - ui - INFO - 退出浏览器
+2025-09-21 20:10:31,554 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:10:37,852 - ui - INFO - 退出浏览器
+2025-09-21 20:10:41,554 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:10:43,344 - ui - INFO - 退出浏览器
+2025-09-21 20:10:47,257 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:10:49,085 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-21 20:10:49,102 - ui - INFO - 退出浏览器
+2025-09-21 20:10:54,071 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:10:55,878 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-21 20:10:55,893 - ui - INFO - 退出浏览器
+2025-09-21 20:10:59,962 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:11:01,865 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-21 20:11:01,874 - ui - INFO - 退出浏览器
+2025-09-21 20:11:05,635 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:11:07,395 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-21 20:11:07,402 - ui - INFO - 退出浏览器
+2025-09-21 20:11:11,409 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:11:12,403 - ui - INFO - 退出浏览器
+2025-09-21 20:11:16,012 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:11:19,783 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-21 20:11:19,789 - ui - INFO - 退出浏览器
+2025-09-21 20:11:23,343 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:11:25,071 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-21 20:11:25,080 - ui - INFO - 退出浏览器
+2025-09-21 20:11:28,760 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-21 20:11:30,263 - ui - INFO - 退出浏览器
+2025-09-22 15:10:50,262 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:10:56,208 - ui - INFO - 退出浏览器
+2025-09-22 15:10:59,975 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:11,557 - ui - ERROR - find_element 失败，locator=('css selector', "input[placeholder*='请输入商品']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64c6c78d5+2802741]
+	GetHandleVerifier [0x0x7ff64c42eb70+79568]
+	(No symbol) [0x0x7ff64c1cc0fa]
+	(No symbol) [0x0x7ff64c222a96]
+	(No symbol) [0x0x7ff64c222d4c]
+	(No symbol) [0x0x7ff64c276017]
+	(No symbol) [0x0x7ff64c24accf]
+	(No symbol) [0x0x7ff64c272e24]
+	(No symbol) [0x0x7ff64c24aa63]
+	(No symbol) [0x0x7ff64c213c91]
+	(No symbol) [0x0x7ff64c214a23]
+	GetHandleVerifier [0x0x7ff64c6f2ced+2979917]
+	GetHandleVerifier [0x0x7ff64c6ed0f3+2956371]
+	GetHandleVerifier [0x0x7ff64c70acbd+3078173]
+	GetHandleVerifier [0x0x7ff64c44836e+184014]
+	GetHandleVerifier [0x0x7ff64c45024f+216495]
+	GetHandleVerifier [0x0x7ff64c4370c4+113700]
+	GetHandleVerifier [0x0x7ff64c437279+114137]
+	GetHandleVerifier [0x0x7ff64c41df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-22 15:11:11,949 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_15-11-11.png
+2025-09-22 15:11:12,763 - ui - INFO - 退出浏览器
+2025-09-22 15:11:16,373 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:18,063 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 15:11:18,077 - ui - INFO - 退出浏览器
+2025-09-22 15:11:22,529 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:24,097 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 15:11:24,109 - ui - INFO - 退出浏览器
+2025-09-22 15:11:27,846 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:29,519 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 15:11:29,530 - ui - INFO - 退出浏览器
+2025-09-22 15:11:34,356 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:35,985 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 15:11:35,992 - ui - INFO - 退出浏览器
+2025-09-22 15:11:39,690 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:41,056 - ui - INFO - 退出浏览器
+2025-09-22 15:11:44,747 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:48,479 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 15:11:48,490 - ui - INFO - 退出浏览器
+2025-09-22 15:11:52,526 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:11:54,159 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 15:11:54,173 - ui - INFO - 退出浏览器
+2025-09-22 15:11:59,390 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:12:00,927 - ui - INFO - 退出浏览器
+2025-09-22 15:33:50,470 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:33:52,711 - ui - INFO - 退出浏览器
+2025-09-22 15:33:56,790 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:33:58,511 - ui - INFO - 点击元素: ('xpath', '//uni-page-head//uni-input')
+2025-09-22 15:33:58,688 - ui - INFO - 退出浏览器
+2025-09-22 15:34:02,592 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:04,154 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[3]/div/i')
+2025-09-22 15:34:04,168 - ui - INFO - 退出浏览器
+2025-09-22 15:34:07,811 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:11,352 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 15:34:11,361 - ui - INFO - 退出浏览器
+2025-09-22 15:34:14,973 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:16,506 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 15:34:16,530 - ui - INFO - 退出浏览器
+2025-09-22 15:34:20,305 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:21,841 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 15:34:21,886 - ui - INFO - 退出浏览器
+2025-09-22 15:34:25,676 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:27,299 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 15:34:27,327 - ui - INFO - 退出浏览器
+2025-09-22 15:34:31,098 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:32,433 - ui - INFO - 退出浏览器
+2025-09-22 15:34:36,092 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:39,756 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 15:34:39,766 - ui - INFO - 退出浏览器
+2025-09-22 15:34:43,433 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:45,209 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 15:34:45,235 - ui - INFO - 退出浏览器
+2025-09-22 15:34:49,022 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:34:50,386 - ui - INFO - 退出浏览器
+2025-09-22 15:39:30,585 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:39:32,081 - ui - INFO - 退出浏览器
+2025-09-22 15:39:35,859 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:39:38,027 - ui - INFO - 点击元素: ('xpath', '//uni-page-head//uni-input')
+2025-09-22 15:39:38,166 - ui - INFO - 退出浏览器
+2025-09-22 15:42:50,630 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:42:52,017 - ui - INFO - 退出浏览器
+2025-09-22 15:42:55,713 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:42:57,243 - ui - INFO - 点击元素: ('xpath', '//uni-page-head//uni-input')
+2025-09-22 15:42:57,391 - ui - INFO - 退出浏览器
+2025-09-22 15:55:41,455 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:55:42,827 - ui - INFO - 退出浏览器
+2025-09-22 15:55:46,637 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 15:55:48,424 - ui - INFO - 点击元素: ('xpath', '//uni-page-head//uni-input')
+2025-09-22 15:55:48,580 - ui - INFO - 退出浏览器
+2025-09-22 16:06:22,029 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 16:06:23,479 - ui - INFO - 退出浏览器
+2025-09-22 16:06:27,203 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 16:06:29,591 - ui - INFO - 点击元素: ('css selector', 'body > uni-app > uni-page > uni-page-head > div > div.uni-page-head-search > uni-input')
+2025-09-22 16:06:29,734 - ui - INFO - 退出浏览器
+2025-09-22 16:09:02,420 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 16:09:03,903 - ui - INFO - 退出浏览器
+2025-09-22 16:09:07,500 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 16:09:09,136 - ui - INFO - 点击元素: ('css selector', 'body > uni-app > uni-page > uni-page-head > div > div.uni-page-head-search')
+2025-09-22 16:09:09,310 - ui - INFO - 退出浏览器
+2025-09-22 17:33:53,340 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:33:54,809 - ui - INFO - 退出浏览器
+2025-09-22 17:33:58,629 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:34:00,132 - ui - ERROR - find_element 失败，locator=('css selector', "//*[contains(@class, 'uni-input uni-page-head-search-i')]"), error=Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63bdf78d5+2802741]
+	GetHandleVerifier [0x0x7ff63bb5eb70+79568]
+	(No symbol) [0x0x7ff63b8fc0fa]
+	(No symbol) [0x0x7ff63b903abd]
+	(No symbol) [0x0x7ff63b906b1c]
+	(No symbol) [0x0x7ff63b906bef]
+	(No symbol) [0x0x7ff63b952347]
+	(No symbol) [0x0x7ff63b952d4c]
+	(No symbol) [0x0x7ff63b9a6017]
+	(No symbol) [0x0x7ff63b97accf]
+	(No symbol) [0x0x7ff63b9a2e24]
+	(No symbol) [0x0x7ff63b97aa63]
+	(No symbol) [0x0x7ff63b943c91]
+	(No symbol) [0x0x7ff63b944a23]
+	GetHandleVerifier [0x0x7ff63be22ced+2979917]
+	GetHandleVerifier [0x0x7ff63be1d0f3+2956371]
+	GetHandleVerifier [0x0x7ff63be3acbd+3078173]
+	GetHandleVerifier [0x0x7ff63bb7836e+184014]
+	GetHandleVerifier [0x0x7ff63bb8024f+216495]
+	GetHandleVerifier [0x0x7ff63bb670c4+113700]
+	GetHandleVerifier [0x0x7ff63bb67279+114137]
+	GetHandleVerifier [0x0x7ff63bb4df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-22 17:34:00,507 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_17-34-00.png
+2025-09-22 17:34:00,822 - ui - ERROR - click 失败，locator=('css selector', "//*[contains(@class, 'uni-input uni-page-head-search-i')]"), error=Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63bdf78d5+2802741]
+	GetHandleVerifier [0x0x7ff63bb5eb70+79568]
+	(No symbol) [0x0x7ff63b8fc0fa]
+	(No symbol) [0x0x7ff63b903abd]
+	(No symbol) [0x0x7ff63b906b1c]
+	(No symbol) [0x0x7ff63b906bef]
+	(No symbol) [0x0x7ff63b952347]
+	(No symbol) [0x0x7ff63b952d4c]
+	(No symbol) [0x0x7ff63b9a6017]
+	(No symbol) [0x0x7ff63b97accf]
+	(No symbol) [0x0x7ff63b9a2e24]
+	(No symbol) [0x0x7ff63b97aa63]
+	(No symbol) [0x0x7ff63b943c91]
+	(No symbol) [0x0x7ff63b944a23]
+	GetHandleVerifier [0x0x7ff63be22ced+2979917]
+	GetHandleVerifier [0x0x7ff63be1d0f3+2956371]
+	GetHandleVerifier [0x0x7ff63be3acbd+3078173]
+	GetHandleVerifier [0x0x7ff63bb7836e+184014]
+	GetHandleVerifier [0x0x7ff63bb8024f+216495]
+	GetHandleVerifier [0x0x7ff63bb670c4+113700]
+	GetHandleVerifier [0x0x7ff63bb67279+114137]
+	GetHandleVerifier [0x0x7ff63bb4df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-22 17:34:01,096 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_17-34-00.png
+2025-09-22 17:34:03,299 - ui - INFO - 退出浏览器
+2025-09-22 17:35:37,013 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:35:38,641 - ui - INFO - 退出浏览器
+2025-09-22 17:35:42,420 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:35:52,899 - ui - ERROR - find_element 失败，locator=('css selector', '.uni-input.uni-page-head-search-i'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63bdf78d5+2802741]
+	GetHandleVerifier [0x0x7ff63bb5eb70+79568]
+	(No symbol) [0x0x7ff63b8fc0fa]
+	(No symbol) [0x0x7ff63b952a96]
+	(No symbol) [0x0x7ff63b952d4c]
+	(No symbol) [0x0x7ff63b9a6017]
+	(No symbol) [0x0x7ff63b97accf]
+	(No symbol) [0x0x7ff63b9a2e24]
+	(No symbol) [0x0x7ff63b97aa63]
+	(No symbol) [0x0x7ff63b943c91]
+	(No symbol) [0x0x7ff63b944a23]
+	GetHandleVerifier [0x0x7ff63be22ced+2979917]
+	GetHandleVerifier [0x0x7ff63be1d0f3+2956371]
+	GetHandleVerifier [0x0x7ff63be3acbd+3078173]
+	GetHandleVerifier [0x0x7ff63bb7836e+184014]
+	GetHandleVerifier [0x0x7ff63bb8024f+216495]
+	GetHandleVerifier [0x0x7ff63bb670c4+113700]
+	GetHandleVerifier [0x0x7ff63bb67279+114137]
+	GetHandleVerifier [0x0x7ff63bb4df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-22 17:35:53,278 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_17-35-52.png
+2025-09-22 17:35:53,602 - ui - ERROR - click 失败，locator=('css selector', '.uni-input.uni-page-head-search-i'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63bdf78d5+2802741]
+	GetHandleVerifier [0x0x7ff63bb5eb70+79568]
+	(No symbol) [0x0x7ff63b8fc0fa]
+	(No symbol) [0x0x7ff63b952a96]
+	(No symbol) [0x0x7ff63b952d4c]
+	(No symbol) [0x0x7ff63b9a6017]
+	(No symbol) [0x0x7ff63b97accf]
+	(No symbol) [0x0x7ff63b9a2e24]
+	(No symbol) [0x0x7ff63b97aa63]
+	(No symbol) [0x0x7ff63b943c91]
+	(No symbol) [0x0x7ff63b944a23]
+	GetHandleVerifier [0x0x7ff63be22ced+2979917]
+	GetHandleVerifier [0x0x7ff63be1d0f3+2956371]
+	GetHandleVerifier [0x0x7ff63be3acbd+3078173]
+	GetHandleVerifier [0x0x7ff63bb7836e+184014]
+	GetHandleVerifier [0x0x7ff63bb8024f+216495]
+	GetHandleVerifier [0x0x7ff63bb670c4+113700]
+	GetHandleVerifier [0x0x7ff63bb67279+114137]
+	GetHandleVerifier [0x0x7ff63bb4df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-22 17:35:53,923 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_17-35-53.png
+2025-09-22 17:35:54,351 - ui - INFO - 退出浏览器
+2025-09-22 17:39:35,408 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:39:36,738 - ui - INFO - 退出浏览器
+2025-09-22 17:39:40,529 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:39:42,007 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[2]/uni-input')
+2025-09-22 17:39:42,160 - ui - INFO - 退出浏览器
+2025-09-22 17:53:53,826 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:53:55,202 - ui - INFO - 退出浏览器
+2025-09-22 17:53:58,897 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:00,464 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[2]/uni-input')
+2025-09-22 17:54:00,638 - ui - INFO - 退出浏览器
+2025-09-22 17:54:04,340 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:16,032 - ui - ERROR - click 失败，locator=('css selector', '.carousel-section uni-swiper-item:nth-child(1) img'), error=Message: 
+
+2025-09-22 17:54:16,373 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_17-54-16.png
+2025-09-22 17:54:16,711 - ui - INFO - 退出浏览器
+2025-09-22 17:54:21,126 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:22,558 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[2]/uni-input')
+2025-09-22 17:54:22,575 - ui - INFO - 退出浏览器
+2025-09-22 17:54:26,329 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:27,814 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 17:54:27,821 - ui - INFO - 退出浏览器
+2025-09-22 17:54:31,501 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:33,167 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 17:54:33,174 - ui - INFO - 退出浏览器
+2025-09-22 17:54:36,928 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:38,339 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 17:54:38,348 - ui - INFO - 退出浏览器
+2025-09-22 17:54:42,120 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:43,560 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 17:54:43,588 - ui - INFO - 退出浏览器
+2025-09-22 17:54:47,297 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:48,696 - ui - INFO - 退出浏览器
+2025-09-22 17:54:52,498 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:54:56,043 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 17:54:56,071 - ui - INFO - 退出浏览器
+2025-09-22 17:54:59,782 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:55:01,586 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 17:55:01,596 - ui - INFO - 退出浏览器
+2025-09-22 17:55:05,187 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:55:06,656 - ui - INFO - 退出浏览器
+2025-09-22 17:57:26,304 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:57:27,922 - ui - INFO - 退出浏览器
+2025-09-22 17:57:31,717 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:57:33,186 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[2]/uni-input')
+2025-09-22 17:57:33,334 - ui - INFO - 退出浏览器
+2025-09-22 17:57:36,990 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:57:48,914 - ui - ERROR - click 失败，locator=('css selector', '.carousel-section uni-swiper-item:nth-child(1) img'), error=Message: 
+
+2025-09-22 17:57:49,310 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_17-57-48.png
+2025-09-22 17:57:49,670 - ui - INFO - 退出浏览器
+2025-09-22 17:57:53,800 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:57:55,368 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[3]/div/i')
+2025-09-22 17:57:55,376 - ui - INFO - 退出浏览器
+2025-09-22 17:57:59,255 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:01,190 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 17:58:01,206 - ui - INFO - 退出浏览器
+2025-09-22 17:58:05,033 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:06,546 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 17:58:06,563 - ui - INFO - 退出浏览器
+2025-09-22 17:58:10,380 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:12,198 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 17:58:12,215 - ui - INFO - 退出浏览器
+2025-09-22 17:58:15,825 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:17,434 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 17:58:17,469 - ui - INFO - 退出浏览器
+2025-09-22 17:58:21,144 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:22,617 - ui - INFO - 退出浏览器
+2025-09-22 17:58:26,499 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:30,066 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 17:58:30,130 - ui - INFO - 退出浏览器
+2025-09-22 17:58:33,864 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:35,474 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 17:58:35,507 - ui - INFO - 退出浏览器
+2025-09-22 17:58:39,368 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 17:58:40,722 - ui - INFO - 退出浏览器
+2025-09-22 18:10:50,519 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:10:52,098 - ui - INFO - 退出浏览器
+2025-09-22 18:10:55,836 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:10:57,483 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[2]/uni-input')
+2025-09-22 18:10:57,631 - ui - INFO - 退出浏览器
+2025-09-22 18:11:01,280 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:13,060 - ui - ERROR - click 失败，locator=('xpath', '//uni-swiper-item[1]/uni-image/img'), error=Message: 
+
+2025-09-22 18:11:13,408 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-22_18-11-13.png
+2025-09-22 18:11:13,781 - ui - INFO - 退出浏览器
+2025-09-22 18:11:17,862 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:19,500 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[3]/div/i')
+2025-09-22 18:11:19,540 - ui - INFO - 退出浏览器
+2025-09-22 18:11:23,447 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:25,019 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 18:11:25,031 - ui - INFO - 退出浏览器
+2025-09-22 18:11:29,109 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:30,725 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 18:11:30,738 - ui - INFO - 退出浏览器
+2025-09-22 18:11:34,705 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:36,263 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 18:11:36,315 - ui - INFO - 退出浏览器
+2025-09-22 18:11:39,898 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:41,599 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 18:11:41,647 - ui - INFO - 退出浏览器
+2025-09-22 18:11:45,480 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:46,821 - ui - INFO - 退出浏览器
+2025-09-22 18:11:51,467 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:11:55,182 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 18:11:55,205 - ui - INFO - 退出浏览器
+2025-09-22 18:11:58,980 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:12:03,487 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 18:12:03,542 - ui - INFO - 退出浏览器
+2025-09-22 18:12:07,634 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:12:09,057 - ui - INFO - 退出浏览器
+2025-09-22 18:25:04,795 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:06,577 - ui - INFO - 退出浏览器
+2025-09-22 18:25:11,859 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:13,824 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[2]/uni-input')
+2025-09-22 18:25:14,031 - ui - INFO - 退出浏览器
+2025-09-22 18:25:18,336 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:20,478 - ui - INFO - 点击元素: ('xpath', '//uni-swiper/div/div/div')
+2025-09-22 18:25:20,501 - ui - INFO - 退出浏览器
+2025-09-22 18:25:25,648 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:27,386 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[3]/div/i')
+2025-09-22 18:25:27,425 - ui - INFO - 退出浏览器
+2025-09-22 18:25:31,283 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:32,909 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 18:25:32,928 - ui - INFO - 退出浏览器
+2025-09-22 18:25:36,574 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:38,145 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 18:25:38,167 - ui - INFO - 退出浏览器
+2025-09-22 18:25:41,706 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:43,407 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 18:25:43,455 - ui - INFO - 退出浏览器
+2025-09-22 18:25:48,378 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:49,851 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 18:25:49,887 - ui - INFO - 退出浏览器
+2025-09-22 18:25:53,727 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:25:55,095 - ui - INFO - 退出浏览器
+2025-09-22 18:25:58,672 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:26:02,470 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 18:26:02,543 - ui - INFO - 退出浏览器
+2025-09-22 18:26:06,163 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:26:08,066 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 18:26:08,121 - ui - INFO - 退出浏览器
+2025-09-22 18:26:13,057 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:26:14,463 - ui - INFO - 退出浏览器
+2025-09-22 18:33:02,872 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:04,356 - ui - INFO - 退出浏览器
+2025-09-22 18:33:07,977 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:09,579 - ui - INFO - 退出浏览器
+2025-09-22 18:33:13,410 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:15,072 - ui - INFO - 点击元素: ('xpath', '//uni-swiper/div/div/div')
+2025-09-22 18:33:15,082 - ui - INFO - 退出浏览器
+2025-09-22 18:33:18,879 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:20,422 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[3]/div/i')
+2025-09-22 18:33:20,462 - ui - INFO - 退出浏览器
+2025-09-22 18:33:24,233 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:25,844 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 18:33:25,862 - ui - INFO - 退出浏览器
+2025-09-22 18:33:30,674 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:32,124 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 18:33:32,147 - ui - INFO - 退出浏览器
+2025-09-22 18:33:35,929 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:37,443 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 18:33:37,457 - ui - INFO - 退出浏览器
+2025-09-22 18:33:42,058 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:43,749 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 18:33:43,784 - ui - INFO - 退出浏览器
+2025-09-22 18:33:47,639 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:48,941 - ui - INFO - 退出浏览器
+2025-09-22 18:33:52,721 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:33:56,333 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 18:33:56,368 - ui - INFO - 退出浏览器
+2025-09-22 18:34:00,192 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:34:01,992 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 18:34:02,026 - ui - INFO - 退出浏览器
+2025-09-22 18:34:05,709 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:34:07,080 - ui - INFO - 退出浏览器
+2025-09-22 18:38:53,565 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:38:55,230 - ui - INFO - 退出浏览器
+2025-09-22 18:38:58,812 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:00,897 - ui - INFO - 退出浏览器
+2025-09-22 18:39:04,693 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:06,248 - ui - INFO - 点击元素: ('xpath', '//uni-swiper/div/div/div')
+2025-09-22 18:39:06,306 - ui - INFO - 退出浏览器
+2025-09-22 18:39:11,005 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:12,544 - ui - INFO - 点击元素: ('xpath', '//uni-page-head/div/div[3]/div/i')
+2025-09-22 18:39:12,583 - ui - INFO - 退出浏览器
+2025-09-22 18:39:16,388 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:17,932 - ui - INFO - 点击元素: ('xpath', '//uni-tabbar/div[1]/div[3]')
+2025-09-22 18:39:17,950 - ui - INFO - 退出浏览器
+2025-09-22 18:39:21,687 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:23,220 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '购物车')]/..")
+2025-09-22 18:39:23,236 - ui - INFO - 退出浏览器
+2025-09-22 18:39:26,998 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:28,575 - ui - INFO - 点击元素: ('xpath', "//text()[contains(., '我的')]/..")
+2025-09-22 18:39:28,636 - ui - INFO - 退出浏览器
+2025-09-22 18:39:32,451 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:34,021 - ui - INFO - 点击元素: ('css selector', 'uni-view:nth-child(3) > uni-view > uni-text:nth-child(1) > span')
+2025-09-22 18:39:34,065 - ui - INFO - 退出浏览器
+2025-09-22 18:39:38,751 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:40,078 - ui - INFO - 退出浏览器
+2025-09-22 18:39:43,612 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:47,358 - ui - INFO - 点击元素: ('xpath', '//uni-view[7]/uni-view/uni-text[1]')
+2025-09-22 18:39:47,372 - ui - INFO - 退出浏览器
+2025-09-22 18:39:50,976 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:52,692 - ui - INFO - 点击元素: ('xpath', '//uni-view[9]/uni-view/uni-text[1]/span')
+2025-09-22 18:39:52,746 - ui - INFO - 退出浏览器
+2025-09-22 18:39:56,430 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-22 18:39:57,781 - ui - INFO - 退出浏览器
+2025-09-25 18:34:17,299 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-25 18:34:22,291 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-25 18:34:32,328 - ui - ERROR - find_element 失败，locator=('xpath', "//button[contains(text(),'加入购物车')]"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b382a96]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 18:34:32,525 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_18-34-32.png
+2025-09-25 18:34:32,702 - ui - ERROR - click 失败，locator=('xpath', "//button[contains(text(),'加入购物车')]"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b382a96]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 18:34:32,852 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_18-34-32.png
+2025-09-25 18:36:52,607 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-25 18:36:54,805 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-25 18:37:05,340 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]/text()'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b382a96]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 18:37:05,555 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_18-37-05.png
+2025-09-25 18:37:05,734 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]/text()'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b382a96]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 18:37:05,878 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_18-37-05.png
+2025-09-25 18:50:21,218 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-25 18:50:23,261 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-25 19:47:25,653 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-25 19:47:27,706 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-25 19:47:28,030 - ui - INFO - 退出浏览器
+2025-09-25 19:52:24,540 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-25 19:52:26,377 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-25 19:52:26,546 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-view[8]/uni-view[2]/uni-button[2]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b333abd]
+	(No symbol) [0x0x7ff64b336b1c]
+	(No symbol) [0x0x7ff64b336bef]
+	(No symbol) [0x0x7ff64b382347]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 19:52:27,140 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_19-52-26.png
+2025-09-25 19:52:27,402 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-view[8]/uni-view[2]/uni-button[2]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b333abd]
+	(No symbol) [0x0x7ff64b336b1c]
+	(No symbol) [0x0x7ff64b336bef]
+	(No symbol) [0x0x7ff64b382347]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 19:52:27,685 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_19-52-27.png
+2025-09-25 19:52:28,460 - ui - INFO - 退出浏览器
+2025-09-25 19:53:30,344 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-25 19:53:32,211 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-25 19:53:32,368 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-view[8]/uni-view[2]/uni-button[2]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b333abd]
+	(No symbol) [0x0x7ff64b336b1c]
+	(No symbol) [0x0x7ff64b336bef]
+	(No symbol) [0x0x7ff64b382347]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 19:53:32,948 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_19-53-32.png
+2025-09-25 19:53:33,214 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-view[8]/uni-view[2]/uni-button[2]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b333abd]
+	(No symbol) [0x0x7ff64b336b1c]
+	(No symbol) [0x0x7ff64b336bef]
+	(No symbol) [0x0x7ff64b382347]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 19:53:33,482 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_19-53-33.png
+2025-09-25 19:53:33,976 - ui - INFO - 退出浏览器
+2025-09-25 19:58:21,253 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-25 19:58:23,069 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-25 19:58:23,482 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-25 19:58:23,510 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-view[8]/uni-navigator[2],'购物车')]"), error=Message: invalid selector: Unable to locate an element with the xpath expression //uni-view[8]/uni-navigator[2],'购物车')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//uni-view[8]/uni-navigator[2],'购物车')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b333abd]
+	(No symbol) [0x0x7ff64b336b1c]
+	(No symbol) [0x0x7ff64b336bef]
+	(No symbol) [0x0x7ff64b382347]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 19:58:23,922 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_19-58-23.png
+2025-09-25 19:58:24,162 - ui - ERROR - click 失败，locator=('xpath', "//uni-view[8]/uni-navigator[2],'购物车')]"), error=Message: invalid selector: Unable to locate an element with the xpath expression //uni-view[8]/uni-navigator[2],'购物车')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//uni-view[8]/uni-navigator[2],'购物车')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64b8278d5+2802741]
+	GetHandleVerifier [0x0x7ff64b58eb70+79568]
+	(No symbol) [0x0x7ff64b32c0fa]
+	(No symbol) [0x0x7ff64b333abd]
+	(No symbol) [0x0x7ff64b336b1c]
+	(No symbol) [0x0x7ff64b336bef]
+	(No symbol) [0x0x7ff64b382347]
+	(No symbol) [0x0x7ff64b382d4c]
+	(No symbol) [0x0x7ff64b3d6017]
+	(No symbol) [0x0x7ff64b3aaccf]
+	(No symbol) [0x0x7ff64b3d2e24]
+	(No symbol) [0x0x7ff64b3aaa63]
+	(No symbol) [0x0x7ff64b373c91]
+	(No symbol) [0x0x7ff64b374a23]
+	GetHandleVerifier [0x0x7ff64b852ced+2979917]
+	GetHandleVerifier [0x0x7ff64b84d0f3+2956371]
+	GetHandleVerifier [0x0x7ff64b86acbd+3078173]
+	GetHandleVerifier [0x0x7ff64b5a836e+184014]
+	GetHandleVerifier [0x0x7ff64b5b024f+216495]
+	GetHandleVerifier [0x0x7ff64b5970c4+113700]
+	GetHandleVerifier [0x0x7ff64b597279+114137]
+	GetHandleVerifier [0x0x7ff64b57df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-25 19:58:24,457 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-25_19-58-24.png
+2025-09-25 19:58:24,898 - ui - INFO - 退出浏览器
+2025-09-26 00:37:43,499 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 00:37:45,311 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 00:37:45,700 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 00:37:46,861 - ui - WARNING - 元素 ('xpath', '//uni-view[8]/uni-navigator[2]') 被遮挡，已用 JS 点击代替
+2025-09-26 00:37:47,029 - ui - INFO - 退出浏览器
+2025-09-26 01:39:34,567 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 01:39:35,672 - ui - ERROR - find_element 失败，locator=('name', 'username'), error=could not convert string to float: 'mobile'
+2025-09-26 01:39:35,917 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_01-39-35.png
+2025-09-26 01:39:36,120 - ui - ERROR - send_keys 失败，locator=('name', 'username'), error=could not convert string to float: 'mobile'
+2025-09-26 01:39:36,326 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_01-39-36.png
+2025-09-26 01:49:51,526 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 01:49:52,427 - ui - ERROR - find_element 失败，locator=('name', 'username'), error=could not convert string to float: 'mobile'
+2025-09-26 01:49:52,603 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_01-49-52.png
+2025-09-26 01:49:52,750 - ui - ERROR - send_keys 失败，locator=('name', 'username'), error=could not convert string to float: 'mobile'
+2025-09-26 01:49:52,892 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_01-49-52.png
+2025-09-26 01:51:59,064 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 01:52:00,193 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]/uni-input/div/input'), error=could not convert string to float: 'mobile'
+2025-09-26 01:52:00,358 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_01-52-00.png
+2025-09-26 01:52:00,515 - ui - ERROR - send_keys 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]/uni-input/div/input'), error=could not convert string to float: 'mobile'
+2025-09-26 01:52:00,664 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_01-52-00.png
+2025-09-26 02:01:50,768 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:01:51,664 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]/uni-input/div'), error=could not convert string to float: 'mobile'
+2025-09-26 02:01:51,857 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_02-01-51.png
+2025-09-26 02:01:52,000 - ui - ERROR - send_keys 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]/uni-input/div'), error=could not convert string to float: 'mobile'
+2025-09-26 02:01:52,146 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_02-01-52.png
+2025-09-26 02:05:47,429 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:05:48,212 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'), error=could not convert string to float: 'mobile'
+2025-09-26 02:05:48,382 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_02-05-48.png
+2025-09-26 02:05:48,524 - ui - ERROR - send_keys 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'), error=could not convert string to float: 'mobile'
+2025-09-26 02:05:48,675 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_02-05-48.png
+2025-09-26 02:07:45,198 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:07:46,035 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'), error=could not convert string to float: 'mobile'
+2025-09-26 02:07:46,200 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_02-07-46.png
+2025-09-26 02:07:46,376 - ui - ERROR - send_keys 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'), error=could not convert string to float: 'mobile'
+2025-09-26 02:07:46,522 - ui - INFO - 截图已保存: screenshots\screenshot_2025-09-26_02-07-46.png
+2025-09-26 02:14:51,475 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:14:52,225 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'), error=could not convert string to float: 'mobile'
+2025-09-26 02:14:52,406 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-14-52.png
+2025-09-26 02:14:52,585 - ui - ERROR - send_keys 失败，locator=('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'), error=could not convert string to float: 'mobile'
+2025-09-26 02:14:52,733 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-14-52.png
+2025-09-26 02:16:17,587 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:16:18,485 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:16:18,613 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:16:18,827 - ui - INFO - 点击元素: ('xpath', '//uni-view[4]/uni-button[1]')
+2025-09-26 02:16:29,077 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7501f78d5+2802741]
+	GetHandleVerifier [0x0x7ff74ff5eb70+79568]
+	(No symbol) [0x0x7ff74fcfc0fa]
+	(No symbol) [0x0x7ff74fd52a96]
+	(No symbol) [0x0x7ff74fd52d4c]
+	(No symbol) [0x0x7ff74fda6017]
+	(No symbol) [0x0x7ff74fd7accf]
+	(No symbol) [0x0x7ff74fda2e24]
+	(No symbol) [0x0x7ff74fd7aa63]
+	(No symbol) [0x0x7ff74fd43c91]
+	(No symbol) [0x0x7ff74fd44a23]
+	GetHandleVerifier [0x0x7ff750222ced+2979917]
+	GetHandleVerifier [0x0x7ff75021d0f3+2956371]
+	GetHandleVerifier [0x0x7ff75023acbd+3078173]
+	GetHandleVerifier [0x0x7ff74ff7836e+184014]
+	GetHandleVerifier [0x0x7ff74ff8024f+216495]
+	GetHandleVerifier [0x0x7ff74ff670c4+113700]
+	GetHandleVerifier [0x0x7ff74ff67279+114137]
+	GetHandleVerifier [0x0x7ff74ff4df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-26 02:16:29,270 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-16-29.png
+2025-09-26 02:16:29,424 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7501f78d5+2802741]
+	GetHandleVerifier [0x0x7ff74ff5eb70+79568]
+	(No symbol) [0x0x7ff74fcfc0fa]
+	(No symbol) [0x0x7ff74fd52a96]
+	(No symbol) [0x0x7ff74fd52d4c]
+	(No symbol) [0x0x7ff74fda6017]
+	(No symbol) [0x0x7ff74fd7accf]
+	(No symbol) [0x0x7ff74fda2e24]
+	(No symbol) [0x0x7ff74fd7aa63]
+	(No symbol) [0x0x7ff74fd43c91]
+	(No symbol) [0x0x7ff74fd44a23]
+	GetHandleVerifier [0x0x7ff750222ced+2979917]
+	GetHandleVerifier [0x0x7ff75021d0f3+2956371]
+	GetHandleVerifier [0x0x7ff75023acbd+3078173]
+	GetHandleVerifier [0x0x7ff74ff7836e+184014]
+	GetHandleVerifier [0x0x7ff74ff8024f+216495]
+	GetHandleVerifier [0x0x7ff74ff670c4+113700]
+	GetHandleVerifier [0x0x7ff74ff67279+114137]
+	GetHandleVerifier [0x0x7ff74ff4df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-26 02:16:29,587 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-16-29.png
+2025-09-26 02:22:53,804 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:22:54,818 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:22:54,945 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:22:55,139 - ui - INFO - 点击元素: ('xpath', '//uni-view[4]/uni-button[1]')
+2025-09-26 02:23:05,530 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:23:05,746 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-23-05.png
+2025-09-26 02:23:05,912 - ui - ERROR - click 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:23:06,064 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-23-05.png
+2025-09-26 02:28:51,477 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:28:52,502 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:28:52,633 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:28:52,817 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:29:03,209 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:29:03,406 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-29-03.png
+2025-09-26 02:29:03,542 - ui - ERROR - click 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:29:03,737 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-29-03.png
+2025-09-26 02:31:30,898 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:31:32,124 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:31:32,248 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:31:32,430 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:31:42,824 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:31:43,019 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-31-42.png
+2025-09-26 02:31:43,182 - ui - ERROR - click 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:31:43,316 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-31-43.png
+2025-09-26 02:32:55,351 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:32:56,567 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:32:58,781 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:33:00,956 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:33:11,361 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:33:11,534 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-33-11.png
+2025-09-26 02:33:11,697 - ui - ERROR - click 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:33:11,840 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-33-11.png
+2025-09-26 02:34:39,573 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:34:40,507 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:34:42,629 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:34:44,807 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:34:57,002 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:34:57,370 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-34-57.png
+2025-09-26 02:34:57,515 - ui - ERROR - click 失败，locator=('xpath', '//uni-tabbar/div[1]/div[2]'), error=Message: 
+
+2025-09-26 02:34:57,660 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-34-57.png
+2025-09-26 02:47:29,368 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:47:30,288 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:47:32,412 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:47:34,586 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:47:37,840 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 02:47:38,200 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 02:47:38,434 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 02:47:38,448 - ui - ERROR - find_element 失败，locator=('xpath', "//button[contains(text(),'去结算')]"), error=could not convert string to float: 'mobile'
+2025-09-26 02:47:38,633 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-47-38.png
+2025-09-26 02:47:38,819 - ui - ERROR - click 失败，locator=('xpath', "//button[contains(text(),'去结算')]"), error=could not convert string to float: 'mobile'
+2025-09-26 02:47:38,964 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-47-38.png
+2025-09-26 02:51:16,557 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:51:17,557 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:51:17,697 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:51:17,880 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:51:19,116 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 02:52:00,052 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:52:01,065 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:52:01,222 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:52:01,418 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:52:02,429 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 02:52:02,856 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 02:52:04,050 - ui - WARNING - 元素 ('xpath', '//uni-view[8]/uni-navigator[2]') 被遮挡，已用 JS 点击代替
+2025-09-26 02:52:04,067 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:52:04,333 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-52-04.png
+2025-09-26 02:52:04,469 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:52:04,610 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-52-04.png
+2025-09-26 02:54:14,822 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:54:15,908 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:54:16,034 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:54:16,218 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:54:17,358 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 02:54:17,721 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 02:54:18,936 - ui - WARNING - 元素 ('xpath', '//uni-view[8]/uni-navigator[2]') 被遮挡，已用 JS 点击代替
+2025-09-26 02:54:18,951 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:54:19,168 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-54-18.png
+2025-09-26 02:54:19,319 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:54:19,482 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-54-19.png
+2025-09-26 02:55:35,792 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:55:36,878 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:55:37,012 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:55:37,193 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:55:40,183 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 02:55:40,721 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 02:55:40,966 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 02:55:40,980 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:55:41,208 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-55-40.png
+2025-09-26 02:55:41,359 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:55:41,513 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-55-41.png
+2025-09-26 02:59:49,101 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 02:59:50,176 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 02:59:50,297 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 02:59:50,486 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 02:59:50,496 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 02:59:51,571 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 02:59:51,993 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 02:59:53,218 - ui - WARNING - 元素 ('xpath', '//uni-view[8]/uni-navigator[2]') 被遮挡，已用 JS 点击代替
+2025-09-26 02:59:53,233 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:59:53,425 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-59-53.png
+2025-09-26 02:59:53,570 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 02:59:53,707 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_02-59-53.png
+2025-09-26 03:00:34,868 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:00:36,083 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:00:36,234 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:00:36,469 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:00:38,477 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:00:39,578 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:00:39,901 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:00:40,146 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:00:40,163 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 03:00:40,407 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-00-40.png
+2025-09-26 03:00:40,561 - ui - ERROR - click 失败，locator=('xpath', '//uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 03:00:40,730 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-00-40.png
+2025-09-26 03:04:26,447 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:04:27,946 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:04:28,072 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:04:28,256 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:04:30,266 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:04:31,514 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:04:31,867 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:04:32,152 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:04:32,168 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:04:32,414 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-04-32.png
+2025-09-26 03:04:32,569 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:04:32,721 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-04-32.png
+2025-09-26 03:08:26,989 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:08:28,006 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:08:28,137 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:08:28,334 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:08:30,343 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:08:31,426 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:08:31,968 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:08:32,196 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:08:32,213 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[contains(text(), '结算')]']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:08:32,454 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-08-32.png
+2025-09-26 03:08:32,600 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[contains(text(), '结算')]']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:08:32,761 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-08-32.png
+2025-09-26 03:09:18,160 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:09:19,095 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:09:19,226 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:09:19,412 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:09:21,424 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:09:22,499 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:09:22,911 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:09:23,138 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:09:23,154 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[contains(text(), '结算')]']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:09:23,365 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-09-23.png
+2025-09-26 03:09:23,529 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[contains(text(), '结算')]']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:09:23,693 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-09-23.png
+2025-09-26 03:09:56,604 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:09:57,731 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:09:57,859 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:09:58,033 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:10:00,043 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:10:01,066 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:10:01,496 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:10:01,779 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:10:01,794 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[contains(text(), '结算')]']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:10:02,030 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-10-01.png
+2025-09-26 03:10:02,182 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[contains(text(), '结算')]']"), error=could not convert string to float: 'mobile'
+2025-09-26 03:10:02,343 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-10-02.png
+2025-09-26 03:11:52,368 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:11:53,318 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:11:53,450 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:11:53,646 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:11:55,655 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:11:56,801 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:11:57,204 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:11:57,462 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:11:57,479 - ui - ERROR - find_element 失败，locator=('xpath', '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 03:11:57,702 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-11-57.png
+2025-09-26 03:11:57,856 - ui - ERROR - click 失败，locator=('xpath', '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 03:11:58,002 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-11-57.png
+2025-09-26 03:13:20,127 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:13:21,101 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:13:21,239 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:13:21,420 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:13:23,428 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:13:24,478 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:13:24,900 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:13:25,152 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:13:27,168 - ui - ERROR - find_element 失败，locator=('xpath', '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 03:13:27,379 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-13-27.png
+2025-09-26 03:13:27,569 - ui - ERROR - click 失败，locator=('xpath', '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-view[2]/uni-button'), error=could not convert string to float: 'mobile'
+2025-09-26 03:13:27,749 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-13-27.png
+2025-09-26 03:17:30,622 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 03:17:31,743 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 03:17:31,883 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 03:17:32,061 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 03:17:34,073 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 03:17:35,168 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 03:17:35,771 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 03:17:36,038 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 03:17:38,295 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-09-26 03:17:38,575 - ui - INFO - 点击元素: ('xpath', '//uni-view[4]/uni-text')
+2025-09-26 03:17:38,606 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-page-head/div[1]/div[2]/div/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-page-head/div[1]/div[2]/div/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7501f78d5+2802741]
+	GetHandleVerifier [0x0x7ff74ff5eb70+79568]
+	(No symbol) [0x0x7ff74fcfc0fa]
+	(No symbol) [0x0x7ff74fd03abd]
+	(No symbol) [0x0x7ff74fd06b1c]
+	(No symbol) [0x0x7ff74fd06bef]
+	(No symbol) [0x0x7ff74fd52347]
+	(No symbol) [0x0x7ff74fd52d4c]
+	(No symbol) [0x0x7ff74fda6017]
+	(No symbol) [0x0x7ff74fd7accf]
+	(No symbol) [0x0x7ff74fda2e24]
+	(No symbol) [0x0x7ff74fd7aa63]
+	(No symbol) [0x0x7ff74fd43c91]
+	(No symbol) [0x0x7ff74fd44a23]
+	GetHandleVerifier [0x0x7ff750222ced+2979917]
+	GetHandleVerifier [0x0x7ff75021d0f3+2956371]
+	GetHandleVerifier [0x0x7ff75023acbd+3078173]
+	GetHandleVerifier [0x0x7ff74ff7836e+184014]
+	GetHandleVerifier [0x0x7ff74ff8024f+216495]
+	GetHandleVerifier [0x0x7ff74ff670c4+113700]
+	GetHandleVerifier [0x0x7ff74ff67279+114137]
+	GetHandleVerifier [0x0x7ff74ff4df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-26 03:17:38,830 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_03-17-38.png
+2025-09-26 16:45:59,218 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-26 16:46:00,254 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-26 16:46:00,384 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-26 16:46:00,569 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-26 16:46:02,579 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-26 16:46:03,506 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-26 16:46:03,984 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-26 16:46:04,237 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-26 16:46:06,461 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-09-26 16:46:06,649 - ui - INFO - 点击元素: ('xpath', '//uni-view[4]/uni-text')
+2025-09-26 16:46:06,686 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-page-head/div[1]/div[2]/div/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-page-head/div[1]/div[2]/div/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d62078d5+2802741]
+	GetHandleVerifier [0x0x7ff7d5f6eb70+79568]
+	(No symbol) [0x0x7ff7d5d0c0fa]
+	(No symbol) [0x0x7ff7d5d13abd]
+	(No symbol) [0x0x7ff7d5d16b1c]
+	(No symbol) [0x0x7ff7d5d16bef]
+	(No symbol) [0x0x7ff7d5d62347]
+	(No symbol) [0x0x7ff7d5d62d4c]
+	(No symbol) [0x0x7ff7d5db6017]
+	(No symbol) [0x0x7ff7d5d8accf]
+	(No symbol) [0x0x7ff7d5db2e24]
+	(No symbol) [0x0x7ff7d5d8aa63]
+	(No symbol) [0x0x7ff7d5d53c91]
+	(No symbol) [0x0x7ff7d5d54a23]
+	GetHandleVerifier [0x0x7ff7d6232ced+2979917]
+	GetHandleVerifier [0x0x7ff7d622d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7d624acbd+3078173]
+	GetHandleVerifier [0x0x7ff7d5f8836e+184014]
+	GetHandleVerifier [0x0x7ff7d5f9024f+216495]
+	GetHandleVerifier [0x0x7ff7d5f770c4+113700]
+	GetHandleVerifier [0x0x7ff7d5f77279+114137]
+	GetHandleVerifier [0x0x7ff7d5f5df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-26 16:46:06,911 - ui - INFO - 截图已保存: screenshots\2025-09-26\screenshot_2025-09-26_16-46-06.png
+2025-09-28 15:49:41,483 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-28 15:49:43,937 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-28 15:49:44,061 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-28 15:49:44,234 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-28 15:49:46,247 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-28 15:49:48,368 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-28 15:49:49,076 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-28 15:49:49,281 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-28 15:49:49,558 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-09-28 15:49:50,277 - ui - INFO - 点击元素: ('xpath', '//uni-view[4]/uni-text')
+2025-09-28 15:50:00,480 - ui - ERROR - find_element 失败，locator=('xpath', 'uni-app/uni-modal/div[2]/div[3]/div[2]'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fe8c78d5+2802741]
+	GetHandleVerifier [0x0x7ff7fe62eb70+79568]
+	(No symbol) [0x0x7ff7fe3cc0fa]
+	(No symbol) [0x0x7ff7fe422a96]
+	(No symbol) [0x0x7ff7fe422d4c]
+	(No symbol) [0x0x7ff7fe476017]
+	(No symbol) [0x0x7ff7fe44accf]
+	(No symbol) [0x0x7ff7fe472e24]
+	(No symbol) [0x0x7ff7fe44aa63]
+	(No symbol) [0x0x7ff7fe413c91]
+	(No symbol) [0x0x7ff7fe414a23]
+	GetHandleVerifier [0x0x7ff7fe8f2ced+2979917]
+	GetHandleVerifier [0x0x7ff7fe8ed0f3+2956371]
+	GetHandleVerifier [0x0x7ff7fe90acbd+3078173]
+	GetHandleVerifier [0x0x7ff7fe64836e+184014]
+	GetHandleVerifier [0x0x7ff7fe65024f+216495]
+	GetHandleVerifier [0x0x7ff7fe6370c4+113700]
+	GetHandleVerifier [0x0x7ff7fe637279+114137]
+	GetHandleVerifier [0x0x7ff7fe61df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-28 15:50:00,694 - ui - INFO - 截图已保存: screenshots\2025-09-28\screenshot_2025-09-28_15-50-00.png
+2025-09-28 15:50:00,869 - ui - ERROR - click 失败，locator=('xpath', 'uni-app/uni-modal/div[2]/div[3]/div[2]'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fe8c78d5+2802741]
+	GetHandleVerifier [0x0x7ff7fe62eb70+79568]
+	(No symbol) [0x0x7ff7fe3cc0fa]
+	(No symbol) [0x0x7ff7fe422a96]
+	(No symbol) [0x0x7ff7fe422d4c]
+	(No symbol) [0x0x7ff7fe476017]
+	(No symbol) [0x0x7ff7fe44accf]
+	(No symbol) [0x0x7ff7fe472e24]
+	(No symbol) [0x0x7ff7fe44aa63]
+	(No symbol) [0x0x7ff7fe413c91]
+	(No symbol) [0x0x7ff7fe414a23]
+	GetHandleVerifier [0x0x7ff7fe8f2ced+2979917]
+	GetHandleVerifier [0x0x7ff7fe8ed0f3+2956371]
+	GetHandleVerifier [0x0x7ff7fe90acbd+3078173]
+	GetHandleVerifier [0x0x7ff7fe64836e+184014]
+	GetHandleVerifier [0x0x7ff7fe65024f+216495]
+	GetHandleVerifier [0x0x7ff7fe6370c4+113700]
+	GetHandleVerifier [0x0x7ff7fe637279+114137]
+	GetHandleVerifier [0x0x7ff7fe61df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-28 15:50:01,018 - ui - INFO - 截图已保存: screenshots\2025-09-28\screenshot_2025-09-28_15-50-00.png
+2025-09-28 15:59:15,751 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-28 15:59:16,856 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-28 15:59:16,976 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-28 15:59:17,148 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-28 15:59:19,157 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-28 15:59:20,245 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-28 15:59:20,712 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-28 15:59:20,963 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-28 15:59:21,247 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-09-28 15:59:21,424 - ui - INFO - 点击元素: ('xpath', '//uni-view[4]/uni-text')
+2025-09-28 15:59:31,647 - ui - ERROR - find_element 失败，locator=('xpath', 'uni-app/uni-modal/div[2]/div[3]/div[2]'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c3b778d5+2802741]
+	GetHandleVerifier [0x0x7ff7c38deb70+79568]
+	(No symbol) [0x0x7ff7c367c0fa]
+	(No symbol) [0x0x7ff7c36d2a96]
+	(No symbol) [0x0x7ff7c36d2d4c]
+	(No symbol) [0x0x7ff7c3726017]
+	(No symbol) [0x0x7ff7c36faccf]
+	(No symbol) [0x0x7ff7c3722e24]
+	(No symbol) [0x0x7ff7c36faa63]
+	(No symbol) [0x0x7ff7c36c3c91]
+	(No symbol) [0x0x7ff7c36c4a23]
+	GetHandleVerifier [0x0x7ff7c3ba2ced+2979917]
+	GetHandleVerifier [0x0x7ff7c3b9d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7c3bbacbd+3078173]
+	GetHandleVerifier [0x0x7ff7c38f836e+184014]
+	GetHandleVerifier [0x0x7ff7c390024f+216495]
+	GetHandleVerifier [0x0x7ff7c38e70c4+113700]
+	GetHandleVerifier [0x0x7ff7c38e7279+114137]
+	GetHandleVerifier [0x0x7ff7c38cdf78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-28 15:59:31,868 - ui - INFO - 截图已保存: screenshots\2025-09-28\screenshot_2025-09-28_15-59-31.png
+2025-09-28 15:59:32,019 - ui - ERROR - click 失败，locator=('xpath', 'uni-app/uni-modal/div[2]/div[3]/div[2]'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c3b778d5+2802741]
+	GetHandleVerifier [0x0x7ff7c38deb70+79568]
+	(No symbol) [0x0x7ff7c367c0fa]
+	(No symbol) [0x0x7ff7c36d2a96]
+	(No symbol) [0x0x7ff7c36d2d4c]
+	(No symbol) [0x0x7ff7c3726017]
+	(No symbol) [0x0x7ff7c36faccf]
+	(No symbol) [0x0x7ff7c3722e24]
+	(No symbol) [0x0x7ff7c36faa63]
+	(No symbol) [0x0x7ff7c36c3c91]
+	(No symbol) [0x0x7ff7c36c4a23]
+	GetHandleVerifier [0x0x7ff7c3ba2ced+2979917]
+	GetHandleVerifier [0x0x7ff7c3b9d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7c3bbacbd+3078173]
+	GetHandleVerifier [0x0x7ff7c38f836e+184014]
+	GetHandleVerifier [0x0x7ff7c390024f+216495]
+	GetHandleVerifier [0x0x7ff7c38e70c4+113700]
+	GetHandleVerifier [0x0x7ff7c38e7279+114137]
+	GetHandleVerifier [0x0x7ff7c38cdf78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-28 15:59:32,167 - ui - INFO - 截图已保存: screenshots\2025-09-28\screenshot_2025-09-28_15-59-32.png
+2025-09-28 16:01:59,407 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-28 16:02:00,399 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-28 16:02:00,523 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-28 16:02:00,710 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-28 16:02:02,719 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-28 16:02:03,904 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-28 16:02:04,193 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-28 16:02:04,467 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-28 16:02:04,789 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-09-28 16:02:04,972 - ui - INFO - 点击元素: ('xpath', '//uni-view[4]/uni-text')
+2025-09-28 16:02:04,991 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-page-head/div[1]/div[2]/div/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-page-head/div[1]/div[2]/div/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c3b778d5+2802741]
+	GetHandleVerifier [0x0x7ff7c38deb70+79568]
+	(No symbol) [0x0x7ff7c367c0fa]
+	(No symbol) [0x0x7ff7c3683abd]
+	(No symbol) [0x0x7ff7c3686b1c]
+	(No symbol) [0x0x7ff7c3686bef]
+	(No symbol) [0x0x7ff7c36d2347]
+	(No symbol) [0x0x7ff7c36d2d4c]
+	(No symbol) [0x0x7ff7c3726017]
+	(No symbol) [0x0x7ff7c36faccf]
+	(No symbol) [0x0x7ff7c3722e24]
+	(No symbol) [0x0x7ff7c36faa63]
+	(No symbol) [0x0x7ff7c36c3c91]
+	(No symbol) [0x0x7ff7c36c4a23]
+	GetHandleVerifier [0x0x7ff7c3ba2ced+2979917]
+	GetHandleVerifier [0x0x7ff7c3b9d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7c3bbacbd+3078173]
+	GetHandleVerifier [0x0x7ff7c38f836e+184014]
+	GetHandleVerifier [0x0x7ff7c390024f+216495]
+	GetHandleVerifier [0x0x7ff7c38e70c4+113700]
+	GetHandleVerifier [0x0x7ff7c38e7279+114137]
+	GetHandleVerifier [0x0x7ff7c38cdf78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-28 16:02:05,180 - ui - INFO - 截图已保存: screenshots\2025-09-28\screenshot_2025-09-28_16-02-04.png
+2025-09-28 16:05:37,572 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-28 16:05:38,641 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-28 16:05:38,765 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-28 16:05:38,954 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-28 16:05:40,965 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-28 16:06:10,474 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-28 16:06:11,312 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-28 16:06:11,512 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-28 16:06:12,262 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-09-28 16:06:12,929 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+2025-09-28 16:06:12,955 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-page-head/div[1]/div[2]/div/text()'), error=Message: invalid selector: The result of the xpath expression "//uni-page-head/div[1]/div[2]/div/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6dfdd78d5+2802741]
+	GetHandleVerifier [0x0x7ff6dfb3eb70+79568]
+	(No symbol) [0x0x7ff6df8dc0fa]
+	(No symbol) [0x0x7ff6df8e3abd]
+	(No symbol) [0x0x7ff6df8e6b1c]
+	(No symbol) [0x0x7ff6df8e6bef]
+	(No symbol) [0x0x7ff6df932347]
+	(No symbol) [0x0x7ff6df932d4c]
+	(No symbol) [0x0x7ff6df986017]
+	(No symbol) [0x0x7ff6df95accf]
+	(No symbol) [0x0x7ff6df982e24]
+	(No symbol) [0x0x7ff6df95aa63]
+	(No symbol) [0x0x7ff6df923c91]
+	(No symbol) [0x0x7ff6df924a23]
+	GetHandleVerifier [0x0x7ff6dfe02ced+2979917]
+	GetHandleVerifier [0x0x7ff6dfdfd0f3+2956371]
+	GetHandleVerifier [0x0x7ff6dfe1acbd+3078173]
+	GetHandleVerifier [0x0x7ff6dfb5836e+184014]
+	GetHandleVerifier [0x0x7ff6dfb6024f+216495]
+	GetHandleVerifier [0x0x7ff6dfb470c4+113700]
+	GetHandleVerifier [0x0x7ff6dfb47279+114137]
+	GetHandleVerifier [0x0x7ff6dfb2df78+10968]
+	BaseThreadInitThunk [0x0x7ffe93247374+20]
+	RtlUserThreadStart [0x0x7ffe942bcc91+33]
+
+2025-09-28 16:06:13,153 - ui - INFO - 截图已保存: screenshots\2025-09-28\screenshot_2025-09-28_16-06-12.png
+2025-09-28 17:04:23,178 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-09-28 17:04:24,472 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-09-28 17:04:24,620 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-09-28 17:04:24,813 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-09-28 17:04:26,823 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-09-28 17:04:28,166 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-scroll-view//uni-view[1]')
+2025-09-28 17:04:28,709 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-view[2]/uni-button[2]')
+2025-09-28 17:04:28,982 - ui - INFO - 点击元素: ('xpath', '//uni-view[8]/uni-navigator[2]')
+2025-09-28 17:04:29,326 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-09-28 17:04:29,543 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+2025-09-28 17:04:30,242 - ui - INFO - 点击元素: ('xpath', '//uni-app/uni-modal/div[2]/div[3]/div[2]')
+2025-09-28 17:04:30,624 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[position()=2]//uni-view[1]')
+2025-09-28 17:04:30,774 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-text')
