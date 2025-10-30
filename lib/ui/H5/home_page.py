@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 
 
 from lib.ui.web.base_page import BasePage
-from lib.util.config_loader import get_config
+from lib.utils.config_loader import get_config
 
 
 class HomePage(BasePage):

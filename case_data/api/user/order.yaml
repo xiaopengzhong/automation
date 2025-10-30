@@ -1,0 +1,81 @@
+create_order:
+  - id: ORDER001
+    desc: "正常创建单个商品的订单"
+    precondition: "购物车中存在商品"
+    data: {}
+    expected:
+      code: 200
+      message: "下单成功"
+      contain_field: ["order", "orderItemList"]
+  - id: ORDER001
+    desc: "正常创建多个商品的订单"
+    precondition: "购物车中存在商品"
+    data: {}
+    expected:
+      code: 200
+      message: "下单成功"
+      contain_field: ["order", "orderItemList"]
+
+  - id: ORDER002
+    desc: "创建订单时购物车为空"
+    precondition: "购物车为空"
+    data: {}
+    expected:
+      code: 500
+      message: "购物车为空"
+
+generate_confirm_order:
+  - id: ORDER003
+    desc: "生成确认订单信息"
+    precondition: "购物车中存在商品"
+    data: {}
+    expected:
+      code: 200
+      message: "操作成功"
+      contain_field: ["cartPromotionItemList", "memberReceiveAddressList", "calcAmount"]
+
+list_order:
+  - id: ORDER004
+    desc: "查看订单列表（正常用户）"
+    precondition: "用户已登录"
+    data: {}
+    expected:
+      code: 200
+      message: "操作成功"
+
+get_order_detail:
+  - id: ORDER005
+    desc: "获取订单详情（存在订单）"
+    precondition: "订单已创建"
+    data: {}
+    expected:
+      code: 200
+      message: "操作成功"
+      contain_field: ["id", "orderSn", "memberId"]
+
+  - id: ORDER006
+    desc: "获取订单详情（不存在的订单）"
+    precondition: "订单ID不存在"
+    data:
+      order_id: 999999
+    expected:
+      code: 200
+      message: "操作成功"
+
+cancel_order:
+  - id: ORDER007
+    desc: "取消订单（未发货）"
+    precondition: "订单已创建"
+    data: {}
+    expected:
+      code: 200
+      message: "操作成功"
+
+delete_order:
+  - id: ORDER008
+    desc: "删除订单（已取消）"
+    precondition: "订单已取消"
+    data: {}
+    expected:
+      code: 200
+      message: "操作成功"

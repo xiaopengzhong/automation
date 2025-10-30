@@ -1,0 +1,588 @@
+2025-10-19 00:00:18,693 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 00:00:18,693 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:18,736 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 00:00:18,736 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:18,771 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 00:00:18,771 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:18,771 - api - ERROR - 添加商品到购物车失败
+2025-10-19 00:00:18,823 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.05s
+2025-10-19 00:00:18,823 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:18,824 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 00:00:18,872 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-19 00:00:18,872 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:18,904 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 00:00:18,904 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:24,378 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 00:00:24,378 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:24,398 - api - INFO - 开始创建订单...
+2025-10-19 00:00:24,420 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 00:00:24,420 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:24,420 - api - ERROR - 添加商品到购物车失败
+2025-10-19 00:00:24,420 - api - ERROR - 创建订单失败: Failed to add item to cart
+2025-10-19 00:00:58,914 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 00:00:58,914 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:58,953 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-19 00:00:58,953 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:58,980 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 00:00:58,980 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:58,980 - api - ERROR - 添加商品到购物车失败
+2025-10-19 00:00:59,005 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-19 00:00:59,005 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:59,005 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 00:00:59,039 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.03s
+2025-10-19 00:00:59,041 - api - INFO - 响应状态码: 200
+2025-10-19 00:00:59,066 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 00:00:59,066 - api - INFO - 响应状态码: 200
+2025-10-19 00:22:40,070 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.18s
+2025-10-19 00:22:40,070 - api - INFO - 响应状态码: 200
+2025-10-19 00:22:40,116 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 00:22:40,117 - api - INFO - 响应状态码: 200
+2025-10-19 00:22:40,143 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 00:22:40,146 - api - INFO - 响应状态码: 200
+2025-10-19 00:22:40,146 - api - ERROR - 添加商品到购物车失败
+2025-10-19 00:22:40,180 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 00:22:40,180 - api - INFO - 响应状态码: 200
+2025-10-19 00:22:40,180 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 00:22:40,231 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-19 00:22:40,231 - api - INFO - 响应状态码: 200
+2025-10-19 00:22:40,276 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.04s
+2025-10-19 00:22:40,276 - api - INFO - 响应状态码: 200
+2025-10-19 00:24:49,965 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 00:24:49,965 - api - INFO - 响应状态码: 200
+2025-10-19 00:24:50,002 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-19 00:24:50,002 - api - INFO - 响应状态码: 200
+2025-10-19 00:24:50,039 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 00:24:50,039 - api - INFO - 响应状态码: 200
+2025-10-19 00:24:50,039 - api - ERROR - 添加商品到购物车失败
+2025-10-19 00:24:50,077 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-19 00:24:50,077 - api - INFO - 响应状态码: 200
+2025-10-19 00:24:50,077 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 00:24:50,140 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.06s
+2025-10-19 00:24:50,140 - api - INFO - 响应状态码: 200
+2025-10-19 00:24:50,206 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.06s
+2025-10-19 00:24:50,210 - api - INFO - 响应状态码: 200
+2025-10-19 00:25:39,110 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 00:25:39,110 - api - INFO - 响应状态码: 200
+2025-10-19 00:25:39,138 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 00:25:39,138 - api - INFO - 响应状态码: 200
+2025-10-19 00:25:39,161 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 00:25:39,161 - api - INFO - 响应状态码: 200
+2025-10-19 00:25:39,161 - api - ERROR - 添加商品到购物车失败
+2025-10-19 00:25:39,192 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 00:25:39,196 - api - INFO - 响应状态码: 200
+2025-10-19 00:25:39,196 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 00:25:39,240 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.04s
+2025-10-19 00:25:39,240 - api - INFO - 响应状态码: 200
+2025-10-19 00:25:39,284 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.04s
+2025-10-19 00:25:39,287 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:00,435 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 00:28:00,435 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:00,489 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.05s
+2025-10-19 00:28:00,489 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:11,845 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 00:28:11,845 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:11,869 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.01s
+2025-10-19 00:28:11,869 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:11,892 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 00:28:11,892 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:11,922 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-19 00:28:11,922 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:11,942 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=305&quantity=4 耗时: 0.02s
+2025-10-19 00:28:11,942 - api - INFO - 响应状态码: 200
+2025-10-19 00:28:11,974 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=305 耗时: 0.03s
+2025-10-19 00:28:11,974 - api - INFO - 响应状态码: 200
+2025-10-19 00:30:52,307 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-19 00:30:52,307 - api - INFO - 响应状态码: 200
+2025-10-19 00:30:52,338 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-19 00:30:52,338 - api - INFO - 响应状态码: 200
+2025-10-19 00:30:52,373 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 00:30:52,373 - api - INFO - 响应状态码: 200
+2025-10-19 00:30:52,385 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 00:30:52,389 - api - INFO - 响应状态码: 200
+2025-10-19 00:30:52,463 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=305&quantity=4 耗时: 0.07s
+2025-10-19 00:30:52,463 - api - INFO - 响应状态码: 200
+2025-10-19 00:30:52,491 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=305 耗时: 0.03s
+2025-10-19 00:30:52,491 - api - INFO - 响应状态码: 200
+2025-10-19 00:40:41,719 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-19 00:40:41,720 - api - INFO - 响应状态码: 200
+2025-10-19 00:40:41,758 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 00:40:41,758 - api - INFO - 响应状态码: 200
+2025-10-19 00:40:41,777 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-19 00:40:41,777 - api - INFO - 响应状态码: 200
+2025-10-19 00:40:41,796 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 00:40:41,799 - api - INFO - 响应状态码: 200
+2025-10-19 00:40:41,811 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 00:40:41,811 - api - INFO - 响应状态码: 200
+2025-10-19 00:41:44,600 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-19 00:41:44,600 - api - INFO - 响应状态码: 200
+2025-10-19 00:41:44,659 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 00:41:44,659 - api - INFO - 响应状态码: 200
+2025-10-19 00:41:44,688 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-19 00:41:44,688 - api - INFO - 响应状态码: 200
+2025-10-19 00:41:44,719 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 00:41:44,720 - api - INFO - 响应状态码: 200
+2025-10-19 00:41:44,741 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 00:41:44,741 - api - INFO - 响应状态码: 200
+2025-10-19 00:41:44,763 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=332&quantity=4 耗时: 0.02s
+2025-10-19 00:41:44,763 - api - INFO - 响应状态码: 200
+2025-10-19 00:41:44,782 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=332 耗时: 0.02s
+2025-10-19 00:41:44,782 - api - INFO - 响应状态码: 200
+2025-10-19 00:43:25,275 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 00:43:25,275 - api - INFO - 响应状态码: 200
+2025-10-19 00:43:25,322 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 00:43:25,322 - api - INFO - 响应状态码: 200
+2025-10-19 00:43:25,346 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 00:43:25,346 - api - INFO - 响应状态码: 200
+2025-10-19 00:43:25,365 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=333&quantity=4 耗时: 0.02s
+2025-10-19 00:43:25,369 - api - INFO - 响应状态码: 200
+2025-10-19 00:43:25,389 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=333 耗时: 0.02s
+2025-10-19 00:43:25,393 - api - INFO - 响应状态码: 200
+2025-10-19 00:43:25,458 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.07s
+2025-10-19 00:43:25,458 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,538 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 00:56:22,538 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,568 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 00:56:22,568 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,586 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 00:56:22,586 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,609 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=334&quantity=4 耗时: 0.02s
+2025-10-19 00:56:22,609 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,624 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=334 耗时: 0.02s
+2025-10-19 00:56:22,625 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,656 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-19 00:56:22,659 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,680 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 00:56:22,680 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,717 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 00:56:22,717 - api - INFO - 响应状态码: 200
+2025-10-19 00:56:22,737 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 00:56:22,737 - api - INFO - 响应状态码: 200
+2025-10-19 00:58:06,337 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 00:58:06,338 - api - INFO - 响应状态码: 200
+2025-10-19 00:58:06,377 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 00:58:06,377 - api - INFO - 响应状态码: 200
+2025-10-19 00:58:06,404 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 00:58:06,404 - api - INFO - 响应状态码: 200
+2025-10-19 00:58:06,423 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 00:58:06,424 - api - INFO - 响应状态码: 200
+2025-10-19 00:58:06,424 - api - ERROR - 获取购物车信息失败: 'list' object has no attribute 'get'
+2025-10-19 00:58:06,449 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-19 00:58:06,450 - api - INFO - 响应状态码: 200
+2025-10-19 00:58:06,450 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 00:58:06,496 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-19 00:58:06,497 - api - INFO - 响应状态码: 200
+2025-10-19 00:58:06,533 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.04s
+2025-10-19 00:58:06,534 - api - INFO - 响应状态码: 200
+2025-10-19 01:00:47,056 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:00:47,056 - api - INFO - 响应状态码: 200
+2025-10-19 01:00:47,089 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 01:00:47,090 - api - INFO - 响应状态码: 200
+2025-10-19 01:00:47,112 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:00:47,112 - api - INFO - 响应状态码: 200
+2025-10-19 01:00:47,129 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:00:47,129 - api - INFO - 响应状态码: 200
+2025-10-19 01:00:47,129 - api - ERROR - 获取购物车信息失败: 0
+2025-10-19 01:00:47,164 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-19 01:00:47,164 - api - INFO - 响应状态码: 200
+2025-10-19 01:00:47,164 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:00:47,213 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-19 01:00:47,213 - api - INFO - 响应状态码: 200
+2025-10-19 01:00:47,244 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:00:47,244 - api - INFO - 响应状态码: 200
+2025-10-19 01:06:57,208 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 01:06:57,208 - api - INFO - 响应状态码: 200
+2025-10-19 01:06:57,230 - api - INFO - 开始创建订单...
+2025-10-19 01:06:57,264 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:06:57,265 - api - INFO - 响应状态码: 200
+2025-10-19 01:06:57,285 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:06:57,285 - api - INFO - 响应状态码: 200
+2025-10-19 01:06:57,286 - api - ERROR - 获取购物车信息失败: 0
+2025-10-19 01:06:57,286 - api - ERROR - 创建订单失败: Cart operation failed
+2025-10-19 01:08:57,742 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-19 01:08:57,742 - api - INFO - 响应状态码: 200
+2025-10-19 01:08:57,775 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 01:08:57,775 - api - INFO - 响应状态码: 200
+2025-10-19 01:08:57,793 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:08:57,793 - api - INFO - 响应状态码: 200
+2025-10-19 01:08:57,807 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:08:57,807 - api - INFO - 响应状态码: 200
+2025-10-19 01:08:57,807 - api - ERROR - 获取购物车信息失败: 0
+2025-10-19 01:08:57,827 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-19 01:08:57,827 - api - INFO - 响应状态码: 200
+2025-10-19 01:08:57,827 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:08:57,859 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.03s
+2025-10-19 01:08:57,859 - api - INFO - 响应状态码: 200
+2025-10-19 01:08:57,881 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:08:57,881 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,666 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:12:05,666 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,698 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 01:12:05,698 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,725 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:12:05,725 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,749 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:12:05,749 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,749 - api - INFO - 自动获取 cartIds: [335]
+2025-10-19 01:12:05,842 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.09s
+2025-10-19 01:12:05,846 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,846 - api - ERROR - 创建订单响应解析失败: 0
+2025-10-19 01:12:05,877 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 01:12:05,878 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,878 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:12:05,919 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.04s
+2025-10-19 01:12:05,919 - api - INFO - 响应状态码: 200
+2025-10-19 01:12:05,942 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:12:05,942 - api - INFO - 响应状态码: 200
+2025-10-19 01:15:26,701 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 01:15:26,702 - api - INFO - 响应状态码: 200
+2025-10-19 01:15:26,729 - api - INFO - 开始创建订单...
+2025-10-19 01:15:26,762 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:15:26,763 - api - INFO - 响应状态码: 200
+2025-10-19 01:15:26,779 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:15:26,779 - api - INFO - 响应状态码: 200
+2025-10-19 01:15:26,780 - api - INFO - 自动获取 cartIds: [336]
+2025-10-19 01:15:26,847 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.07s
+2025-10-19 01:15:26,847 - api - INFO - 响应状态码: 200
+2025-10-19 01:15:26,848 - api - ERROR - 创建订单响应解析失败: 0
+2025-10-19 01:15:26,848 - api - ERROR - 创建订单失败: 0
+2025-10-19 01:19:06,285 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-19 01:19:06,285 - api - INFO - 响应状态码: 200
+2025-10-19 01:19:06,308 - api - INFO - 开始创建订单...
+2025-10-19 01:19:06,342 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:19:06,342 - api - INFO - 响应状态码: 200
+2025-10-19 01:19:06,356 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:19:06,356 - api - INFO - 响应状态码: 200
+2025-10-19 01:19:06,357 - api - INFO - 自动获取 cartIds: [337]
+2025-10-19 01:19:06,482 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.12s
+2025-10-19 01:19:06,482 - api - INFO - 响应状态码: 200
+2025-10-19 01:19:06,482 - api - ERROR - 创建订单响应解析失败: 0
+2025-10-19 01:19:06,483 - api - ERROR - 创建订单失败: 0
+2025-10-19 01:20:17,475 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 01:20:17,476 - api - INFO - 响应状态码: 200
+2025-10-19 01:20:17,499 - api - INFO - 开始创建订单...
+2025-10-19 01:20:17,558 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.06s
+2025-10-19 01:20:17,558 - api - INFO - 响应状态码: 200
+2025-10-19 01:20:17,594 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-19 01:20:17,594 - api - INFO - 响应状态码: 200
+2025-10-19 01:20:17,595 - api - INFO - 自动获取 cartIds: [338]
+2025-10-19 01:20:17,703 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.11s
+2025-10-19 01:20:17,703 - api - INFO - 响应状态码: 200
+2025-10-19 01:20:17,703 - api - ERROR - 创建订单响应解析失败: 0
+2025-10-19 01:20:17,703 - api - ERROR - 创建订单失败: 0
+2025-10-19 01:21:50,700 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-19 01:21:50,703 - api - INFO - 响应状态码: 200
+2025-10-19 01:21:50,746 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-19 01:21:50,746 - api - INFO - 响应状态码: 200
+2025-10-19 01:21:50,764 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:21:50,764 - api - INFO - 响应状态码: 200
+2025-10-19 01:21:50,778 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:21:50,778 - api - INFO - 响应状态码: 200
+2025-10-19 01:21:50,778 - api - INFO - 自动获取 cartIds: [340]
+2025-10-19 01:21:50,840 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.06s
+2025-10-19 01:21:50,843 - api - INFO - 响应状态码: 200
+2025-10-19 01:21:50,843 - api - ERROR - 创建订单响应解析失败: 0
+2025-10-19 01:21:50,869 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 01:21:50,869 - api - INFO - 响应状态码: 200
+2025-10-19 01:21:50,869 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:21:50,893 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.02s
+2025-10-19 01:21:50,893 - api - INFO - 响应状态码: 200
+2025-10-19 01:21:50,926 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:21:50,926 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,419 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:23:49,419 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,446 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 01:23:49,446 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,466 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:23:49,466 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,481 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:23:49,481 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,481 - api - INFO - 自动获取 cartIds: [341]
+2025-10-19 01:23:49,577 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.10s
+2025-10-19 01:23:49,578 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,578 - api - ERROR - 创建订单响应解析失败: 0
+2025-10-19 01:23:49,613 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 01:23:49,613 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,613 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:23:49,650 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.04s
+2025-10-19 01:23:49,650 - api - INFO - 响应状态码: 200
+2025-10-19 01:23:49,677 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:23:49,677 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:23,878 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:25:23,879 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:23,918 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 01:25:23,918 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:23,957 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 01:25:23,957 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:23,989 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-19 01:25:23,989 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:23,989 - api - INFO - 自动获取 cartIds: [342]
+2025-10-19 01:25:24,085 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.10s
+2025-10-19 01:25:24,085 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:24,085 - api - ERROR - 创建订单响应解析失败: 0
+2025-10-19 01:25:24,119 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 01:25:24,119 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:24,119 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:25:24,155 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.04s
+2025-10-19 01:25:24,155 - api - INFO - 响应状态码: 200
+2025-10-19 01:25:24,180 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:25:24,180 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:51,960 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:32:51,960 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:51,993 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 01:32:51,993 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:52,023 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:32:52,023 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:52,056 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-19 01:32:52,056 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:52,056 - api - INFO - 自动获取 cartIds: [343]
+2025-10-19 01:32:52,146 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.09s
+2025-10-19 01:32:52,146 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:52,147 - api - INFO - 订单创建成功，orderId: 162
+2025-10-19 01:32:52,179 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 01:32:52,179 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:52,179 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:32:52,216 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.04s
+2025-10-19 01:32:52,216 - api - INFO - 响应状态码: 200
+2025-10-19 01:32:52,241 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:32:52,241 - api - INFO - 响应状态码: 200
+2025-10-19 01:33:48,976 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:33:48,976 - api - INFO - 响应状态码: 200
+2025-10-19 01:33:48,990 - api - INFO - 开始创建订单...
+2025-10-19 01:33:49,010 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:33:49,014 - api - INFO - 响应状态码: 200
+2025-10-19 01:33:49,024 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:33:49,028 - api - INFO - 响应状态码: 200
+2025-10-19 01:33:49,028 - api - INFO - 自动获取 cartIds: [344]
+2025-10-19 01:33:49,085 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.06s
+2025-10-19 01:33:49,085 - api - INFO - 响应状态码: 200
+2025-10-19 01:33:49,085 - api - INFO - 订单创建成功，orderId: 163
+2025-10-19 01:33:49,085 - api - ERROR - 订单数据为空
+2025-10-19 01:36:23,366 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 01:36:23,366 - api - INFO - 响应状态码: 200
+2025-10-19 01:36:23,385 - api - INFO - 开始创建订单...
+2025-10-19 01:36:23,410 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:36:23,411 - api - INFO - 响应状态码: 200
+2025-10-19 01:36:23,428 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:36:23,428 - api - INFO - 响应状态码: 200
+2025-10-19 01:36:23,428 - api - INFO - 自动获取 cartIds: [345]
+2025-10-19 01:36:23,521 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.09s
+2025-10-19 01:36:23,525 - api - INFO - 响应状态码: 200
+2025-10-19 01:36:23,525 - api - INFO - 订单创建成功，orderId: 164
+2025-10-19 01:36:23,525 - api - INFO - 获取到 orderId: 164
+2025-10-19 01:36:23,542 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.02s
+2025-10-19 01:36:23,542 - api - INFO - 响应状态码: 400
+2025-10-19 01:36:23,542 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess, 响应体: 无
+2025-10-19 01:36:23,542 - api - ERROR - 请求 http://192.168.220.128:8085/order/paySuccess 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:36:23,542 - api - ERROR - 支付请求失败: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:37:56,529 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:37:56,529 - api - INFO - 响应状态码: 200
+2025-10-19 01:37:56,557 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-19 01:37:56,557 - api - INFO - 响应状态码: 200
+2025-10-19 01:37:56,589 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:37:56,589 - api - INFO - 响应状态码: 200
+2025-10-19 01:37:56,603 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:37:56,603 - api - INFO - 响应状态码: 200
+2025-10-19 01:37:56,603 - api - INFO - 自动获取 cartIds: [346]
+2025-10-19 01:37:56,683 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.08s
+2025-10-19 01:37:56,683 - api - INFO - 响应状态码: 200
+2025-10-19 01:37:56,683 - api - INFO - 订单创建成功，orderId: 165
+2025-10-19 01:37:56,711 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 01:37:56,711 - api - INFO - 响应状态码: 200
+2025-10-19 01:37:56,711 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:37:56,750 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.04s
+2025-10-19 01:37:56,750 - api - INFO - 响应状态码: 200
+2025-10-19 01:37:56,776 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-19 01:37:56,777 - api - INFO - 响应状态码: 200
+2025-10-19 01:38:23,146 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:38:23,146 - api - INFO - 响应状态码: 200
+2025-10-19 01:38:23,165 - api - INFO - 开始创建订单...
+2025-10-19 01:38:23,187 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:38:23,187 - api - INFO - 响应状态码: 200
+2025-10-19 01:38:23,203 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:38:23,203 - api - INFO - 响应状态码: 200
+2025-10-19 01:38:23,203 - api - INFO - 自动获取 cartIds: [347]
+2025-10-19 01:38:23,275 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.07s
+2025-10-19 01:38:23,275 - api - INFO - 响应状态码: 200
+2025-10-19 01:38:23,275 - api - INFO - 订单创建成功，orderId: 166
+2025-10-19 01:38:23,275 - api - INFO - 获取到 orderId: 166
+2025-10-19 01:38:23,293 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.02s
+2025-10-19 01:38:23,293 - api - INFO - 响应状态码: 400
+2025-10-19 01:38:23,293 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess, 响应体: 无
+2025-10-19 01:38:23,293 - api - ERROR - 请求 http://192.168.220.128:8085/order/paySuccess 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:38:23,293 - api - ERROR - 支付请求失败: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:39:54,299 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 01:39:54,299 - api - INFO - 响应状态码: 200
+2025-10-19 01:39:54,326 - api - INFO - 开始创建订单...
+2025-10-19 01:39:54,357 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:39:54,357 - api - INFO - 响应状态码: 200
+2025-10-19 01:39:54,377 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:39:54,377 - api - INFO - 响应状态码: 200
+2025-10-19 01:39:54,377 - api - INFO - 自动获取 cartIds: [348]
+2025-10-19 01:39:54,457 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.08s
+2025-10-19 01:39:54,457 - api - INFO - 响应状态码: 200
+2025-10-19 01:39:54,457 - api - INFO - 订单创建成功，orderId: 167
+2025-10-19 01:39:54,457 - api - INFO - 获取到 orderId: 167
+2025-10-19 01:39:54,488 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.03s
+2025-10-19 01:39:54,488 - api - INFO - 响应状态码: 400
+2025-10-19 01:39:54,488 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess, 响应体: 无
+2025-10-19 01:39:54,488 - api - ERROR - 请求 http://192.168.220.128:8085/order/paySuccess 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:39:54,488 - api - ERROR - 支付请求失败: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:40:51,540 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 01:40:51,540 - api - INFO - 响应状态码: 200
+2025-10-19 01:40:51,569 - api - INFO - 开始创建订单...
+2025-10-19 01:40:51,623 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-19 01:40:51,623 - api - INFO - 响应状态码: 200
+2025-10-19 01:40:51,647 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:40:51,647 - api - INFO - 响应状态码: 200
+2025-10-19 01:40:51,647 - api - INFO - 自动获取 cartIds: [349]
+2025-10-19 01:40:51,733 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.08s
+2025-10-19 01:40:51,733 - api - INFO - 响应状态码: 200
+2025-10-19 01:40:51,737 - api - INFO - 订单创建成功，orderId: 168
+2025-10-19 01:40:51,737 - api - INFO - 获取到 orderId: 168
+2025-10-19 01:40:51,760 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.02s
+2025-10-19 01:40:51,760 - api - INFO - 响应状态码: 400
+2025-10-19 01:40:51,760 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess, 响应体: 无
+2025-10-19 01:40:51,760 - api - ERROR - 请求 http://192.168.220.128:8085/order/paySuccess 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:40:51,760 - api - ERROR - 支付请求失败: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-19 01:41:47,834 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:41:47,835 - api - INFO - 响应状态码: 200
+2025-10-19 01:41:47,849 - api - INFO - 开始创建订单...
+2025-10-19 01:41:47,873 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-19 01:41:47,873 - api - INFO - 响应状态码: 200
+2025-10-19 01:41:47,884 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:41:47,884 - api - INFO - 响应状态码: 200
+2025-10-19 01:41:47,884 - api - INFO - 自动获取 cartIds: [350]
+2025-10-19 01:41:47,956 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.07s
+2025-10-19 01:41:47,956 - api - INFO - 响应状态码: 200
+2025-10-19 01:41:47,956 - api - INFO - 订单创建成功，orderId: 169
+2025-10-19 01:41:47,956 - api - INFO - 获取到 orderId: 169
+2025-10-19 01:41:47,995 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.04s
+2025-10-19 01:41:47,995 - api - INFO - 响应状态码: 200
+2025-10-19 01:41:47,995 - api - WARNING - 支付响应非JSON: 'Response' object does not support item assignment
+2025-10-19 01:42:30,532 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.23s
+2025-10-19 01:42:30,532 - api - INFO - 响应状态码: 200
+2025-10-19 01:42:30,560 - api - INFO - 开始创建订单...
+2025-10-19 01:42:30,599 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 01:42:30,599 - api - INFO - 响应状态码: 200
+2025-10-19 01:42:30,613 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:42:30,613 - api - INFO - 响应状态码: 200
+2025-10-19 01:42:30,613 - api - INFO - 自动获取 cartIds: [351]
+2025-10-19 01:42:30,691 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.08s
+2025-10-19 01:42:30,694 - api - INFO - 响应状态码: 200
+2025-10-19 01:42:30,694 - api - INFO - 订单创建成功，orderId: 170
+2025-10-19 01:42:30,694 - api - INFO - 获取到 orderId: 170
+2025-10-19 01:42:30,736 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.04s
+2025-10-19 01:42:30,736 - api - INFO - 响应状态码: 200
+2025-10-19 01:42:30,736 - api - WARNING - 支付响应非JSON: 'Response' object does not support item assignment
+2025-10-19 01:44:05,204 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 01:44:05,204 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:05,224 - api - INFO - 开始创建订单...
+2025-10-19 01:44:05,253 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:44:05,253 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:05,264 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-19 01:44:05,264 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:05,264 - api - INFO - 自动获取 cartIds: [352]
+2025-10-19 01:44:05,330 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.06s
+2025-10-19 01:44:05,334 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:05,334 - api - INFO - 订单创建成功，orderId: 171
+2025-10-19 01:44:05,334 - api - INFO - 获取到 orderId: 171
+2025-10-19 01:44:05,369 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.04s
+2025-10-19 01:44:05,369 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:55,211 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:44:55,211 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:55,229 - api - INFO - 开始创建订单...
+2025-10-19 01:44:55,260 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:44:55,260 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:55,285 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:44:55,286 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:55,286 - api - INFO - 自动获取 cartIds: [353]
+2025-10-19 01:44:55,381 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.09s
+2025-10-19 01:44:55,381 - api - INFO - 响应状态码: 200
+2025-10-19 01:44:55,381 - api - INFO - 订单创建成功，orderId: 172
+2025-10-19 01:44:55,381 - api - INFO - 获取到 orderId: 172
+2025-10-19 01:44:55,427 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.05s
+2025-10-19 01:44:55,427 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,375 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 01:52:45,376 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,422 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-19 01:52:45,422 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,440 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:52:45,440 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,444 - api - INFO - 自动获取 cartIds: [354]
+2025-10-19 01:52:45,533 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.09s
+2025-10-19 01:52:45,536 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,536 - api - INFO - 订单创建成功，orderId: 173
+2025-10-19 01:52:45,573 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/173 耗时: 0.04s
+2025-10-19 01:52:45,573 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,607 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-19 01:52:45,607 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,607 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 01:52:45,641 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.03s
+2025-10-19 01:52:45,641 - api - INFO - 响应状态码: 200
+2025-10-19 01:52:45,691 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.04s
+2025-10-19 01:52:45,691 - api - INFO - 响应状态码: 200
+2025-10-19 01:53:44,372 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-19 01:53:44,376 - api - INFO - 响应状态码: 200
+2025-10-19 01:53:44,401 - api - INFO - 开始创建订单...
+2025-10-19 01:53:44,437 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-19 01:53:44,437 - api - INFO - 响应状态码: 200
+2025-10-19 01:53:44,453 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-19 01:53:44,453 - api - INFO - 响应状态码: 200
+2025-10-19 01:53:44,453 - api - INFO - 自动获取 cartIds: [355]
+2025-10-19 01:53:44,528 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.07s
+2025-10-19 01:53:44,528 - api - INFO - 响应状态码: 200
+2025-10-19 01:53:44,528 - api - INFO - 订单创建成功，orderId: 174
+2025-10-19 01:53:44,528 - api - INFO - 获取到 orderId: 174
+2025-10-19 01:53:44,556 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.03s
+2025-10-19 01:53:44,556 - api - INFO - 响应状态码: 200
+2025-10-19 14:50:26,927 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-19 14:50:26,927 - api - INFO - 响应状态码: 200
+2025-10-19 14:50:29,505 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.55s
+2025-10-19 14:50:29,506 - api - INFO - 响应状态码: 200
+2025-10-19 14:50:29,506 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.55s
+2025-10-19 14:50:29,533 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/29 耗时: 0.03s
+2025-10-19 14:50:29,534 - api - INFO - 响应状态码: 200
+2025-10-19 14:50:29,552 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/1 耗时: 0.01s
+2025-10-19 14:50:29,552 - api - INFO - 响应状态码: 200
+2025-10-19 14:52:41,365 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-19 14:52:41,365 - api - INFO - 响应状态码: 200
+2025-10-19 14:52:43,832 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.46s
+2025-10-19 14:52:43,832 - api - INFO - 响应状态码: 200
+2025-10-19 14:52:43,833 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.46s
+2025-10-19 14:52:43,858 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/29 耗时: 0.02s
+2025-10-19 14:52:43,858 - api - INFO - 响应状态码: 200
+2025-10-19 14:52:43,874 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/1 耗时: 0.01s
+2025-10-19 14:52:43,874 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:20,828 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.52s
+2025-10-19 14:56:20,828 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:20,904 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-19 14:56:20,904 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:20,950 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.05s
+2025-10-19 14:56:20,950 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:20,951 - api - INFO - 自动获取 cartIds: [356]
+2025-10-19 14:56:21,088 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.14s
+2025-10-19 14:56:21,088 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:21,088 - api - INFO - 订单创建成功，orderId: 175
+2025-10-19 14:56:21,149 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/175 耗时: 0.06s
+2025-10-19 14:56:21,149 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:21,188 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-19 14:56:21,189 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:21,189 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-19 14:56:21,239 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-19 14:56:21,239 - api - INFO - 响应状态码: 200
+2025-10-19 14:56:21,278 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.03s
+2025-10-19 14:56:21,278 - api - INFO - 响应状态码: 200
+2025-10-19 15:01:20,554 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-19 15:01:20,554 - api - INFO - 响应状态码: 200
+2025-10-19 15:01:23,204 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.64s
+2025-10-19 15:01:23,204 - api - INFO - 响应状态码: 200
+2025-10-19 15:01:23,206 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.64s
+2025-10-19 15:02:10,633 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-19 15:02:10,634 - api - INFO - 响应状态码: 200
+2025-10-19 15:02:13,064 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.42s
+2025-10-19 15:02:13,065 - api - INFO - 响应状态码: 200
+2025-10-19 15:02:13,065 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.42s
+2025-10-19 15:02:13,095 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/29 耗时: 0.03s
+2025-10-19 15:02:13,095 - api - INFO - 响应状态码: 200
+2025-10-19 15:02:13,110 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/1 耗时: 0.01s
+2025-10-19 15:02:13,110 - api - INFO - 响应状态码: 200

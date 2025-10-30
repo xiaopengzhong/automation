@@ -1,0 +1,167 @@
+# case_data/api/user/cart.yaml
+
+add_cart:
+  - id: CART001
+    desc: "添加单个商品到购物车"
+    precondition: "添加商品"
+    data:
+      productId: 38
+      quantity: 2
+      productSkuId: 213
+    expected:
+      code: 200
+      data: 1
+      message: "操作成功"
+  - id: CART002
+    desc: "添加指定SKU商品"
+    precondition: "添加商品"
+    data:
+      productId: 38
+      quantity: 2
+      productSkuId: 215
+    expected:
+      code: 200
+      data: 1
+      message: "操作成功"
+
+  - id: CART003
+    desc: "添加另一个商品到购物车"
+    precondition: "添加商品"
+    data:
+      productId: 37
+      quantity: 1
+      productSkuId: 201
+    expected:
+      code: 200
+      data: 1
+      message: "操作成功"
+  - id: CART004
+    desc: "未添加商品"
+    precondition: "未添加商品"
+    data:
+      productId: null
+    expected:
+      code: 500
+
+
+list_cart:
+  # ✅ 正常场景：购物车中有商品
+  - id: CART003
+    desc: "查看购物车列表（购物车有商品）"
+    precondition: "先添加商品"
+    expected:
+      code: 200
+      message: "操作成功"
+      contain_key: "data"
+      contain_field: ["id", "productId", "quantity", "price", "productName", "productBrand", "productPic"]
+      contain_value: ["Apple", "iPad"]
+      item_count_gt: 0
+
+  # ✅ 空购物车场景：刚清空购物车
+  - id: CART004
+    desc: "查看购物车列表（购物车为空）"
+    precondition: "执行清空接口"
+    expected:
+      code: 200
+      message: "操作成功"
+      contain_key: "data"
+      empty: true
+
+  # ✅ 多商品场景：购物车有多个商品
+  - id: CART005
+    desc: "查看购物车列表（多个商品）"
+    precondition: "添加多个不同商品"
+    expected:
+      code: 200
+      message: "操作成功"
+      contain_key: "data"
+      contain_field: ["id", "productId", "quantity", "price"]
+      item_count_ge: 2
+
+  # ✅ 异常场景：未登录访问
+  - id: CART006
+    desc: "查看购物车列表（未登录状态）"
+    precondition: "未登录不带token"
+    expected:
+      code: 401
+      message: "暂未登录或token已经过期"
+update_quantity_cart:
+  - id: CART007
+    desc: "更新购物车中商品数量为正常值"
+    precondition: "购物车中存在商品"
+    data:
+      quantity: 5
+    expected:
+      code: 200
+      message: "操作成功"
+
+  - id: CART007_01
+    desc: "更新购物车中商品数量为1（最小有效值）"
+    precondition: "购物车中存在商品"
+    data:
+      quantity: 1
+    expected:
+      code: 200
+      message: "操作成功"
+
+  - id: CART007_02
+    desc: "更新购物车中商品数量为0（非法值）"
+    precondition: "购物车中存在商品"
+    data:
+      quantity: 0
+    expected:
+      code: 400
+      message: "数量必须大于0"
+
+  - id: CART007_03
+    desc: "更新购物车中商品数量为1000（超过库存）"
+    precondition: "购物车中存在商品"
+    data:
+      quantity: 1000
+    expected:
+      code: 400
+      message: "库存不足"
+
+
+delete_cart:
+  - id: CART008
+    desc: "删除购物车中已存在的商品"
+    precondition: "购物车中存在商品"
+    data: {}
+    expected:
+      code: 200
+      message: "操作成功"
+
+  - id: CART008_01
+    desc: "删除购物车中不存在的商品"
+    precondition: "购物车中不存在商品"
+    data:
+      ids: 9999
+    expected:
+      code: 500
+      message: "操作失败"
+
+  - id: CART008_02
+    desc: "删除购物车商品时未传商品ID"
+    precondition: "购物车中不存在商品"
+    data:
+      ids: ""
+    expected:
+      code: 400
+      message: "购物车ID不能为空"
+
+
+clear_cart:
+  - id: CART009
+    desc: "清空购物车（正常场景）"
+    precondition: "购物车中存在商品"
+    expected:
+      code: 200
+      message: "操作成功"
+
+  - id: CART009_01
+    desc: "清空购物车（购物车已为空）"
+    precondition: "购物车为空"
+    expected:
+      code: 200
+      message: "操作成功"

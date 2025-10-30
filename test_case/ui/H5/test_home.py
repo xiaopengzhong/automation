@@ -5,7 +5,7 @@
 import allure
 import pytest
 
-from lib.ui.H5.home_page import HomePage
+
 
 @pytest.mark.ui
 @allure.feature("首页模块")

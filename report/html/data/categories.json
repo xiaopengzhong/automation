@@ -1,5 +1,47 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '购物车为空' in \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6\"\n +  where \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6\" = <built-in method get of dict object at 0x000001F5B6B12740>('message', '')\n +    where <built-in method get of dict object at 0x000001F5B6B12740> = {'code': 500, 'message': \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6\"}.get",
+      "children" : [ {
+        "name" : "test_create_order[data2]",
+        "uid" : "6f3290b14d14a988",
+        "parentUid" : "fe67e4048d2174ee40756f15e8805302",
+        "status" : "failed",
+        "time" : {
+          "start" : 1761497721147,
+          "stop" : 1761497721175,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'ORDER002', 'desc': '创建订单时购物车为空', 'precondition': '购物车为空', 'data': {}, 'expected': {'code': 500, 'message': '购物车为空'}}" ]
+      } ],
+      "uid" : "fe67e4048d2174ee40756f15e8805302"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.HTTPError: 500 Server Error:  for url: http://192.168.220.128:8085/order/generateOrder",
+      "children" : [ {
+        "name" : "test_get_order_detail[data0]",
+        "uid" : "659c69b499252701",
+        "parentUid" : "208fd13706fadcd991c2d30bc04df14a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761497721907,
+          "stop" : 1761497721988,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'ORDER005', 'desc': '获取订单详情（存在订单）', 'precondition': '订单已创建', 'data': {}, 'expected': {'code': 200, 'message': '操作成功', 'contain_field': ['id', 'orderSn', 'memberId']}}" ]
+      } ],
+      "uid" : "208fd13706fadcd991c2d30bc04df14a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

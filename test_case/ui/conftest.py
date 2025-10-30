@@ -4,8 +4,8 @@
 #@Software: PyCharm
 
 
-import pytest
-
+from lib.api.user.cart import CartAPI
+from lib.api.user.login import LoginAPI
 from lib.ui.H5.home_page import HomePage
 from lib.ui.web.login_page import LoginPage
 
@@ -43,3 +43,17 @@ def home(driver):
     page.open()
     yield page
     page.quit()
+
+@pytest.fixture
+def clean_cart():
+    """每个用例前后清空购物车（幂等处理）"""
+    login_api = LoginAPI()
+    login_result = login_api.login(username="user001", password="123456")
+    token = login_result.get('auth_token')
+
+    CartAPI(token).clear_cart()
+    yield
+    CartAPI(token).clear_cart()
+
+
+

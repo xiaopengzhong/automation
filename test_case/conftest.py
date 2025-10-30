@@ -7,8 +7,8 @@
 import time
 
 # 初始化计数器
-from lib.util.logger import setup_logging
-from lib.util.send_mssage import send_msg
+from lib.utils.logger import setup_logging
+from lib.utils.send_mssage import send_msg
 
 ui_passed = 0
 ui_failed = 0

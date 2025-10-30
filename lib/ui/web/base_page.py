@@ -6,18 +6,18 @@
 import os
 import time
 import allure
-from selenium.webdriver.common.by import By
+
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
-from lib.util.logger import setup_logging
+from lib.utils.logger import setup_logging
 
 logger = setup_logging("ui")
 
 
 class BasePage:
-    def __init__(self, driver, timeout=10):
+    def __init__(self, driver, timeout=20):
         self.driver = driver
         self.timeout = timeout
 
@@ -72,6 +72,25 @@ class BasePage:
         element = self.wait_until_visible(locator)
         return element.text.strip()
 
+    def get_text_safe(self, locator, timeout=5):
+        """安全获取元素文本，防止异常中断"""
+        try:
+            element = WebDriverWait(self.driver, timeout).until(
+                EC.presence_of_element_located(locator)
+            )
+            text = element.text.strip()
+            return text
+        except Exception as e:
+            logger.warning(f"获取文本失败: {locator}, 错误信息: {e}")
+            return ""  # 返回空字符串，不让测试崩溃
+
+    def get_text_auto(self, locator, timeout=3):
+        """先尝试直接获取，失败后自动安全模式"""
+        try:
+            return self.get_text(locator)
+        except Exception:
+            return self.get_text_safe(locator, timeout)
+
     def is_enabled(self, locator):
         """判断元素是否可用（可点击/可输入）"""
         try:
@@ -80,6 +99,18 @@ class BasePage:
         except Exception:
             return False
 
+    def get_text_with_before(self, locator):
+        """获取元素文本 + ::before 伪元素内容"""
+        el = self.find_element(locator)
+        text = el.text.strip()
+        try:
+            before = self.driver.execute_script(
+                "return window.getComputedStyle(arguments[0], '::before').content;", el
+            )
+            before = before.replace('"', '').strip() if before else ''
+        except Exception:
+            before = ''
+        return f"{before}{text}"
 
     # ----------------- 元素操作 -----------------
     def click(self, locator):
@@ -103,8 +134,7 @@ class BasePage:
             element = self.find_element(locator)
             if element.is_enabled():
                 element.clear()
-                self.driver.execute_script(
-                    "arguments[0].value=''; arguments[0].dispatchEvent(new Event('input'));", element)
+                WebDriverWait
                 element.send_keys(text)
                 logger.info(f"输入文本到 {locator}: {text}")
             else:

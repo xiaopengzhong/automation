@@ -10,7 +10,7 @@ from lib.ui.web.base_page import BasePage
 class PayMentPage(BasePage):
     alipay_pay = (By.XPATH, "//uni-page-body//uni-view[position()=2]//uni-view[1]")  # 支付宝支付
     wechat_pay = (By.XPATH, "//uni-page-body/uni-view[2]/uni-view[2]")  # 微信支付
-    confirm_pay_btn = (By.XPATH, "//uni-page-body//uni-text")  # 确认支付按钮
+    confirm_pay_btn = (By.XPATH, "//uni-page-body/uni-view/uni-text/span")  # 确认支付按钮
     payment_amount = (By.XPATH, "//uni-page-body//uni-view[1]//uni-text[2]/span")  # 支付金额
     page_title = (By.XPATH, "//uni-page-body//uni-text[contains(text(),'支付')]")  # 支付页面标题
 

@@ -1,0 +1,100 @@
+2025-10-12 19:13:53,644 - ui - INFO - === 开始执行下单流程：user001 购买 iPhone ===
+2025-10-12 19:13:53,703 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-12 19:13:55,332 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-12 19:13:55,446 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-12 19:13:56,630 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-12 19:13:57,139 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-12 19:13:58,324 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-12 19:13:58,514 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-12 19:14:02,787 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-12 19:14:03,175 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-12 19:14:03,396 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-12 19:14:06,680 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-10-12 19:14:06,859 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+2025-10-12 19:14:06,859 - ui - INFO - 点击提交订单
+2025-10-12 19:14:07,538 - ui - INFO - 点击元素: ('xpath', '//uni-app/uni-modal/div[2]/div[3]/div[2]')
+2025-10-12 19:14:07,538 - ui - INFO - 确认支付
+2025-10-12 19:14:07,893 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-text/span')
+2025-10-12 19:14:08,620 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-navigator[1]')
+2025-10-12 19:14:08,882 - ui - INFO - ✅ 订单流程执行成功，已进入订单列表页
+2025-10-12 19:15:07,397 - ui - INFO - === 开始执行下单流程：user001 购买 iPhone ===
+2025-10-12 19:15:07,413 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-12 19:15:09,085 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-12 19:15:09,221 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-12 19:15:10,398 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-12 19:15:10,905 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-12 19:15:14,677 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-12 19:15:14,850 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-12 19:15:18,098 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-12 19:15:18,456 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-12 19:15:18,670 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-12 19:15:20,983 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-10-12 19:15:21,266 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+2025-10-12 19:15:21,266 - ui - INFO - 点击提交订单
+2025-10-12 19:15:21,943 - ui - INFO - 点击元素: ('xpath', '//uni-app/uni-modal/div[2]/div[3]/div[2]')
+2025-10-12 19:15:21,944 - ui - INFO - 确认支付
+2025-10-12 19:15:22,281 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-text/span')
+2025-10-12 19:15:22,965 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-navigator[1]')
+2025-10-12 19:15:23,136 - ui - INFO - ✅ 订单流程执行成功，已进入订单列表页
+2025-10-12 19:15:23,313 - ui - INFO - 点击元素: ('xpath', "//uni-view[@class='order-item']")
+2025-10-12 19:18:33,890 - ui - INFO - === 开始执行下单流程：user001 购买 iPhone ===
+2025-10-12 19:18:33,901 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-12 19:18:35,628 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-12 19:18:35,751 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-12 19:18:36,933 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-12 19:18:37,439 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-12 19:18:58,191 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-12 19:18:58,377 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-12 19:19:01,650 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-12 19:19:02,027 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-12 19:19:02,277 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-12 19:19:05,073 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-10-12 19:19:05,256 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+2025-10-12 19:19:05,257 - ui - INFO - 点击提交订单
+2025-10-12 19:19:05,936 - ui - INFO - 点击元素: ('xpath', '//uni-app/uni-modal/div[2]/div[3]/div[2]')
+2025-10-12 19:19:05,936 - ui - INFO - 确认支付
+2025-10-12 19:19:06,308 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-text/span')
+2025-10-12 19:19:06,986 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-navigator[1]')
+2025-10-12 19:19:07,155 - ui - INFO - ✅ 订单流程执行成功，已进入订单列表页
+2025-10-12 19:19:07,336 - ui - INFO - 点击元素: ('css selector', 'uni-text.time')
+2025-10-12 23:49:20,211 - ui - INFO - === 开始执行下单流程：user001 购买 iPhone ===
+2025-10-12 23:49:20,266 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-12 23:49:21,905 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-12 23:49:22,032 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-12 23:49:23,206 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-12 23:49:23,714 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-12 23:49:28,275 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-12 23:49:28,442 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-12 23:49:31,684 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-12 23:49:32,043 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-12 23:49:32,260 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-12 23:49:35,072 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-10-12 23:49:35,255 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+2025-10-12 23:49:35,255 - ui - INFO - 点击提交订单
+2025-10-12 23:49:35,934 - ui - INFO - 点击元素: ('xpath', '//uni-app/uni-modal/div[2]/div[3]/div[2]')
+2025-10-12 23:49:35,934 - ui - INFO - 确认支付
+2025-10-12 23:49:36,306 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-text/span')
+2025-10-12 23:49:36,988 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-navigator[1]')
+2025-10-12 23:49:37,157 - ui - INFO - ✅ 订单流程执行成功，已进入订单列表页
+2025-10-12 23:49:37,334 - ui - INFO - 点击元素: ('css selector', 'uni-text.time')
+2025-10-12 23:53:28,982 - ui - INFO - === 开始执行下单流程：user001 购买 iPhone ===
+2025-10-12 23:53:28,993 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-12 23:53:30,812 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-12 23:53:30,938 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-12 23:53:32,111 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-12 23:53:32,622 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-12 23:53:33,816 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-12 23:53:33,979 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-12 23:53:36,703 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-12 23:53:37,061 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-12 23:53:37,258 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-12 23:53:41,117 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")
+2025-10-12 23:53:41,327 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view[4]/uni-text')
+2025-10-12 23:53:41,328 - ui - INFO - 点击提交订单
+2025-10-12 23:53:42,118 - ui - INFO - 点击元素: ('xpath', '//uni-app/uni-modal/div[2]/div[3]/div[2]')
+2025-10-12 23:53:42,118 - ui - INFO - 确认支付
+2025-10-12 23:53:42,477 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-text/span')
+2025-10-12 23:53:43,158 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-navigator[1]')
+2025-10-12 23:53:43,326 - ui - INFO - ✅ 订单流程执行成功，已进入订单列表页
+2025-10-12 23:53:43,507 - ui - INFO - 点击元素: ('css selector', 'uni-text.time')
+2025-10-12 23:53:43,873 - ui - INFO - 订单详情: {'status': '等待发货', 'order_id': '202510130100000005', 'submit_time': '2025-10-13 07:53:40', 'payment_method': '支付宝支付', 'name': 'z', 'price': '￥5499', 'quantity': 'x 1', 'phone': '13666666666', 'address': '广东省\n番禺区'}

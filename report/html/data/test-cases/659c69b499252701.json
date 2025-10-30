@@ -1,0 +1,104 @@
+{
+  "uid" : "659c69b499252701",
+  "name" : "test_get_order_detail[data0]",
+  "fullName" : "test_case.api.user.test_order.TestOrderAPI#test_get_order_detail",
+  "historyId" : "06f133d593a4c97a8b8b6183e68f0ef6",
+  "time" : {
+    "start" : 1761497721907,
+    "stop" : 1761497721988,
+    "duration" : 81
+  },
+  "status" : "broken",
+  "statusMessage" : "requests.exceptions.HTTPError: 500 Server Error:  for url: http://192.168.220.128:8085/order/generateOrder",
+  "statusTrace" : "self = <test_order.TestOrderAPI object at 0x000001F5B6B4DB50>\norder_and_cart_api = (<lib.api.user.order.OrderAPI object at 0x000001F5B5B20370>, <lib.api.user.cart.CartAPI object at 0x000001F5B5D58760>)\ndata = {'data': {}, 'desc': '获取订单详情（存在订单）', 'expected': {'code': 200, 'contain_field': ['id', 'orderSn', 'memberId'], 'message': '操作成功'}, 'id': 'ORDER005', ...}\n\n    @allure.story(\"获取订单详情\")\n    @pytest.mark.parametrize(\"data\", load_yaml(\"case_data/api/user/order.yaml\")[\"get_order_detail\"])\n    def test_get_order_detail(self, order_and_cart_api, data):\n        precondition = data.get(\"precondition\", \"\")\n        expected = data[\"expected\"]\n        order_api, cart_api = order_and_cart_api\n    \n        if \"已创建\" in precondition:\n            order_api.cart_api.clear_cart()\n            order_api.cart_api.add_cart(productId=40, quantity=1)\n            cart_ids = [item[\"id\"] for item in cart_api.list_cart()[\"data\"]]\n>           create_resp = order_api.create_order(cartIds=cart_ids)\n\ntest_case\\api\\user\\test_order.py:121: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nlib\\api\\user\\order.py:34: in create_order\n    resp = self.post(endpoint=url, json=payload)\nlib\\api\\user\\baseAPI.py:129: in post\n    return self.request(\"POST\", endpoint, **kwargs)\nlib\\api\\user\\baseAPI.py:118: in request\n    return self._handle_exceptions(response)\nlib\\api\\user\\baseAPI.py:100: in _handle_exceptions\n    response.raise_for_status()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Response [500]>\n\n    def raise_for_status(self):\n        \"\"\"Raises :class:`HTTPError`, if one occurred.\"\"\"\n    \n        http_error_msg = ''\n        if isinstance(self.reason, bytes):\n            # We attempt to decode utf-8 first because some servers\n            # choose to localize their reason strings. If the string\n            # isn't utf-8, we fall back to iso-8859-1 for all other\n            # encodings. (See PR #3538)\n            try:\n                reason = self.reason.decode('utf-8')\n            except UnicodeDecodeError:\n                reason = self.reason.decode('iso-8859-1')\n        else:\n            reason = self.reason\n    \n        if 400 <= self.status_code < 500:\n            http_error_msg = u'%s Client Error: %s for url: %s' % (self.status_code, reason, self.url)\n    \n        elif 500 <= self.status_code < 600:\n            http_error_msg = u'%s Server Error: %s for url: %s' % (self.status_code, reason, self.url)\n    \n        if http_error_msg:\n>           raise HTTPError(http_error_msg, response=self)\nE           requests.exceptions.HTTPError: 500 Server Error:  for url: http://192.168.220.128:8085/order/generateOrder\n\nD:\\Program Files (x86)\\Python\\Python38\\lib\\site-packages\\requests\\models.py:943: HTTPError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clean_cart",
+    "time" : {
+      "start" : 1761497721761,
+      "stop" : 1761497721906,
+      "duration" : 145
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "order_and_cart_api",
+    "time" : {
+      "start" : 1761497720356,
+      "stop" : 1761497720510,
+      "duration" : 154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "订单模块"
+  }, {
+    "name" : "story",
+    "value" : "获取订单详情"
+  }, {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.api.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "10060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.api.user.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 'ORDER005', 'desc': '获取订单详情（存在订单）', 'precondition': '订单已创建', 'data': {}, 'expected': {'code': 200, 'message': '操作成功', 'contain_field': ['id', 'orderSn', 'memberId']}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "api" ]
+  },
+  "source" : "659c69b499252701.json",
+  "parameterValues" : [ "{'id': 'ORDER005', 'desc': '获取订单详情（存在订单）', 'precondition': '订单已创建', 'data': {}, 'expected': {'code': 200, 'message': '操作成功', 'contain_field': ['id', 'orderSn', 'memberId']}}" ]
+}

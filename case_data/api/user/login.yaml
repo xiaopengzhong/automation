@@ -1,0 +1,12 @@
+# case_data/api/user/login.yaml
+login:
+  - username: test_user
+    password: password
+    expected_status: 200
+  - username: admin
+    password: admin_password
+    expected_status: 200
+  - username: test_user
+    password: wrong_password
+    expected_status: 404
+    expected_message: "用户名或密码错误"

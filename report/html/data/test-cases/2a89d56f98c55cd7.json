@@ -1,0 +1,98 @@
+{
+  "uid" : "2a89d56f98c55cd7",
+  "name" : "test_delete_order[data0]",
+  "fullName" : "test_case.api.user.test_order.TestOrderAPI#test_delete_order",
+  "historyId" : "d858e0291c961fe47d6c8a1ace1c73de",
+  "time" : {
+    "start" : 1761497722650,
+    "stop" : 1761497722780,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clean_cart",
+    "time" : {
+      "start" : 1761497722491,
+      "stop" : 1761497722649,
+      "duration" : 158
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "order_and_cart_api",
+    "time" : {
+      "start" : 1761497720356,
+      "stop" : 1761497720510,
+      "duration" : 154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除订单"
+  }, {
+    "name" : "feature",
+    "value" : "订单模块"
+  }, {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.api.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "10060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.api.user.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 'ORDER008', 'desc': '删除订单（已取消）', 'precondition': '订单已取消', 'data': {}, 'expected': {'code': 200, 'message': '操作成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "api" ]
+  },
+  "source" : "2a89d56f98c55cd7.json",
+  "parameterValues" : [ "{'id': 'ORDER008', 'desc': '删除订单（已取消）', 'precondition': '订单已取消', 'data': {}, 'expected': {'code': 200, 'message': '操作成功'}}" ]
+}

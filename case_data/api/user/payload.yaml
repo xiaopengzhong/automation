@@ -1,0 +1,39 @@
+#case_data/api/user/payload.yaml
+LoginAPI:
+  login_param:
+    username: user001
+    password: 123456
+CartAPI:
+  add_cart:
+    price: 3599
+    productAttr: |
+      [{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]
+    productBrand: "苹果"
+    productCategoryId: 53
+    productId: 38
+    productName: "Apple iPad 10.9英寸平板电脑 2022年款"
+    productPic: "http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg"
+    productSkuCode: "202210280038001"
+    productSkuId: 213
+    productSn: "100044025833"
+    productSubTitle: "【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！"
+    quantity: 1
+ProductAPI:
+  search:
+OrderAPI:
+  create:
+    payType: 0
+    couponId: null
+    cartIds:
+      - 309
+    memberReceiveAddressId: 7
+    useIntegration: 0
+  generateConfirm:
+    - 300
+  cancel_order:
+    orderId: 146
+PayAPI:
+  paysuccess:
+    orderId: 151
+    payType: 1
+

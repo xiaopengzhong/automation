@@ -5,7 +5,7 @@
 import pytest
 
 from lib.ui.mobile.login_page import LoginPage
-from lib.util.driver_setup import get_driver
+from lib.utils.driver_setup import get_driver
 
 
 @pytest.fixture(scope="function")

@@ -1,0 +1,246 @@
+2025-10-21 00:38:38,416 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-21 00:38:38,418 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:40,842 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.41s
+2025-10-21 00:38:40,843 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:40,843 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.41s
+2025-10-21 00:38:43,338 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 耗时: 2.49s
+2025-10-21 00:38:43,338 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:43,339 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 响应超时: 2.49s
+2025-10-21 00:38:45,773 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 耗时: 2.43s
+2025-10-21 00:38:45,773 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:45,773 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 响应超时: 2.43s
+2025-10-21 00:38:46,403 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%95%86%E5%93%81XYZ&pageNum=1&pageSize=10 耗时: 0.63s
+2025-10-21 00:38:46,403 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:47,030 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=@#$%25&pageNum=1&pageSize=10 耗时: 0.62s
+2025-10-21 00:38:47,030 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:47,517 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=&pageNum=1&pageSize=10 耗时: 0.48s
+2025-10-21 00:38:47,517 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:47,545 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/38 耗时: 0.02s
+2025-10-21 00:38:47,546 - api - INFO - 响应状态码: 200
+2025-10-21 00:38:47,680 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/99999 耗时: 0.02s
+2025-10-21 00:38:47,680 - api - INFO - 响应状态码: 500
+2025-10-21 00:38:47,680 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999, 响应体: 无
+2025-10-21 00:38:47,680 - api - ERROR - 请求 http://192.168.220.128:8085/product/detail/99999 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999
+2025-10-21 00:45:18,009 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-21 00:45:18,010 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:20,461 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.44s
+2025-10-21 00:45:20,461 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:20,462 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.44s
+2025-10-21 00:45:22,953 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 耗时: 2.49s
+2025-10-21 00:45:22,953 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:22,954 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 响应超时: 2.49s
+2025-10-21 00:45:25,437 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 耗时: 2.48s
+2025-10-21 00:45:25,437 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:25,437 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 响应超时: 2.48s
+2025-10-21 00:45:26,066 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%95%86%E5%93%81XYZ&pageNum=1&pageSize=10 耗时: 0.62s
+2025-10-21 00:45:26,066 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:26,675 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=@#$%25&pageNum=1&pageSize=10 耗时: 0.60s
+2025-10-21 00:45:26,675 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:27,203 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=&pageNum=1&pageSize=10 耗时: 0.52s
+2025-10-21 00:45:27,203 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:27,230 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/38 耗时: 0.02s
+2025-10-21 00:45:27,230 - api - INFO - 响应状态码: 200
+2025-10-21 00:45:27,247 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/99999 耗时: 0.01s
+2025-10-21 00:45:27,247 - api - INFO - 响应状态码: 500
+2025-10-21 00:45:27,248 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999, 响应体: 无
+2025-10-21 00:45:27,248 - api - ERROR - 请求 http://192.168.220.128:8085/product/detail/99999 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999
+2025-10-21 00:57:38,110 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-21 00:57:38,114 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:40,514 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.39s
+2025-10-21 00:57:40,514 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:40,518 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.39s
+2025-10-21 00:57:42,944 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 耗时: 2.42s
+2025-10-21 00:57:42,945 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:42,945 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 响应超时: 2.42s
+2025-10-21 00:57:45,409 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 耗时: 2.46s
+2025-10-21 00:57:45,409 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:45,409 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 响应超时: 2.46s
+2025-10-21 00:57:46,101 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%95%86%E5%93%81XYZ&pageNum=1&pageSize=10 耗时: 0.69s
+2025-10-21 00:57:46,101 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:46,735 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=@#$%25&pageNum=1&pageSize=10 耗时: 0.63s
+2025-10-21 00:57:46,735 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,228 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=&pageNum=1&pageSize=10 耗时: 0.49s
+2025-10-21 00:57:47,228 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,254 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/38 耗时: 0.02s
+2025-10-21 00:57:47,255 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,273 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/99999 耗时: 0.01s
+2025-10-21 00:57:47,273 - api - INFO - 响应状态码: 500
+2025-10-21 00:57:47,274 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999, 响应体: 无
+2025-10-21 00:57:47,274 - api - ERROR - 请求 http://192.168.220.128:8085/product/detail/99999 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999
+2025-10-21 00:57:47,448 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/0 耗时: 0.01s
+2025-10-21 00:57:47,448 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,472 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/1 耗时: 0.01s
+2025-10-21 00:57:47,472 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,488 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/2 耗时: 0.01s
+2025-10-21 00:57:47,489 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,505 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/3 耗时: 0.01s
+2025-10-21 00:57:47,506 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,520 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/4 耗时: 0.01s
+2025-10-21 00:57:47,520 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,538 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/5 耗时: 0.01s
+2025-10-21 00:57:47,538 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,556 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/52 耗时: 0.01s
+2025-10-21 00:57:47,556 - api - INFO - 响应状态码: 200
+2025-10-21 00:57:47,572 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/-1 耗时: 0.01s
+2025-10-21 00:57:47,572 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:36,436 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-21 01:06:36,437 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:38,833 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.38s
+2025-10-21 01:06:38,833 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:38,833 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.38s
+2025-10-21 01:06:41,314 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 耗时: 2.47s
+2025-10-21 01:06:41,314 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:41,315 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 响应超时: 2.47s
+2025-10-21 01:06:43,715 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 耗时: 2.40s
+2025-10-21 01:06:43,716 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:43,716 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 响应超时: 2.40s
+2025-10-21 01:06:44,335 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%95%86%E5%93%81XYZ&pageNum=1&pageSize=10 耗时: 0.61s
+2025-10-21 01:06:44,336 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,038 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=@#$%25&pageNum=1&pageSize=10 耗时: 0.70s
+2025-10-21 01:06:45,039 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,620 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=&pageNum=1&pageSize=10 耗时: 0.58s
+2025-10-21 01:06:45,620 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,647 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/38 耗时: 0.02s
+2025-10-21 01:06:45,648 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,664 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/99999 耗时: 0.01s
+2025-10-21 01:06:45,664 - api - INFO - 响应状态码: 500
+2025-10-21 01:06:45,664 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999, 响应体: 无
+2025-10-21 01:06:45,664 - api - ERROR - 请求 http://192.168.220.128:8085/product/detail/99999 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999
+2025-10-21 01:06:45,854 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/0 耗时: 0.03s
+2025-10-21 01:06:45,854 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,877 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/1 耗时: 0.02s
+2025-10-21 01:06:45,878 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,900 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/2 耗时: 0.02s
+2025-10-21 01:06:45,901 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,924 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/3 耗时: 0.02s
+2025-10-21 01:06:45,924 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,943 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/4 耗时: 0.01s
+2025-10-21 01:06:45,943 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,962 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/5 耗时: 0.01s
+2025-10-21 01:06:45,962 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,980 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/52 耗时: 0.01s
+2025-10-21 01:06:45,980 - api - INFO - 响应状态码: 200
+2025-10-21 01:06:45,995 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/-1 耗时: 0.01s
+2025-10-21 01:06:45,995 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:11,229 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-21 01:07:11,229 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:13,711 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.47s
+2025-10-21 01:07:13,711 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:13,711 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.47s
+2025-10-21 01:07:16,264 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 耗时: 2.55s
+2025-10-21 01:07:16,265 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:16,265 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 响应超时: 2.55s
+2025-10-21 01:07:18,699 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 耗时: 2.43s
+2025-10-21 01:07:18,699 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:18,699 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 响应超时: 2.43s
+2025-10-21 01:07:19,315 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%95%86%E5%93%81XYZ&pageNum=1&pageSize=10 耗时: 0.61s
+2025-10-21 01:07:19,315 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,120 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=@#$%25&pageNum=1&pageSize=10 耗时: 0.80s
+2025-10-21 01:07:20,120 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,607 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=&pageNum=1&pageSize=10 耗时: 0.48s
+2025-10-21 01:07:20,607 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,639 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/38 耗时: 0.03s
+2025-10-21 01:07:20,639 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,659 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/99999 耗时: 0.01s
+2025-10-21 01:07:20,659 - api - INFO - 响应状态码: 500
+2025-10-21 01:07:20,660 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999, 响应体: 无
+2025-10-21 01:07:20,660 - api - ERROR - 请求 http://192.168.220.128:8085/product/detail/99999 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999
+2025-10-21 01:07:20,836 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/0 耗时: 0.01s
+2025-10-21 01:07:20,836 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,852 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/1 耗时: 0.01s
+2025-10-21 01:07:20,852 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,879 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/2 耗时: 0.02s
+2025-10-21 01:07:20,879 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,900 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/3 耗时: 0.01s
+2025-10-21 01:07:20,901 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,922 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/4 耗时: 0.02s
+2025-10-21 01:07:20,922 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,944 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/5 耗时: 0.02s
+2025-10-21 01:07:20,944 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,963 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/52 耗时: 0.01s
+2025-10-21 01:07:20,963 - api - INFO - 响应状态码: 200
+2025-10-21 01:07:20,983 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/-1 耗时: 0.01s
+2025-10-21 01:07:20,983 - api - INFO - 响应状态码: 200
+2025-10-21 01:10:59,706 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-21 01:10:59,706 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:02,481 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.76s
+2025-10-21 01:11:02,481 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:02,481 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.76s
+2025-10-21 01:11:05,024 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 耗时: 2.54s
+2025-10-21 01:11:05,025 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:05,025 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=%E5%B0%8F%E7%B1%B3&pageNum=1&pageSize=10 响应超时: 2.54s
+2025-10-21 01:11:07,555 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 耗时: 2.52s
+2025-10-21 01:11:07,556 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:07,556 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=phone&pageNum=1&pageSize=10 响应超时: 2.52s
+2025-10-21 01:11:08,216 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%95%86%E5%93%81XYZ&pageNum=1&pageSize=10 耗时: 0.66s
+2025-10-21 01:11:08,217 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:08,836 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=@#$%25&pageNum=1&pageSize=10 耗时: 0.61s
+2025-10-21 01:11:08,837 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,340 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=&pageNum=1&pageSize=10 耗时: 0.50s
+2025-10-21 01:11:09,341 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,373 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/38 耗时: 0.03s
+2025-10-21 01:11:09,373 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,391 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/99999 耗时: 0.01s
+2025-10-21 01:11:09,391 - api - INFO - 响应状态码: 500
+2025-10-21 01:11:09,391 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999, 响应体: 无
+2025-10-21 01:11:09,392 - api - ERROR - 请求 http://192.168.220.128:8085/product/detail/99999 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/product/detail/99999
+2025-10-21 01:11:09,555 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/0 耗时: 0.02s
+2025-10-21 01:11:09,555 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,572 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/1 耗时: 0.01s
+2025-10-21 01:11:09,572 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,589 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/2 耗时: 0.01s
+2025-10-21 01:11:09,589 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,607 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/3 耗时: 0.01s
+2025-10-21 01:11:09,608 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,625 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/4 耗时: 0.01s
+2025-10-21 01:11:09,625 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,645 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/5 耗时: 0.01s
+2025-10-21 01:11:09,646 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,661 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/52 耗时: 0.01s
+2025-10-21 01:11:09,661 - api - INFO - 响应状态码: 200
+2025-10-21 01:11:09,674 - api - INFO - [GET] http://192.168.220.128:8085/home/productCateList/-1 耗时: 0.01s
+2025-10-21 01:11:09,675 - api - INFO - 响应状态码: 200
+2025-10-21 20:14:37,097 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-21 20:14:37,097 - api - INFO - 响应状态码: 200
+2025-10-21 20:14:37,158 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-21 20:14:37,158 - api - INFO - 响应状态码: 200
+2025-10-21 20:14:37,189 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-21 20:14:37,189 - api - INFO - 响应状态码: 200
+2025-10-21 20:14:37,204 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-21 20:14:37,204 - api - INFO - 响应状态码: 200
+2025-10-21 20:14:37,327 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=26&quantity=5 耗时: 0.01s
+2025-10-21 20:14:37,327 - api - INFO - 响应状态码: 200
+2025-10-21 20:14:37,354 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=27 耗时: 0.02s
+2025-10-21 20:14:37,354 - api - INFO - 响应状态码: 200
+2025-10-21 20:14:37,384 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.01s
+2025-10-21 20:14:37,384 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,818 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-21 21:58:12,818 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,861 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-21 21:58:12,861 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,887 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-21 21:58:12,887 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,910 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-21 21:58:12,910 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,934 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-21 21:58:12,934 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,949 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-21 21:58:12,949 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,969 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-21 21:58:12,969 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:12,980 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-21 21:58:12,980 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:13,005 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-21 21:58:13,005 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:13,024 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-21 21:58:13,024 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:13,040 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-21 21:58:13,040 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:13,061 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-21 21:58:13,062 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:13,223 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=26&quantity=5 耗时: 0.01s
+2025-10-21 21:58:13,223 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:13,243 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=27 耗时: 0.01s
+2025-10-21 21:58:13,243 - api - INFO - 响应状态码: 200
+2025-10-21 21:58:13,268 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-21 21:58:13,268 - api - INFO - 响应状态码: 200

@@ -1,0 +1,98 @@
+{
+  "uid" : "2d6a58f872f05b8f",
+  "name" : "test_list_order[data0]",
+  "fullName" : "test_case.api.user.test_order.TestOrderAPI#test_list_order",
+  "historyId" : "0040fe9c7164bb16b0371ec2fdd47c9b",
+  "time" : {
+    "start" : 1761497721642,
+    "stop" : 1761497721755,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clean_cart",
+    "time" : {
+      "start" : 1761497721487,
+      "stop" : 1761497721642,
+      "duration" : 155
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "order_and_cart_api",
+    "time" : {
+      "start" : 1761497720356,
+      "stop" : 1761497720510,
+      "duration" : 154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查看订单列表"
+  }, {
+    "name" : "feature",
+    "value" : "订单模块"
+  }, {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.api.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D12DO4L"
+  }, {
+    "name" : "thread",
+    "value" : "10060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.api.user.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 'ORDER004', 'desc': '查看订单列表（正常用户）', 'precondition': '用户已登录', 'data': {}, 'expected': {'code': 200, 'message': '操作成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "api" ]
+  },
+  "source" : "2d6a58f872f05b8f.json",
+  "parameterValues" : [ "{'id': 'ORDER004', 'desc': '查看订单列表（正常用户）', 'precondition': '用户已登录', 'data': {}, 'expected': {'code': 200, 'message': '操作成功'}}" ]
+}

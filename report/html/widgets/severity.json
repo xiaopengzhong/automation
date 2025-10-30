@@ -1,10 +1,90 @@
 [ {
-  "uid" : "246509c9afc48a0",
-  "name" : "验证用户能成功从商品详情页加购并进入结算页",
+  "uid" : "659c69b499252701",
+  "name" : "test_get_order_detail[data0]",
   "time" : {
-    "start" : 1759050263138,
-    "stop" : 1759050270795,
-    "duration" : 7657
+    "start" : 1761497721907,
+    "stop" : 1761497721988,
+    "duration" : 81
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "64a70ce5d72efb71",
+  "name" : "test_generate_confirm_order[data0]",
+  "time" : {
+    "start" : 1761497721427,
+    "stop" : 1761497721483,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d6a58f872f05b8f",
+  "name" : "test_list_order[data0]",
+  "time" : {
+    "start" : 1761497721642,
+    "stop" : 1761497721755,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c07b63b99a815c24",
+  "name" : "test_get_order_detail[data1]",
+  "time" : {
+    "start" : 1761497722174,
+    "stop" : 1761497722192,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8b6e28abad71870",
+  "name" : "test_create_order[data1]",
+  "time" : {
+    "start" : 1761497720906,
+    "stop" : 1761497720989,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f3290b14d14a988",
+  "name" : "test_create_order[data2]",
+  "time" : {
+    "start" : 1761497721147,
+    "stop" : 1761497721175,
+    "duration" : 28
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a89d56f98c55cd7",
+  "name" : "test_delete_order[data0]",
+  "time" : {
+    "start" : 1761497722650,
+    "stop" : 1761497722780,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c10b8414c6d6294",
+  "name" : "test_cancel_order[data0]",
+  "time" : {
+    "start" : 1761497722337,
+    "stop" : 1761497722487,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4ab8aed955e5180",
+  "name" : "test_create_order[data0]",
+  "time" : {
+    "start" : 1761497720669,
+    "stop" : 1761497720759,
+    "duration" : 90
   },
   "status" : "passed",
   "severity" : "normal"

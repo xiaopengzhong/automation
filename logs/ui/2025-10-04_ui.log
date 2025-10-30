@@ -1,0 +1,655 @@
+2025-10-04 15:24:43,522 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 15:24:45,465 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 15:24:45,596 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 15:24:46,782 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 15:24:47,289 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 15:24:51,784 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 15:24:51,937 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 15:24:55,218 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 15:24:55,552 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 15:24:55,837 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 15:25:06,047 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:25:06,206 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-25-06.png
+2025-10-04 15:25:06,352 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:25:06,482 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-25-06.png
+2025-10-04 15:29:45,549 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 15:29:47,451 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 15:29:47,575 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 15:29:48,784 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 15:29:49,292 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 15:29:53,675 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 15:29:53,861 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 15:29:56,594 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 15:29:56,988 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 15:29:57,216 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 15:30:12,540 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:30:12,683 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-30-12.png
+2025-10-04 15:30:12,815 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:30:13,034 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-30-12.png
+2025-10-04 15:30:52,538 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 15:30:54,250 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 15:30:54,378 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 15:30:55,631 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 15:30:56,140 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 15:30:59,990 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 15:31:00,169 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 15:31:02,887 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 15:31:03,302 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 15:31:03,581 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 15:31:18,894 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:31:19,046 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-31-18.png
+2025-10-04 15:31:19,220 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:31:19,419 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-31-19.png
+2025-10-04 15:42:22,717 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 15:42:24,509 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 15:42:24,637 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 15:42:25,811 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 15:42:26,316 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 15:42:31,762 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 15:42:31,942 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 15:42:35,182 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 15:42:35,590 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 15:42:35,835 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 15:42:51,158 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:42:51,348 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-42-51.png
+2025-10-04 15:42:51,512 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[text()='去结算']"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:42:51,640 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-42-51.png
+2025-10-04 15:48:17,225 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 15:48:18,840 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 15:48:18,975 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 15:48:20,156 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 15:48:20,665 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 15:48:24,690 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 15:48:24,869 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 15:48:28,127 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 15:48:28,553 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 15:48:28,770 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 15:48:44,071 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[contains(text(),'去结算')]"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:48:44,281 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-48-44.png
+2025-10-04 15:48:44,436 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[contains(text(),'去结算')]"), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:48:44,598 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-48-44.png
+2025-10-04 15:50:29,251 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 15:50:31,049 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 15:50:31,168 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 15:50:32,339 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 15:50:32,849 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 15:50:36,938 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 15:50:37,119 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 15:50:40,358 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 15:50:40,709 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 15:50:40,988 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 15:50:56,305 - ui - ERROR - find_element 失败，locator=('xpath', '//uni-page-body/uni-view/uni-view/uni-view[2]/uni-button'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:50:56,452 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-50-56.png
+2025-10-04 15:50:56,591 - ui - ERROR - click 失败，locator=('xpath', '//uni-page-body/uni-view/uni-view/uni-view[2]/uni-button'), error=Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726782a96]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 15:50:56,710 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_15-50-56.png
+2025-10-04 16:04:18,042 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:04:19,830 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:04:19,965 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:04:21,141 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:04:21,648 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:04:25,422 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:04:25,600 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:04:28,829 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:04:29,174 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:04:29,392 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:04:45,439 - ui - INFO - 点击元素: ('xpath', '//uni-page-body/uni-view/uni-view/uni-view[2]/uni-button')
+2025-10-04 16:07:58,207 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:07:59,891 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:08:00,042 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:08:01,207 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:08:01,713 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:08:06,611 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:08:06,787 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:08:10,014 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:08:10,351 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:08:10,553 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:08:26,888 - ui - INFO - items: ['Apple iPhone 8 Plus 64GB 红色特别版 移动联通电信4G手机\n颜色:金色;容量:32G;\n¥4999']
+2025-10-04 16:08:30,793 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:08:35,806 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): 华为
+2025-10-04 16:08:35,989 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:08:39,214 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:08:39,538 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:08:40,266 - ui - INFO - 点击元素: ('xpath', '//uni-modal/div[2]/div[3]/div[2]')
+2025-10-04 16:08:40,415 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:08:40,550 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:08:41,716 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:08:42,364 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:08:42,596 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:08:43,157 - ui - INFO - items: ['华为 HUAWEI P20\n颜色:金色;容量:16G;\n¥3699']
+2025-10-04 16:08:47,098 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:08:48,718 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:08:48,845 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:08:50,043 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:08:50,546 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:08:54,629 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): 小米
+2025-10-04 16:08:54,803 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:08:57,519 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:08:57,867 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:08:57,878 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:08:59,185 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPad
+2025-10-04 16:08:59,365 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:09:02,654 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:09:02,901 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:09:03,121 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:09:14,350 - ui - INFO - items: ['小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待\n颜色:黑色;容量:32G;\n¥2699', 'Apple iPad 10.9英寸平板电脑 2022年款\n颜色:银色;容量:64G;\n¥3599']
+2025-10-04 16:09:14,385 - ui - INFO - items: ['小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待\n颜色:黑色;容量:32G;\n¥2699', 'Apple iPad 10.9英寸平板电脑 2022年款\n颜色:银色;容量:64G;\n¥3599']
+2025-10-04 16:09:18,162 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:09:20,049 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:09:20,176 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:09:21,380 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:09:21,885 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:09:27,359 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:09:27,541 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:09:30,831 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:09:31,658 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:09:31,865 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:09:47,385 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[1]//uni-view[2]//uni-view[2]/uni-text')
+2025-10-04 16:09:51,666 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:09:53,292 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:09:53,424 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:09:54,652 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:09:55,159 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:09:59,403 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:09:59,584 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:10:02,304 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:10:02,676 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:10:02,685 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:10:03,842 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPad
+2025-10-04 16:10:04,019 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:10:07,318 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:10:07,589 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:10:07,779 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:10:19,137 - ui - INFO - 点击元素: ('css selector', 'uni-text.del-btn')
+2025-10-04 16:10:20,170 - ui - INFO - items: ['Apple iPad 10.9英寸平板电脑 2022年款\n颜色:银色;容量:64G;\n¥3599']
+2025-10-04 16:10:25,008 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:10:26,775 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:10:26,907 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:10:28,089 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:10:28,599 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:10:29,807 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:10:29,989 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:10:33,224 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:10:33,535 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:10:33,544 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:10:34,586 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPad
+2025-10-04 16:10:34,751 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:10:38,010 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:10:38,204 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:10:38,410 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:10:53,398 - ui - INFO - 点击元素: ('xpath', '//uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-view[2]/uni-view[1]/uni-view')
+2025-10-04 16:10:54,084 - ui - INFO - 点击元素: ('xpath', '//uni-modal/div[2]/div[2]/div[2]')
+2025-10-04 16:10:59,240 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:11:00,821 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:11:00,946 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:11:02,137 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:11:02,643 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:11:06,508 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:11:06,690 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:11:09,397 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:11:09,706 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:11:09,923 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:11:09,954 - ui - ERROR - find_element 失败，locator=('xpath', "//uni-button[text()='去结算'"), error=Message: invalid selector: Unable to locate an element with the xpath expression //uni-button[text()='去结算' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//uni-button[text()='去结算'' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726733abd]
+	(No symbol) [0x0x7ff726736b1c]
+	(No symbol) [0x0x7ff726736bef]
+	(No symbol) [0x0x7ff726782347]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 16:11:10,126 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_16-11-09.png
+2025-10-04 16:11:10,267 - ui - ERROR - click 失败，locator=('xpath', "//uni-button[text()='去结算'"), error=Message: invalid selector: Unable to locate an element with the xpath expression //uni-button[text()='去结算' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//uni-button[text()='去结算'' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff726c278d5+2802741]
+	GetHandleVerifier [0x0x7ff72698eb70+79568]
+	(No symbol) [0x0x7ff72672c0fa]
+	(No symbol) [0x0x7ff726733abd]
+	(No symbol) [0x0x7ff726736b1c]
+	(No symbol) [0x0x7ff726736bef]
+	(No symbol) [0x0x7ff726782347]
+	(No symbol) [0x0x7ff726782d4c]
+	(No symbol) [0x0x7ff7267d6017]
+	(No symbol) [0x0x7ff7267aaccf]
+	(No symbol) [0x0x7ff7267d2e24]
+	(No symbol) [0x0x7ff7267aaa63]
+	(No symbol) [0x0x7ff726773c91]
+	(No symbol) [0x0x7ff726774a23]
+	GetHandleVerifier [0x0x7ff726c52ced+2979917]
+	GetHandleVerifier [0x0x7ff726c4d0f3+2956371]
+	GetHandleVerifier [0x0x7ff726c6acbd+3078173]
+	GetHandleVerifier [0x0x7ff7269a836e+184014]
+	GetHandleVerifier [0x0x7ff7269b024f+216495]
+	GetHandleVerifier [0x0x7ff7269970c4+113700]
+	GetHandleVerifier [0x0x7ff726997279+114137]
+	GetHandleVerifier [0x0x7ff72697df78+10968]
+	BaseThreadInitThunk [0x0x7ffc00a57374+20]
+	RtlUserThreadStart [0x0x7ffc02a5cc91+33]
+
+2025-10-04 16:11:10,414 - ui - INFO - 截图已保存: screenshots\2025-10-04\screenshot_2025-10-04_16-11-10.png
+2025-10-04 16:13:16,690 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:13:18,570 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:13:18,699 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:13:19,923 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:13:20,426 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:13:24,418 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:13:24,600 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:13:27,324 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:13:27,736 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:13:28,012 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:13:44,517 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[1]//uni-view[2]//uni-view[2]/uni-text')
+2025-10-04 16:14:50,532 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 16:14:52,194 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 16:14:52,326 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 16:14:53,498 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 16:14:54,006 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 16:14:58,265 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 16:14:58,425 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 16:15:01,677 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 16:15:02,185 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 16:15:02,477 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 16:15:18,447 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[1]//uni-view[2]//uni-view[2]/uni-text')
+2025-10-04 17:29:11,576 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 17:29:13,420 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:29:13,546 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:29:14,752 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:29:15,260 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:29:19,088 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 17:29:19,262 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:29:21,982 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:29:22,399 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:29:22,665 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:29:38,162 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[1]//uni-view[2]//uni-view[2]/uni-text')
+2025-10-04 17:39:02,994 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 17:39:04,698 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:39:04,834 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:39:06,067 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:39:06,573 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:39:10,383 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 17:39:10,560 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:39:13,284 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:39:13,678 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:39:13,900 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:39:29,766 - ui - INFO - items: ['Apple iPhone 8 Plus 64GB 红色特别版 移动联通电信4G手机\n颜色:金色;容量:32G;\n¥4999']
+2025-10-04 17:39:33,779 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:39:37,820 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): 华为
+2025-10-04 17:39:37,987 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:39:41,210 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:39:41,548 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:39:41,731 - ui - INFO - 点击元素: ('xpath', '//uni-modal/div[2]/div[3]/div[2]')
+2025-10-04 17:39:42,387 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:39:42,507 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:39:43,688 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:39:44,348 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:39:44,588 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:39:45,164 - ui - INFO - items: ['华为 HUAWEI P20\n颜色:金色;容量:16G;\n¥3699']
+2025-10-04 17:39:49,065 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 17:39:50,891 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:39:51,035 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:39:52,261 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:39:52,768 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:39:56,352 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): 小米
+2025-10-04 17:39:56,518 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:39:59,238 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:39:59,577 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:39:59,586 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:40:00,757 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPad
+2025-10-04 17:40:00,935 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:40:04,733 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:40:04,951 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:40:05,154 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:40:12,320 - ui - INFO - items: ['小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待\n颜色:黑色;容量:32G;\n¥2699', 'Apple iPad 10.9英寸平板电脑 2022年款\n颜色:银色;容量:64G;\n¥3599']
+2025-10-04 17:40:12,354 - ui - INFO - items: ['小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待\n颜色:黑色;容量:32G;\n¥2699', 'Apple iPad 10.9英寸平板电脑 2022年款\n颜色:银色;容量:64G;\n¥3599']
+2025-10-04 17:40:16,362 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 17:40:18,493 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:40:18,612 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:40:19,790 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:40:20,295 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:40:24,265 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 17:40:24,437 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:40:27,169 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:40:27,575 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:40:27,808 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:40:43,791 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[1]//uni-view[2]//uni-view[2]/uni-text')
+2025-10-04 17:40:48,331 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 17:40:50,050 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:40:50,171 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:40:51,398 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:40:51,902 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:40:55,372 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 17:40:55,559 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:40:58,293 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:40:58,633 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:40:58,642 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:40:59,764 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPad
+2025-10-04 17:40:59,937 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:41:03,195 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:41:03,417 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:41:03,612 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:41:15,501 - ui - INFO - 点击元素: ('css selector', 'uni-text.del-btn')
+2025-10-04 17:41:16,529 - ui - INFO - items: ['Apple iPad 10.9英寸平板电脑 2022年款\n颜色:银色;容量:64G;\n¥3599']
+2025-10-04 17:41:20,321 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 17:41:22,144 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:41:22,268 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:41:23,462 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:41:23,969 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:41:27,687 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 17:41:27,861 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:41:30,610 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:41:30,913 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:41:30,923 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:41:31,990 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPad
+2025-10-04 17:41:32,275 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:41:35,491 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:41:35,746 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:41:36,105 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:41:46,959 - ui - INFO - 点击元素: ('xpath', '//uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-view[2]/uni-view[1]/uni-view')
+2025-10-04 17:41:47,643 - ui - INFO - 点击元素: ('xpath', '//uni-modal/div[2]/div[2]/div[2]')
+2025-10-04 17:41:52,785 - ui - INFO - 打开URL: http://localhost:8060/#/pages/public/login
+2025-10-04 17:41:54,444 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[1]//input'): user001
+2025-10-04 17:41:54,569 - ui - INFO - 输入文本到 ('xpath', '//uni-view[4]/uni-view[3]/uni-view[2]//input'): 123456
+2025-10-04 17:41:55,751 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='登录']")
+2025-10-04 17:41:56,258 - ui - INFO - 打开URL: http://localhost:8060/#/
+2025-10-04 17:42:00,980 - ui - INFO - 输入文本到 ('xpath', '//uni-page-body//uni-input//input'): iPhone
+2025-10-04 17:42:01,146 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-button')
+2025-10-04 17:42:03,882 - ui - INFO - 点击元素: ('css selector', '.product-item')
+2025-10-04 17:42:04,266 - ui - INFO - 点击元素: ('xpath', "//uni-button[contains(text(),'加入购物车')]")
+2025-10-04 17:42:04,468 - ui - INFO - 点击元素: ('xpath', '//uni-page-body//uni-view[8]/uni-navigator[2]')
+2025-10-04 17:42:24,604 - ui - INFO - 点击元素: ('xpath', "//uni-button[text()='去结算']")

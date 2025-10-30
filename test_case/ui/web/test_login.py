@@ -6,7 +6,7 @@
 import allure
 import pytest
 
-from lib.util.config_loader import load_yaml
+from lib.utils.config_loader import load_yaml
 
 
 @pytest.mark.ui

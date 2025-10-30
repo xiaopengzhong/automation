@@ -14,7 +14,7 @@ class TestSearchProductFlow:
     @allure.title("搜索商品成功")
     def test_search_product_success(self, driver):
         flow = SearchProductFlow(driver)
-        search_page = flow.search_product("test_user", "123456", "iPhone")
+        search_page = flow.search_product("user001", "123456", "iPhone")
         assert len(search_page.get_product_items()) > 0
         assert "iPhone" in search_page.get_first_product_info()
 
@@ -22,5 +22,5 @@ class TestSearchProductFlow:
     @allure.title("搜索商品失败")
     def test_search_product_empty(self, driver):
         flow = SearchProductFlow(driver)
-        search_page = flow.search_product("test_user", "123456", "不存在的商品XYZ")
-        assert search_page.is_empty_result()
+        search_page = flow.search_product("user001", "123456", "不存在的商品XYZ")
+        assert search_page.is_enpty_result()

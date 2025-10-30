@@ -4,10 +4,7 @@
 #@Software: PyCharm
 from lib.flows.login_flow import LoginFlow
 from lib.ui.H5.home_page import HomePage
-from lib.ui.H5.search_product_page import SearchProductPage
-
-
-
+from lib.ui.H5.product_search_page import  ProducSearchtPage
 
 
 class SearchProductFlow:
@@ -37,7 +34,7 @@ class SearchProductFlow:
         home.click_search_input()
 
         # 4. 输入关键词并点击搜索
-        search_page = SearchProductPage(self.driver)
+        search_page = ProducSearchtPage(self.driver)
         search_page.set_enter_product_name(keyword)
         search_page.click_search_btn()
 

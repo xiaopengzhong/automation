@@ -1,0 +1,1059 @@
+2025-10-18 00:08:13,254 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.18s
+2025-10-18 00:08:13,254 - api - INFO - 响应状态码: 200
+2025-10-18 00:08:13,297 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.04s
+2025-10-18 00:08:13,297 - api - INFO - 响应状态码: 200
+2025-10-18 00:08:13,332 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 00:08:13,332 - api - INFO - 响应状态码: 415
+2025-10-18 00:08:13,332 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:08:13,332 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:10:12,530 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 00:10:12,531 - api - INFO - 响应状态码: 200
+2025-10-18 00:10:12,611 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.08s
+2025-10-18 00:10:12,612 - api - INFO - 响应状态码: 200
+2025-10-18 00:10:12,662 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 00:10:12,666 - api - INFO - 响应状态码: 415
+2025-10-18 00:10:12,666 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:10:12,666 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:22:13,086 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.25s
+2025-10-18 00:22:13,086 - api - INFO - 响应状态码: 200
+2025-10-18 00:22:13,139 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.05s
+2025-10-18 00:22:13,139 - api - INFO - 响应状态码: 200
+2025-10-18 00:22:13,170 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 00:22:13,170 - api - INFO - 响应状态码: 415
+2025-10-18 00:22:13,174 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:22:13,174 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:23:52,005 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.18s
+2025-10-18 00:23:52,005 - api - INFO - 响应状态码: 200
+2025-10-18 00:23:52,117 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.11s
+2025-10-18 00:23:52,119 - api - INFO - 响应状态码: 200
+2025-10-18 00:23:52,180 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.06s
+2025-10-18 00:23:52,180 - api - INFO - 响应状态码: 415
+2025-10-18 00:23:52,182 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:23:52,182 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:25:03,290 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 00:25:03,290 - api - INFO - 响应状态码: 200
+2025-10-18 00:25:03,376 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.09s
+2025-10-18 00:25:03,376 - api - INFO - 响应状态码: 200
+2025-10-18 00:25:03,456 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.08s
+2025-10-18 00:25:03,457 - api - INFO - 响应状态码: 415
+2025-10-18 00:25:03,457 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:25:03,457 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:25:54,172 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:25:54,172 - api - INFO - 响应状态码: 200
+2025-10-18 00:25:54,202 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 00:25:54,202 - api - INFO - 响应状态码: 200
+2025-10-18 00:25:54,227 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 00:25:54,227 - api - INFO - 响应状态码: 415
+2025-10-18 00:25:54,227 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:25:54,227 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:26:30,772 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:26:30,772 - api - INFO - 响应状态码: 200
+2025-10-18 00:26:30,810 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 00:26:30,810 - api - INFO - 响应状态码: 200
+2025-10-18 00:26:30,842 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 00:26:30,843 - api - INFO - 响应状态码: 415
+2025-10-18 00:26:30,843 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:26:30,843 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:29:59,676 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:29:59,676 - api - INFO - 响应状态码: 200
+2025-10-18 00:29:59,707 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 00:29:59,710 - api - INFO - 响应状态码: 200
+2025-10-18 00:29:59,742 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 00:29:59,742 - api - INFO - 响应状态码: 415
+2025-10-18 00:29:59,742 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:29:59,742 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:30:27,484 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 00:30:27,485 - api - INFO - 响应状态码: 200
+2025-10-18 00:30:27,529 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.04s
+2025-10-18 00:30:27,529 - api - INFO - 响应状态码: 200
+2025-10-18 00:30:27,566 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 00:30:27,566 - api - INFO - 响应状态码: 415
+2025-10-18 00:30:27,566 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:30:27,566 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:32:31,870 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:32:31,870 - api - INFO - 响应状态码: 200
+2025-10-18 00:32:31,913 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 00:32:31,913 - api - INFO - 响应状态码: 200
+2025-10-18 00:32:31,952 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 00:32:31,952 - api - INFO - 响应状态码: 415
+2025-10-18 00:32:31,952 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:32:31,952 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:33:36,943 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-18 00:33:36,943 - api - INFO - 响应状态码: 200
+2025-10-18 00:33:36,989 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.04s
+2025-10-18 00:33:36,989 - api - INFO - 响应状态码: 200
+2025-10-18 00:33:37,029 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 00:33:37,033 - api - INFO - 响应状态码: 415
+2025-10-18 00:33:37,033 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:33:37,033 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:35:32,911 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 00:35:32,911 - api - INFO - 响应状态码: 200
+2025-10-18 00:41:58,345 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:41:58,346 - api - INFO - 响应状态码: 200
+2025-10-18 00:43:04,932 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 00:43:04,932 - api - INFO - 响应状态码: 200
+2025-10-18 00:44:06,171 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 00:44:06,171 - api - INFO - 响应状态码: 200
+2025-10-18 00:44:36,875 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:44:36,875 - api - INFO - 响应状态码: 200
+2025-10-18 00:46:28,333 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 00:46:28,333 - api - INFO - 响应状态码: 200
+2025-10-18 00:46:57,462 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:46:57,462 - api - INFO - 响应状态码: 200
+2025-10-18 00:48:28,799 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 00:48:28,799 - api - INFO - 响应状态码: 200
+2025-10-18 00:49:25,089 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 00:49:25,089 - api - INFO - 响应状态码: 200
+2025-10-18 00:49:25,127 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 00:49:25,127 - api - INFO - 响应状态码: 200
+2025-10-18 00:49:25,165 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 00:49:25,165 - api - INFO - 响应状态码: 415
+2025-10-18 00:49:25,165 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:49:25,168 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:53:52,920 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 00:53:52,920 - api - INFO - 响应状态码: 200
+2025-10-18 00:53:52,955 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 00:53:52,955 - api - INFO - 响应状态码: 200
+2025-10-18 00:53:52,988 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 00:53:52,988 - api - INFO - 响应状态码: 415
+2025-10-18 00:53:52,991 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:53:52,991 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 00:58:56,338 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.25s
+2025-10-18 00:58:56,338 - api - INFO - 响应状态码: 200
+2025-10-18 00:58:56,392 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.05s
+2025-10-18 00:58:56,392 - api - INFO - 响应状态码: 200
+2025-10-18 00:58:56,431 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 00:58:56,431 - api - INFO - 响应状态码: 415
+2025-10-18 00:58:56,431 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 00:58:56,431 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:00:42,353 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 01:00:42,354 - api - INFO - 响应状态码: 200
+2025-10-18 01:00:42,383 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 01:00:42,384 - api - INFO - 响应状态码: 200
+2025-10-18 01:00:42,384 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:00:42,384 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123}
+2025-10-18 01:00:42,412 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 01:00:42,412 - api - INFO - 响应状态码: 415
+2025-10-18 01:00:42,412 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:00:42,412 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:00:42,412 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:01:58,725 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 01:01:58,726 - api - INFO - 响应状态码: 200
+2025-10-18 01:01:58,788 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.06s
+2025-10-18 01:01:58,788 - api - INFO - 响应状态码: 200
+2025-10-18 01:01:58,788 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:01:58,788 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123}
+2025-10-18 01:01:58,788 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: request() got an unexpected keyword argument 'param'
+2025-10-18 01:02:06,931 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 01:02:06,931 - api - INFO - 响应状态码: 200
+2025-10-18 01:02:06,975 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.04s
+2025-10-18 01:02:06,975 - api - INFO - 响应状态码: 200
+2025-10-18 01:02:06,977 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:02:06,977 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123}
+2025-10-18 01:02:07,004 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 01:02:07,004 - api - INFO - 响应状态码: 415
+2025-10-18 01:02:07,004 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:02:07,004 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:02:07,005 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:02:41,803 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 01:02:41,803 - api - INFO - 响应状态码: 200
+2025-10-18 01:02:41,834 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 01:02:41,834 - api - INFO - 响应状态码: 200
+2025-10-18 01:02:41,835 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:02:41,835 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123}
+2025-10-18 01:02:41,866 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 01:02:41,866 - api - INFO - 响应状态码: 415
+2025-10-18 01:02:41,866 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:02:41,866 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:02:41,866 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:04:20,809 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 01:04:20,810 - api - INFO - 响应状态码: 200
+2025-10-18 01:04:20,816 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:04:20,816 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123}
+2025-10-18 01:04:20,888 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.07s
+2025-10-18 01:04:20,888 - api - INFO - 响应状态码: 415
+2025-10-18 01:04:20,888 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:04:20,888 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:04:20,888 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:04:59,682 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-18 01:04:59,682 - api - INFO - 响应状态码: 200
+2025-10-18 01:04:59,686 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:04:59,686 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123}
+2025-10-18 01:04:59,723 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 01:04:59,723 - api - INFO - 响应状态码: 415
+2025-10-18 01:04:59,724 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:04:59,724 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:04:59,724 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:05:07,257 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-18 01:05:07,257 - api - INFO - 响应状态码: 200
+2025-10-18 01:05:07,260 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:05:07,263 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123}
+2025-10-18 01:05:07,293 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 01:05:07,293 - api - INFO - 响应状态码: 415
+2025-10-18 01:05:07,293 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:05:07,293 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:05:07,293 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:05:56,690 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 01:05:56,690 - api - INFO - 响应状态码: 200
+2025-10-18 01:05:56,695 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:05:56,698 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123},类型： <class 'dict'>
+2025-10-18 01:05:56,731 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 01:05:56,731 - api - INFO - 响应状态码: 415
+2025-10-18 01:05:56,731 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:05:56,731 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:05:56,731 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:08:18,626 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 01:08:18,626 - api - INFO - 响应状态码: 200
+2025-10-18 01:08:18,640 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:08:39,875 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123},类型： <class 'dict'>
+2025-10-18 01:09:59,967 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 16.70s
+2025-10-18 01:10:06,099 - api - INFO - 响应状态码: 415
+2025-10-18 01:10:09,051 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/cart/add 响应超时: 16.70s
+2025-10-18 01:10:10,428 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:10:10,913 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:10:11,621 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:15:22,557 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 01:15:22,557 - api - INFO - 响应状态码: 200
+2025-10-18 01:15:22,561 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:15:22,561 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 2, 'product_id': 123},类型： <class 'dict'>
+2025-10-18 01:15:22,580 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 01:15:22,581 - api - INFO - 响应状态码: 415
+2025-10-18 01:15:22,581 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:15:22,581 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:15:22,581 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:20:34,677 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.17s
+2025-10-18 01:20:34,677 - api - INFO - 响应状态码: 200
+2025-10-18 01:20:34,684 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:20:34,684 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1},类型： <class 'dict'>
+2025-10-18 01:20:34,774 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.09s
+2025-10-18 01:20:34,774 - api - INFO - 响应状态码: 415
+2025-10-18 01:20:34,774 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:20:34,774 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:20:34,774 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:21:11,948 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 01:21:11,948 - api - INFO - 响应状态码: 200
+2025-10-18 01:21:11,952 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:21:11,952 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1},类型： <class 'dict'>
+2025-10-18 01:21:11,975 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 01:21:11,975 - api - INFO - 响应状态码: 415
+2025-10-18 01:21:11,975 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:21:11,975 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:21:11,975 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:22:25,799 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 01:22:25,799 - api - INFO - 响应状态码: 200
+2025-10-18 01:24:23,110 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.17s
+2025-10-18 01:24:23,110 - api - INFO - 响应状态码: 200
+2025-10-18 01:24:23,115 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:24:23,115 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1},类型： <class 'dict'>
+2025-10-18 01:24:23,146 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 01:24:23,146 - api - INFO - 响应状态码: 415
+2025-10-18 01:24:23,146 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:24:23,146 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:24:23,148 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:26:25,428 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 01:26:25,429 - api - INFO - 响应状态码: 200
+2025-10-18 01:26:25,435 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 01:26:25,435 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1},类型： <class 'dict'>
+2025-10-18 01:26:25,435 - api - INFO - 请求头: {"price": 3599, "productAttr": [{"key": "\u989c\u8272", "value": "\u94f6\u8272"}, {"key": "\u5bb9\u91cf", "value": "64G"}], "productBrand": "\u82f9\u679c", "productCategoryId": 53, "productId": 38, "productName": "Apple iPad 10.9\u82f1\u5bf8\u5e73\u677f\u7535\u8111 2022\u5e74\u6b3e", "productPic": "http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg", "productSkuCode": "202210280038001", "productSkuId": 213, "productSn": "100044025833", "productSubTitle": "\u301011.11\u5927\u7231\u8d85\u5927\u7231\u3011iPad9\u4ee3\u9650\u91cf\u62a2\u8d2d\uff0c\u4ef7\u683c\u4f18\u60e0\uff0c\u66f4\u4eab\u4ee5\u65e7\u6362\u65b0\u81f3\u9ad8\u8865\u8d34325\u5143\uff01\uff01\u5feb\u6765\u62a2\u8d2d\u5427\uff01\uff01", "quantity": 1}
+2025-10-18 01:26:25,475 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 01:26:25,475 - api - INFO - 响应状态码: 415
+2025-10-18 01:26:25,475 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 01:26:25,475 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 01:26:25,475 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 11:46:30,318 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.23s
+2025-10-18 11:46:30,318 - api - INFO - 响应状态码: 200
+2025-10-18 11:46:30,337 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 11:46:30,337 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1},类型： <class 'dict'>
+2025-10-18 11:46:30,337 - api - INFO - 请求头: {"price": 3599, "productAttr": [{"key": "\u989c\u8272", "value": "\u94f6\u8272"}, {"key": "\u5bb9\u91cf", "value": "64G"}], "productBrand": "\u82f9\u679c", "productCategoryId": 53, "productId": 38, "productName": "Apple iPad 10.9\u82f1\u5bf8\u5e73\u677f\u7535\u8111 2022\u5e74\u6b3e", "productPic": "http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg", "productSkuCode": "202210280038001", "productSkuId": 213, "productSn": "100044025833", "productSubTitle": "\u301011.11\u5927\u7231\u8d85\u5927\u7231\u3011iPad9\u4ee3\u9650\u91cf\u62a2\u8d2d\uff0c\u4ef7\u683c\u4f18\u60e0\uff0c\u66f4\u4eab\u4ee5\u65e7\u6362\u65b0\u81f3\u9ad8\u8865\u8d34325\u5143\uff01\uff01\u5feb\u6765\u62a2\u8d2d\u5427\uff01\uff01", "quantity": 1}
+2025-10-18 11:46:30,368 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 11:46:30,368 - api - INFO - 响应状态码: 415
+2025-10-18 11:46:30,368 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 11:46:30,368 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 11:46:30,368 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 11:46:58,794 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.18s
+2025-10-18 11:46:58,795 - api - INFO - 响应状态码: 200
+2025-10-18 11:46:58,828 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 11:46:58,828 - api - INFO - 响应状态码: 200
+2025-10-18 11:46:58,828 - api - INFO - 请求头: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMDAxIiwiY3JlYXRlZCI6MTc2MDc4Nzg5MDI2OSwiZXhwIjoxNzYxMzkyNjkwfQ.glWZMAW9zZlA-wt3oFZXJOFM_2pbusIU9shSAFrRXJawwwZuqHNyFgBVPb_q_JByZCwCWhBH2isBZItHcvRBAw', 'Content-Length': '774'}
+2025-10-18 11:46:58,828 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 11:46:58,828 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1},类型： <class 'dict'>
+2025-10-18 11:46:58,828 - api - INFO - 请求头: {"price": 3599, "productAttr": [{"key": "\u989c\u8272", "value": "\u94f6\u8272"}, {"key": "\u5bb9\u91cf", "value": "64G"}], "productBrand": "\u82f9\u679c", "productCategoryId": 53, "productId": 38, "productName": "Apple iPad 10.9\u82f1\u5bf8\u5e73\u677f\u7535\u8111 2022\u5e74\u6b3e", "productPic": "http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg", "productSkuCode": "202210280038001", "productSkuId": 213, "productSn": "100044025833", "productSubTitle": "\u301011.11\u5927\u7231\u8d85\u5927\u7231\u3011iPad9\u4ee3\u9650\u91cf\u62a2\u8d2d\uff0c\u4ef7\u683c\u4f18\u60e0\uff0c\u66f4\u4eab\u4ee5\u65e7\u6362\u65b0\u81f3\u9ad8\u8865\u8d34325\u5143\uff01\uff01\u5feb\u6765\u62a2\u8d2d\u5427\uff01\uff01", "quantity": 1}
+2025-10-18 11:46:58,844 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 11:46:58,844 - api - INFO - 响应状态码: 415
+2025-10-18 11:46:58,848 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 11:46:58,848 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 11:46:58,848 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:00:47,450 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 12:00:47,450 - api - INFO - 响应状态码: 200
+2025-10-18 12:00:47,477 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-18 12:00:47,477 - api - INFO - 响应状态码: 200
+2025-10-18 12:00:47,477 - api - INFO - 请求头: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMDAxIiwiY3JlYXRlZCI6MTc2MDc4ODcxNjY5OSwiZXhwIjoxNzYxMzkzNTE2fQ.55mG0TfBQkgDmHxTiVrGxBtF-ohiTXLEhaEoFq8YMoV9JqoTmWvPxScmRr0N_tgeF5Ffn53N0DtyO1qZvKdS3A', 'Content-Length': '774'}
+2025-10-18 12:00:47,477 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:00:47,477 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1},类型： <class 'dict'>
+2025-10-18 12:00:47,477 - api - INFO - 请求头: {"price": 3599, "productAttr": [{"key": "\u989c\u8272", "value": "\u94f6\u8272"}, {"key": "\u5bb9\u91cf", "value": "64G"}], "productBrand": "\u82f9\u679c", "productCategoryId": 53, "productId": 38, "productName": "Apple iPad 10.9\u82f1\u5bf8\u5e73\u677f\u7535\u8111 2022\u5e74\u6b3e", "productPic": "http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg", "productSkuCode": "202210280038001", "productSkuId": 213, "productSn": "100044025833", "productSubTitle": "\u301011.11\u5927\u7231\u8d85\u5927\u7231\u3011iPad9\u4ee3\u9650\u91cf\u62a2\u8d2d\uff0c\u4ef7\u683c\u4f18\u60e0\uff0c\u66f4\u4eab\u4ee5\u65e7\u6362\u65b0\u81f3\u9ad8\u8865\u8d34325\u5143\uff01\uff01\u5feb\u6765\u62a2\u8d2d\u5427\uff01\uff01", "quantity": 1}
+2025-10-18 12:00:47,497 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 12:00:47,497 - api - INFO - 响应状态码: 415
+2025-10-18 12:00:47,497 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:00:47,497 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:00:47,497 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:01:17,968 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:01:17,968 - api - INFO - 响应状态码: 200
+2025-10-18 12:01:18,008 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 12:01:18,008 - api - INFO - 响应状态码: 200
+2025-10-18 12:01:18,008 - api - INFO - 请求头: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMDAxIiwiY3JlYXRlZCI6MTc2MDc4ODc0NzEzNCwiZXhwIjoxNzYxMzkzNTQ3fQ._q_XiQfOx_WDn761Crj3PNJO6Et6xqrrawzXiJK4XRrgINF5vMGKp21_rzwNsa4joCOR7EGd1GXfdgvLiZ88jw', 'Content-Length': '774'}
+2025-10-18 12:01:18,008 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:01:18,008 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:01:18,062 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 12:01:18,062 - api - INFO - 响应状态码: 415
+2025-10-18 12:01:18,062 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:01:18,062 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:01:18,062 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:02:09,295 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:02:09,295 - api - INFO - 响应状态码: 200
+2025-10-18 12:02:09,325 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 12:02:09,326 - api - INFO - 响应状态码: 200
+2025-10-18 12:02:09,326 - api - INFO - 请求头: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMDAxIiwiY3JlYXRlZCI6MTc2MDc4ODc5ODMyNCwiZXhwIjoxNzYxMzkzNTk4fQ.zSTxbVzEBR-LxUTCeCrBzPydWmO8LLxIzNBXYp51XCfp2eEycio58GaJlTzBAh5dx0W8xiMluUDlYbaLTF-Q1Q', 'Content-Length': '774'}
+2025-10-18 12:02:09,326 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:02:09,326 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:02:09,358 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 12:02:09,358 - api - INFO - 响应状态码: 415
+2025-10-18 12:02:09,358 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:02:09,358 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:02:09,358 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:02:49,282 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:02:49,282 - api - INFO - 响应状态码: 200
+2025-10-18 12:02:49,285 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:02:49,289 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:02:49,307 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 12:02:49,307 - api - INFO - 响应状态码: 415
+2025-10-18 12:02:49,307 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:02:49,307 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:02:49,310 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:04:25,591 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:04:25,595 - api - INFO - 响应状态码: 200
+2025-10-18 12:05:32,473 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:05:32,473 - api - INFO - 响应状态码: 200
+2025-10-18 12:07:02,812 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:07:02,812 - api - INFO - 响应状态码: 200
+2025-10-18 12:07:02,817 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:07:02,817 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:07:02,833 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 12:07:02,833 - api - INFO - 响应状态码: 415
+2025-10-18 12:07:02,833 - api - ERROR - 请求异常: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:07:02,833 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:07:02,833 - api - ERROR - 请求错误: 415 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:18:18,396 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:18:18,397 - api - INFO - 响应状态码: 200
+2025-10-18 12:18:36,990 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 12:18:36,991 - api - INFO - 响应状态码: 200
+2025-10-18 12:18:36,995 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:18:36,995 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:18:37,019 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 12:18:37,019 - api - INFO - 响应状态码: 400
+2025-10-18 12:18:37,019 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:18:37,019 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:18:37,019 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:19:30,752 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:19:30,752 - api - INFO - 响应状态码: 200
+2025-10-18 12:19:30,759 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:19:30,759 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:19:30,775 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 12:19:30,775 - api - INFO - 响应状态码: 400
+2025-10-18 12:19:30,775 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:19:30,775 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:19:30,775 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:20:41,797 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:20:41,797 - api - INFO - 响应状态码: 200
+2025-10-18 12:20:41,801 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:20:41,801 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:20:41,821 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 12:20:41,821 - api - INFO - 响应状态码: 400
+2025-10-18 12:20:41,821 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:20:41,821 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:20:41,821 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:21:24,196 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 12:21:24,196 - api - INFO - 响应状态码: 200
+2025-10-18 12:21:24,202 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:21:24,202 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': [{'key': '颜色', 'value': '银色'}, {'key': '容量', 'value': '64G'}], 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:21:24,231 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 12:21:24,231 - api - INFO - 响应状态码: 400
+2025-10-18 12:21:24,231 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 12:21:24,231 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:21:24,231 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 12:22:07,932 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.19s
+2025-10-18 12:22:07,932 - api - INFO - 响应状态码: 200
+2025-10-18 12:22:07,936 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:22:27,024 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:22:27,024 - api - INFO - 响应状态码: 200
+2025-10-18 12:22:27,028 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:22:27,028 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:22:27,092 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.06s
+2025-10-18 12:22:27,092 - api - INFO - 响应状态码: 200
+2025-10-18 12:22:27,092 - api - INFO - add_cart请求头: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMDAxIiwiY3JlYXRlZCI6MTc2MDc5MDAxMjc3OCwiZXhwIjoxNzYxMzk0ODEyfQ.vjeu6iX-yhKXO-kmEuuGT9O-6Voo3OjRViJVL1QfEqgonA4FQ-dkkI9EJXWc-U-tk4Z1WRCd1VDBktvSaaUxJg', 'Content-Length': '760'}
+2025-10-18 12:22:56,892 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 12:22:56,892 - api - INFO - 响应状态码: 200
+2025-10-18 12:22:56,896 - api - INFO - 更新前的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}
+2025-10-18 12:22:56,896 - api - INFO - 更新后的 payload: {'price': 3599, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n', 'productBrand': '苹果', 'productCategoryId': 53, 'productId': 38, 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productSkuCode': '202210280038001', 'productSkuId': 213, 'productSn': '100044025833', 'productSubTitle': '【11.11大爱超大爱】iPad9代限量抢购，价格优惠，更享以旧换新至高补贴325元！！快来抢购吧！！', 'quantity': 1}, 类型： <class 'dict'>
+2025-10-18 12:22:56,950 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 12:22:56,950 - api - INFO - 响应状态码: 200
+2025-10-18 12:22:56,950 - api - INFO - add_cart请求头: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMDAxIiwiY3JlYXRlZCI6MTc2MDc5MDA0MjU2MiwiZXhwIjoxNzYxMzk0ODQyfQ.PTIVEmsDTYE9hmuc9UZZ7R4yfw4gaUx4lMbKR5-R8K_3BeyFXTG16JwRKofyMNUTLGFFTnrw7oqYKyQWyLLQZg', 'Content-Length': '760'}
+2025-10-18 12:24:02,177 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-18 12:24:02,177 - api - INFO - 响应状态码: 200
+2025-10-18 12:24:02,311 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.13s
+2025-10-18 12:24:02,312 - api - INFO - 响应状态码: 200
+2025-10-18 12:25:13,572 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 12:25:13,572 - api - INFO - 响应状态码: 200
+2025-10-18 12:25:13,610 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 12:25:13,610 - api - INFO - 响应状态码: 200
+2025-10-18 12:28:59,239 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 12:28:59,240 - api - INFO - 响应状态码: 200
+2025-10-18 12:28:59,267 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-18 12:28:59,267 - api - INFO - 响应状态码: 200
+2025-10-18 12:28:59,267 - api - INFO - 请求头: {'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMDAxIiwiY3JlYXRlZCI6MTc2MDc5MDQwMzkzNiwiZXhwIjoxNzYxMzk1MjAzfQ.6PTJOIp90VD6_dkZr7KKHY9Oz2Y2O5tPl8Ygm8X-5ybdMTRJSGcy_OqdCZ6Sz4o0Sez2UqXsqnH10cSyK27d4A', 'Content-Length': '774'}
+2025-10-18 12:28:59,309 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 12:28:59,310 - api - INFO - 响应状态码: 200
+2025-10-18 12:29:57,954 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 12:29:57,954 - api - INFO - 响应状态码: 200
+2025-10-18 12:29:57,987 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 12:29:57,987 - api - INFO - 响应状态码: 200
+2025-10-18 12:29:58,043 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.06s
+2025-10-18 12:29:58,043 - api - INFO - 响应状态码: 200
+2025-10-18 12:31:42,291 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.23s
+2025-10-18 12:31:42,292 - api - INFO - 响应状态码: 200
+2025-10-18 12:31:42,434 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.14s
+2025-10-18 12:31:42,438 - api - INFO - 响应状态码: 200
+2025-10-18 12:31:42,528 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.09s
+2025-10-18 12:31:42,528 - api - INFO - 响应状态码: 200
+2025-10-18 12:57:39,554 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:57:39,554 - api - INFO - 响应状态码: 200
+2025-10-18 12:58:30,985 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:58:30,985 - api - INFO - 响应状态码: 200
+2025-10-18 12:58:31,012 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-18 12:58:31,012 - api - INFO - 响应状态码: 200
+2025-10-18 12:58:31,045 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 12:58:31,045 - api - INFO - 响应状态码: 200
+2025-10-18 12:59:40,036 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 12:59:40,040 - api - INFO - 响应状态码: 200
+2025-10-18 13:01:29,282 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 13:01:29,282 - api - INFO - 响应状态码: 200
+2025-10-18 13:01:29,313 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 13:01:29,313 - api - INFO - 响应状态码: 200
+2025-10-18 13:04:33,805 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-18 13:04:33,809 - api - INFO - 响应状态码: 200
+2025-10-18 13:04:33,844 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 13:04:33,844 - api - INFO - 响应状态码: 200
+2025-10-18 13:24:37,716 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.21s
+2025-10-18 13:24:37,720 - api - INFO - 响应状态码: 200
+2025-10-18 13:24:37,759 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.04s
+2025-10-18 13:24:37,759 - api - INFO - 响应状态码: 200
+2025-10-18 13:24:37,818 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.06s
+2025-10-18 13:24:37,818 - api - INFO - 响应状态码: 200
+2025-10-18 13:24:37,880 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.06s
+2025-10-18 13:24:37,880 - api - INFO - 响应状态码: 200
+2025-10-18 13:27:12,196 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 13:27:12,200 - api - INFO - 响应状态码: 200
+2025-10-18 13:27:12,223 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-18 13:27:12,223 - api - INFO - 响应状态码: 200
+2025-10-18 13:27:12,262 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 13:27:12,262 - api - INFO - 响应状态码: 200
+2025-10-18 13:27:12,291 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-18 13:27:12,291 - api - INFO - 响应状态码: 200
+2025-10-18 13:46:17,046 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 13:46:17,046 - api - INFO - 响应状态码: 200
+2025-10-18 13:46:17,088 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 13:46:17,088 - api - INFO - 响应状态码: 200
+2025-10-18 13:46:17,131 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 13:46:17,131 - api - INFO - 响应状态码: 200
+2025-10-18 13:46:17,172 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-18 13:46:17,176 - api - INFO - 响应状态码: 200
+2025-10-18 13:46:17,213 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=29&quantity=4 耗时: 0.04s
+2025-10-18 13:46:17,213 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:16,280 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 13:51:16,280 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:16,326 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.04s
+2025-10-18 13:51:16,326 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:16,375 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 13:51:16,375 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:16,397 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 13:51:16,398 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:16,421 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=29&quantity=4 耗时: 0.02s
+2025-10-18 13:51:16,421 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:16,443 - api - INFO - [GET] http://192.168.220.128:8085/cart/delete?ids=301 耗时: 0.02s
+2025-10-18 13:51:16,443 - api - INFO - 响应状态码: 405
+2025-10-18 13:51:16,443 - api - ERROR - 请求异常: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=301, 响应体: 无
+2025-10-18 13:51:16,443 - api - ERROR - 请求 http://192.168.220.128:8085/cart/delete?ids=301 发生错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=301
+2025-10-18 13:51:16,443 - api - ERROR - 请求错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=301
+2025-10-18 13:51:41,674 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.20s
+2025-10-18 13:51:41,674 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:41,695 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-18 13:51:41,695 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:41,723 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 13:51:41,723 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:41,742 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 13:51:41,742 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:41,758 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=29&quantity=4 耗时: 0.01s
+2025-10-18 13:51:41,758 - api - INFO - 响应状态码: 200
+2025-10-18 13:51:41,770 - api - INFO - [GET] http://192.168.220.128:8085/cart/delete?ids=301 耗时: 0.01s
+2025-10-18 13:51:41,774 - api - INFO - 响应状态码: 405
+2025-10-18 13:51:41,774 - api - ERROR - 请求异常: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=301, 响应体: 无
+2025-10-18 13:51:41,774 - api - ERROR - 请求 http://192.168.220.128:8085/cart/delete?ids=301 发生错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=301
+2025-10-18 13:51:41,774 - api - ERROR - 请求错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=301
+2025-10-18 13:52:22,760 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 13:52:22,760 - api - INFO - 响应状态码: 200
+2025-10-18 13:52:22,795 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.03s
+2025-10-18 13:52:22,795 - api - INFO - 响应状态码: 200
+2025-10-18 13:52:22,826 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 13:52:22,830 - api - INFO - 响应状态码: 200
+2025-10-18 13:52:22,853 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 13:52:22,853 - api - INFO - 响应状态码: 200
+2025-10-18 13:52:22,881 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=302&quantity=4 耗时: 0.03s
+2025-10-18 13:52:22,881 - api - INFO - 响应状态码: 200
+2025-10-18 13:52:22,916 - api - INFO - [GET] http://192.168.220.128:8085/cart/delete?ids=303 耗时: 0.03s
+2025-10-18 13:52:22,916 - api - INFO - 响应状态码: 405
+2025-10-18 13:52:22,916 - api - ERROR - 请求异常: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=303, 响应体: 无
+2025-10-18 13:52:22,916 - api - ERROR - 请求 http://192.168.220.128:8085/cart/delete?ids=303 发生错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=303
+2025-10-18 13:52:22,916 - api - ERROR - 请求错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=303
+2025-10-18 13:54:25,638 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.19s
+2025-10-18 13:54:25,638 - api - INFO - 响应状态码: 200
+2025-10-18 13:54:25,661 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=305&quantity=4 耗时: 0.02s
+2025-10-18 13:54:25,661 - api - INFO - 响应状态码: 200
+2025-10-18 13:54:42,805 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 13:54:42,805 - api - INFO - 响应状态码: 200
+2025-10-18 13:54:42,821 - api - INFO - [GET] http://192.168.220.128:8085/cart/delete?ids=305 耗时: 0.01s
+2025-10-18 13:54:42,821 - api - INFO - 响应状态码: 405
+2025-10-18 13:54:42,821 - api - ERROR - 请求异常: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=305, 响应体: 无
+2025-10-18 13:54:42,821 - api - ERROR - 请求 http://192.168.220.128:8085/cart/delete?ids=305 发生错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=305
+2025-10-18 13:54:42,825 - api - ERROR - 请求错误: 405 Client Error:  for url: http://192.168.220.128:8085/cart/delete?ids=305
+2025-10-18 13:57:47,948 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 13:57:47,948 - api - INFO - 响应状态码: 200
+2025-10-18 13:57:47,981 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=305 耗时: 0.03s
+2025-10-18 13:57:47,981 - api - INFO - 响应状态码: 200
+2025-10-18 14:10:10,270 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 14:10:10,270 - api - INFO - 响应状态码: 200
+2025-10-18 14:25:43,336 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 14:25:43,336 - api - INFO - 响应状态码: 200
+2025-10-18 14:29:32,807 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 14:29:32,807 - api - INFO - 响应状态码: 200
+2025-10-18 14:30:32,515 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 14:30:32,515 - api - INFO - 响应状态码: 200
+2025-10-18 14:30:55,830 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 14:30:55,830 - api - INFO - 响应状态码: 200
+2025-10-18 14:31:11,911 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 14:31:11,911 - api - INFO - 响应状态码: 200
+2025-10-18 14:36:55,133 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 14:36:55,133 - api - INFO - 响应状态码: 200
+2025-10-18 14:36:57,540 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.40s
+2025-10-18 14:36:57,542 - api - INFO - 响应状态码: 200
+2025-10-18 14:36:57,542 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.40s
+2025-10-18 14:43:07,591 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 14:43:07,591 - api - INFO - 响应状态码: 200
+2025-10-18 14:43:10,196 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.60s
+2025-10-18 14:43:10,196 - api - INFO - 响应状态码: 200
+2025-10-18 14:43:10,196 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.60s
+2025-10-18 14:43:10,218 - api - INFO - [GET] http://192.168.220.128:8085/member/productCollection/detail?productId=29 耗时: 0.02s
+2025-10-18 14:43:10,218 - api - INFO - 响应状态码: 200
+2025-10-18 14:43:54,853 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 14:43:54,853 - api - INFO - 响应状态码: 200
+2025-10-18 14:43:57,590 - api - INFO - [GET] http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 耗时: 2.73s
+2025-10-18 14:43:57,590 - api - INFO - 响应状态码: 200
+2025-10-18 14:43:57,590 - api - WARNING - ⚠️ 接口 http://192.168.220.128:8085/product/search?keyword=iphone&pageNum=1&pageSize=10 响应超时: 2.73s
+2025-10-18 14:43:57,643 - api - INFO - [GET] http://192.168.220.128:8085/product/detail/29 耗时: 0.05s
+2025-10-18 14:43:57,643 - api - INFO - 响应状态码: 200
+2025-10-18 14:46:15,331 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 14:46:15,332 - api - INFO - 响应状态码: 200
+2025-10-18 14:46:15,352 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 14:46:15,352 - api - INFO - 响应状态码: 200
+2025-10-18 15:47:14,317 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.34s
+2025-10-18 15:47:14,317 - api - INFO - 响应状态码: 200
+2025-10-18 15:47:14,353 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 15:47:14,353 - api - INFO - 响应状态码: 200
+2025-10-18 15:47:14,375 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 15:47:14,375 - api - INFO - 响应状态码: 200
+2025-10-18 16:10:52,406 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 16:10:52,406 - api - INFO - 响应状态码: 200
+2025-10-18 16:10:52,434 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 16:10:52,434 - api - INFO - 响应状态码: 200
+2025-10-18 16:10:52,450 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:10:52,450 - api - INFO - 响应状态码: 200
+2025-10-18 16:13:59,758 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:13:59,761 - api - INFO - 响应状态码: 200
+2025-10-18 16:13:59,823 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.06s
+2025-10-18 16:13:59,823 - api - INFO - 响应状态码: 200
+2025-10-18 16:13:59,845 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:13:59,846 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:15,832 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 16:18:15,833 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:15,887 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.05s
+2025-10-18 16:18:15,887 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:15,910 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:18:15,910 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:15,934 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:18:15,934 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:31,535 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:18:31,535 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:31,564 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 16:18:31,564 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:31,580 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:18:31,580 - api - INFO - 响应状态码: 200
+2025-10-18 16:18:31,626 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.05s
+2025-10-18 16:18:31,626 - api - INFO - 响应状态码: 400
+2025-10-18 16:18:31,626 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:18:31,626 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:18:31,626 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:20:58,372 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:20:58,372 - api - INFO - 响应状态码: 200
+2025-10-18 16:20:58,395 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 16:20:58,395 - api - INFO - 响应状态码: 200
+2025-10-18 16:20:58,407 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.01s
+2025-10-18 16:20:58,407 - api - INFO - 响应状态码: 200
+2025-10-18 16:20:58,418 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.01s
+2025-10-18 16:20:58,418 - api - INFO - 响应状态码: 400
+2025-10-18 16:20:58,418 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:20:58,418 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:20:58,418 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:22:52,363 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:22:52,364 - api - INFO - 响应状态码: 200
+2025-10-18 16:22:52,385 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 16:22:52,386 - api - INFO - 响应状态码: 200
+2025-10-18 16:22:52,398 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.01s
+2025-10-18 16:22:52,398 - api - INFO - 响应状态码: 200
+2025-10-18 16:22:52,417 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-18 16:22:52,417 - api - INFO - 响应状态码: 400
+2025-10-18 16:22:52,417 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:22:52,417 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:22:52,418 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:23:37,763 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:23:37,763 - api - INFO - 响应状态码: 200
+2025-10-18 16:23:37,802 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 16:23:37,802 - api - INFO - 响应状态码: 200
+2025-10-18 16:23:37,829 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.03s
+2025-10-18 16:23:37,829 - api - INFO - 响应状态码: 200
+2025-10-18 16:23:37,849 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-18 16:23:37,849 - api - INFO - 响应状态码: 400
+2025-10-18 16:23:37,849 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:23:37,849 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:23:37,849 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:25:36,946 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:25:36,946 - api - INFO - 响应状态码: 200
+2025-10-18 16:25:36,967 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 16:25:36,967 - api - INFO - 响应状态码: 200
+2025-10-18 16:25:36,980 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.01s
+2025-10-18 16:25:36,980 - api - INFO - 响应状态码: 200
+2025-10-18 16:25:37,006 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.03s
+2025-10-18 16:25:37,007 - api - INFO - 响应状态码: 400
+2025-10-18 16:25:37,007 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:25:37,007 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:25:37,008 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:27:10,134 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 16:27:10,135 - api - INFO - 响应状态码: 200
+2025-10-18 16:27:10,168 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 16:27:10,168 - api - INFO - 响应状态码: 200
+2025-10-18 16:27:10,185 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:27:10,186 - api - INFO - 响应状态码: 200
+2025-10-18 16:27:10,202 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-18 16:27:10,202 - api - INFO - 响应状态码: 400
+2025-10-18 16:27:10,202 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:27:10,202 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:27:10,202 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:27:51,510 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:27:51,510 - api - INFO - 响应状态码: 200
+2025-10-18 16:27:51,538 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 16:27:51,538 - api - INFO - 响应状态码: 200
+2025-10-18 16:27:51,554 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:27:51,554 - api - INFO - 响应状态码: 200
+2025-10-18 16:27:51,573 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-18 16:27:51,573 - api - INFO - 响应状态码: 400
+2025-10-18 16:27:51,573 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:27:51,573 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:27:51,573 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:41:36,632 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 16:41:36,632 - api - INFO - 响应状态码: 200
+2025-10-18 16:41:36,659 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-18 16:41:36,659 - api - INFO - 响应状态码: 200
+2025-10-18 16:41:36,681 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.02s
+2025-10-18 16:41:36,681 - api - INFO - 响应状态码: 200
+2025-10-18 16:41:36,704 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 16:41:36,704 - api - INFO - 响应状态码: 200
+2025-10-18 16:41:36,736 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=305&quantity=4 耗时: 0.03s
+2025-10-18 16:41:36,736 - api - INFO - 响应状态码: 200
+2025-10-18 16:41:36,757 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=305 耗时: 0.02s
+2025-10-18 16:41:36,760 - api - INFO - 响应状态码: 200
+2025-10-18 16:45:13,141 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 16:45:13,141 - api - INFO - 响应状态码: 200
+2025-10-18 16:45:13,165 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 16:45:13,165 - api - INFO - 响应状态码: 200
+2025-10-18 16:45:13,177 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.01s
+2025-10-18 16:45:13,177 - api - INFO - 响应状态码: 200
+2025-10-18 16:45:13,188 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.01s
+2025-10-18 16:45:13,188 - api - INFO - 响应状态码: 400
+2025-10-18 16:45:13,188 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:45:13,188 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:45:13,188 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:45:38,013 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.17s
+2025-10-18 16:45:38,014 - api - INFO - 响应状态码: 200
+2025-10-18 16:45:38,043 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 16:45:38,043 - api - INFO - 响应状态码: 200
+2025-10-18 16:45:38,060 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 16:45:38,060 - api - INFO - 响应状态码: 200
+2025-10-18 16:45:38,082 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.02s
+2025-10-18 16:45:38,082 - api - INFO - 响应状态码: 400
+2025-10-18 16:45:38,083 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder, 响应体: 无
+2025-10-18 16:45:38,083 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateConfirmOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:45:38,083 - api - ERROR - 请求错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateConfirmOrder
+2025-10-18 16:46:33,956 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 16:46:33,956 - api - INFO - 响应状态码: 200
+2025-10-18 16:46:33,984 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 16:46:33,984 - api - INFO - 响应状态码: 200
+2025-10-18 16:46:34,031 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.05s
+2025-10-18 16:46:34,031 - api - INFO - 响应状态码: 200
+2025-10-18 16:47:35,934 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 16:47:35,935 - api - INFO - 响应状态码: 200
+2025-10-18 16:47:35,995 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.05s
+2025-10-18 16:47:35,995 - api - INFO - 响应状态码: 200
+2025-10-18 16:47:36,041 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.05s
+2025-10-18 16:47:36,041 - api - INFO - 响应状态码: 200
+2025-10-18 17:01:56,808 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-18 17:01:56,808 - api - INFO - 响应状态码: 200
+2025-10-18 17:01:56,837 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 17:01:56,837 - api - INFO - 响应状态码: 200
+2025-10-18 17:01:56,874 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.04s
+2025-10-18 17:01:56,878 - api - INFO - 响应状态码: 200
+2025-10-18 17:01:56,878 - api - ERROR - payload 默认值不符合预期格式，应该是字典
+2025-10-18 17:05:06,849 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 17:05:06,849 - api - INFO - 响应状态码: 200
+2025-10-18 17:05:06,911 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.05s
+2025-10-18 17:05:06,911 - api - INFO - 响应状态码: 200
+2025-10-18 17:05:06,979 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.07s
+2025-10-18 17:05:06,979 - api - INFO - 响应状态码: 200
+2025-10-18 17:05:07,017 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 17:05:07,017 - api - INFO - 响应状态码: 200
+2025-10-18 17:06:05,280 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 17:06:05,280 - api - INFO - 响应状态码: 200
+2025-10-18 17:06:05,303 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 17:06:05,307 - api - INFO - 响应状态码: 200
+2025-10-18 17:06:05,346 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.04s
+2025-10-18 17:06:05,346 - api - INFO - 响应状态码: 200
+2025-10-18 17:06:05,388 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 17:06:05,388 - api - INFO - 响应状态码: 200
+2025-10-18 17:07:18,013 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 17:07:18,013 - api - INFO - 响应状态码: 200
+2025-10-18 17:07:18,048 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 17:07:18,049 - api - INFO - 响应状态码: 200
+2025-10-18 17:07:18,099 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.05s
+2025-10-18 17:07:18,099 - api - INFO - 响应状态码: 200
+2025-10-18 17:07:31,460 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 17:07:31,461 - api - INFO - 响应状态码: 200
+2025-10-18 17:07:31,503 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 17:07:31,504 - api - INFO - 响应状态码: 200
+2025-10-18 17:07:31,557 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.05s
+2025-10-18 17:07:31,557 - api - INFO - 响应状态码: 200
+2025-10-18 17:07:31,598 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 17:07:31,598 - api - INFO - 响应状态码: 200
+2025-10-18 17:11:13,944 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 17:11:13,944 - api - INFO - 响应状态码: 200
+2025-10-18 17:11:13,980 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 17:11:13,980 - api - INFO - 响应状态码: 200
+2025-10-18 17:11:14,028 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.05s
+2025-10-18 17:11:14,028 - api - INFO - 响应状态码: 200
+2025-10-18 17:11:14,072 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 17:11:14,072 - api - INFO - 响应状态码: 200
+2025-10-18 17:55:03,421 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 17:55:03,421 - api - INFO - 响应状态码: 200
+2025-10-18 17:55:03,477 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.05s
+2025-10-18 17:55:03,477 - api - INFO - 响应状态码: 200
+2025-10-18 17:55:03,557 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.08s
+2025-10-18 17:55:03,557 - api - INFO - 响应状态码: 200
+2025-10-18 17:55:03,600 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-18 17:55:03,601 - api - INFO - 响应状态码: 200
+2025-10-18 17:55:03,639 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=305&quantity=4 耗时: 0.04s
+2025-10-18 17:55:03,640 - api - INFO - 响应状态码: 200
+2025-10-18 17:55:03,677 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=305 耗时: 0.04s
+2025-10-18 17:55:03,678 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:05,717 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 17:56:05,717 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:05,751 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 17:56:05,751 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:05,786 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 17:56:05,790 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:05,809 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 17:56:05,809 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:39,243 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 17:56:39,243 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:39,274 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 17:56:39,274 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:39,337 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 17:56:39,337 - api - INFO - 响应状态码: 200
+2025-10-18 17:56:39,376 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-18 17:56:39,380 - api - INFO - 响应状态码: 200
+2025-10-18 17:57:18,383 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 17:57:18,384 - api - INFO - 响应状态码: 200
+2025-10-18 17:57:18,409 - api - INFO - [POST] http://192.168.220.128:8085/cart/clear 耗时: 0.02s
+2025-10-18 17:57:18,410 - api - INFO - 响应状态码: 200
+2025-10-18 17:57:18,438 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 17:57:18,438 - api - INFO - 响应状态码: 200
+2025-10-18 17:57:18,457 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.01s
+2025-10-18 17:57:18,457 - api - INFO - 响应状态码: 200
+2025-10-18 17:57:18,476 - api - INFO - [GET] http://192.168.220.128:8085/cart/update/quantity?id=305&quantity=4 耗时: 0.02s
+2025-10-18 17:57:18,476 - api - INFO - 响应状态码: 200
+2025-10-18 17:57:18,498 - api - INFO - [POST] http://192.168.220.128:8085/cart/delete?ids=305 耗时: 0.02s
+2025-10-18 17:57:18,498 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:00,192 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 17:58:00,192 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:00,224 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.02s
+2025-10-18 17:58:00,224 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:00,288 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.06s
+2025-10-18 17:58:00,289 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:00,326 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-18 17:58:00,326 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:19,164 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 17:58:19,164 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:19,215 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 17:58:19,219 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:19,301 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.07s
+2025-10-18 17:58:19,301 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:19,324 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 17:58:19,324 - api - INFO - 响应状态码: 200
+2025-10-18 17:58:19,348 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 17:58:19,348 - api - INFO - 响应状态码: 400
+2025-10-18 17:58:19,348 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder, 响应体: 无
+2025-10-18 17:58:19,348 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder
+2025-10-18 17:59:11,776 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 17:59:11,777 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:11,826 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 17:59:11,826 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:11,895 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.06s
+2025-10-18 17:59:11,895 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:11,975 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.08s
+2025-10-18 17:59:11,975 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:12,001 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.02s
+2025-10-18 17:59:12,001 - api - INFO - 响应状态码: 400
+2025-10-18 17:59:12,001 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder, 响应体: 无
+2025-10-18 17:59:12,001 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder
+2025-10-18 17:59:38,004 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 17:59:38,004 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:38,061 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.05s
+2025-10-18 17:59:38,061 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:38,175 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.10s
+2025-10-18 17:59:38,175 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:38,225 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.05s
+2025-10-18 17:59:38,225 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:51,096 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 17:59:51,096 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:51,134 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.03s
+2025-10-18 17:59:51,134 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:51,192 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 17:59:51,192 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:51,233 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-18 17:59:51,233 - api - INFO - 响应状态码: 200
+2025-10-18 17:59:51,287 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.05s
+2025-10-18 17:59:51,287 - api - INFO - 响应状态码: 400
+2025-10-18 17:59:51,287 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder, 响应体: 无
+2025-10-18 17:59:51,288 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder
+2025-10-18 18:00:29,658 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.17s
+2025-10-18 18:00:29,658 - api - INFO - 响应状态码: 200
+2025-10-18 18:00:29,725 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.06s
+2025-10-18 18:00:29,725 - api - INFO - 响应状态码: 200
+2025-10-18 18:00:29,780 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 18:00:29,780 - api - INFO - 响应状态码: 200
+2025-10-18 18:00:29,803 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 18:00:29,803 - api - INFO - 响应状态码: 200
+2025-10-18 18:00:29,926 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.12s
+2025-10-18 18:00:29,926 - api - INFO - 响应状态码: 200
+2025-10-18 18:00:29,969 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 18:00:29,969 - api - INFO - 响应状态码: 200
+2025-10-18 18:28:18,524 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 18:28:18,528 - api - INFO - 响应状态码: 200
+2025-10-18 18:32:17,814 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.13s
+2025-10-18 18:32:17,815 - api - INFO - 响应状态码: 200
+2025-10-18 18:32:17,868 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 18:32:17,868 - api - INFO - 响应状态码: 500
+2025-10-18 18:32:17,868 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/cart/add, 响应体: 无
+2025-10-18 18:32:17,868 - api - ERROR - 请求 http://192.168.220.128:8085/cart/add 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/cart/add
+2025-10-18 18:41:15,965 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 18:41:15,965 - api - INFO - 响应状态码: 200
+2025-10-18 18:41:16,016 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 18:41:16,016 - api - INFO - 响应状态码: 200
+2025-10-18 18:41:16,135 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.11s
+2025-10-18 18:41:16,135 - api - INFO - 响应状态码: 200
+2025-10-18 18:41:16,190 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.06s
+2025-10-18 18:41:16,190 - api - INFO - 响应状态码: 200
+2025-10-18 18:41:39,925 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 18:41:39,925 - api - INFO - 响应状态码: 200
+2025-10-18 18:41:39,999 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.06s
+2025-10-18 18:41:40,003 - api - INFO - 响应状态码: 200
+2025-10-18 18:41:40,059 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 18:41:40,063 - api - INFO - 响应状态码: 200
+2025-10-18 18:41:40,082 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 18:41:40,082 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:01,166 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.15s
+2025-10-18 18:42:01,166 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:01,231 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.06s
+2025-10-18 18:42:01,231 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:01,359 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.12s
+2025-10-18 18:42:01,359 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:01,413 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.05s
+2025-10-18 18:42:01,413 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:01,454 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.04s
+2025-10-18 18:42:01,454 - api - INFO - 响应状态码: 400
+2025-10-18 18:42:01,454 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder, 响应体: 无
+2025-10-18 18:42:01,454 - api - ERROR - 请求 http://192.168.220.128:8085/order/generateOrder 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/generateOrder
+2025-10-18 18:42:13,266 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 18:42:13,266 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:13,333 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.06s
+2025-10-18 18:42:13,333 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:13,393 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.05s
+2025-10-18 18:42:13,393 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:13,418 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 18:42:13,418 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:13,590 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.17s
+2025-10-18 18:42:13,591 - api - INFO - 响应状态码: 200
+2025-10-18 18:42:13,630 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 18:42:13,630 - api - INFO - 响应状态码: 200
+2025-10-18 18:47:17,309 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.14s
+2025-10-18 18:47:17,309 - api - INFO - 响应状态码: 200
+2025-10-18 18:47:17,374 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.05s
+2025-10-18 18:47:17,374 - api - INFO - 响应状态码: 200
+2025-10-18 18:47:17,443 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.07s
+2025-10-18 18:47:17,443 - api - INFO - 响应状态码: 200
+2025-10-18 18:47:17,471 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-18 18:47:17,472 - api - INFO - 响应状态码: 200
+2025-10-18 18:47:17,472 - api - INFO - 从购物车获取 cartIds: [316]
+2025-10-18 18:47:17,584 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.11s
+2025-10-18 18:47:17,584 - api - INFO - 响应状态码: 200
+2025-10-18 18:47:17,584 - api - INFO - 订单创建成功: {'code': 200, 'message': '下单成功', 'data': {'orderItemList': [{'orderId': 145, 'orderSn': '202510190100000022', 'productId': 38, 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productBrand': '苹果', 'productSn': '100044025833', 'productPrice': 3599.0, 'productQuantity': 1, 'productSkuId': 213, 'productSkuCode': '202210280038001', 'productCategoryId': 53, 'promotionName': '无优惠', 'promotionAmount': 0, 'couponAmount': 0, 'integrationAmount': 0, 'realAmount': 3599.0, 'giftIntegration': 0, 'giftGrowth': 0, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n'}], 'order': {'id': 145, 'memberId': 16, 'orderSn': '202510190100000022', 'createTime': '2025-10-18T18:44:01.176+00:00', 'memberUsername': 'user001', 'totalAmount': 3599.0, 'payAmount': 3599.0, 'freightAmount': 0, 'promotionAmount': 0, 'integrationAmount': 0, 'couponAmount': 0, 'discountAmount': 0, 'payType': 0, 'sourceType': 1, 'status': 0, 'orderType': 0, 'autoConfirmDay': 15, 'integration': 0, 'growth': 0, 'promotionInfo': '无优惠', 'receiverName': 'z', 'receiverPhone': '13666666666', 'receiverPostCode': '525252', 'receiverProvince': '广东省', 'receiverCity': '', 'receiverRegion': '', 'receiverDetailAddress': '番禺区', 'confirmStatus': 0, 'deleteStatus': 0, 'useIntegration': 0}}}
+2025-10-18 18:47:17,627 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 18:47:17,627 - api - INFO - 响应状态码: 200
+2025-10-18 18:47:17,627 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-18 20:59:13,960 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.16s
+2025-10-18 20:59:13,960 - api - INFO - 响应状态码: 200
+2025-10-18 20:59:14,025 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 20:59:14,029 - api - INFO - 响应状态码: 200
+2025-10-18 20:59:14,067 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 20:59:14,067 - api - INFO - 响应状态码: 200
+2025-10-18 20:59:14,090 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 20:59:14,090 - api - INFO - 响应状态码: 200
+2025-10-18 20:59:14,090 - api - INFO - 从购物车获取 cartIds: [317]
+2025-10-18 20:59:14,267 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.18s
+2025-10-18 20:59:14,267 - api - INFO - 响应状态码: 200
+2025-10-18 20:59:14,267 - api - INFO - 订单创建成功: {'code': 200, 'message': '下单成功', 'data': {'orderItemList': [{'orderId': 146, 'orderSn': '202510190100000001', 'productId': 38, 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productBrand': '苹果', 'productSn': '100044025833', 'productPrice': 3599.0, 'productQuantity': 1, 'productSkuId': 213, 'productSkuCode': '202210280038001', 'productCategoryId': 53, 'promotionName': '无优惠', 'promotionAmount': 0, 'couponAmount': 0, 'integrationAmount': 0, 'realAmount': 3599.0, 'giftIntegration': 0, 'giftGrowth': 0, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n'}], 'order': {'id': 146, 'memberId': 16, 'orderSn': '202510190100000001', 'createTime': '2025-10-18T20:59:08.872+00:00', 'memberUsername': 'user001', 'totalAmount': 3599.0, 'payAmount': 3599.0, 'freightAmount': 0, 'promotionAmount': 0, 'integrationAmount': 0, 'couponAmount': 0, 'discountAmount': 0, 'payType': 0, 'sourceType': 1, 'status': 0, 'orderType': 0, 'autoConfirmDay': 15, 'integration': 0, 'growth': 0, 'promotionInfo': '无优惠', 'receiverName': 'z', 'receiverPhone': '13666666666', 'receiverPostCode': '525252', 'receiverProvince': '广东省', 'receiverCity': '', 'receiverRegion': '', 'receiverDetailAddress': '番禺区', 'confirmStatus': 0, 'deleteStatus': 0, 'useIntegration': 0}}}
+2025-10-18 20:59:14,332 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.07s
+2025-10-18 20:59:14,332 - api - INFO - 响应状态码: 200
+2025-10-18 20:59:14,332 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-18 21:14:20,807 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.30s
+2025-10-18 21:14:20,807 - api - INFO - 响应状态码: 200
+2025-10-18 21:14:20,929 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.10s
+2025-10-18 21:14:20,929 - api - INFO - 响应状态码: 200
+2025-10-18 21:14:21,002 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.07s
+2025-10-18 21:14:21,002 - api - INFO - 响应状态码: 200
+2025-10-18 21:14:21,034 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-18 21:14:21,034 - api - INFO - 响应状态码: 200
+2025-10-18 21:14:21,034 - api - INFO - 从购物车获取 cartIds: [318]
+2025-10-18 21:14:21,119 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.09s
+2025-10-18 21:14:21,119 - api - INFO - 响应状态码: 200
+2025-10-18 21:14:21,119 - api - INFO - 订单创建成功: {'code': 200, 'message': '下单成功', 'data': {'orderItemList': [{'orderId': 147, 'orderSn': '202510190100000002', 'productId': 38, 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productBrand': '苹果', 'productSn': '100044025833', 'productPrice': 3599.0, 'productQuantity': 1, 'productSkuId': 213, 'productSkuCode': '202210280038001', 'productCategoryId': 53, 'promotionName': '无优惠', 'promotionAmount': 0, 'couponAmount': 0, 'integrationAmount': 0, 'realAmount': 3599.0, 'giftIntegration': 0, 'giftGrowth': 0, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n'}], 'order': {'id': 147, 'memberId': 16, 'orderSn': '202510190100000002', 'createTime': '2025-10-18T21:14:13.361+00:00', 'memberUsername': 'user001', 'totalAmount': 3599.0, 'payAmount': 3599.0, 'freightAmount': 0, 'promotionAmount': 0, 'integrationAmount': 0, 'couponAmount': 0, 'discountAmount': 0, 'payType': 0, 'sourceType': 1, 'status': 0, 'orderType': 0, 'autoConfirmDay': 15, 'integration': 0, 'growth': 0, 'promotionInfo': '无优惠', 'receiverName': 'z', 'receiverPhone': '13666666666', 'receiverPostCode': '525252', 'receiverProvince': '广东省', 'receiverCity': '', 'receiverRegion': '', 'receiverDetailAddress': '番禺区', 'confirmStatus': 0, 'deleteStatus': 0, 'useIntegration': 0}}}
+2025-10-18 21:14:21,168 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.05s
+2025-10-18 21:14:21,169 - api - INFO - 响应状态码: 200
+2025-10-18 21:14:21,169 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-18 21:14:21,252 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.08s
+2025-10-18 21:14:21,255 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:34,909 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.17s
+2025-10-18 21:34:34,911 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:34,977 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.05s
+2025-10-18 21:34:34,977 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:35,012 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.03s
+2025-10-18 21:34:35,012 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:35,030 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 21:34:35,033 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:35,033 - api - INFO - 从购物车获取 cartIds: [319]
+2025-10-18 21:34:35,171 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.14s
+2025-10-18 21:34:35,171 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:35,171 - api - INFO - 订单创建成功: {'code': 200, 'message': '下单成功', 'data': {'orderItemList': [{'orderId': 148, 'orderSn': '202510190100000003', 'productId': 38, 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productBrand': '苹果', 'productSn': '100044025833', 'productPrice': 3599.0, 'productQuantity': 1, 'productSkuId': 213, 'productSkuCode': '202210280038001', 'productCategoryId': 53, 'promotionName': '无优惠', 'promotionAmount': 0, 'couponAmount': 0, 'integrationAmount': 0, 'realAmount': 3599.0, 'giftIntegration': 0, 'giftGrowth': 0, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n'}], 'order': {'id': 148, 'memberId': 16, 'orderSn': '202510190100000003', 'createTime': '2025-10-18T21:34:24.118+00:00', 'memberUsername': 'user001', 'totalAmount': 3599.0, 'payAmount': 3599.0, 'freightAmount': 0, 'promotionAmount': 0, 'integrationAmount': 0, 'couponAmount': 0, 'discountAmount': 0, 'payType': 0, 'sourceType': 1, 'status': 0, 'orderType': 0, 'autoConfirmDay': 15, 'integration': 0, 'growth': 0, 'promotionInfo': '无优惠', 'receiverName': 'z', 'receiverPhone': '13666666666', 'receiverPostCode': '525252', 'receiverProvince': '广东省', 'receiverCity': '', 'receiverRegion': '', 'receiverDetailAddress': '番禺区', 'confirmStatus': 0, 'deleteStatus': 0, 'useIntegration': 0}}}
+2025-10-18 21:34:35,213 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 21:34:35,216 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:35,216 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-18 21:34:35,255 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.04s
+2025-10-18 21:34:35,255 - api - INFO - 响应状态码: 200
+2025-10-18 21:34:35,305 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.04s
+2025-10-18 21:34:35,305 - api - INFO - 响应状态码: 500
+2025-10-18 21:34:35,305 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/order/cancelUserOrder, 响应体: 无
+2025-10-18 21:34:35,305 - api - ERROR - 请求 http://192.168.220.128:8085/order/cancelUserOrder 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/order/cancelUserOrder
+2025-10-18 21:35:53,457 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 21:35:53,457 - api - INFO - 响应状态码: 200
+2025-10-18 21:35:53,513 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 21:35:53,513 - api - INFO - 响应状态码: 200
+2025-10-18 21:35:53,584 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.07s
+2025-10-18 21:35:53,584 - api - INFO - 响应状态码: 200
+2025-10-18 21:35:53,613 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-18 21:35:53,613 - api - INFO - 响应状态码: 200
+2025-10-18 21:35:53,614 - api - INFO - 从购物车获取 cartIds: [320]
+2025-10-18 21:35:53,798 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.18s
+2025-10-18 21:35:53,798 - api - INFO - 响应状态码: 200
+2025-10-18 21:35:53,798 - api - INFO - 订单创建成功: {'code': 200, 'message': '下单成功', 'data': {'orderItemList': [{'orderId': 149, 'orderSn': '202510190100000004', 'productId': 38, 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productBrand': '苹果', 'productSn': '100044025833', 'productPrice': 3599.0, 'productQuantity': 1, 'productSkuId': 213, 'productSkuCode': '202210280038001', 'productCategoryId': 53, 'promotionName': '无优惠', 'promotionAmount': 0, 'couponAmount': 0, 'integrationAmount': 0, 'realAmount': 3599.0, 'giftIntegration': 0, 'giftGrowth': 0, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n'}], 'order': {'id': 149, 'memberId': 16, 'orderSn': '202510190100000004', 'createTime': '2025-10-18T21:35:42.510+00:00', 'memberUsername': 'user001', 'totalAmount': 3599.0, 'payAmount': 3599.0, 'freightAmount': 0, 'promotionAmount': 0, 'integrationAmount': 0, 'couponAmount': 0, 'discountAmount': 0, 'payType': 0, 'sourceType': 1, 'status': 0, 'orderType': 0, 'autoConfirmDay': 15, 'integration': 0, 'growth': 0, 'promotionInfo': '无优惠', 'receiverName': 'z', 'receiverPhone': '13666666666', 'receiverPostCode': '525252', 'receiverProvince': '广东省', 'receiverCity': '', 'receiverRegion': '', 'receiverDetailAddress': '番禺区', 'confirmStatus': 0, 'deleteStatus': 0, 'useIntegration': 0}}}
+2025-10-18 21:35:53,871 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.07s
+2025-10-18 21:35:53,871 - api - INFO - 响应状态码: 200
+2025-10-18 21:35:53,871 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-18 21:35:53,920 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-18 21:35:53,920 - api - INFO - 响应状态码: 200
+2025-10-18 21:35:53,951 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.03s
+2025-10-18 21:35:53,951 - api - INFO - 响应状态码: 500
+2025-10-18 21:35:53,954 - api - ERROR - 请求异常: 500 Server Error:  for url: http://192.168.220.128:8085/order/cancelUserOrder, 响应体: 无
+2025-10-18 21:35:53,954 - api - ERROR - 请求 http://192.168.220.128:8085/order/cancelUserOrder 发生错误: 500 Server Error:  for url: http://192.168.220.128:8085/order/cancelUserOrder
+2025-10-18 21:36:09,224 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 21:36:09,224 - api - INFO - 响应状态码: 200
+2025-10-18 21:36:09,279 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.04s
+2025-10-18 21:36:09,279 - api - INFO - 响应状态码: 200
+2025-10-18 21:36:09,321 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.04s
+2025-10-18 21:36:09,321 - api - INFO - 响应状态码: 200
+2025-10-18 21:36:09,344 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.02s
+2025-10-18 21:36:09,344 - api - INFO - 响应状态码: 200
+2025-10-18 21:36:09,344 - api - INFO - 从购物车获取 cartIds: [321]
+2025-10-18 21:36:09,471 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.13s
+2025-10-18 21:36:09,471 - api - INFO - 响应状态码: 200
+2025-10-18 21:36:09,475 - api - INFO - 订单创建成功: {'code': 200, 'message': '下单成功', 'data': {'orderItemList': [{'orderId': 150, 'orderSn': '202510190100000005', 'productId': 38, 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productBrand': '苹果', 'productSn': '100044025833', 'productPrice': 3599.0, 'productQuantity': 1, 'productSkuId': 213, 'productSkuCode': '202210280038001', 'productCategoryId': 53, 'promotionName': '无优惠', 'promotionAmount': 0, 'couponAmount': 0, 'integrationAmount': 0, 'realAmount': 3599.0, 'giftIntegration': 0, 'giftGrowth': 0, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n'}], 'order': {'id': 150, 'memberId': 16, 'orderSn': '202510190100000005', 'createTime': '2025-10-18T21:35:58.170+00:00', 'memberUsername': 'user001', 'totalAmount': 3599.0, 'payAmount': 3599.0, 'freightAmount': 0, 'promotionAmount': 0, 'integrationAmount': 0, 'couponAmount': 0, 'discountAmount': 0, 'payType': 0, 'sourceType': 1, 'status': 0, 'orderType': 0, 'autoConfirmDay': 15, 'integration': 0, 'growth': 0, 'promotionInfo': '无优惠', 'receiverName': 'z', 'receiverPhone': '13666666666', 'receiverPostCode': '525252', 'receiverProvince': '广东省', 'receiverCity': '', 'receiverRegion': '', 'receiverDetailAddress': '番禺区', 'confirmStatus': 0, 'deleteStatus': 0, 'useIntegration': 0}}}
+2025-10-18 21:36:09,521 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.05s
+2025-10-18 21:36:09,521 - api - INFO - 响应状态码: 200
+2025-10-18 21:36:09,521 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-18 21:36:09,571 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-18 21:36:09,572 - api - INFO - 响应状态码: 200
+2025-10-18 21:36:09,597 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-18 21:36:09,597 - api - INFO - 响应状态码: 200
+2025-10-18 23:25:05,848 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.19s
+2025-10-18 23:25:05,848 - api - INFO - 响应状态码: 200
+2025-10-18 23:25:05,867 - api - INFO - [POST] http://192.168.220.128:8085/order/paySuccess 耗时: 0.01s
+2025-10-18 23:25:05,867 - api - INFO - 响应状态码: 400
+2025-10-18 23:25:05,867 - api - ERROR - 请求异常: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess, 响应体: 无
+2025-10-18 23:25:05,867 - api - ERROR - 请求 http://192.168.220.128:8085/order/paySuccess 发生错误: 400 Client Error:  for url: http://192.168.220.128:8085/order/paySuccess
+2025-10-18 23:48:13,954 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.19s
+2025-10-18 23:48:13,955 - api - INFO - 响应状态码: 200
+2025-10-18 23:48:14,007 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.03s
+2025-10-18 23:48:14,007 - api - INFO - 响应状态码: 200
+2025-10-18 23:48:14,007 - api - ERROR - 购物车为空，无法创建订单
+2025-10-18 23:48:55,643 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 23:48:55,643 - api - INFO - 响应状态码: 200
+2025-10-18 23:48:55,713 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-18 23:48:55,713 - api - INFO - 响应状态码: 200
+2025-10-18 23:48:55,713 - api - ERROR - 购物车为空，无法创建订单
+2025-10-18 23:50:36,484 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.41s
+2025-10-18 23:50:36,485 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:36,590 - api - INFO - [GET] http://192.168.220.128:8085/order/detail/22 耗时: 0.09s
+2025-10-18 23:50:36,590 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:36,699 - api - INFO - [POST] http://192.168.220.128:8085/cart/add 耗时: 0.11s
+2025-10-18 23:50:36,700 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:36,745 - api - INFO - [GET] http://192.168.220.128:8085/cart/list 耗时: 0.04s
+2025-10-18 23:50:36,745 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:36,746 - api - INFO - 从购物车获取 cartIds: [324]
+2025-10-18 23:50:36,873 - api - INFO - [POST] http://192.168.220.128:8085/order/generateOrder 耗时: 0.13s
+2025-10-18 23:50:36,873 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:36,873 - api - INFO - 订单创建成功: {'code': 200, 'message': '下单成功', 'data': {'orderItemList': [{'orderId': 153, 'orderSn': '202510190100000008', 'productId': 38, 'productPic': 'http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20221028/ipad_001.jpg', 'productName': 'Apple iPad 10.9英寸平板电脑 2022年款', 'productBrand': '苹果', 'productSn': '100044025833', 'productPrice': 3599.0, 'productQuantity': 1, 'productSkuId': 213, 'productSkuCode': '202210280038001', 'productCategoryId': 53, 'promotionName': '无优惠', 'promotionAmount': 0, 'couponAmount': 0, 'integrationAmount': 0, 'realAmount': 3599.0, 'giftIntegration': 0, 'giftGrowth': 0, 'productAttr': '[{"key":"颜色","value":"银色"},{"key":"容量","value":"64G"}]\n'}], 'order': {'id': 153, 'memberId': 16, 'orderSn': '202510190100000008', 'createTime': '2025-10-18T23:50:03.864+00:00', 'memberUsername': 'user001', 'totalAmount': 3599.0, 'payAmount': 3599.0, 'freightAmount': 0, 'promotionAmount': 0, 'integrationAmount': 0, 'couponAmount': 0, 'discountAmount': 0, 'payType': 0, 'sourceType': 1, 'status': 0, 'orderType': 0, 'autoConfirmDay': 15, 'integration': 0, 'growth': 0, 'promotionInfo': '无优惠', 'receiverName': 'z', 'receiverPhone': '13666666666', 'receiverPostCode': '525252', 'receiverProvince': '广东省', 'receiverCity': '', 'receiverRegion': '', 'receiverDetailAddress': '番禺区', 'confirmStatus': 0, 'deleteStatus': 0, 'useIntegration': 0}}}
+2025-10-18 23:50:36,913 - api - INFO - [POST] http://192.168.220.128:8085/order/generateConfirmOrder 耗时: 0.04s
+2025-10-18 23:50:36,914 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:36,914 - api - INFO - 生成确认订单成功: {'code': 200, 'message': '操作成功', 'data': {'cartPromotionItemList': [], 'memberReceiveAddressList': [{'id': 7, 'memberId': 16, 'name': 'z', 'phoneNumber': '13666666666', 'defaultStatus': 1, 'postCode': '525252', 'province': '广东省', 'city': '', 'region': '', 'detailAddress': '番禺区'}], 'couponHistoryDetailList': [], 'integrationConsumeSetting': {'id': 1, 'deductionPerAmount': 100, 'maxPercentPerOrder': 50, 'useUnit': 100, 'couponStatus': 1}, 'memberIntegration': 0, 'calcAmount': {'totalAmount': 0, 'freightAmount': 0, 'promotionAmount': 0, 'payAmount': 0}}}
+2025-10-18 23:50:36,964 - api - INFO - [GET] http://192.168.220.128:8085/order/list?status=-1&pageNum=1&pageSize=5 耗时: 0.05s
+2025-10-18 23:50:36,964 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:36,985 - api - INFO - [POST] http://192.168.220.128:8085/order/cancelUserOrder 耗时: 0.02s
+2025-10-18 23:50:36,985 - api - INFO - 响应状态码: 200
+2025-10-18 23:50:44,926 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 23:50:44,926 - api - INFO - 响应状态码: 200
+2025-10-18 23:57:41,174 - api - INFO - [POST] http://192.168.220.128:8085/sso/login 耗时: 0.12s
+2025-10-18 23:57:41,174 - api - INFO - 响应状态码: 200
+2025-10-18 23:57:41,193 - api - INFO - 开始创建订单...

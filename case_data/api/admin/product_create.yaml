@@ -1,0 +1,39 @@
+# case_data/product_create.yaml
+valid_product:
+  albumPics: "http://example.com/pic1.jpg"
+  brandId: 1
+  brandName: "Apple"
+  deleteStatus: 0
+  description: "iPhone 15 Pro Max"
+  detailDesc: "最新旗舰机"
+  detailHtml: "<p>旗舰机详情</p>"
+  detailMobileHtml: "<p>移动端详情</p>"
+  detailTitle: "iPhone 15 Pro Max"
+  feightTemplateId: 1
+  giftGrowth: 100
+  giftPoint: 50
+  keywords: "iPhone,Apple"
+  lowStock: 5
+  name: "iPhone 15 Pro Max"
+  newStatus: 1
+  note: "新品首发"
+  originalPrice: 9999
+  pic: "http://example.com/pic1.jpg"
+  previewStatus: 1
+  price: 8999
+  productAttributeCategoryId: 2
+  productCategoryId: 3
+  productCategoryName: "手机"
+  productSn: "IP15PM-001"
+  promotionType: 1
+  publishStatus: 1
+  recommandStatus: 1
+  sale: 0
+  serviceIds: "1,2,3"
+  sort: 0
+  stock: 100
+  subTitle: "超强性能"
+  unit: "台"
+  usePointLimit: 10
+  verifyStatus: 1
+  weight: 200
